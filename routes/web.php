@@ -3,7 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
-use App\Http\Controllers\AjaxController;
+use App\Http\Controllers\SitemapController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,22 +19,34 @@ use App\Http\Controllers\AjaxController;
 
 Route::get('/', [MainController::class, 'home'])->name('home');
 
+Route::get('/catalog', [MainController::class, 'catalog']);
+
+// Route::get('/catalog/{slug}', [MainController::class, 'single_product']);
+
+// Route::get('/category', [MainController::class, 'cat']);
+
+// Route::get('/category/{slug}', [MainController::class, 'category']);
+
+// Route::get('/category/{cat}/{subcat}', [MainController::class, 'subcategory']);
+
+Route::get('/in-stock', [MainController::class, 'in_stock']);
+
+Route::get('/upgrade-and-service', [MainController::class, 'upgrade_and_service']); // доработки и сервис
+
+Route::get('/services', [MainController::class, 'services']); // услуги
+
+Route::get('/about', [MainController::class, 'about']);
+
+Route::get('/contacts', [MainController::class, 'contacts']);
+
+Route::get('/search', [MainController::class, 'search']);
 
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/privacy-policy', [MainController::class, 'privacy-policy']);
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
+Route::get('/sitemap.xml', [SitemapController::class, 'sitemap']);
 
-
-// Ajax
-Route::get('/ajax/we-use-cookie', [AjaxController::class, 'we_use_cookie']);
 
 
 require __DIR__.'/auth.php';
