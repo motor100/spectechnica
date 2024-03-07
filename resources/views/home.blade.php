@@ -6,7 +6,7 @@
 
 <div class="home">
   <div class="container">
-    <p>Главная страница</p>
+    <p>Главная страница1</p>
   </div>
 </div>
 
