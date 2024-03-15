@@ -75,25 +75,53 @@ p {
 .accentcolor {
   color: $accentcolor;
 }
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1300px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+}
 
 
 
 
 // header
 .header {
-  background-color: yellow;
+  .header_top{
+    width: 100%;
+    height: 105px;
+    background-color: #EF7605;
+
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+  .logo p{
+    letter-spacing: 2px;
+    color: white;
+    
+  }
+  
+  
+  .fone p{
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+
+  }
 
 }
 
 
 // home page
 .home {
-  .logo{
-
-  }
-  .contacts{
-
-  }
+  
 }
 
 

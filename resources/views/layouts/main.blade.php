@@ -18,22 +18,21 @@
 <body>
 
   <header class="header">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </div>
+    <div class="header_top">
+      <div class="container">
+        <div class="logo">
+          <img src="img/логотип.svg" alt="logo">
+          <p>Производство и продажа спецтехники</p>
+        </div>
+        <div class="fone">
+          <p>8-800-9000-00-00</p>
+        </div>
+        <div class="button_call">
+          <button>Заказать звонок</button>
         </div>
       </div>
-    </nav>
+    </div>
+    
   </header>
 
   <div class="content-wrapper">
@@ -50,7 +49,7 @@
     <div class="we-use-cookie">
       <div class="we-use-cookie-wrapper">
         <div class="we-use-cookie-text">Этот сайт использует cookie-файлы и другие технологии для улучшения его работы. Продолжая работу с сайтом, вы разрешаете использование cookie-файлов. Вы всегда можете отключить файлы cookie в настройках Вашего браузера.</div>
-        <center><button class="primary-btn we-use-cookie-close">ХОРОШО</button><center/>
+        <button class="primary-btn we-use-cookie-close">ХОРОШО</button>
       </div>
     </div>
   @endif
