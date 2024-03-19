@@ -9,14 +9,13 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
   @yield('robots')
   <link rel="shortcut icon" href="{{ asset('/img/favicon.svg') }}" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
   <title>Спецтехника</title>
   @yield('style')
   @vite(['resources/sass/main.scss'])
 </head>
 
 <body>
-
   <header class="header">
     <div class="header_top">
       <div class="container">
@@ -24,15 +23,31 @@
           <img src="img/логотип.svg" alt="logo">
           <p>Производство и продажа спецтехники</p>
         </div>
-        <div class="fone">
-          <p>8-800-9000-00-00</p>
+        <div class="item_call">
+          <p class='number_fone'>8-800-9000-00-00</p>
+          <button class='btn-call'>заказать звонок
+          <img src="img/icon_call.svg" alt="#">
+        </button>
         </div>
-        <div class="button_call">
-          <button>Заказать звонок</button>
         </div>
       </div>
     </div>
-    
+    <div class="navigation">
+      <div class="container">
+        <div class="navbar">
+          <a href="#">Каталог</a>
+          <a href="#">в наличии</a>
+          <a href="#">доработки и сервис</a>
+          <a href="#">услуги</a>
+          <a href="#">о компании</a>
+        </div>  
+      </div>
+    </div>
+    <div class="slider">
+      <div class='fon'><img src="img/image12.png" alt="#"></div>
+      <div class='car'><img src="img/IMG_5457-PhotoRoom_1.png" alt="#"></div>
+      <div class='shadow_car'><img src="img/Vector_1.svg" alt="#"></div>
+    </div>
   </header>
 
   <div class="content-wrapper">
@@ -76,6 +91,6 @@
 
   @yield('script')
   @vite(['resources/js/main.js'])
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->
 </body>
 </html>
