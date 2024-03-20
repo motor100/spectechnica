@@ -79,13 +79,14 @@ p {
   color: $accentcolor;
 }
 .container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   width: 1300px;
   height: auto;
   margin: 0 auto;
   padding: 0;
+  p{
+    margin: 0;
+    padding: 0;
+  }
 }
 
 
@@ -94,45 +95,48 @@ p {
 // header
 .header {
   .header_top{
+    max-width: 100%;
+    background-color: #EF7605;
+  .header_contant{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     height: 105px;
-    background-color: #EF7605;
-  .logo{
-      display: flex;
-      flex-direction: column;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 16px;
-      color: white;
-    }
-    .item_call{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-
-      .number_fone{
-        font-family: 'Montserrat', sans-serif;
-        color:black;
-        font-size: 24px;
-        font-weight: bold;
-        margin-right: 80px;
-        margin-bottom: 0;
-        }
-      .btn-call{
+    .logo{
         display: flex;
-        padding: 0;
-        width: 304px;
-        height: 50px;
-        background-color: #EF7605;
-        font-family: 'Montserrat';
-        font-size: 25px;
-        color: white;
-        border: 2px dashed white;
-        border-radius: 7px;
-        justify-content: space-evenly;
         align-items: center;
+        flex-direction: column;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        color: white;
+      }
+      .item_call{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .number_fone{
+          font-family: 'Montserrat', sans-serif;
+          color:black;
+          font-size: 24px;
+          font-weight: bold;
+          margin-right: 80px;
+          margin-bottom: 0;
+          }
+        .btn-call{
+          display: flex;
+          padding: 0;
+          width: 304px;
+          height: 50px;
+          background-color: #EF7605;
+          font-family: 'Montserrat';
+          font-size: 25px;
+          color: white;
+          border: 2px dashed white;
+          border-radius: 7px;
+          justify-content: space-evenly;
+          align-items: center;
+          }
         }
       }
     }
@@ -161,34 +165,57 @@ p {
       }  
     }    
   }
-  // .slider{
-  //   display: flex;
-  //   flex-direction: column;
-  //   width: 100%;
-    .fon img{
-      position: relative;
-      width: 100%;
-    }
-    .car img{
-      position: relative;
-      top: 297px;
-      left: 312px;
-      
-    }
-    .shadow_car{
-      position: absolute;
-      left: 394.62px;
-      top: 671px;
-    }
+  .sldr{
+    .automobile{
+    position: absolute;
+    left: 312px;
+    top: 297px;
+  }
+  .shadow_automobile{
+  position: absolute;
+  left: 394.62px;
+  top: 671px;
 
-  
 
+  }
+  }
 }
-
 
 // home page
 .home {
-  
+  .kt{
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: black;
+    margin-top: 195px;
+
+  }
+  .eq_catalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .eq_item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 330px;
+      height: 350px;
+      p{
+        font-family: 'Montserrat';
+        text-align: center;
+        color: #1874A0;
+      }
+      
+    }
+    .vline{
+        background-color: #8CAEC9;
+        width: 1px;
+        height: 400px;
+        margin: 0;
+        padding: 0;
+      }
+
+  }
 }
 
 

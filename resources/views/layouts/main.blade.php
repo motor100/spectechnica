@@ -19,16 +19,17 @@
   <header class="header">
     <div class="header_top">
       <div class="container">
-        <div class="logo">
-          <img src="img/логотип.svg" alt="logo">
-          <p>Производство и продажа спецтехники</p>
-        </div>
-        <div class="item_call">
-          <p class='number_fone'>8-800-9000-00-00</p>
-          <button class='btn-call'>заказать звонок
-          <img src="img/icon_call.svg" alt="#">
-        </button>
-        </div>
+        <div class="header_contant">
+          <div class="logo">
+            <img src="img/логотип.svg" alt="logo">
+            <p>Производство и продажа спецтехники</p>
+          </div>
+          <div class="item_call">
+            <p class='number_fone'>8-800-9000-00-00</p>
+            <button class='btn-call'>заказать звонок
+              <img src="img/icon_call.svg" alt="#">
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -43,10 +44,16 @@
         </div>  
       </div>
     </div>
-    <div class="slider">
-      <div class='fon'><img src="img/image12.png" alt="#"></div>
-      <div class='car'><img src="img/IMG_5457-PhotoRoom_1.png" alt="#"></div>
-      <div class='shadow_car'><img src="img/Vector_1.svg" alt="#"></div>
+    <div class="sldr">
+      <div class="img_fon" style="background-image: url('img/image_12.jpg')">
+        <img src="img/image_12.jpg" alt="слайдер">
+      </div>
+      <div class="automobile">
+        <img src="img/IMG_5457-PhotoRoom_1.png" alt="урал-4320">
+      </div>
+      <div class="shadow_automobile">
+        <img src="img/Vector_1.svg" alt="тень">
+      </div>
     </div>
   </header>
 
