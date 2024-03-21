@@ -27,7 +27,10 @@
         <img src="img/image_20.png" alt="камаз-55510">
         <p>технологический<br>транспорт</p>
       </div>
-    </div> 
+    </div>
+    <button href='#' class='btn_catalog'>
+      перейти в каталог
+    </button> 
   </div>
 </div>
 

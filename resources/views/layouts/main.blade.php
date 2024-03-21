@@ -45,15 +45,6 @@
       </div>
     </div>
     <div class="sldr">
-      <div class="img_fon" style="background-image: url('img/image_12.jpg')">
-        <img src="img/image_12.jpg" alt="слайдер">
-      </div>
-      <div class="automobile">
-        <img src="img/IMG_5457-PhotoRoom_1.png" alt="урал-4320">
-      </div>
-      <div class="shadow_automobile">
-        <img src="img/Vector_1.svg" alt="тень">
-      </div>
     </div>
   </header>
 
