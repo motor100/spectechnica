@@ -5,6 +5,32 @@
 @section('content')
 
 <div class="home">
+
+  <!-- Главная секция -->
+  <div class="main-section">
+    <div class="main-slider">
+      <!-- Слайд -->
+      <div class="slide">
+        <!-- Фоновая картинка -->
+        <img src="/img/main-slider-background1.jpg" alt="">
+        <!-- Картинка с машиной -->
+        <img src="/img/main-slider-car1.png" alt="">
+        <!-- Прямоугольник с названием -->
+        <div class="title">
+          <div class="text">Автоцистерны</div>
+        </div>
+      </div>
+      <!-- Пагинация -->
+      <div class="slider-pagination">
+        <!-- Точка обычная -->
+        <div class="dot"></div>
+        <!-- Точка активная -->
+        <div class="dot active"></div>
+      </div>
+    </div>
+  </div>
+
+
   <div class="container">
     <p class='kt'>каталог техники</p>
     <div class="eq_catalog">
@@ -33,5 +59,11 @@
     </button> 
   </div>
 </div>
+
+
+<!-- Тестирование фоновой картинки через свойство background -->
+<div class="sldr"></div>
+
+
 
 @endsection

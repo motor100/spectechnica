@@ -169,10 +169,9 @@ p {
   
 }
 .sldr {
-  background: url(../img/slider.png);
+  height: 542px; // в этом случае свойство height обязательно
+  background: url(/resources/img/slider.png) center no-repeat;
   background-size: cover;
-  background-position: center;
-  
 
   .sldr::after {
 
