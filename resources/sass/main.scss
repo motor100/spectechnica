@@ -1,6 +1,10 @@
 @import '_config.scss';
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url(/public/fonts/Montserrat-SemiBold.ttf);
+}
 
 
 input:active,
@@ -168,35 +172,91 @@ p {
   
   
 }
-.sldr {
-  height: 542px; // в этом случае свойство height обязательно
-  background: url(/resources/img/slider.png) center no-repeat;
-  background-size: cover;
-
-  .sldr::after {
-
-  }
-  .sldr::before{
-  
-  }
-
-
-
-}
 
 // home page
 .home {
-  .kt {
+  .main-slider {
+    .slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .img_fon {
+        position: relative;
+        width: 100%;
+        height: 542px;
+      }
+      .img_car {
+        position: absolute; 
+        width: auto; 
+        height: auto; 
+        left: 312px;
+        top: 297px;
+        
+       
+      }
+      .svg_vector {
+        position: absolute; 
+        width: 678px; 
+        height: 168px; 
+        left: 395px; 
+        top: 671px;
+
+      }
+      .title {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        align-items: center;
+        width: 528px;
+        height: 42px;
+        background: url(/resources/img/полоса.png);
+        left: 1033px;
+        top: 730px;
+        p {
+          font-family: "Montserrat-SemiBold";
+          font-size: 24px;
+          color: #1874A0;
+          margin: 0;
+
+        }
+      }
+    }
+    .slider-pagination {
+        display: flex;
+        justify-content: space-between;
+        width: 140px;
+        height: 20px;
+        margin: 0 auto;
+        margin-top: 130px;
+        .dot{
+          width: 20px;
+          height: 20px;
+          border: 2px solid #8CAEC9;
+          border-radius: 25px;
+          
+        }
+        .dot_active {
+          background-color: #8CAEC9;
+          width: 20px;
+          height: 20px;
+          border-radius: 25px;   
+        }  
+      }     
+    }
+    .kt {
     font-family: 'Montserrat';
     font-size: 24px;
+    font-weight: bold;
     color: black;
-    margin-top: 195px;
+    margin-top: 202px;
 
   }
   .eq_catalog {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     .eq_item {
       display: flex;
       flex-direction: column;
@@ -231,8 +291,11 @@ p {
     margin: 0 auto;
     margin-top: 80px;
     
-  }
+  }     
 }
+  
+  
+
 
 
 // footer
