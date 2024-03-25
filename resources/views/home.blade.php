@@ -57,5 +57,59 @@
     перейти в каталог
   </button> 
 </div>
-
+<!-- Банер "О комипании"  --> 
+<section class="banner_company">
+  <div class="banner">
+    <!-- <img src="/img/blackout_banner.png" alt="#"> -->
+    <div class="container">
+      <div class="banner_text">
+        <h1>О компании</h1>
+        <p>ГидроСпецАвто - это завод с  
+          современным оборудованием и передовыми технологиями
+          Завод представляет собой крупный машиностроительный комплекс с 
+          законченным производствен-ным циклом от заготовки до выпуска готовой продукции.
+          Помимо производства спецтехники, мы являемся дилером российских автогигантов, 
+          занимаемся комплексным сервисным обслуживанием и 
+          снабжением сертифицированными запчастями.
+        </p>
+        <div class="image_svg">
+          <div class="svg_item">
+            <img src="img/кач_1.svg" alt="#">
+            <div class="txt_item">
+              <p>Высокое качество продукции по доступным ценам</p>
+            </div>
+          </div>
+          <div class="svg_item">
+            <img src="img/кач_2.svg" alt="#">
+            <div class="txt_item">
+              <p>Штат опытных сотрудников</p>
+            </div>
+          </div>  
+          <div class="svg_item">
+            <img src="img/трейд_1.svg" alt="#">
+            <div class="txt_item">
+              <p>Trade-in: принимаем Вашу технику в зачет</p>
+            </div>
+          </div>
+          <div class="svg_item">
+            <img src="img/трал_1.svg" alt="#">
+            <div class="txt_item">
+              <p>Льготная доставка в регионы собственным автотранспортом</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <div class="container">
+    <button class='btn_company'>видео о компании</button>
+    <button class='btn_company'>наши преимущества</button>
+    <button class='btn_company'>сертификаты</button>
+    <button class='btn_company'>производство</button>
+    <p class="prtr">партнеры</p>  
+  </div>
+  <div class="partners">
+    <img src="img/partners.png" alt="#">
+  </div>
+</section>
 @endsection
