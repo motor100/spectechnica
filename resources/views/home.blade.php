@@ -60,7 +60,6 @@
 <!-- Банер "О комипании"  --> 
 <section class="banner_company">
   <div class="banner">
-    <!-- <img src="/img/blackout_banner.png" alt="#"> -->
     <div class="container">
       <div class="banner_text">
         <h1>О компании</h1>
@@ -73,28 +72,36 @@
           снабжением сертифицированными запчастями.
         </p>
         <div class="image_svg">
-          <div class="svg_item">
-            <img src="img/кач_1.svg" alt="#">
-            <div class="txt_item">
-              <p>Высокое качество продукции по доступным ценам</p>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="svg_item">
+                <img src="/img/кач_1.svg" alt="#">
+                <div class="txt_item">
+                  <p>Высокое качество продукции по доступным ценам</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="svg_item">
-            <img src="img/кач_2.svg" alt="#">
-            <div class="txt_item">
-              <p>Штат опытных сотрудников</p>
+            <div class="col-md-3">
+              <div class="svg_item">
+                <img src="/img/кач_2.svg" alt="#">
+                <p>Штат опытных сотрудников</p>
+              </div>
             </div>
-          </div>  
-          <div class="svg_item">
-            <img src="img/трейд_1.svg" alt="#">
-            <div class="txt_item">
-              <p>Trade-in: принимаем Вашу технику в зачет</p>
+            <div class="col-md-3">  
+              <div class="svg_item">
+                <img src="/img/трейд_1.svg" alt="#">
+                <div class="txt_item">
+                  <p>Trade-in: принимаем Вашу технику в зачет</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="svg_item">
-            <img src="img/трал_1.svg" alt="#">
-            <div class="txt_item">
-              <p>Льготная доставка в регионы собственным автотранспортом</p>
+            <div class="col-md-3">
+              <div class="svg_item">
+                <img src="/img/трал_1.svg" alt="#">
+                <div class="txt_item">
+                  <p>Льготная доставка в регионы собственным автотранспортом</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -102,14 +109,61 @@
     </div> 
   </div>
   <div class="container">
-    <button class='btn_company'>видео о компании</button>
-    <button class='btn_company'>наши преимущества</button>
-    <button class='btn_company'>сертификаты</button>
-    <button class='btn_company'>производство</button>
+    <div class="row">
+      <div class="col-md-3">
+        <button class='btn_company'>видео о компании</button>
+      </div>
+      <div class="col-md-3">
+        <button class='btn_company'>наши преимущества</button>
+      </div>
+      <div class="col-md-3">
+        <button class='btn_company'>сертификаты</button>
+      </div>
+      <div class="col-md-3">
+        <button class='btn_company'>производство</button>
+      </div>
+    </div>
     <p class="prtr">партнеры</p>  
   </div>
   <div class="partners">
-    <img src="img/partners.png" alt="#">
+    <img src="/img/partners.png" alt="#">
   </div>
 </section>
+<div class="line"></div>
+<div class="container">
+  <p class="text_prod">МЫ ПРОИЗВОДИМ И РЕАЛИЗУЕМ, А ВЫ ПОЛУЧАЕТЕ:</p>
+  <div class="prod_company">
+    <div class="item_prod">
+      <img src="img/гарантия_1.svg" alt="гарантия">
+      <p>Увеличенные сроки<br>гарантии на цистерны<br>собственного производства<br>до 18 месяцев</p>
+    </div>
+    <div class="item_prod">
+      <img src="img/цена_1.svg" alt="цена">
+      <p>Оптимальные цены без накруток<br>посредников за счет инновационных<br>разработок и собственного<br>производства техники</p>
+    </div>
+    <div class="item_prod">
+      <img src="img/сроки_1.svg" alt="сроки">
+      <p>Минимальные сроки<br>изготовления техники - от 3 до<br>10 дней с момента заключения<br>договора</p>
+    </div>
+  </div>  
+</div>
+<div class="line"></div>
+<div class="container">
+  <p class="txt_v">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p>
+  <div class="video_contant">
+    <div class="item_video">
+      <video width="400" height="300" controls="controls" poster="video/duel.jpg">
+      <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+      <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+      <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+    </div>
+    <div class="item_video">
+      <video width="400" height="300" controls="controls" poster="video/duel.jpg">
+      <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+      <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+      <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'>
+    </div> 
+  </div>
+</div>
+
 @endsection
