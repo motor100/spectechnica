@@ -28,126 +28,123 @@
     </div>
 </div>
   
-
+<!-- Секция каталога техники -->
 
 <div class="container">
-  <p class='kt'>каталог техники</p>
-  <div class="eq_catalog">
-    <div class="eq_item">
-      <img src="img/image_15.png" alt="камаз-55510">
-      <p>автоцистерны</p>
-    </div>
-    <span class='vline'></span>
-    <div class="eq_item">
-      <img src="img/pngegg-1536x817_1.png" alt="камаз-55510">
-      <p>прицепная<br>техника</p>
-    </div>
-    <span class='vline'></span>
-    <div class="eq_item">
-      <img src="img/30975084_1.png" alt="камаз-55510">
-      <p>автокраны и<br>манипуляторы</p>
-    </div>
-    <span class='vline'></span>
-    <div class="eq_item">
-      <img src="img/image_20.png" alt="камаз-55510">
-      <p>технологический<br>транспорт</p>
-    </div>
-  </div>
-  <button href='#' class='btn_catalog'>
-    перейти в каталог
-  </button> 
-</div>
-<!-- Банер "О комипании"  --> 
-<section class="banner_company">
-  <div class="banner">
-    <div class="container">
-      <div class="banner_text">
-        <h1>О компании</h1>
-        <p>ГидроСпецАвто - это завод с  
-          современным оборудованием и передовыми технологиями
-          Завод представляет собой крупный машиностроительный комплекс с 
-          законченным производствен-ным циклом от заготовки до выпуска готовой продукции.
-          Помимо производства спецтехники, мы являемся дилером российских автогигантов, 
-          занимаемся комплексным сервисным обслуживанием и 
-          снабжением сертифицированными запчастями.
-        </p>
-        <div class="image_svg">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="svg_item">
-                <img src="/img/кач_1.svg" alt="#">
-                <div class="txt_item">
-                  <p>Высокое качество продукции по доступным ценам</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="svg_item">
-                <img src="/img/кач_2.svg" alt="#">
-                <p>Штат опытных сотрудников</p>
-              </div>
-            </div>
-            <div class="col-md-3">  
-              <div class="svg_item">
-                <img src="/img/трейд_1.svg" alt="#">
-                <div class="txt_item">
-                  <p>Trade-in: принимаем Вашу технику в зачет</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="svg_item">
-                <img src="/img/трал_1.svg" alt="#">
-                <div class="txt_item">
-                  <p>Льготная доставка в регионы собственным автотранспортом</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <div class="catalog">
+    <p class='kt'>каталог техники</p>
+    <div class="eq_catalog">
+      <div class="eq_item">
+        <img src="img/image_15.png" alt="камаз-55510">
+        <a href="#" style="margin-bottom: 10px;">автоцистерны</a>
       </div>
-    </div> 
+      <span class='vline'></span>
+      <div class="eq_item">
+        <img src="img/pngegg-1536x817_1.png" alt="камаз-55510">
+        <a href="#">прицепная<br>техника</a>
+      </div>
+      <span class='vline'></span>
+      <div class="eq_item">
+        <img src="img/30975084_1.png" alt="камаз-55510">
+        <a href="#">автокраны и<br>манипуляторы</a>
+      </div>
+      <span class='vline'></span>
+      <div class="eq_item">
+        <img src="img/image_20.png" alt="камаз-55510">
+        <a href="#">технологический<br>транспорт</a>
+      </div>
+    </div>
+    <button href='#' class='btn_catalog'>
+      перейти в каталог
+    </button>
   </div>
+</div>
+
+<!-- Секция с описанием деятельности компании  -->
+
+<div class="banner">
   <div class="container">
-    <div class="row">
-      <div class="col-md-3">
-        <button class='btn_company'>видео о компании</button>
+    <div class="banner_text">
+      <p class="title">О компании</p>
+      <p class="txt_company">ГидроСпецАвто - это завод с  
+        современным оборудованием и передовыми технологиями
+        Завод представляет собой крупный машиностроительный комплекс с 
+        законченным производственным циклом от заготовки до выпуска готовой продукции.<br>
+        Помимо производства спецтехники, мы являемся дилером российских автогигантов, 
+        занимаемся комплексным сервисным обслуживанием и 
+        снабжением сертифицированными запчастями.
+      </p>
+    </div>  
+    <div class="image_svg">
+      <div class="svg_item">
+        <img src="/img/кач_1.svg" alt="#">
+        <p>Высокое качество<br>продукции по<br>доступным ценам</p>
       </div>
-      <div class="col-md-3">
-        <button class='btn_company'>наши преимущества</button>
+      <div class="svg_item">
+        <img src="/img/кач_2.svg" alt="#">
+        <p>Штат опытных<br>сотрудников</p>
+      </div>  
+      <div class="svg_item">
+        <img src="/img/трейд_1.svg" alt="#">
+        <p>Trade-in: принимаем<br>Вашу технику в зачет</p>
       </div>
-      <div class="col-md-3">
-        <button class='btn_company'>сертификаты</button>
-      </div>
-      <div class="col-md-3">
-        <button class='btn_company'>производство</button>
+      <div class="svg_item">
+        <img src="/img/трал_1.svg" alt="#">
+        <p>Льготная доставка в<br>регионы собственным<br>автотранспортом</p>
       </div>
     </div>
-    <p class="prtr">партнеры</p>  
   </div>
-  <div class="partners">
-    <img src="/img/partners.png" alt="#">
+</div> 
+
+<!-- Кнопки -->
+
+  <div class="container">
+    <div class="button_company">
+      <button class='btn_company'>видео о компании</button>
+      <button class='btn_company'>видео о компании</button>
+      <button class='btn_company'>видео о компании</button>
+      <button class='btn_company'>видео о компании</button>
+    </div>
   </div>
-</section>
-<div class="line"></div>
-<div class="container">
-  <p class="text_prod">МЫ ПРОИЗВОДИМ И РЕАЛИЗУЕМ, А ВЫ ПОЛУЧАЕТЕ:</p>
-  <div class="prod_company">
-    <div class="item_prod">
-      <img src="img/гарантия_1.svg" alt="гарантия">
-      <p>Увеличенные сроки<br>гарантии на цистерны<br>собственного производства<br>до 18 месяцев</p>
-    </div>
-    <div class="item_prod">
-      <img src="img/цена_1.svg" alt="цена">
-      <p>Оптимальные цены без накруток<br>посредников за счет инновационных<br>разработок и собственного<br>производства техники</p>
-    </div>
-    <div class="item_prod">
-      <img src="img/сроки_1.svg" alt="сроки">
-      <p>Минимальные сроки<br>изготовления техники - от 3 до<br>10 дней с момента заключения<br>договора</p>
-    </div>
-  </div>  
+
+<!-- Секция с партнерами компании -->
+
+
+<div class="partners">
+  <div class="container">
+  <p class="title">партнеры</p>
+  </div>
+  <img class="img_p" src="/img/partners.png" alt="#">
 </div>
-<div class="line"></div>
+
+  
+    
+
+<!-- Секция с производственными характеристиками -->
+<div class="prod_company">
+  <div class="line"></div>
+  <div class="container">
+    <p class="text_prod">МЫ ПРОИЗВОДИМ И РЕАЛИЗУЕМ, А ВЫ ПОЛУЧАЕТЕ:</p>
+    <div class="prod_company">
+      <div class="item_prod">
+        <img src="img/гарантия_1.svg" alt="гарантия">
+        <p>Увеличенные сроки<br>гарантии на цистерны<br>собственного производства<br>до 18 месяцев</p>
+      </div>
+      <div class="item_prod">
+        <img src="img/цена_1.svg" alt="цена">
+        <p>Оптимальные цены без накруток<br>посредников за счет инновационных<br>разработок и собственного<br>производства техники</p>
+      </div>
+      <div class="item_prod">
+        <img src="img/сроки_1.svg" alt="сроки">
+        <p>Минимальные сроки<br>изготовления техники - от 3 до<br>10 дней с момента заключения<br>договора</p>
+      </div>
+    </div>  
+  </div>
+  <div class="line"></div>
+</div>
+
+<!-- Секция с видеопрезентациями техники -->
+
 <div class="container">
   <p class="txt_v">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p>
   <div class="video_contant">
@@ -165,5 +162,15 @@
     </div> 
   </div>
 </div>
+
+<!-- Стрелка вверх -->
+
+<div class="polygon"><img src="img/Polygon_1.png" alt="Стрелка"></div>
+
+<!-- Нижняя полоса -->
+
+<div class="bottom_line"></div>
+
+
 
 @endsection

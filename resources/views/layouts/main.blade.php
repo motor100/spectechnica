@@ -54,8 +54,36 @@
   </div>
 
   <footer class="footer">
+    
+    
     <div class="container">
-      <p>Сайт разработан: <br>корпорация <b>"My Button"</b></p>
+      <div class="f_contant">
+        <div class="f_item">
+          <p>контакты</p>
+          <p class="fone">+7 (982) 292-88-79 </p>
+          <a class="email" href="#">zakaz@gidravlic.com</a>
+          <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
+          <img class="f_logo" src="img/логотип.svg" alt="logo">
+        </div>
+        <div class="f_item">
+          <p>продукция</p>
+          <ul>
+            <li><a href="#">Каталог техники</a></li>
+            <li><a href="#">Техника в наличии</a></li>
+            <li><a href="#">Спецпредложения</a></li>
+            <li><a href="#">Доработки и сервис</a></li>
+          </ul>
+        </div>
+        <div class="f_item">
+          <p>о компании</p>
+          <ul>
+            <li><a href="#">О “ГидроСпецАвто”</a></li>
+            <li><a href="#">Производство</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Сертификаты</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </footer>
 
