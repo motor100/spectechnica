@@ -12,7 +12,7 @@ $secondlightbluecolor: #E0F1EF; // Second Light Blue Color
 $thirdlightgreycolor: #EDEDED; // Third Light Grey Color
 $fontsize: 16px; // Font Size
 $lineheight: 1.6; // Document Line Height
-$userfont: 'roboto-condensed', sans-serif; // User Font Family
+$userfont: 'Montserrat', sans-serif; // User Font Family
 $systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
 
 // Bootstrap compatible gutter variable => $gutter
@@ -35,9 +35,10 @@ $gutter: $grid-gutter-width;
   }
 }
 
-@include font('opensans-regular', normal, 400, '../../public/fonts/opensans-regular.woff2');
-@include font('opensans-medium', normal, 400, '../../public/fonts/opensans-medium.woff2');
-@include font('opensans-bold', normal, 400, '../../public/fonts/opensans-bold.woff2');
+@include font('Montserrat', normal, 400, '../../public/fonts/Montserrat-Regular.woff2');
+@include font('Montserrat-Medium', normal, 400, '../../public/fonts/Montserrat-Medium.woff2');
+@include font('Montserrat-SemiBold', normal, 400, '../../public/fonts/Montserrat-SemiBold.woff2');
+@include font('Montserrat-Bold', normal, 400, '../../public/fonts/Montserrat-Bold.woff2');
 
 // GENERAL DOCUMENT STYLES
 

@@ -1,46 +1,5 @@
 @import '_config.scss';
 
-@font-face {
-  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
-  font-family: "Montserrat-Bold"; 
-  // адрес шрифта и тип 
-  src: url("/public/fonts/Montserrat-Bold.woff2") format("woff2"); 
-  
-}
-
-@font-face {
-  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
-  font-family: "Montserrat-Regular"; 
-  // адрес шрифта и тип 
-  src: url("/public/fontsMontserrat-Regular.woff2") format("woff2"); 
-}
-
-@font-face {
-  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
-  font-family: "Montserrat-Medium"; 
-  // адрес шрифта и тип 
-  src: url("/public/fonts/Montserrat-Medium.woff2") format("woff2"); 
-  
-}
-
-@font-face {
-  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
-  font-family: "Montserrat-SemiBold"; 
-  // адрес шрифта и тип 
-  src: url("/public/fonts/Montserrat-SemiBold.woff2") format("woff2"); 
-  
-}
-
-@font-face {
-  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
-  font-family: "Montserrat-ExtraBold"; 
-  // адрес шрифта и тип 
-  src: url("/public/fonts/Montserrat-ExtraBold.woff2") format("woff2"); 
-  
-}
-
-
-
 input:active,
 input:focus,
 input:focus-visible,
@@ -154,7 +113,7 @@ p {
         align-items: center;
 
         .number_fone {
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Montserrat';
           color:black;
           font-size: 24px;
           font-weight: bold;
@@ -245,7 +204,7 @@ p {
         left: 1033px;
         top: 730px;
         p {
-          font-family: "Montserrat-SemiBold" sans-serif;
+          font-family: "Montserrat-SemiBold";
           font-size: 24px;
           color: #1874A0;
           margin: 0;
@@ -362,7 +321,7 @@ p {
       .svg_item {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: flex-start;
         align-items: center;
         width: 315px;
         p {
