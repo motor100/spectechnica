@@ -20,8 +20,10 @@
       <div class="container">
         <div class="header_contant">
           <div class="logo">
-            <img src="img/логотип.svg" alt="logo">
-            <p>Производство и продажа спецтехники</p>
+            <a href="/" class="logo-link">
+              <img src="img/логотип.svg" alt="logo">
+              <p>Производство и продажа спецтехники</p>
+            </a>
           </div>
           <div class="item_call">
             <p class='number_fone'>8-800-9000-00-00</p>
@@ -35,11 +37,11 @@
     <div class="navigation">
       <div class="container">
         <div class="navbar">
-          <a href="#">Каталог</a>
-          <a href="#">в наличии</a>
-          <a href="#">доработки и сервис</a>
-          <a href="#">услуги</a>
-          <a href="#">о компании</a>
+          <a href="/catalog">Каталог</a>
+          <a href="/in-stock">в наличии</a>
+          <a href="/upgrade-and-service">доработки и сервис</a>
+          <a href="/services">услуги</a>
+          <a href="/about">о компании</a>
         </div>  
       </div>
     </div>
@@ -64,19 +66,19 @@
         <div class="f_item">
           <p>продукция</p>
           <ul>
-            <li><a href="#">Каталог техники</a></li>
-            <li><a href="#">Техника в наличии</a></li>
-            <li><a href="#">Спецпредложения</a></li>
-            <li><a href="#">Доработки и сервис</a></li>
+            <li><a href="/catalog">Каталог техники</a></li>
+            <li><a href="/in-stock">Техника в наличии</a></li>
+            <li><a href="/special-offer">Спецпредложения</a></li>
+            <li><a href="/upgrade-and-service">Доработки и сервис</a></li>
           </ul>
         </div>
         <div class="f_item">
           <p>о компании</p>
           <ul>
-            <li><a href="#">О “ГидроСпецАвто”</a></li>
-            <li><a href="#">Производство</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Сертификаты</a></li>
+            <li><a href="/about">О “ГидроСпецАвто”</a></li>
+            <li><a href="/manufacture">Производство</a></li>
+            <li><a href="/services">Услуги</a></li>
+            <li><a href="/certificates">Сертификаты</a></li>
           </ul>
         </div>
       </div>
@@ -114,6 +116,6 @@
 
   @yield('script')
   @vite(['resources/js/main.js'])
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
 </body>
 </html>

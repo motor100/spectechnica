@@ -36,27 +36,25 @@
     <div class="eq_catalog">
       <div class="eq_item">
         <img src="img/image_15.png" alt="камаз-55510">
-        <a href="#" style="margin-bottom: 10px;">автоцистерны</a>
+        <a href="/catalog" style="margin-bottom: 10px;">автоцистерны</a>
       </div>
       <span class='vline'></span>
       <div class="eq_item">
         <img src="img/pngegg-1536x817_1.png" alt="камаз-55510">
-        <a href="#">прицепная<br>техника</a>
+        <a href="/catalog">прицепная<br>техника</a>
       </div>
       <span class='vline'></span>
       <div class="eq_item">
         <img src="img/30975084_1.png" alt="камаз-55510">
-        <a href="#">автокраны и<br>манипуляторы</a>
+        <a href="/catalog">автокраны и<br>манипуляторы</a>
       </div>
       <span class='vline'></span>
       <div class="eq_item">
         <img src="img/image_20.png" alt="камаз-55510">
-        <a href="#">технологический<br>транспорт</a>
+        <a href="/catalog">технологический<br>транспорт</a>
       </div>
     </div>
-    <button href='#' class='btn_catalog'>
-      перейти в каталог
-    </button>
+    <a href='/catalog' class='btn_catalog'>перейти в каталог</a>
   </div>
 </div>
 
@@ -100,10 +98,10 @@
 
   <div class="container">
     <div class="button_company">
-      <button class='btn_company'>видео о компании</button>
-      <button class='btn_company'>видео о компании</button>
-      <button class='btn_company'>видео о компании</button>
-      <button class='btn_company'>видео о компании</button>
+      <a href="/about#video" class='btn_company'>видео о компании</a>
+      <a href="/about#video" class='btn_company'>видео о компании</a>
+      <a href="/about#video" class='btn_company'>видео о компании</a>
+      <a href="/about#video" class='btn_company'>видео о компании</a>
     </div>
   </div>
 
