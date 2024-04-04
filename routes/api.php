@@ -21,4 +21,4 @@ use App\Http\Controllers\ApiController;
 
 
 // Ajax
-Route::get('/api/we-use-cookie', [ApiController::class, 'we_use_cookie']);
+// Route::get('/we-use-cookie', [ApiController::class, 'we_use_cookie']);

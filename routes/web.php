@@ -1,9 +1,11 @@
 <?php
 
+
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
 use App\Http\Controllers\SitemapController;
+use App\Http\Controllers\AjaxController;
 
 
 /*
@@ -55,6 +57,7 @@ Route::get('/privacy-policy', [MainController::class, 'privacy_policy']);
 
 Route::get('/sitemap.xml', [SitemapController::class, 'sitemap']);
 
-
+// Ajax
+Route::get('/ajax/we-use-cookie', [AjaxController::class, 'we_use_cookie']);
 
 require __DIR__.'/auth.php';

@@ -53,6 +53,8 @@
 
   <footer class="footer">
     
+    <!-- Нижняя полоса -->
+    <div class="bottom_line"></div>
     
     <div class="container">
       <div class="f_contant">
@@ -88,11 +90,16 @@
   @if(!request()->cookie('we-use-cookie'))
     <div class="we-use-cookie">
       <div class="we-use-cookie-wrapper">
-        <div class="we-use-cookie-text">Этот сайт использует cookie-файлы и другие технологии для улучшения его работы. Продолжая работу с сайтом, вы разрешаете использование cookie-файлов. Вы всегда можете отключить файлы cookie в настройках Вашего браузера.</div>
-        <button class="primary-btn we-use-cookie-close">ХОРОШО</button>
+        <div class="we-use-cookie-text">Мы используем файлы cookie. Продолжив использование сайта, вы соглашаетесь с условиями <a href="/privacy-policy">Соглашения об использовании сайта</a></div>
+        <button class="primary-btn js-we-use-cookie-close">Прекрасно</button>
       </div>
     </div>
   @endif
+
+  <!-- Стрелка вверх -->
+  <div class="polygon">
+    <img src="img/Polygon_1.png" alt="Стрелка">
+  </div>
 
   <!-- 
   @ if(Auth::guard('admin')->user())

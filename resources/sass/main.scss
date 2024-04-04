@@ -239,53 +239,54 @@ p {
     }
 
   //Каталог техники
-
-  .catalog {
-    .kt {
-      font-family: 'Montserrat-Bold';
-      font-size: 24px;
-      color: black;
-      margin-top: 25px;
-    }
-    .eq_catalog {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 54px;
-      .eq_item {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 316px;
-        height: 363px;
-        a {
-          font-family: 'Montserrat-SemiBold';
-          text-align: center;
-          color: #1874A0;
-        }
-        
+  .catalog-section {
+    .catalog {
+      .kt {
+        font-family: 'Montserrat-Bold';
+        font-size: 24px;
+        color: black;
+        margin-top: 25px;
       }
-      .vline{
-        background-color: #8CAEC9;
-        width: 1px;
-        height: 400px;
-        margin: 0;
-        padding: 0;
-      }  
-    }
-    .btn_catalog {
-      display: block;
-      font-family: 'Montserrat-Bold';
-      background-color: #EF7605;
-      color: white;
-      font-size: 20px;
-      width: 306px;
-      height: 70px;
-      margin: 83px auto 0 auto;
-      padding: 17px 0;
-      border: none;
-      border-radius: 5px;
-      text-align: center;
+      .eq_catalog {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 54px;
+        .eq_item {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          width: 316px;
+          height: 363px;
+          a {
+            font-family: 'Montserrat-SemiBold';
+            text-align: center;
+            color: #1874A0;
+          }
+          
+        }
+        .vline{
+          background-color: #8CAEC9;
+          width: 1px;
+          height: 400px;
+          margin: 0;
+          padding: 0;
+        }  
+      }
+      .btn_catalog {
+        display: block;
+        font-family: 'Montserrat-Bold';
+        background-color: #EF7605;
+        color: white;
+        font-size: 20px;
+        width: 306px;
+        height: 70px;
+        margin: 83px auto 0 auto;
+        padding: 17px 0;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+      }
     }
   }
 
@@ -364,7 +365,7 @@ p {
   
   //Секция с партнерами компании
   
-  .partners {
+  .partners-section {
     .title {
       font-family: "Montserrat-SemiBold";
       font-size: 24px;
@@ -379,9 +380,7 @@ p {
   }
 
   //Секция с производственными характеристиками
-
-
-  .prod_company {
+  .advantages-section {
     .line{
     width: 1920px;
     height: 2px;
@@ -456,7 +455,6 @@ p {
 .footer {
   background-color: #8CAEC9;
   margin: 4px;
-  max-width: 1920px;
 
   .f_contant {
     display: flex;
@@ -576,16 +574,14 @@ p {
 
 
 // we use cookie
-.we-use-cookie{
-  display: block;
+.we-use-cookie {
   position: fixed;
-  width: 600px;
-  border: 1px solid black;
-  border-radius: 50px;
+  left: 0;
+  bottom: 79px;
+  width: 100%;
+  margin: 10px auto 0 auto;
   padding: 20px;
-  margin: auto;
-  margin-top: 10px;
-  
+  background-color: $bluecolor;
 }
 
 .primary-btn{

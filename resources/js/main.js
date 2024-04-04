@@ -16,7 +16,7 @@ const token = document.querySelector('meta[name="csrf-token"]').getAttribute('co
 
 // we use cookie
 const weUseCookie = document.querySelector('.we-use-cookie');
-const weUseCookieClose = document.querySelector('.we-use-cookie-close');
+const weUseCookieClose = document.querySelector('.js-we-use-cookie-close');
 
 if (weUseCookie) {
 
