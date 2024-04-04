@@ -33,3 +33,37 @@ if (weUseCookie) {
   }
 
 }
+
+
+// to-top только на главной
+// if (document.getElementById("main")) {
+//   // to-top плавная прокрутка наверх
+//   document.getElementById("to-top").onclick = function() {
+//     scroll(0, 0);
+//   }
+// }
+
+document.getElementById("to-top").onclick = function() {
+  scroll(0, 0);
+}
+
+window.onscroll = function() {
+  // Показать to-top при скролле
+  let scrToTop = window.scrollY || document.documentElement.scrollTop;
+  if (scrToTop > 500) {
+    // if (document.getElementById("main")) {
+      document.getElementById("to-top").classList.add('active');
+      // document.getElementById("to-top").;
+    // } else {
+      // document.getElementById("to-top").style.display = "none";
+    // }
+  } else {
+    // if (document.getElementById("main")) {
+      document.getElementById("to-top").classList.remove('active');
+      // document.getElementById("to-top").style.opacity = "0";
+      // document.getElementById("to-top").style.visibility = "hidden";
+    // } else {
+      // document.getElementById("to-top").style.display = "none";
+    // }
+  }
+};

@@ -417,7 +417,6 @@ p {
   }
   
   //Секция с видеопрезентациями техники
-
   .txt_v {
     font-family: "Montserrat-SemiBold";
     font-size: 24px;
@@ -431,13 +430,6 @@ p {
       margin: 50px;
       border: 2px solid black;
     }
-  }
-
-  //Стрелка вверх
-
-  .polygon {
-    display: block;
-    margin-left: 186px;
   }
 
   //Нижняя полоса
@@ -504,6 +496,29 @@ p {
         } 
       }   
     }
+  }
+}
+
+//Стрелка вверх
+.to-top {
+  position: fixed;
+  left: -80px;
+  bottom: 428px;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  transition: opacity .5s, visibility .5s;
+  .polygon {
+    width: 43px;
+    height: 15px;
+  }
+  .polygon img {
+    width: 100%;
+  }
+  &.active {
+    opacity: 1;
+    visibility: visible;
   }
 }
 

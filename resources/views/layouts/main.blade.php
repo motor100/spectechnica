@@ -97,9 +97,14 @@
   @endif
 
   <!-- Стрелка вверх -->
-  <div class="polygon">
-    <img src="img/Polygon_1.png" alt="Стрелка">
+  <div id="to-top" class="to-top">
+    <div class="container">
+      <div class="polygon">
+        <img src="img/Polygon_1.png" alt="Стрелка">
+      </div>
+    </div>
   </div>
+  
 
   <!-- 
   @ if(Auth::guard('admin')->user())
