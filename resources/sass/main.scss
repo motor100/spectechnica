@@ -433,7 +433,6 @@ p {
   }
 
   //Нижняя полоса
-
   .bottom_line {
     width: 1920px;
     height: 4px;
@@ -525,7 +524,164 @@ p {
 // каталог
 .catalog {
 
+  //Форма поиска
+  .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #8CAEC9;
+    border-radius: 5px;
+    height: 47px;
+    margin-top: 65px;
+    padding: 20px;
+      input[type="search"] {
+        border: none;
+        width: 1200px;
+      }
+      input[type="submit"] {
+        width: 25px;
+        height: 25px;
+        border: none;
+        background: url(/resources/img/Search.svg) no-repeat;
+      }
+      input::placeholder {
+        font-family: "Montserrat-Regular";
+        font-size: 16px;
+        color: #8CAEC9;
+      }
+  }
+
+  //Каталог техники
+  .equipment_catalog {
+    .title {
+      font-family: 'Montserrat-Bold';
+      font-size: 24px;
+      color: black;
+      margin-top: 35px;
+    }
+    .equipments {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 60px;
+      .eq_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        img {
+          width: auto;
+          height: 200px;
+        }
+        p {
+          font-family: "Montserrat-Semibold";
+          font-size: 24px;
+          color: #1874A0;
+          margin-top: 40px;
+
+        }
+        ul {
+          list-style: inside;
+          margin-top: 30px;
+          margin-left: -80px;
+        }
+        ul li {
+          height: 40px;
+          padding: 0;
+          padding-left: 130.37px;
+          background-image: url(/resources/img/АЦ_7.svg);
+          background-size: 83.37px 35px;
+          background-repeat: no-repeat;
+          a {
+            font-family: "Montserrat-Bold";
+            font-size: 20px;
+            color: #6D6D6E;
+          }
+          a:active, a:hover{
+            color: #1874A0;
+          }
+          
+        }
+        .list1 {
+          list-style: inside;
+          margin-top: 30px;
+          margin-left: -80px;
+          .s1 {
+            height: 75px;
+            padding: 0;
+            padding-left: 130.37px;
+            background-image: url(/resources/img/камаз_кму@2.svg);
+            background-size: 75px 54.63px;
+            background-repeat: no-repeat;
+          }
+          .s2 {
+            height: 85px;
+            padding: 0;
+            padding-left: 130.37px;
+            background-image: url(/resources/img/Слой_x0020_1.svg);
+            background-size: 85px 69px;
+            background-repeat: no-repeat;
+          }
+        }
+        .list2 {
+          list-style: inside;
+          margin-top: 30px;
+          margin-left: -80px;
+          .s3 {
+            height: 40px;
+            padding: 0;
+            padding-left: 130.37px;
+            background-image: none;
+            background-size: 83.37px 35px;
+            background-repeat: no-repeat;
+          }
+          .s4 {
+            height: 40px;
+            padding: 0;
+            padding-left: 130.37px;
+            background-image: none;
+            background-size: 83.37px 35px;
+            background-repeat: no-repeat;
+          }
+        }
+      }
+    }
+    
+  }
+
+   
+  //Секция с производственными характеристиками
+  .advantages-section {
+    .text_prod {
+      font-family: "Montserrat-Bold";
+      font-size: 36px;
+      color: #EF7605;
+      text-align: center;
+      margin-top: 63px;
+    }
+    .prod_company {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 80px;
+      .item_prod {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        p {
+          text-align: center;
+          font-size: 20px;
+          color: #6D6D6E;
+          font-family: "Montserrat-Medium";
+          line-height: 1em;
+          margin-top: 44px;
+          margin-bottom: 55px;
+        }
+      }
+    }
+  }
 }
+
 
 // в наличии
 .in-stock {
@@ -603,21 +759,6 @@ p {
   border-radius: 5px;
 
 }
-
-
-// .we-use-cookie-text{
-//   width: 600px;
-//   border: 1px solid black;
-//   border-radius: 50px;
-//   padding: 20px;
-
-  
-// }
-
-
-
-
-
 
 
 @media only screen and (max-width : 1400px) {
