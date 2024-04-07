@@ -27,7 +27,7 @@
             <p class="title">КАТАЛОГ ТЕХНИКИ</p>
             <div class="equipments">
                 <div class="eq_item">
-                    <img src="img/image_15.png" alt="автоцистерны">
+                    <img style="height: 160px; width: auto;" src="img/image_15.png" alt="автоцистерны">
                     <p>АВТОЦИСТЕРНЫ</p>
                     <div class="eq_list">
                         <ul>
@@ -42,7 +42,7 @@
                     </div>   
                 </div>
                 <div class="eq_item">
-                    <img src="img/pngegg-1536x817_1.png" alt="автоприцепы">
+                    <img style="height: 160px; width: auto;" src="img/pngegg-1536x817_1.png" alt="автоприцепы">
                     <p>ПРИЦЕПНАЯ  ТЕХНИКА</p>           
                 </div>   
             </div>
@@ -73,8 +73,33 @@
 
     <!-- Форма заполнения заявки -->
     <div class="application">
-    <div class="container">
-        
+        <div class="container">
+            <p class="title">ОСТАВИТЬ ЗАЯВКУ / ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</p>
+            <div class="main_form">
+                <div class="form_item">  
+                    <div class="name">
+                        <input type="text" class="form-control" required>
+                        <div class="placeholder">Имя<span> *</span></div>
+                    </div>
+                    <div class="question">
+                        <input type="text" class="form-control" required>
+                        <div class="placeholder">Задать вопрос<span> *</span></div>  
+                    </div>
+                    <div class="fone">
+                        <input type="text" class="form-control" required>
+                        <div class="placeholder">Телефон<span> *</span></div>
+                    </div> 
+                </div>
+                <div class="form_item">
+                    <div class="checkbox">
+                        <input type="checkbox">
+                        <p class="condition">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных,
+                            в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных»,
+                             на условиях и для целей, определенных в Согласии на обработку персональных данных *</p> 
+                    </div>
+                    <a class="btn_push" href="#">ОТПРАВИТЬ</a>
+                </div>
+            </div>
         </div>  
     </div>
 

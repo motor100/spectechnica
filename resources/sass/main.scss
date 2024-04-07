@@ -599,8 +599,7 @@ p {
           }
           a:active, a:hover{
             color: #1874A0;
-          }
-          
+          } 
         }
         .list1 {
           list-style: inside;
@@ -610,16 +609,17 @@ p {
             height: 75px;
             padding: 0;
             padding-left: 130.37px;
-            background-image: url(/resources/img/камаз_кму@2.svg);
+            background-image: url(/resources/img/камаз_кму@2.svg); 
             background-size: 75px 54.63px;
             background-repeat: no-repeat;
           }
+
           .s2 {
             height: 85px;
             padding: 0;
             padding-left: 130.37px;
             background-image: url(/resources/img/Слой_x0020_1.svg);
-            background-size: 85px 69px;
+            background-size: 85px 69.02px;
             background-repeat: no-repeat;
           }
         }
@@ -649,7 +649,122 @@ p {
     
   }
 
-   
+  //Форма заполнения заявки
+  .application {
+    display: block;
+    max-width: 1920px;
+    height: 426px;
+    background-color: #6D6D6E;
+    margin-top: 80px;
+    padding: 35px;
+    .title {
+        font-family: "Montserrat-SemiBold";
+        font-size: 24px;
+        color: white;
+    }
+    .main_form {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 25px;
+      
+      .form_item {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 290px;
+        width: auto;
+        .name, .fone {
+          position: relative;
+          input {
+            width: 746px;
+            height: 64px;
+            border-radius: 5px;
+            font-family: "Montserrat-Regular";
+            font-size: 20px;
+            color: #6D6D6E;
+            padding: 20px;
+            border: none;
+          }
+          .placeholder {
+            position: absolute;
+            left:20px;
+            top:40%;
+            transform: translateY(-50%);
+            pointer-events: none;
+          }
+          span {
+            color: #EF7605;
+          }
+          .form-control:focus~.placeholder {
+            display:none;
+          }
+          .form-control:valid~.placeholder {
+            display:none;
+          }
+        }
+        .question {
+          position: relative;
+          input {
+            width: 746px;
+            height: 124px;
+            border-radius: 5px;
+            font-family: "Montserrat-Regular";
+            font-size: 20px;
+            color: #6D6D6E;
+            padding: 20px;
+            border: none;
+          }
+          .placeholder {
+            position: absolute;
+            left:20px;
+            top:15%;
+            transform: translateY(-50%);
+            pointer-events: none;
+          }
+          span {
+            color: #EF7605;
+          }
+          .form-control:focus~.placeholder {
+            display:none;
+          }
+          .form-control:valid~.placeholder {
+            display:none;
+          }
+        }
+        .checkbox {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+          input[type="checkbox"] {
+            transform: scale(3);
+            margin-top: 10px;
+            margin-left: 10px;
+          }
+          .condition {
+            width: 478px;
+            font-family: "Montserrat-Medium";
+            font-size: 16px;
+            color: white;
+            line-height: 1.5em;
+          }
+          
+        }
+        .btn_push {
+            width: 526px;
+            height: 64px;
+            font-family: "Montserrat-SemiBold";
+            font-size: 24px;
+            color: white;
+            background-color: #EF7605;
+            padding: 13px 0;
+            border-radius: 5px;
+            border: none;
+            text-align: center;
+        }
+      }
+    }
+  }
+
   //Секция с производственными характеристиками
   .advantages-section {
     .text_prod {
