@@ -10,10 +10,6 @@ const body = document.querySelector('body');
 const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content'); // csrf token
 
 
-
-
-
-
 // we use cookie
 const weUseCookie = document.querySelector('.we-use-cookie');
 const weUseCookieClose = document.querySelector('.js-we-use-cookie-close');
@@ -67,3 +63,131 @@ window.onscroll = function() {
     // }
   }
 };
+
+
+// Окна modal window
+const modalWindow = document.querySelectorAll('.modal-window');
+const callbackBtns = document.querySelectorAll('.js-callback-btn');
+const callbackModal = document.querySelector('#callback-modal');
+const consultationModal = document.querySelector('#consultation-modal');
+const modalCloseBtn = document.querySelector('.modal-window .modal-close');
+
+function modalWindowOpen(win) {
+  // Закрытие мобильного меню
+  // closeMobileMenu();
+  // Открытие окна
+  body.classList.add('overflow-hidden');
+  win.classList.add('active');
+  setTimeout(() => {
+    win.childNodes[1].classList.add('active');
+  }, 200);
+}
+
+function modalWindowClose(win) {
+  body.classList.remove('overflow-hidden');
+  win.childNodes[1].classList.remove('active');
+  setTimeout(() => {
+    win.classList.remove('active');
+  }, 300);
+}
+
+callbackBtns.forEach((item) => {
+  item.onclick = () => {
+    modalWindowOpen(callbackModal);
+  }
+});
+
+modalCloseBtn.onclick = () => {
+  modalWindowClose(callbackModal);
+}
+
+// Закрытие окна если клик за его пределами
+for (let i = 0; i < modalWindow.length; i++) {
+  modalWindow[i].onclick = function(event) {
+    let classList = event.target.classList;
+    for (let j = 0; j < classList.length; j++) {
+      if (classList[j] == "modal-wrapper" || classList[j] == "modal-window") {
+        modalWindowClose(modalWindow[i])
+      }
+    }
+  }
+}
+
+
+// Callback modal checkbox I agree and I read
+const checkboxCallbackModal = document.querySelectorAll('.js-checkbox-callback-modal');
+const callbackSubmitBtn = document.querySelector('#callback-submit-btn');
+
+function callbackModalCheckboxOnchange() {
+  if (!checkboxCallbackModal[0].checked || !checkboxCallbackModal[1].checked) {
+    callbackSubmitBtn.disabled = true;
+  } else {
+    callbackSubmitBtn.disabled = '';
+  }
+}
+
+checkboxCallbackModal.forEach((item) => {
+  item.onchange = callbackModalCheckboxOnchange;
+});
+
+
+// Отправка формы ajax в модальном окне
+const callbackModalForm = document.querySelector('#callback-modal-form');
+
+function ajaxCallback(form) {
+
+  const inputs = form.querySelectorAll('.input-field');
+  let arr = [];
+
+  const inputName = form.querySelector('.js-name-callback-modal');
+  if (inputName.value.length < 3 || inputName.value.length > 20) {
+    inputName.classList.add('required');
+    arr.push(false);
+  }
+
+  let inputEmail = form.querySelector('.js-email-callback-modal');
+  if (inputEmail.value.length < 3 || inputEmail.value.length > 50) {
+    inputEmail.classList.add('required');
+    arr.push(false);
+  }
+
+  const inputPhone = form.querySelector('.js-phone-callback-modal');
+  if (inputPhone.value.length != 18) {
+    inputPhone.classList.add('required');
+    arr.push(false);
+  }
+
+  const inputCheckboxes = form.querySelectorAll('.js-checkbox-callback-modal');
+
+  inputCheckboxes.forEach((item) => {
+    if (!item.checked) {
+      arr.push(false);
+    }
+  });
+
+  if (arr.length == 0) {
+    for (let i = 0; i < inputs.length; i++) {
+      inputs[i].classList.remove('required');
+    }
+
+    // fetch('/api/callback', {
+    //   method: 'POST',
+    //   cache: 'no-cache',
+    //   body: new FormData(form)
+    // })
+    // .catch((error) => {
+    //   console.log(error);
+    // })
+
+    alert("Спасибо. Мы свяжемся с вами.");
+
+    form.reset();
+
+  }
+
+  return false;
+}
+
+callbackSubmitBtn.onclick = () => {
+  ajaxCallback(callbackModalForm);
+}
