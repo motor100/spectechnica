@@ -6,6 +6,9 @@
 
 <div class="search">
   
+    <!-- Секция с производственными характеристиками -->
+    @include('advantages-section')
+
 </div>
 
 @endsection
