@@ -38,11 +38,21 @@
     <div class="navigation">
       <div class="container">
         <div class="navbar">
-          <a href="/catalog">Каталог</a>
-          <a href="/in-stock">в наличии</a>
-          <a href="/upgrade-and-service">доработки и сервис</a>
-          <a href="/services">услуги</a>
-          <a href="/about">о компании</a>
+          <div class="navbar-item active navbar-item-dropdown">
+            <a href="/catalog" class="navbar-item__link">Каталог</a>
+          </div>
+          <div class="navbar-item">
+            <a href="/upgrade-and-service" class="navbar-item__link">доработки и сервис</a>
+          </div>
+          <div class="navbar-item">
+            <a href="/services" class="navbar-item__link">услуги</a>
+          </div>
+          <div class="navbar-item">
+            <a href="/about" class="navbar-item__link">о компании</a>
+          </div>
+          <div class="navbar-item">
+            <a href="/contacts" class="navbar-item__link">контакты</a>
+          </div>
         </div>  
       </div>
     </div>

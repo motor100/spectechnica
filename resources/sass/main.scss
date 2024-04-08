@@ -107,7 +107,6 @@ p {
       display: flex;
       align-items: center;
       flex-direction: column;
-      font-family: 'Montserrat';
       font-size: 16px;
       color: white;
       .logo-link {
@@ -120,7 +119,6 @@ p {
       justify-content: space-between;
       align-items: center;
       .number_fone {
-        font-family: 'Montserrat';
         color:black;
         font-size: 24px;
         font-weight: bold;
@@ -151,22 +149,46 @@ p {
       height: auto;
     .navbar {
       display: flex;
-      align-items: center;
-      width: 100%;
       height: 48px;
-      a {
-        font-family: 'Montserrat';
-        background: #1874A0;
-        color: white;
+      .navbar-item {
         width: 20%;
         height: 100%;
-        text-align: center;
-        padding-top: 10px;
+        background-color: $bluecolor;
+        transition: background-color .3s;
       }
-      a:hover {
-        color: white;
-        background: #8CAEC9;
-      }  
+      .navbar-item__link {
+        display: block;
+        padding: 11px 0;
+        font-family: "Montserrat-SemiBold";        
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .navbar-item.active,
+      .navbar-item:hover {
+        background-color: $lightbluecolor;
+      }
+      .navbar-item-dropdown {
+        position: relative;
+      }
+      .navbar-item-dropdown::before,
+      .navbar-item-dropdown::after {
+        content: '';
+        position: absolute;
+        top: 22px;
+        width: 12px;
+        height: 3px;
+        border-radius: 2px;
+        background-color: #fff;
+      }
+      .navbar-item-dropdown::before {
+        left: 177px;
+        transform: rotate(45deg);
+      }
+      .navbar-item-dropdown::after {
+        left: 184px;
+        transform: rotate(-45deg);
+      }
     }    
   }
   
