@@ -256,6 +256,7 @@ p {
 
   //Каталог техники
   .catalog-section {
+    margin: 0 0 42px 0;
     .catalog {
       .kt {
         font-family: 'Montserrat-Bold';
@@ -331,33 +332,31 @@ p {
       }
     }
   }
-
   
   //Баннер описания деятельности компании
-  .banner {  
+  .about-section {
     width: 100%;
     height: 580px;
-    background: url(/resources/img/auto-industry_1.png) center no-repeat;
+    padding: 50px 0 0 0;
+    background: url(/resources/img/about-section-banner-bg.jpg) center no-repeat;
     background-size: cover;
-    margin-top: 42px;
+    .banner_title {
+      margin: 0 0 30px 0;
+      font-family: 'Montserrat-Bold';
+      color: white;
+      text-align: left;
+      font-size: 24px;
+    }
     .banner_text {
       display: flex;
       justify-content: left;
       flex-direction: column;
-      .title {
-        font-family: 'Montserrat-Bold';
-        color: white;
-        text-align: left;
-        font-size: 24px;
-        margin-top: 56px;
-      }
       .txt_company {
         font-family: 'Montserrat-Medium';
         color: white;
         font-size: 24px;
         text-align: left;
-        line-height: 1em;
-        margin-top: 40px;
+        line-height: 1.2;
       }   
     }
     .image_svg {
@@ -371,17 +370,18 @@ p {
         justify-content: flex-start;
         align-items: center;
         width: 315px;
-        p {
+        .svg_item_image {
+          margin: 0 0 32px 0;
+        }
+        .svg_item_text {
           font-family: "Montserrat-Bold";
           font-size: 20px;
           color: white;
           text-align: center;
-          line-height: 1em;
-          margin-top: 47px;
-
+          line-height: 1.2;
         }
       }
-    }       
+    }
   }
   
   //Кнопки
@@ -391,15 +391,15 @@ p {
     .btn_company {
       font-family: "Montserrat-Bold";
       background-color: #EF7605;
-      color: white;
+      color: #fff;
       font-size: 20px;
       width: 306px;
       height: 70px;
       margin: 56px 0 0 0;
-      padding: 17px 0;
+      padding: 19px 0;
       border-radius: 5px;
-      border: none;
       text-align: center;
+      text-transform: uppercase;
     }
   }
   
@@ -473,7 +473,7 @@ p {
         font-size: 20px;
         color: #6D6D6E;
         font-family: "Montserrat-Medium";
-        line-height: 1em;
+        line-height: 1.2;
         margin-top: 44px;
         margin-bottom: 55px;
       }
@@ -681,11 +681,11 @@ p {
   width: 100%;
   opacity: 0;
   visibility: hidden;
-  cursor: pointer;
   transition: opacity .5s, visibility .5s;
   .polygon {
     width: 43px;
-    height: 15px;
+    height: 35px;
+    cursor: pointer;
   }
   .polygon img {
     width: 100%;

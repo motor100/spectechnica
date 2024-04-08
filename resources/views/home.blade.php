@@ -79,36 +79,34 @@
 
   <!-- Секция с описанием деятельности компании  -->
   <div class="about-section">
-    <div class="banner">
-      <div class="container">
-        <div class="banner_text">
-          <p class="title">О компании</p>
-          <p class="txt_company">ГидроСпецАвто - это завод с  
-            современным оборудованием и передовыми технологиями
-            Завод представляет собой крупный машиностроительный комплекс с 
-            законченным производственным циклом от заготовки до выпуска готовой продукции.<br>
-            Помимо производства спецтехники, мы являемся дилером российских автогигантов, 
-            занимаемся комплексным сервисным обслуживанием и 
-            снабжением сертифицированными запчастями.
-          </p>
+    <div class="container">
+      <div class="banner_title">О компании</div>
+      <div class="banner_text">
+        <p class="txt_company">ГидроСпецАвто - это завод с  
+          современным оборудованием и передовыми технологиями
+          Завод представляет собой крупный машиностроительный комплекс с 
+          законченным производственным циклом от заготовки до выпуска готовой продукции.<br>
+          Помимо производства спецтехники, мы являемся дилером российских автогигантов, 
+          занимаемся комплексным сервисным обслуживанием и 
+          снабжением сертифицированными запчастями.
+        </p>
+      </div>  
+      <div class="image_svg">
+        <div class="svg_item">
+          <img src="/img/кач_1.svg" class="svg_item_image" alt="#">
+          <div class="svg_item_text">Высокое качество<br>продукции по<br>доступным ценам</div>
+        </div>
+        <div class="svg_item">
+          <img src="/img/кач_2.svg" class="svg_item_image" alt="#">
+          <div class="svg_item_text">Штат опытных<br>сотрудников</div>
         </div>  
-        <div class="image_svg">
-          <div class="svg_item">
-            <img src="/img/кач_1.svg" alt="#">
-            <p>Высокое качество<br>продукции по<br>доступным ценам</p>
-          </div>
-          <div class="svg_item">
-            <img src="/img/кач_2.svg" alt="#">
-            <p>Штат опытных<br>сотрудников</p>
-          </div>  
-          <div class="svg_item">
-            <img src="/img/трейд_1.svg" alt="#">
-            <p>Trade-in: принимаем<br>Вашу технику в зачет</p>
-          </div>
-          <div class="svg_item">
-            <img src="/img/трал_1.svg" alt="#">
-            <p>Льготная доставка в<br>регионы собственным<br>автотранспортом</p>
-          </div>
+        <div class="svg_item">
+          <img src="/img/трейд_1.svg" class="svg_item_image" alt="#">
+          <div class="svg_item_text">Trade-in: принимаем<br>Вашу технику в зачет</div>
+        </div>
+        <div class="svg_item">
+          <img src="/img/трал_1.svg" class="svg_item_image" alt="#">
+          <div class="svg_item_text">Льготная доставка в<br>регионы собственным<br>автотранспортом</div>
         </div>
       </div>
     </div>
@@ -118,10 +116,10 @@
   <div class="buttons-section">
     <div class="container">
       <div class="button_company">
-        <a href="/about#video" class='btn_company'>видео о компании</a>
-        <a href="/about#video" class='btn_company'>видео о компании</a>
-        <a href="/about#video" class='btn_company'>видео о компании</a>
-        <a href="/about#video" class='btn_company'>видео о компании</a>
+        <a href="/about#video" class="btn_company">ВИДЕО О КОМПАНИИ</a>
+        <a href="/about#video" class="btn_company">НАШИ ПРЕИМУЩЕСТВА</a>
+        <a href="/about#video" class="btn_company">СЕРТИФИКАТЫ</a>
+        <a href="/about#video" class="btn_company">ПРОИЗВОДСТВО</a>
       </div>
     </div>
   </div>
