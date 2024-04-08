@@ -1,8 +1,11 @@
 // USER VARIABLES SECTION
 $bluecolor: #1874A0; // Blue Color
-$bluehovercolor: #8BC7EC; // Blue Hover Color
-$lightbluecolor: #86C9C0; // Light Blue Color
+$lightbluecolor: #8CAEC9; // Light Blue Color
 $accentcolor: #ED6D1F; // Accent Color
+
+$bluehovercolor: #8BC7EC; // Blue Hover Color
+
+
 $lightaccentcolor: #F6B68F; // Light Accent Color
 $greycolor: #868686; // Grey Color
 $lightgreycolor: #B9B9B9; // #EDEDED // Light Grey Color
@@ -34,7 +37,6 @@ $gutter: $grid-gutter-width;
   }
 }
 
-@include font('Montserrat', normal, 400, '../../public/fonts/Montserrat-Regular.woff2');
 @include font('Montserrat-Medium', normal, 400, '../../public/fonts/Montserrat-Medium.woff2');
 @include font('Montserrat-SemiBold', normal, 400, '../../public/fonts/Montserrat-SemiBold.woff2');
 @include font('Montserrat-Bold', normal, 400, '../../public/fonts/Montserrat-Bold.woff2');

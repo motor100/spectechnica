@@ -409,14 +409,6 @@ p {
     }
   }
 
-
-  //Нижняя полоса
-  .bottom_line {
-    width: 1920px;
-    height: 4px;
-    background-color: #1874A0;
-    margin-top: 40px;
-  }
 }
 
 //Секция с производственными характеристиками
@@ -566,58 +558,80 @@ p {
 
 // footer
 .footer {
-  background-color: #8CAEC9;
-  margin: 4px;
+  //Верхняя полоса
+  .top_line {
+    height: 4px;
+    background-color: #1874A0;
+    margin: 0 0 4px 0;
+  }
 
-  .f_contant {
-    display: flex;
-    justify-content: space-around;
-
-    .f_item {
+  .footer-content {
+    background-color: #8CAEC9;
+    .f_content {
+      display: flex;
       
-      p {
-        font-family: "Montserrat-ExtraBold";
-        font-size: 20px;
-        margin-top: 33px;
-        color: white;
-      }
-      .fone {
-        font-family: "Montserrat-Bold";
-        margin-top: 26px;
-        color: #1874A0;
+      justify-content: space-around;
 
-      }
-      .email {
-        font-family: Montserrat-Medium;
-        font-size: 20px;
-        color: white;
-        text-decoration: underline;
-        margin-top: 12px;
-      }
-      .adress {
-        font-family: Montserrat-Medium;
-        font-size: 20px;
-        margin-top: 12px;
-      }
-      .f_logo {
-        margin: 12px;
-      }
-      ul {
-        margin-top: 26px;
-      }
+      .f_item {
+        
+        p {
+          font-family: "Montserrat-ExtraBold";
+          font-size: 20px;
+          margin-top: 33px;
+          color: white;
+        }
+        .fone {
+          font-family: "Montserrat-Bold";
+          margin-top: 26px;
+          color: #1874A0;
 
-      li {
-        list-style-type: none;
-        a {
-          font-family: "Montserrat-Medium";
+        }
+        .email {
+          font-family: Montserrat-Medium;
           font-size: 20px;
           color: white;
-          margin-left: -20px;
-          border-bottom: 2px dashed white;
-        } 
-      }   
+          text-decoration: underline;
+          margin-top: 12px;
+        }
+        .adress {
+          font-family: Montserrat-Medium;
+          font-size: 20px;
+          margin-top: 12px;
+        }
+        .f_logo {
+          margin: 12px;
+        }
+        ul {
+          margin-top: 26px;
+        }
+
+        li {
+          list-style-type: none;
+          a {
+            font-family: "Montserrat-Medium";
+            font-size: 20px;
+            color: white;
+            margin-left: -20px;
+            border-bottom: 2px dashed white;
+          } 
+        }   
+      }
     }
   }
+
+  .bottom-white-line {
+    padding: 30px 0;
+    .copyright {
+      font-family: 'Montserrat-Medium';
+      color: $lightbluecolor;
+    }
+    .privacy-policy-link {
+      font-family: 'Montserrat-Medium';
+      color: $bluecolor;
+      text-align: center;
+    }
+  }
+
 }
 
 //Стрелка вверх

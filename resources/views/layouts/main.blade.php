@@ -55,37 +55,54 @@
   <footer class="footer">
     
     <!-- Нижняя полоса -->
-    <div class="bottom_line"></div>
+    <div class="top_line"></div>
     
-    <div class="container">
-      <div class="f_contant">
-        <div class="f_item">
-          <p>контакты</p>
-          <p class="fone">+7 (982) 292-88-79 </p>
-          <a class="email" href="#">zakaz@gidravlic.com</a>
-          <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
-          <img class="f_logo" src="img/логотип.svg" alt="logo">
-        </div>
-        <div class="f_item">
-          <p>продукция</p>
-          <ul>
-            <li><a href="/catalog">Каталог техники</a></li>
-            <li><a href="/in-stock">Техника в наличии</a></li>
-            <li><a href="/special-offer">Спецпредложения</a></li>
-            <li><a href="/upgrade-and-service">Доработки и сервис</a></li>
-          </ul>
-        </div>
-        <div class="f_item">
-          <p>о компании</p>
-          <ul>
-            <li><a href="/about">О “ГидроСпецАвто”</a></li>
-            <li><a href="/manufacture">Производство</a></li>
-            <li><a href="/services">Услуги</a></li>
-            <li><a href="/certificates">Сертификаты</a></li>
-          </ul>
+    <div class="footer-content">
+      <div class="container">
+        <div class="f_content">
+          <div class="f_item">
+            <p>контакты</p>
+            <p class="fone">+7 (982) 292-88-79 </p>
+            <a class="email" href="#">zakaz@gidravlic.com</a>
+            <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
+            <img class="f_logo" src="img/логотип.svg" alt="logo">
+          </div>
+          <div class="f_item">
+            <p>продукция</p>
+            <ul>
+              <li><a href="/catalog">Каталог техники</a></li>
+              <li><a href="/in-stock">Техника в наличии</a></li>
+              <li><a href="/special-offer">Спецпредложения</a></li>
+              <li><a href="/upgrade-and-service">Доработки и сервис</a></li>
+            </ul>
+          </div>
+          <div class="f_item">
+            <p>о компании</p>
+            <ul>
+              <li><a href="/about">О “ГидроСпецАвто”</a></li>
+              <li><a href="/manufacture">Производство</a></li>
+              <li><a href="/services">Услуги</a></li>
+              <li><a href="/certificates">Сертификаты</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="bottom-white-line">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="copyright">ООО "ГидроСпецАвто" {{ date('Y') }}</div>
+          </div>
+          <div class="col-md-4">
+            <a href="/privacy-policy" class="privacy-policy-link">Политика конфиденциальности</a>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div>
+    </div>
+    
   </footer>
 
   <div id="callback-modal" class="modal-window callback-modal">
