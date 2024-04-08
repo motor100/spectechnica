@@ -35,26 +35,38 @@
         <p class='kt'>каталог техники</p>
         <div class="eq_catalog">
           <div class="eq_item">
-            <img src="img/image_15.png" alt="камаз-55510">
-            <a href="/catalog" style="margin-bottom: 10px;">автоцистерны</a>
+            <div class="eq_item__image">
+              <img src="img/image_15.png" alt="камаз-55510">
+            </div>
+            <div href="/catalog" class="eq_item__title">автоцистерны</div>
+            <a href="/catalog" class="eq_item__link"></a>
           </div>
           <span class='vline'></span>
           <div class="eq_item">
-            <img src="img/pngegg-1536x817_1.png" alt="камаз-55510">
-            <a href="/catalog">прицепная<br>техника</a>
+            <div class="eq_item__image">
+              <img src="img/pngegg-1536x817_1.png" class="eq_item__image" alt="камаз-55510">
+            </div>
+            <div class="eq_item__title">прицепная<br>техника</div>
+            <a href="/catalog" class="eq_item__link"></a>
           </div>
           <span class='vline'></span>
           <div class="eq_item">
-            <img src="img/30975084_1.png" alt="камаз-55510">
-            <a href="/catalog">автокраны и<br>манипуляторы</a>
+            <div class="eq_item__image">
+              <img src="img/30975084_1.png" class="eq_item__image" alt="камаз-55510">
+            </div>
+            <div class="eq_item__title">автокраны и<br>манипуляторы</div>
+            <a href="/catalog" class="eq_item__link"></a>
           </div>
           <span class='vline'></span>
           <div class="eq_item">
-            <img src="img/image_20.png" alt="камаз-55510">
-            <a href="/catalog">технологический<br>транспорт</a>
+            <div class="eq_item__image">
+              <img src="img/image_20.png" class="eq_item__image" alt="камаз-55510">
+            </div>
+            <div class="eq_item__title">технологический<br>транспорт</div>
+            <a href="/catalog" class="eq_item__link"></a>
           </div>
         </div>
-        <a href='/catalog' class='btn_catalog'>перейти в каталог</a>
+        <a href="/catalog" class="btn_catalog">перейти в каталог</a>
       </div>
     </div>
   </div>
