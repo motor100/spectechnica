@@ -5,6 +5,9 @@
 @section('content')
 
 <div class="search">
+
+    <!-- Форма заполнения заявки -->
+    @include('application-form-section')
   
     <!-- Секция с производственными характеристиками -->
     @include('advantages-section')

@@ -72,36 +72,7 @@
     </div>
 
     <!-- Форма заполнения заявки -->
-    <div class="application">
-        <div class="container">
-            <p class="title">ОСТАВИТЬ ЗАЯВКУ / ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</p>
-            <div class="main_form">
-                <div class="form_item">  
-                    <div class="name">
-                        <input type="text" class="form-control" required>
-                        <div class="placeholder">Имя<span> *</span></div>
-                    </div>
-                    <div class="question">
-                        <input type="text" class="form-control" required>
-                        <div class="placeholder">Задать вопрос<span> *</span></div>  
-                    </div>
-                    <div class="fone">
-                        <input type="text" class="form-control" required>
-                        <div class="placeholder">Телефон<span> *</span></div>
-                    </div> 
-                </div>
-                <div class="form_item">
-                    <div class="checkbox">
-                        <input type="checkbox">
-                        <p class="condition">Нажимая кнопку «Отправить», я даю свое согласие на обработку моих персональных данных,
-                            в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных»,
-                             на условиях и для целей, определенных в Согласии на обработку персональных данных *</p> 
-                    </div>
-                    <a class="btn_push" href="#">ОТПРАВИТЬ</a>
-                </div>
-            </div>
-        </div>  
-    </div>
+    @include('application-form-section')
 
     <!-- Секция с производственными характеристиками -->
     @include('advantages-section')

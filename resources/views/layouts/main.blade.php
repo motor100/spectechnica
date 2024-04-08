@@ -105,17 +105,17 @@
           <div class="form-group">
             <input type="text" name="phone" id="phone-callback-modal" class="input-field js-phone-callback-modal js-input-phone-mask" required size="18" placeholder="Телефон*">
           </div>
-          <div class="checkbox-wrapper">
+          <div class="custom-checkbox-wrapper">
             <input type="checkbox" name="checkbox-agree" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-agree-callback-modal" checked required>
             <label for="checkbox-agree-callback-modal" class="custom-checkbox-label"></label>
             <span class="checkbox-text">Согласен на обработку персональных данных</span>
           </div>
-          <div class="checkbox-wrapper mb50">
+          <div class="custom-checkbox-wrapper mb50">
             <input type="checkbox" name="checkbox-read" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-read-callback-modal" checked required>
             <label for="checkbox-read-callback-modal" class="custom-checkbox-label"></label>
             <span class="checkbox-text">Ознакомлен с <a href="/politika-konfidencialnosti" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
           </div>
-
+          @csrf
           <button type="button" id="callback-submit-btn" class="modal-submit-btn">ОТПРАВИТЬ</button>
         </form>
       </div>
@@ -139,12 +139,12 @@
           <div class="form-group">
             <input type="text" name="phone" id="phone-callback-modal" class="input-field js-phone-callback-modal js-input-phone-mask" required size="18" placeholder="Телефон*">
           </div>
-          <div class="checkbox-wrapper">
+          <div class="custom-checkbox-wrapper">
             <input type="checkbox" name="checkbox-agree" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-agree-callback-modal" checked required>
             <label for="checkbox-agree-callback-modal" class="custom-checkbox-label"></label>
             <span class="checkbox-text">Согласен на обработку персональных данных</span>
           </div>
-          <div class="checkbox-wrapper mb50">
+          <div class="custom-checkbox-wrapper mb50">
             <input type="checkbox" name="checkbox-read" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-read-callback-modal" checked required>
             <label for="checkbox-read-callback-modal" class="custom-checkbox-label"></label>
             <span class="checkbox-text">Ознакомлен с <a href="/politika-konfidencialnosti" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
