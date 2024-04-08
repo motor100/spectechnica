@@ -26,7 +26,7 @@
             </a>
           </div>
           <div class="item_call">
-            <p class="number_fone">8-800-9000-00-00</p>
+            <a href="tel:+780090000000" class="number_phone">8-800-9000-00-00</a>
             <div class="btn-call js-callback-btn">
               <span class="btn-call__text">заказать звонок</span>
               <img src="img/icon_call.svg" alt="#">
@@ -73,7 +73,7 @@
           <div class="f_item">
             <p>контакты</p>
             <p class="fone">+7 (982) 292-88-79 </p>
-            <a class="email" href="#">zakaz@gidravlic.com</a>
+            <p class="email">zakaz@gidravlic.com</p>
             <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
             <img class="f_logo" src="img/логотип.svg" alt="logo">
           </div>
