@@ -17,6 +17,7 @@
     },
     "dependencies": {
         "bootstrap": "^5.3.3",
-        "sass": "^1.71.1"
+        "sass": "^1.71.1",
+        "swiper": "^11.1.0"
     }
 }

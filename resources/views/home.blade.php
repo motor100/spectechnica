@@ -7,25 +7,31 @@
 <div class="home">
 
   <!-- Главная секция -->
-  <div class="main-slider">
-    <!-- Слайд -->
-    <div class="slide ">
-      <!-- Фоновая картинка -->
-        <img class="img_fon" src="img/image_12.png" alt="фон">
-        <img class="img_car" src="img/main-slider-car1.png" alt="урал 4320">
-        <img class="svg_vector" src="img/Vector_1.svg" alt="тень">
-      <div class="title">
-        <p>Aвтоцистерны</p>
+  <div class="main-section">
+    <div class="main-slider swiper">
+      <div class="swiper-wrapper">
+        <div class="slide swiper-slide">
+          <div class="images">
+            <img class="img_fon" src="img/image_12.png" alt="фон">
+            <img class="img_car" src="img/main-slider-car1.png" alt="урал 4320">
+          </div>
+          <div class="title">
+            <span class="title-text">Aвтоцистерны</span>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <div class="images">
+            <img class="img_fon" src="img/image_12.png" alt="фон">
+            <img class="img_car" src="img/main-slider-car1.png" alt="урал 4320">
+          </div>
+          <div class="title">
+            <span class="title-text">Aвтоцистерны</span>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Пагинация -->
-    <div class="slider-pagination">
-      <div class="dot_active"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
-      <div class="dot"></div>
-    </div>
+    <div class="swiper-pagination"></div>
   </div>
   
   <!-- Секция каталога техники -->

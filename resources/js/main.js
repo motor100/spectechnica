@@ -1,8 +1,8 @@
 // import section
 
 // import IMask from 'imask';
-// import Swiper from 'swiper';
-// import { Navigation, Pagination } from 'swiper/modules';
+import Swiper from 'swiper';
+import { Pagination, EffectFade } from 'swiper/modules';
 
 
 // Common
@@ -191,3 +191,21 @@ function ajaxCallback(form) {
 callbackSubmitBtn.onclick = () => {
   ajaxCallback(callbackModalForm);
 }
+
+
+// Main slider
+const mainSection = document.querySelector('.main-section');
+
+if (mainSection) {
+  const mainSlider = new Swiper('.main-slider', {
+    modules: [Pagination, EffectFade],
+    slidesPerView: 1,
+    loop: true,
+    // effect: 'fade',
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    }
+  });
+}
+
