@@ -116,10 +116,10 @@
   <div class="buttons-section">
     <div class="container">
       <div class="button_company">
-        <a href="/about#video" class="btn_company">ВИДЕО О КОМПАНИИ</a>
-        <a href="/about#video" class="btn_company">НАШИ ПРЕИМУЩЕСТВА</a>
-        <a href="/about#video" class="btn_company">СЕРТИФИКАТЫ</a>
-        <a href="/about#video" class="btn_company">ПРОИЗВОДСТВО</a>
+        <a href="/about#video" class="btn_primary">ВИДЕО О КОМПАНИИ</a>
+        <a href="/about#video" class="btn_primary">НАШИ ПРЕИМУЩЕСТВА</a>
+        <a href="/about#video" class="btn_primary">СЕРТИФИКАТЫ</a>
+        <a href="/about#video" class="btn_primary">ПРОИЗВОДСТВО</a>
       </div>
     </div>
   </div>
