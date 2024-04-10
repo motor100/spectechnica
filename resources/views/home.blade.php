@@ -72,7 +72,7 @@
             <a href="/catalog" class="eq_item__link"></a>
           </div>
         </div>
-        <a href="/catalog" class="btn_catalog">перейти в каталог</a>
+        <a href="/catalog" class="btn_primary">ПЕРЕЙТИ В КАТАЛОГ</a>
       </div>
     </div>
   </div>

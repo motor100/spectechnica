@@ -78,14 +78,36 @@ p {
 .accentcolor {
   color: $accentcolor;
 }
-.container{
-  width: 1300px;
-  height: auto;
-  margin: 0 auto;
-  padding: 0;
-  p{
-    margin: 0;
-    padding: 0;
+//Кнопки
+.btn_primary {
+  display: block;
+  font-family: 'Montserrat-Bold';
+  background-color: #EF7605;
+  color: white;
+  font-size: 20px;
+  width: 306px;
+  height: 70px;
+  margin: 83px auto 0 auto;
+  padding: 19px 0;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.btn_primary:hover {
+  background-color: #8CAEC9;
+  transition: background-color .3s;
+}
+//Хлебные крошки
+.breadcrumb {
+  display: flex;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  margin-top: 35px; 
+  a { 
+    color: black;
+  }
+  .activ, span {
+    color: #1874A0;
   }
 }
 
@@ -254,7 +276,7 @@ p {
     }
   }
 
-  //Каталог техники
+  //Секция католога
   .catalog-section {
     margin: 0 0 42px 0;
     .catalog {
@@ -316,19 +338,8 @@ p {
           padding: 0;
         }  
       }
-      .btn_catalog {
-        display: block;
-        font-family: 'Montserrat-Bold';
-        background-color: #EF7605;
-        color: white;
-        font-size: 20px;
-        width: 306px;
-        height: 70px;
+      .btn_primary {
         margin: 83px auto 0 auto;
-        padding: 17px 0;
-        border: none;
-        border-radius: 5px;
-        text-align: center;
       }
     }
   }
@@ -384,22 +395,12 @@ p {
     }
   }
   
-  //Кнопки
+  //Секция с кнопками
   .button_company {
     display: flex;
     justify-content: space-between;
-    .btn_company {
-      font-family: "Montserrat-Bold";
-      background-color: #EF7605;
-      color: #fff;
-      font-size: 20px;
-      width: 306px;
-      height: 70px;
+    .btn_primary {
       margin: 56px 0 0 0;
-      padding: 19px 0;
-      border-radius: 5px;
-      text-align: center;
-      text-transform: uppercase;
     }
   }
   
@@ -850,7 +851,7 @@ p {
   }
 }
 
-// каталог
+// Оснавной Каталог Техники
 .catalog {
 
   //Форма поиска
@@ -862,7 +863,7 @@ p {
     border: 1px solid #8CAEC9;
     border-radius: 5px;
     height: 47px;
-    margin-top: 65px;
+    margin-top: 15px;
     padding: 20px;
       input[type="search"] {
         border: none;
@@ -889,97 +890,53 @@ p {
       color: black;
       margin-top: 35px;
     }
-    .equipments {
+    .eq_item {
       display: flex;
-      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
       margin-top: 60px;
-      .eq_item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 50%;
-        img {
-          width: auto;
-          height: 200px;
-        }
-        p {
-          font-family: "Montserrat-Semibold";
-          font-size: 24px;
-          color: #1874A0;
-          margin-top: 40px;
-
-        }
-        ul {
-          list-style: inside;
-          margin-top: 30px;
-          margin-left: -80px;
-        }
-        ul li {
-          height: 40px;
-          padding: 0;
-          padding-left: 130.37px;
-          background-image: url(/resources/img/АЦ_7.svg);
-          background-size: 83.37px 35px;
-          background-repeat: no-repeat;
+      img {
+        width: auto;
+        height: 200px;
+      }
+      .title_link {
+        font-family: "Montserrat-Semibold";
+        font-size: 24px;
+        color: #1874A0;
+        margin-top: 40px;
+      }
+      .eq_list {
+        margin-top: 30px;
+        .item_list {
+          display: flex;
+          align-items: center;
+          margin-top: 5px;
           a {
             font-family: "Montserrat-Bold";
             font-size: 20px;
             color: #6D6D6E;
+            margin-left: 10px;
           }
-          a:active, a:hover{
+          a:active, a:hover {
             color: #1874A0;
-          } 
-        }
-        .list1 {
-          list-style: inside;
-          margin-top: 30px;
-          margin-left: -80px;
-          .s1 {
-            height: 75px;
-            padding: 0;
-            padding-left: 130.37px;
-            background-image: url(/resources/img/камаз_кму@2.svg); 
-            background-size: 75px 54.63px;
-            background-repeat: no-repeat;
           }
-
-          .s2 {
-            height: 85px;
-            padding: 0;
-            padding-left: 130.37px;
-            background-image: url(/resources/img/Слой_x0020_1.svg);
-            background-size: 85px 69.02px;
-            background-repeat: no-repeat;
+          img {
+            width: 83px;
+            height: 35px;
+          }
+          span {
+            width: 5px;
+            height: 5px;
+            background-color: #6D6D6E;
+            border-radius: 3px;
+            margin-left: 40px;
           }
         }
-        .list2 {
-          list-style: inside;
-          margin-top: 30px;
-          margin-left: -80px;
-          .s3 {
-            height: 40px;
-            padding: 0;
-            padding-left: 130.37px;
-            background-image: none;
-            background-size: 83.37px 35px;
-            background-repeat: no-repeat;
-          }
-          .s4 {
-            height: 40px;
-            padding: 0;
-            padding-left: 130.37px;
-            background-image: none;
-            background-size: 83.37px 35px;
-            background-repeat: no-repeat;
-          }
-        }
-      }
-    }
-    
+      }   
+    }     
   }
-
 }
-
+    
 
 // в наличии
 .in-stock {
