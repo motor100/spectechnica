@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="service">
-  
+    
 </div>
 
 @endsection

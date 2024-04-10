@@ -72,41 +72,7 @@
             </div>
         </div>
     </div>
-
-
-            <!-- <div class="equipments">
-                <div class="eq_item">
-                      
-                <div class="eq_item">
-                    <img style="height: 160px; width: auto;" src="img/pngegg-1536x817_1.png" alt="автоприцепы">
-                    <p>ПРИЦЕПНАЯ  ТЕХНИКА</p>           
-                </div>   
-            </div>
-            <div class="equipments">
-                <div class="eq_item">
-                    <img src="img/30975084_1.png" alt="автокраны и манипуляторы">
-                    <p>АВТОКРАНЫ И МАНИПУЛЯТОРЫ</p>
-                    <div class="eq_list">
-                        <ul class=list1>
-                            <li class="s1"><a href="#">Камаз с КМУ</a></li>
-                            <li class="s2"><a href="#">Бурильно-крановые машины</a></li>  
-                        </ul>  
-                    </div>   
-                </div>
-                <div class="eq_item">
-                    <img src="img/image_19.png" alt="автоприцепы">
-                    <p>ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ</p>
-                    <div class="eq_list">
-                        <ul class=list2>
-                            <li class="s3"><a href="#">Универсальные насосные установки (колтюбинг)</a></li>
-                            <li class="s4"><a href="#">Цементировочные агрегаты ЦА</a></li>  
-                        </ul>  
-                    </div>           
-                </div>    -->
-           
-            
     
-
     <!-- Форма заполнения заявки -->
     @include('application-form-section')
 

@@ -21,7 +21,7 @@
         <div class="header_contant">
           <div class="logo">
             <a href="/" class="logo-link">
-              <img src="img/логотип.svg" alt="logo">
+              <img src="/img/logo.svg" alt="logo">
               <p>Производство и продажа спецтехники</p>
             </a>
           </div>
@@ -64,9 +64,10 @@
 
   <footer class="footer">
     
-    <!-- Нижняя полоса -->
+    <!-- Верхняя полоса -->
     <div class="top_line"></div>
     
+    <!-- Контент футера -->
     <div class="footer-content">
       <div class="container">
         <div class="f_content">
@@ -75,7 +76,7 @@
             <p class="fone">+7 (982) 292-88-79 </p>
             <p class="email">zakaz@gidravlic.com</p>
             <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
-            <img class="f_logo" src="img/логотип.svg" alt="logo">
+            <img class="f_logo" src="/img/logo.svg" alt="logo">
           </div>
           <div class="f_item">
             <p>продукция</p>
@@ -92,13 +93,14 @@
               <li><a href="/about">О “ГидроСпецАвто”</a></li>
               <li><a href="/manufacture">Производство</a></li>
               <li><a href="/services">Услуги</a></li>
-              <li><a href="/certificates">Сертификаты</a></li>
+              <span></span><li><a href="/certificates">Сертификаты</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
+    <!-- Белая полоса под футером -->
     <div class="bottom-white-line">
       <div class="container">
         <div class="row">

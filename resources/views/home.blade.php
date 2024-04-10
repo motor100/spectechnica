@@ -115,23 +115,24 @@
   <!-- Секция с кнопками -->
   <div class="buttons-section">
     <div class="container">
-      <div class="button_company">
-        <a href="/about#video" class="btn_primary">ВИДЕО О КОМПАНИИ</a>
-        <a href="/about#video" class="btn_primary">НАШИ ПРЕИМУЩЕСТВА</a>
-        <a href="/about#video" class="btn_primary">СЕРТИФИКАТЫ</a>
-        <a href="/about#video" class="btn_primary">ПРОИЗВОДСТВО</a>
-      </div>
+      <div class="row">
+        <div class="col-md-3"><a href="/about#video" class="btn_primary">ВИДЕО О КОМПАНИИ</a></div>
+        <div class="col-md-3"><a href="/about#video" class="btn_primary">НАШИ ПРЕИМУЩЕСТВА</a></div>
+        <div class="col-md-3"><a href="/about#video" class="btn_primary">СЕРТИФИКАТЫ</a></div>
+        <div class="col-md-3"><a href="/about#video" class="btn_primary">ПРОИЗВОДСТВО</a></div>
+      </div>   
     </div>
   </div>
 
   <!-- Секция с партнерами компании -->
   <div class="partners-section">
     <div class="container">
-      <p class="title">партнеры</p>
+        <p class="title">партнеры</p>  
     </div>
-    <img class="img_p" src="/img/partners.png" alt="#">
-    <div class="line"></div>
+    <img src="img/partners.png" alt="партнеры">
+    <div class="line"></div>  
   </div>
+  
 
   <!-- Секция с производственными характеристиками -->
   @include('advantages-section')
@@ -140,23 +141,33 @@
   <div class="video-section">
     <div class="line"></div>
     <div class="container">
-      <p class="txt_v">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p>
-      <div class="video_contant">
-        <div class="item_video">
-          <img src="/img/video-cover1.jpg" alt="">
-          <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
-          <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-          <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-          <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+      <div class="row">
+        <div class="col-md-5"><p>ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p></div>
+        <div class="col-md-7"></div>
+        <div class="col-md-6">
+          <div class="item_video">
+            <img src="/img/video-cover1.jpg" alt="">
+            <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
+            <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+          </div>
         </div>
-        <div class="item_video">
-          <img src="/img/video-cover2.jpg" alt="">
-          <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
-          <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-          <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-          <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
-        </div> 
+        <div class="col-md-6">
+          <div class="item_video">
+            <img src="/img/video-cover2.jpg" alt="">
+            <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
+            <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+          </div>
+        </div>
       </div>
+      
+      <!-- <div class="video_contant"> -->
+        
+         
+      <!-- </div> -->
     </div>
   </div>
 
