@@ -27,7 +27,9 @@
 
     <!-- Секция с видео -->
     <div class="video_content">
-        <div class="container"><img src="img/video_company.png" alt="video"></div>
+        <div class="container">
+            <img src="img/video_company.png" alt="video">
+        </div>
         
     </div>
 
@@ -76,24 +78,98 @@
                 <li>Доступность и дешевизна запасных частей;</li>
                 <li>Комфортные условия работы оператора.</li>
             </ul>
-
         </div>
     </div>
-    
     <!-- Секция с услугами компании -->
     @include('services-section')
 
     <!-- Секция с сертификатами компании -->
     <div class="certificates">
-        
+
+        <div class="title_bcg">
+            <div class="container"><p>СЕРТИФИКАТЫ</p></div>   
+        </div>
+        <div class="section_bcg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="item_sert">
+                            <img src="img/sertificat.png" alt="сертификат">
+                            <p>Сертификаты качества</p>  
+                        </div> 
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item_sert">
+                            <img src="img/sertificat2.png" alt="сертификат">
+                            <p>Дилерские свидетельства</p>  
+                        </div> 
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item_sert">
+                            <img src="img/sertificat3.png" alt="сертификат">
+                            <p>Сертификат соответствия ISO 9001</p>  
+                        </div> 
+                    </div>
+                    <div class="col-md-3">
+                        <div class="item_sert">
+                            <img src="img/sertificat_4.png" alt="сертификат">
+                            <p>Сертификат соответствия<br>и ОТТС</p>  
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <!-- Секция с партнерами компании -->
+    <div class="partners-section">
+        <div class="container">
+            <p class="title">ПАРТНЕРЫ</p>  
+        </div>
+        <img src="img/partners.png" alt="партнеры"> 
+    </div>
 
     <!-- Секция с производством компании -->
     <div class="production">
+        <div class="title_bcg">
+            <div class="container"><p>ПРОИЗВОДСТВО</p></div> 
+        </div>
+        <div class="list_prod">
+            <div class="container">
+                <ul>
+                    <li>Плазменная и газовая резка металла (резка на МТР с источником PowerMax125, толщиной до 30 мм).</li>
+                    <li>Гальваника и анодирование. </li>
+                    <li>Вальцовка (вальцовка обечайки диаметром до 3000 мм, толщиной до 12 мм).</li>
+                    <li>Гибка металла (гибка углов сложной геометрии до 12 мм толщиной на ширину 2500 мм).</li>
+                    <li>Токарные работы (токарные работы любой сложности).</li>
+                    <li>Фрезерные работы.</li>
+                    <li>Рубка металла (рубка листового металла толщиной до 6 мм толщиной на ширину до 2500 мм).</li>
+                    <li>Изготовление металлоконструкций (любой конфигурации).</li>
+                    <li>Малая кузница.</li>
+                </ul> 
+            </div>
+            
+        </div>
 
     </div>
+
+    <!-- Секция наше производство -->
+    <div class="our_production">
+        <div class="container">
+            <div class="title_bcg">
+                <p>НАШЕ ПРОИЗВОДСТВО</p>
+                <div class="left_arrow"><img src="/img/left_arrow.svg" alt=""></div>
+                <div class="right_arrow"><img src="/img/right_arrow.svg" alt=""></div>
+            </div>
+            <div class="photo_collage">
+                <img src="/img/photo_clg.png" alt="фото">
+            </div>          
+        </div>
+    </div>
+
+    <!-- Секция с производственными характеристиками -->
+    @include('advantages-section')
 
   
 </div>

@@ -603,11 +603,8 @@ p {
     background-color: #8CAEC9;
     .f_content {
       display: flex;
-      
       justify-content: space-around;
-
       .f_item {
-        
         p {
           font-family: "Montserrat-ExtraBold";
           font-size: 20px;
@@ -944,12 +941,39 @@ p {
 
 // услуги
 .services {
+  .service-section {
+    max-width: 1920px;
+    height: auto;
+    background-color: #6D6D6E;
+    margin-top: 70px;
+   .item_s {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      img {
+        height: 90px;
+        width: auto;
+        margin-top: 53px;
+        margin-bottom: 33px;
+      }
+      p {
+        font-family: "Montserrat-Bold";
+        font-size: 20px;
+        color: white;
+        margin-bottom: 65px;
+        text-align: center;
 
+      }
+    } 
+  }
 }
 
-// о компании
+// О КОМПАНИИ
 .about {
-
+  .navbar-item {
+    background-color: #EF7605;
+  }
   //Баннер оформления станицы
   .design_banner {
     img {
@@ -1021,12 +1045,120 @@ p {
         font-size: 20px;
         color: white;
         margin-bottom: 65px;
+        text-align: center;
 
       }
     } 
   }
+  //Сертфикаты
+  .certificates {
+    .title_bcg {
+      display: flex;
+      align-items: center;
+      height: 70px;
+      background-color: #EF7605;
+      font-family: "Montserrat-Bold";
+      font-size: 24px;
+      color: white;
+      p {
+        margin: 0;
+      }
+    }
+    .section_bcg {
+      background-color: #E2D6CE;
+      padding: 65px;
+      .item_sert {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        p {
+          font-family: "Montserrat-Medium";
+          font-size: 20px;
+          color: #1874A0;
+          margin-top: 40px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  //Партнеры
+  .partners-section {
+    .title {
+      font-family: "Montserrat-SemiBold";
+      font-size: 24px;
+      color: black;
+      margin-top: 44px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-top: 12px;
+      margin-bottom: 35px;
+    }
+  }
+  //Производство
+  .production {
+    .title_bcg {
+      display: flex;
+      align-items: center;
+      height: 70px;
+      background-color: #EF7605;
+      font-family: "Montserrat-Bold";
+      font-size: 24px;
+      color: white;
+      p {
+        margin: 0;
+      }
+    }
+    .list_prod {
+      padding: 60px;
+      ul {
+        font-family: "Montserrat-Medium";
+        font-size: 24px;
+        color: #151716;
+        line-height: 1.2;
+        margin-left: 13px;
+      }
+      li {
+        padding-left: 17px;
+      }
+      li::marker {
+        color: #151716;
+        font-size: 15px;
   
-
+      }
+    }
+  }
+  //Наше производство
+  .our_production {
+    .title_bcg {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      font-family: "Montserrat-Bold";
+      font-size: 24px;
+      color: black;
+      p {
+        margin: 0;
+        margin-right: 33px;
+      }
+      img {
+        margin-left: 10px;
+      } 
+    }
+    .photo_collage { 
+      img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 60px;
+      }  
+    } 
+  }
+  .advantages-section {
+    margin-top: 35px;
+    margin-bottom: 38px;
+  }
 }
 
 // контакты
@@ -1046,7 +1178,36 @@ p {
 
 // преимущества
 .advantages {
+  p {
+    font-family: "Montserrat-Medium";
+    font-size: 24px;
+    color: #151716;
+    line-height: 1.2;
+  }
+  .title {
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+    color: #EF7605;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  ul {
+    font-family: "Montserrat-Medium";
+    font-size: 24px;
+    color: #151716;
+    line-height: 1.2;
+    margin-top: 43px;
+    margin-bottom: 43px;
+    margin-left: 13px;
+  }
+  li {
+    padding-left: 17px;
+  }
+  li::marker {
+    color: #151716;
+    font-size: 15px;
 
+  }
 }
 
 // сертификаты
