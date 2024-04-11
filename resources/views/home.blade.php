@@ -37,43 +37,33 @@
   <!-- Секция каталога техники -->
   <div class="catalog-section">
     <div class="container">
-      <div class="catalog">
-        <p class='kt'>каталог техники</p>
-        <div class="eq_catalog">
-          <div class="eq_item">
-            <div class="eq_item__image">
-              <img src="img/image_15.png" alt="камаз-55510">
-            </div>
-            <div href="/catalog" class="eq_item__title">автоцистерны</div>
-            <a href="/catalog" class="eq_item__link"></a>
-          </div>
-          <span class='vline'></span>
-          <div class="eq_item">
-            <div class="eq_item__image">
-              <img src="img/pngegg-1536x817_1.png" class="eq_item__image" alt="камаз-55510">
-            </div>
-            <div class="eq_item__title">прицепная<br>техника</div>
-            <a href="/catalog" class="eq_item__link"></a>
-          </div>
-          <span class='vline'></span>
-          <div class="eq_item">
-            <div class="eq_item__image">
-              <img src="img/30975084_1.png" class="eq_item__image" alt="камаз-55510">
-            </div>
-            <div class="eq_item__title">автокраны и<br>манипуляторы</div>
-            <a href="/catalog" class="eq_item__link"></a>
-          </div>
-          <span class='vline'></span>
-          <div class="eq_item">
-            <div class="eq_item__image">
-              <img src="img/image_20.png" class="eq_item__image" alt="камаз-55510">
-            </div>
-            <div class="eq_item__title">технологический<br>транспорт</div>
-            <a href="/catalog" class="eq_item__link"></a>
-          </div>
+      <p class='title'>каталог техники</p>
+      <div class="main_catalog">
+        <div class="eq_item">
+          <div class="eq_item__image"><img src="img/image_15.png" alt="камаз-55510"></div>
+          <div href="/catalog" class="eq_item__title">автоцистерны</div>
+          <a href="/catalog" class="eq_item__link"></a>
         </div>
-        <a href="/catalog" class="btn_primary">ПЕРЕЙТИ В КАТАЛОГ</a>
+        <span class='vline'></span>
+        <div class="eq_item">
+          <div class="eq_item__image"><img src="img/pngegg-1536x817_1.png" class="eq_item__image" alt="камаз-55510"></div>
+          <div class="eq_item__title">прицепная<br>техника</div>
+          <a href="/catalog" class="eq_item__link"></a>
+        </div>
+        <div class='vline'></div>
+        <div class="eq_item">
+          <div class="eq_item__image"><img src="img/30975084_1.png" class="eq_item__image" alt="камаз-55510"></div>
+          <div class="eq_item__title">автокраны и<br>манипуляторы</div>
+          <a href="/catalog" class="eq_item__link"></a>
+        </div>
+        <span class='vline'></span>
+        <div class="eq_item">
+          <div class="eq_item__image"><img src="img/image_20.png" class="eq_item__image" alt="камаз-55510"></div>
+          <div class="eq_item__title">технологический<br>транспорт</div>
+          <a href="/catalog" class="eq_item__link"></a>
+        </div>
       </div>
+      <a href="/catalog" class="btn_primary">ПЕРЕЙТИ В КАТАЛОГ</a>
     </div>
   </div>
 
@@ -91,24 +81,7 @@
           снабжением сертифицированными запчастями.
         </p>
       </div>  
-      <div class="image_svg">
-        <div class="svg_item">
-          <img src="/img/кач_1.svg" class="svg_item_image" alt="#">
-          <div class="svg_item_text">Высокое качество<br>продукции по<br>доступным ценам</div>
-        </div>
-        <div class="svg_item">
-          <img src="/img/кач_2.svg" class="svg_item_image" alt="#">
-          <div class="svg_item_text">Штат опытных<br>сотрудников</div>
-        </div>  
-        <div class="svg_item">
-          <img src="/img/трейд_1.svg" class="svg_item_image" alt="#">
-          <div class="svg_item_text">Trade-in: принимаем<br>Вашу технику в зачет</div>
-        </div>
-        <div class="svg_item">
-          <img src="/img/трал_1.svg" class="svg_item_image" alt="#">
-          <div class="svg_item_text">Льготная доставка в<br>регионы собственным<br>автотранспортом</div>
-        </div>
-      </div>
+      @include('services-section')
     </div>
   </div>
 
