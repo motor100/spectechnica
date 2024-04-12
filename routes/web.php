@@ -23,13 +23,13 @@ Route::get('/', [MainController::class, 'home'])->name('home');
 
 Route::get('/catalog', [MainController::class, 'catalog']);
 
-// Route::get('/catalog/{slug}', [MainController::class, 'single_product']);
-
-// Route::get('/category', [MainController::class, 'cat']);
+Route::get('/catalog/category', [MainController::class, 'category']);
 
 // Route::get('/category/{slug}', [MainController::class, 'category']);
 
 // Route::get('/category/{cat}/{subcat}', [MainController::class, 'subcategory']);
+
+Route::get('/catalog/product', [MainController::class, 'product']);
 
 Route::get('/in-stock', [MainController::class, 'in_stock']);
 
