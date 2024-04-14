@@ -62,44 +62,52 @@
     @yield('content')
   </div>
 
+  <!-- Футер -->
   <footer class="footer">
-    
-    <!-- Верхняя полоса -->
     <div class="top_line"></div>
-    
-    <!-- Контент футера -->
-    <div class="footer-content">
+    <div class="footer_contant">
       <div class="container">
-        <div class="f_content">
-          <div class="f_item">
-            <p>контакты</p>
-            <p class="fone">+7 (982) 292-88-79 </p>
-            <p class="email">zakaz@gidravlic.com</p>
-            <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
-            <img class="f_logo" src="/img/logo.svg" alt="logo">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="f_item__contant">
+              <p class="p1">контакты</p>
+              <p class="fone">+7 (982) 292-88-79 </p>
+              <p class="email">zakaz@gidravlic.com</p>
+              <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
+              <img class="f_logo" src="/img/logo.svg" alt="logo">
+              <a href="#" class="f_info">Полная контактная информация</a>
+            </div>
           </div>
-          <div class="f_item">
-            <p>продукция</p>
-            <ul>
-              <li><a href="/catalog">Каталог техники</a></li>
-              <li><a href="/in-stock">Техника в наличии</a></li>
-              <li><a href="/special-offer">Спецпредложения</a></li>
-              <li><a href="/upgrade-and-service">Доработки и сервис</a></li>
-            </ul>
+
+          <div class="col-md-4">
+            <div class="f_item__list1">
+                <p class="p2">продукция</p>
+                <ul>
+                  <li><a href="/catalog">Каталог техники</a></li>
+                  <li><a href="/in-stock">Техника в наличии</a></li>
+                  <li><a href="/special-offer">Спецпредложения</a></li>
+                  <li><a href="/upgrade-and-service">Доработки и сервис</a></li>
+                </ul>
+                
+            </div>
           </div>
-          <div class="f_item">
-            <p>о компании</p>
-            <ul>
-              <li><a href="/about">О “ГидроСпецАвто”</a></li>
-              <li><a href="/manufacture">Производство</a></li>
-              <li><a href="/services">Услуги</a></li>
-              <span></span><li><a href="/certificates">Сертификаты</a></li>
-            </ul>
+
+          <div class="col-md-4">
+            <div class="f_item__list2">
+              <p class="p3">о компании</p>
+              <ul>
+                <li><a href="/about">О “ГидроСпецАвто”</a></li>
+                <li><a href="/manufacture">Производство</a></li>
+                <li><a href="/services">Услуги</a></li>
+                <li><a href="/certificates">Сертификаты</a></li>
+              </ul>
+              <a href="#" class="f_apl">Оставить заявку</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
+    
     <!-- Белая полоса под футером -->
     <div class="bottom-white-line">
       <div class="container">

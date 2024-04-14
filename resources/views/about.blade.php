@@ -15,8 +15,8 @@
     <div class="breadcrumb">
         <div class="container">
             <a href="/">Главная</a>
-            <span>  -  </span>
-            <a class="activ" href="#">О компании</a>
+            <span>-</span>
+            <a class="activ" href="/about">О компании</a>
         </div> 
     </div>
 

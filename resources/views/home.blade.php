@@ -70,33 +70,60 @@
   <!-- Секция с описанием деятельности компании  -->
   <div class="about-section">
     <div class="container">
-      <div class="banner_title">О компании</div>
-      <div class="banner_text">
-        <p class="txt_company">ГидроСпецАвто - это завод с  
-          современным оборудованием и передовыми технологиями
-          Завод представляет собой крупный машиностроительный комплекс с 
-          законченным производственным циклом от заготовки до выпуска готовой продукции.<br>
-          Помимо производства спецтехники, мы являемся дилером российских автогигантов, 
-          занимаемся комплексным сервисным обслуживанием и 
-          снабжением сертифицированными запчастями.
-        </p>
-      </div>  
-      @include('services-section')
-    </div>
+      <div class="row">
+        <div class="col-md-2"><div class="title">О компании</div></div>
+        <div class="col-md-10"></div>
+        <div class="col-md-12">
+          <div class="banner_text">
+            <p class="txt_company">ГидроСпецАвто - это завод с  
+              современным оборудованием и передовыми технологиями
+              Завод представляет собой крупный машиностроительный комплекс с 
+              законченным производственным циклом от заготовки до выпуска готовой продукции.<br>
+              Помимо производства спецтехники, мы являемся дилером российских автогигантов, 
+              занимаемся комплексным сервисным обслуживанием и 
+              снабжением сертифицированными запчастями.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item_s">
+            <img src="/img/s_1.svg" class="svg_item_image" alt="#">
+            <p>Высокое качество<br>продукции по<br>доступным ценам</p>  
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item_s">
+            <img src="/img/s_2.svg" class="svg_item_image" alt="#">
+            <p>Штат опытных<br>сотрудников</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item_s">
+            <img src="/img/s_3.svg" class="svg_item_image" alt="#">
+            <p>Trade-in: принимаем<br>Вашу технику в зачет</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="item_s">
+            <img src="/img/s_4.svg" class="svg_item_image" alt="#">
+            <p>Льготная доставка в<br>регионы собственным<br>автотранспортом</p>
+          </div>
+        </div>
+      </div>
+    </div>   
   </div>
-
+  
   <!-- Секция с кнопками -->
-  <div class="buttons-section">
+  <div class="button_section">
     <div class="container">
       <div class="row">
         <div class="col-md-3"><a href="/about#video" class="btn_primary">ВИДЕО О КОМПАНИИ</a></div>
         <div class="col-md-3"><a href="/about#video" class="btn_primary">НАШИ ПРЕИМУЩЕСТВА</a></div>
         <div class="col-md-3"><a href="/about#video" class="btn_primary">СЕРТИФИКАТЫ</a></div>
         <div class="col-md-3"><a href="/about#video" class="btn_primary">ПРОИЗВОДСТВО</a></div>
-      </div>   
+      </div>
     </div>
   </div>
-
+  
   <!-- Секция с партнерами компании -->
   <div class="partners-section">
     <div class="container">
@@ -115,20 +142,11 @@
     <div class="line"></div>
     <div class="container">
       <div class="row">
-        <div class="col-md-5"><p>ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p></div>
+        <div class="col-md-5"><p class="title">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p></div>
         <div class="col-md-7"></div>
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="item_video">
-            <img src="/img/video-cover1.jpg" alt="">
-            <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
-            <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-            <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-            <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="item_video">
-            <img src="/img/video-cover2.jpg" alt="">
+            <img src="/img/video_cover_img.png" alt="">
             <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
             <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
             <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
@@ -136,11 +154,6 @@
           </div>
         </div>
       </div>
-      
-      <!-- <div class="video_contant"> -->
-        
-         
-      <!-- </div> -->
     </div>
   </div>
 
