@@ -16,20 +16,20 @@
 
 <body>
   <header class="header">
+
     <div class="header_top">
       <div class="container">
         <div class="header_contant">
-          <div class="logo">
-            <a href="/" class="logo-link">
-              <img src="/img/logo.svg" alt="logo">
-              <p>Производство и продажа спецтехники</p>
-            </a>
+          <div class="item_logo">
+            <a href="/" class="logo-link"></a>
+            <img src="/img/logo.svg" alt="logo">
+            <p>Производство и продажа спецтехники</p>
           </div>
           <div class="item_call">
             <a href="tel:+780090000000" class="number_phone">8-800-9000-00-00</a>
             <div class="btn-call js-callback-btn">
-              <span class="btn-call__text">заказать звонок</span>
-              <img src="img/icon_call.svg" alt="#">
+              <p class="btn-call__text">ЗАКАЗАТЬ ЗВОНОК</p>
+              <img src="img/icon_call.svg" alt="call">
             </div>
           </div>
         </div>

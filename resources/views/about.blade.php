@@ -86,10 +86,10 @@
     <!-- Секция с сертификатами компании -->
     <div class="certificates">
 
-        <div class="title_bcg">
+        <div class="title_bacground">
             <div class="container"><p>СЕРТИФИКАТЫ</p></div>   
         </div>
-        <div class="section_bcg">
+        <div class="section_background">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -132,7 +132,7 @@
 
     <!-- Секция с производством компании -->
     <div class="production">
-        <div class="title_bcg">
+        <div class="title_background">
             <div class="container"><p>ПРОИЗВОДСТВО</p></div> 
         </div>
         <div class="list_prod">
@@ -157,7 +157,7 @@
     <!-- Секция наше производство -->
     <div class="our_production">
         <div class="container">
-            <div class="title_bcg">
+            <div class="title">
                 <p>НАШЕ ПРОИЗВОДСТВО</p>
                 <div class="left_arrow"><img src="/img/left_arrow.svg" alt=""></div>
                 <div class="right_arrow"><img src="/img/right_arrow.svg" alt=""></div>
