@@ -20,9 +20,16 @@
     <div class="header_top">
       <div class="container">
         <div class="header_contant">
+          <div class="item_burger">
+            <button class="burger">
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+            </button>
+          </div>
           <div class="item_logo">
             <a href="/" class="logo-link"></a>
-            <img src="/img/logo.svg" alt="logo">
+            <img src="/img/logo.svg" alt="logo" class="main_logo">
             <p>Производство и продажа спецтехники</p>
           </div>
           <div class="item_call">

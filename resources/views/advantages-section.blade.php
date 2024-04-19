@@ -1,11 +1,9 @@
 <div class="advantages-section">
 
   <div class="container">
-    
+    <div class="adv_title__desktop"><p>МЫ ПРОИЗВОДИМ И РЕАЛИЗУЕМ, А ВЫ ПОЛУЧАЕТЕ:</p></div>
+    <div class="adv_title__mobile"><p>МЫ ПРОИЗВОДИМ И<br>РЕАЛИЗУЕМ,<br>А ВЫ ПОЛУЧАЕТЕ:</p></div>
     <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10"><p>МЫ ПРОИЗВОДИМ И РЕАЛИЗУЕМ, А ВЫ ПОЛУЧАЕТЕ:</p></div>
-      <div class="col-md-1"></div>
       <div class="col-md-4">
         <div class="item_prod">
           <img src="img/garantiya.svg" alt="гарантия">
