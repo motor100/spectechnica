@@ -375,8 +375,23 @@ p {
       }
       
     }    
-    .btn_primary {
-      margin: 83px auto 42px auto;
+    .btn_primary__catalog {
+      display: block;
+      font-family: 'Montserrat-Bold';
+      background-color: #EF7605;
+      color: white;
+      font-size: 20px;
+      width: 306px;
+      height: 70px;
+      margin: 83px auto 40px auto;
+      padding: 19px 0;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .btn_primary__catalog:hover {
+      background-color: #8CAEC9;
+      transition: background-color .3s;
     }
   }
   
@@ -459,7 +474,8 @@ p {
   }
   
   //Секция с партнерами компании
-  .partners-section {
+  .partners-section-desktop {
+    display: block;
     .title {
       font-family: "Montserrat-SemiBold";
       font-size: 24px;
@@ -472,8 +488,14 @@ p {
       margin-top: 12px;
     }
   }
-  .partners-section-modile {
+  .partners-section-mobile {
     display: none;
+    .logo_partners {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   
@@ -703,87 +725,103 @@ p {
   .footer_contant {
     background-color: #8CAEC9;
     padding: 30px;
-    ul {
-      margin: 0;
-      padding: 0;
-    }
-    li {
-      list-style-type: none;
+  }
+  .f_item__contant_mobile {
+    display: none;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style-type: none;
+    text-align: left;
+    a {
+      font-family: "Montserrat-Medium";
+      font-size: 20px;
+      color: white;
+      border-bottom: 2px dashed white;
+    }  
+  }
+  p {
+      font-family: "Montserrat-ExtraBold";
+      font-size: 24px;
+      color: white;
       text-align: left;
-      a {
-        font-family: "Montserrat-Medium";
-        font-size: 20px;
-        color: white;
-        border-bottom: 2px dashed white;
-      }  
-    }
-    p {
-        font-family: "Montserrat-ExtraBold";
-        font-size: 24px;
-        color: white;
-        text-align: left;
-        margin-bottom: 25px;
-    }
-
-    .f_item__contant {
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      width: 350px;
-      margin: 0 auto;
+      margin-bottom: 25px;
+  }
+  .f_item__contant___mobile {
+    display: none;
+  }
+  .f_item__contant {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 350px;
+    margin: 0 auto;
+  }
       
-      .fone {
-        font-family: "Montserrat-Bold";
-        font-size: 24px;
-        color: #1874A0;
-        text-align: left;
-        margin: 0;
-      }
-      .email {
-        font-family: "Montserrat-Medium";
-        font-size: 20px;
-        color: white;
-        text-decoration: underline;
-        margin: 0;
-      }
-      .adress {
-        font-family: "Montserrat-Medium";
-        font-size: 20px;
-        color: white;
-        margin: 0;
-      }
-      .f_info {
-        font-family: "Montserrat-Medium";
-        font-size: 20px;
-        color: #1874A0;
-        border-bottom: 2px dashed #1874A0;
-        margin: 0;
-      }
+  .fone {
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    color: #1874A0;
+    text-align: left;
+    margin: 0;
+  }
+  .email {
+    font-family: "Montserrat-Medium";
+    font-size: 20px;
+    color: white;
+    text-decoration: underline;
+    margin: 0;
+  }
+  .adress {
+    font-family: "Montserrat-Medium";
+    font-size: 20px;
+    color: white;
+    margin: 0;
+  }
+  .adress_mobile {
+    display: none;
+  }
+  .f_info {
+    font-family: "Montserrat-Medium";
+    font-size: 20px;
+    color: #1874A0;
+    border-bottom: 2px dashed #1874A0;
+    margin: 0;
+  }
+    
+  .f_item__list1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 220px;
+    margin: 0 auto;
+  }
+  .f_item__list1___mobile {
+    display: none;
+  }
+  .f_item__list2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 220px;
+    margin: 0 auto;
+    .f_apl {
+      font-family: "Montserrat-Medium";
+      font-size: 20px;
+      color: #1874A0;
+      border-bottom: 2px dashed #1874A0;
+      margin: 0;
+      margin-top: 27px;
     }
-    .f_item__list1 {
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      width: 220px;
-      margin: 0 auto;
-    }
-    .f_item__list2 {
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      width: 220px;
-      margin: 0 auto;
-      .f_apl {
-        font-family: "Montserrat-Medium";
-        font-size: 20px;
-        color: #1874A0;
-        border-bottom: 2px dashed #1874A0;
-        margin: 0;
-        margin-top: 27px;
-      }
-    }
-  }   
-}
+  }
+  .f_item__list2___mobile {
+    display: none;
+  }
+}   
+
 
 //Полоса под футером
 .bottom-white-line {
@@ -1034,7 +1072,7 @@ p {
           }
         }
       }   
-    }     
+    }    
   }
 }
     
@@ -1654,6 +1692,7 @@ p {
   .row {
     --bs-gutter-x: 20px;
   }
+  
 
   .hidden-mobile {
     display: none !important;
@@ -1662,6 +1701,7 @@ p {
   .hidden-desktop {
     display: block;
   }
+  //Бургер
   .item_burger {
     display: block;
     .burger {
@@ -1697,10 +1737,13 @@ p {
       bottom: 0;
     }  
   }
-
+  //Заголовки
+  .title {
+    text-align: center;
+  }
+  //Шапка
   .header {
     .header_top {
-      background-color: #EF7605;
       .header_contant {
         display: flex;
         align-items: center;
@@ -1747,120 +1790,269 @@ p {
       display: none; 
     }
   }
-  
-  .title {
-    text-align: center;
-  }
-  .vline {
-    display: none;
-  }
-  .buttons_section { 
-    width: 100%;
-    background-color: #6D6D6E;
-    padding: 20px;
-    .btn_primary__company {
-      margin: 0  auto;
-      margin-top: 20px;
+  //Footer
+  .footer {
+    .f_item__contant {
+      display: none;
     }
-  }
-  .eq_item {
-    padding-bottom: 80px;
-  }
-
-  //Секция "О компании"
-  .about-section {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 580px;
-    .title {
-      position: absolute;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    .about_text {
+    .f_item__contant___mobile {
+      margin-top: 30px;
       display: block;
-      width: 320px;
-      height: 480px;
-      position: absolute;
-      top: 40px;
-      left: 50%;
-      transform: translateX(-50%);
-      p {
+      width: 350px;
+      margin: 0 auto;
+      .f_logo {
+        display: block;
+        margin: 0 auto;
+        margin-top: 35px;
+      }
+      
+      .fone {
+        font-family: "Montserrat-Bold";
+        font-size: 24px;
+        color: #1874A0;
         text-align: center;
+        margin: 0;
+        margin-top: 30px;
+      }
+      .email {
+        font-family: "Montserrat-Medium";
         font-size: 20px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+        text-underline-offset: 5px;
+      }
+      .adress {
+        font-family: "Montserrat-Medium";
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
         line-height: 1.2;
       }
     }
-  }
-  .servis_block__desktop {
-    display: none;
-  }
-  .servis_block__mobile {
-    display: block;
-    
-  }
-  .partners-section {
-    display: none;
-  }
-  .partners-section-modile {
-    .logo_partners {
+    .f_item__list1 {
+      display: none;
+    }
+    .f_item__list1___mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .p2 {
+        margin-top: 30px;
+        margin-bottom: 5px;
+      }
+      a {
+        font-family: "Montserrat-Medium";
+        font-size: 20px;
+        color: white;
+        border-bottom: 2px dashed white;
+        margin-top: 15px;
+      }
+    }
+    .f_item__list2 {
+      display: none; 
+    }
+    .f_item__list2___mobile {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .p3 {
+        margin-top: 30px;
+        margin-bottom: 5px;
+      }
+      a {
+        font-family: "Montserrat-Medium";
+        font-size: 20px;
+        color: white;
+        border-bottom: 2px dashed white;
+        margin-top: 15px;
+      }
+      .f_apl {
+        font-family: "Montserrat-Medium";
+        font-size: 20px;
+        color: #1874A0;
+        border-bottom: 2px dashed #1874A0;
+        margin: 0;
+        margin-top: 27px;
+      }
+      .privacy-policy-link {
+        font-family: "Montserrat-Medium";
+        font-size: 16px;
+        border-bottom: none;
+        margin-top: 30px;
+      }
+      .copyright {
+        font-family: "Montserrat-Medium";
+        font-size: 16px;
+        margin-top: 20px;
+        color: white;
+      }
+      
+    }
+    .search_mobile {
       display: flex;
       justify-content: space-between;
-      flex-direction: column;
       align-items: center;
-    }
-  }
-  .video_section_mobile {
-    display: block;
-    .video-section {
-      .title {
-        font-family: "Montserrat-SemiBold";
-        font-size: 16px;
-        margin-top: 50px;
+      width: 100%;
+      border: none;
+      padding: 0 20px;
+      input[type="search"] {
+        border: none;
+        width: 260px;
+        height: 40px;
+        font-size: 25px;
+        background-color: #8CAEC9;
+        color: white;
+        border-bottom: 2px solid white;
         
       }
-      .item_video {
-        display: block;
-        width: 330px;
-        height: auto;
-        object-fit: contain;
-        margin: 0 auto;
+      input[type="submit"] {
+        width: 25px;
+        height: 25px;
+        border: none;
+        background: url(/resources/img/icon_search.svg) no-repeat;
       }
-      .title_video {
+
+    }
+    
+    .bottom-white-line {
+      display: none;
+    } 
+  }
+  
+  // ГЛАВНАЯ СТРАНИЦА
+  .home {
+    //Секция каталога
+    .catalog-section {
+      .vline {
+        display: none;
+      }
+      .eq_item {
+        padding-bottom: 80px;
+      }
+      .btn_primary__catalog {
+        display: none;
+      }
+    }
+    //Секция "О компании"
+    .about-section {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 580px;
+      .title {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .about_text {
         display: block;
-        font-family: "Montserrat-SemiBold";
-        font-size: 24px;
-        color: #1874A0;
-        margin-top: 20px;
+        width: 320px;
+        height: 480px;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
         p {
           text-align: center;
-          text-decoration: underline;
-          text-underline-offset: 5px;
+          font-size: 20px;
+          line-height: 1.2;
         }
       }
     }
+    //Блок с сервисными характеристиками
+    .servis_block__desktop {
+      display: none;
+    }
+    .servis_block__mobile {
+      display: block;
+      
+    }
+    //Секция с кнопками
+    .buttons_section { 
+      width: 100%;
+      background-color: #6D6D6E;
+      padding: 20px;
+      .btn_primary__company {
+        display: block;
+        margin: 0  auto;
+        margin-top: 20px;
+      }
+    }
+    //Секция с видео
+    .video_section_mobile {
+      display: block;
+      .video-section {
+        .title {
+          font-family: "Montserrat-SemiBold";
+          font-size: 16px;
+          margin-top: 50px;  
+        }
+        .item_video {
+          display: block;
+          width: 330px;
+          height: auto;
+          object-fit: contain;
+          margin: 0 auto;
+        }
+        .title_video {
+          display: block;
+          font-family: "Montserrat-SemiBold";
+          font-size: 24px;
+          color: #1874A0;
+          margin-top: 20px;
+          p {
+            text-align: center;
+            text-decoration: underline;
+            text-underline-offset: 5px;
+          }
+        }
+      }
+    }
+    .video_section_desktop {
+      display: none;
+    }
+    //Секция с производственными характеристиками
+    
+    .advantages-section {
+      .adv_title__desktop {
+        display: none; 
+      }
+      .adv_title__mobile {
+        display: block;
+        font-family: "Montserrat-Bold";
+        font-size: 24px;
+        color: #EF7605;
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        
+      }
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    //Секция с партнерами компании
+    .partners-section-desktop {
+      display: none;
+    }
+    .partners-section-mobile {
+      display: block;
+      .logo_partners {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
   }
-  .video_section_desktop {
-    display: none;
-  }
-  .adv_title__desktop {
-    display: none; 
-  }
-  
-  .adv_title__mobile {
-    display: block;
-    font-family: "Montserrat-Bold";
-    font-size: 24px;
-    color: #EF7605;
-    text-align: center;
-    margin-top: 70px;
-    margin-bottom: 70px;
-  }
-  
-   
-  
 }
 
 

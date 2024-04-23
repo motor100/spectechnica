@@ -79,7 +79,7 @@
           </div>
         </div>
       </div>
-      <a href="/catalog" class="btn_primary">ПЕРЕЙТИ В КАТАЛОГ</a>
+      <a href="/catalog" class="btn_primary__catalog">ПЕРЕЙТИ В КАТАЛОГ</a>
     </div>
   </div>
 
@@ -154,32 +154,14 @@
   </div>
   
   <!-- Секция с партнерами компании -->
-  <div class="partners-section">
+  <div class="partners-section-desktop">
     <div class="container">
         <p class="title">партнеры</p>  
     </div>
     <img src="img/partners.png" alt="партнеры">
     <div class="line"></div>  
   </div>
-  <div class="partners-section-modile">
-    <div class="container">
-        <p class="title">партнеры</p>  
-    </div>
-    <div class="logo_partners">
-      <div class="line_1">
-        <img src="img/image_22.png" alt="партнеры">
-        <img src="img/image_22.png" alt="партнеры">
-        <img src="img/image_22.png" alt="партнеры">
-      </div>
-      <div class="line_2">
-        <img src="img/image_22.png" alt="партнеры">
-        <img src="img/image_22.png" alt="партнеры">
-        <img src="img/image_22.png" alt="партнеры">
-      </div>
-    </div> 
-  </div>
   
-
   <!-- Секция с производственными характеристиками -->
   @include('advantages-section')
 
@@ -204,6 +186,24 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="partners-section-mobile">
+    <div class="container">
+        <p class="title">партнеры</p>  
+    </div>
+    <div class="logo_partners">
+      <div class="line_1">
+        <img src="img/image_22.png" alt="партнеры">
+        <img src="img/image_22.png" alt="партнеры">
+        <img src="img/image_22.png" alt="партнеры">
+      </div>
+      <div class="line_2">
+        <img src="img/image_22.png" alt="партнеры">
+        <img src="img/image_22.png" alt="партнеры">
+        <img src="img/image_22.png" alt="партнеры">
+      </div>
+    </div> 
   </div>
 
 </div>

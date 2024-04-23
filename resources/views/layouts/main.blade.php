@@ -81,11 +81,40 @@
               <p class="fone">+7 (982) 292-88-79 </p>
               <p class="email">zakaz@gidravlic.com</p>
               <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
+              <p class="adress_mobile">г. Миасс<br>Тургоякское шоссе, 5/11</p>
               <img class="f_logo" src="/img/logo.svg" alt="logo">
               <a href="#" class="f_info">Полная контактная информация</a>
             </div>
+            <!-- Мобильная версия -->
+            <div class="f_item__contant___mobile">
+              <div class="search_mobile">
+                  <input type="submit" value="">
+                  <input type="search" name="q">
+              </div>
+              <img class="f_logo" src="/img/logo.svg" alt="logo">
+              <p class="fone">+7 (982) 292-88-79 </p>
+              <p class="email">zakaz@gidravlic.com</p>
+              <p class="adress">г. Миасс<br>Тургоякское шоссе, 5/11</p>
+              <div class="f_item__list1___mobile">
+                <p class="p2">продукция</p>
+                <a href="/catalog">Каталог техники</a>
+                <a href="/catalog">Каталог техники</a>
+                <a href="/special-offer">Спецпредложения</a>
+                <a href="/upgrade-and-service">Доработки и сервис</a>
+              </div>
+              <div class="f_item__list2___mobile">
+                <p class="p3">о компании</p>
+                <a href="/about">О “ГидроСпецАвто”</a>
+                <a href="/manufacture">Производство</a>
+                <a href="/services">Услуги</a>
+                <a href="/certificates">Сертификаты</a>
+                <a href="#" class="f_apl">Оставить заявку</a>
+                <a href="/privacy-policy" class="privacy-policy-link">Политика конфиденциальности</a>
+                <div class="copyright">ООО "ГидроСпецАвто" {{ date('Y') }}</div>
+              </div>
+              
+            </div>   
           </div>
-
           <div class="col-md-4">
             <div class="f_item__list1">
                 <p class="p2">продукция</p>
