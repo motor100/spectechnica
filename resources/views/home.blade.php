@@ -78,7 +78,7 @@
         
           <div class="col-md-3">
             <div class="eq_item">
-              <div class="eq_item__image" style="width: auto; height: 190px;">
+              <div class="eq_item__image">
                 <img src="img/katalog-tekhnologicheskij-transport.png" alt="камаз-55510">
               </div>
               <a href="#" class="title_link">технологический<br>транспорт</a>
