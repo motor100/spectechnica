@@ -44,7 +44,7 @@
             <img src="img/image_15.png" alt="камаз-55510">
           </div>
           <div class="eq_item__title">автоцистерны</div>
-          <a href="/catalog" class="eq_item__link"></a>
+          <a href="/catalog/category" class="eq_item__link"></a>
           <span class="vline"></span>
         </div>
         <div class="eq_item">
@@ -68,7 +68,7 @@
             <img src="img/image_20.png" class="eq_item__image" alt="камаз-55510">
           </div>
           <div class="eq_item__title">технологический<br>транспорт</div>
-          <a href="/catalog" class="eq_item__link"></a>
+          <a href="/catalog/product" class="eq_item__link"></a>
         </div>
       </div>
       <a href="/catalog" class="btn_primary__catalog">перейти в каталог</a>
