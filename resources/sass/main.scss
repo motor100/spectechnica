@@ -373,24 +373,25 @@ p {
 
   //Секция католога
   .catalog-section {
-    .title{
-      margin-top: 30px;
+    .section-title {
+      margin: 0 0 48px 0;
+      font-family: 'Montserrat-Bold';
+      font-size: 24px;
+      color: #000;
+      text-transform: uppercase;
     }
-    .main_catalog {
+    .catalog {
+      display: flex;
       margin-top: 65px;
+      justify-content: space-between;
       .eq_item {
         position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        min-height: 320px;
         .eq_item__image {
-          display: block;
-          width: auto;
+          width: 260px;
           height: 160px;
-            img {
+          margin: 0 0 98px 0;
+          transition: transform .3s;
+          img {
             width: 100%;
             height: 100%;
             object-fit: contain;
@@ -398,25 +399,37 @@ p {
         }
         .eq_item__link {
           position: absolute;
+          top: 0;
+          left: 0;
           width: 100%;
           height: 100%;
         }
-        .title_link {
+        .eq_item__title {
+          display: flex;
+          height: 40px;
           font-family: 'Montserrat-SemiBold';
-          font-size: 16px;
           text-align: center;
-          color: #1874A0;
+          color: $bluecolor;
           line-height: 1.2;
           text-transform: uppercase;
+          align-items: center;
+          justify-content: center;
+          transition: color .5s;
         }
-        .vline {
-          position: absolute;
-          background-color: #8CAEC9;
-          width: 2px;
-          height: 100%;
-          top: 0;
-          right: -13px;
-        }
+      }
+      .eq_item:hover .eq_item__image {
+        transform: scale(1.02);
+      }
+      .eq_item:hover .eq_item__title {
+        color: $accentcolor;
+      }
+      .vline {
+        position: absolute;
+        background-color: #8CAEC9;
+        width: 2px;
+        height: 100%;
+        top: 0;
+        right: -13px;
       }
       
     }    
@@ -1959,16 +1972,83 @@ p {
   
   // ГЛАВНАЯ СТРАНИЦА
   .home {
+
     //Секция каталога
     .catalog-section {
-      .vline {
-        display: none;
-      }
-      .eq_item {
-        padding-bottom: 80px;
-      }
-      .btn_primary__catalog {
-        display: none;
+      margin: 0 0 42px 0;
+      .catalog {
+        .kt {
+          font-family: 'Montserrat-Bold';
+          font-size: 24px;
+          color: black;
+          margin-top: 25px;
+        }
+        .eq_catalog {
+          display: flex;
+          justify-content: space-around;
+          margin-top: 54px;
+          .eq_item {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 316px;
+            height: 323px;
+            margin: 26px 0 0 0;
+            .eq_item__image {
+              width: 305px;
+              height: 160px;
+              margin: 0 auto;
+            }
+            .eq_item__image img {
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
+            .eq_item__link {
+              position: absolute;
+              top: 0;
+              left: 0;
+              display: block;
+              width: 100%;
+              height: 100%;
+            }
+            .eq_item__title {
+              display: flex;
+              width: 100%;
+              height: 48px;
+              font-family: 'Montserrat-SemiBold';
+              text-align: center;
+              color: #1874A0;
+              line-height: 20px;
+              text-align: center;
+              text-transform: uppercase;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+          .vline{
+            background-color: #8CAEC9;
+            width: 1px;
+            height: 363px;
+            margin: 0;
+            padding: 0;
+          }  
+        }
+        .btn_catalog {
+          display: block;
+          font-family: 'Montserrat-Bold';
+          background-color: #EF7605;
+          color: white;
+          font-size: 20px;
+          width: 306px;
+          height: 70px;
+          margin: 83px auto 0 auto;
+          padding: 17px 0;
+          border: none;
+          border-radius: 5px;
+          text-align: center;
+        }
       }
     }
     //Секция "О компании"
