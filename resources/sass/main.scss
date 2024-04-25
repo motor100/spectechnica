@@ -1146,10 +1146,11 @@ p {
   }
   //Баннер оформления станицы
   .design_banner {
+    height: 600px;
     img {
       width: 100%;
-      height: 600px;
-      z-index: 1;
+      height: 100%;
+      object-fit: cover;
     }  
   }
   //Видеоконтент
@@ -1302,28 +1303,34 @@ p {
   }
   //Наше производство
   .our_production {
-    .title_background {
+    // .title_background {
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: start;
+    //   font-family: "Montserrat-Bold";
+    //   font-size: 24px;
+    //   color: black;
+    //   img {
+    //     margin-left: 10px;
+    //   } 
+    // }
+    // .photo_collage { 
+    //   img {
+    //     display: block;
+    //     margin: 0 auto;
+    //     margin-top: 60px;
+    //   }  
+    // } 
+    .title-wrapper {
       display: flex;
-      align-items: center;
-      justify-content: start;
+      margin: 0 0 50px 0;
+    }
+    .title {
+      margin: 0 32px 0 0;
       font-family: "Montserrat-Bold";
       font-size: 24px;
-      color: black;
-      p {
-        margin: 0;
-        margin-right: 33px;
-      }
-      img {
-        margin-left: 10px;
-      } 
+      color: #000;
     }
-    .photo_collage { 
-      img {
-        display: block;
-        margin: 0 auto;
-        margin-top: 60px;
-      }  
-    } 
   }
   .advantages-section {
     margin-top: 35px;

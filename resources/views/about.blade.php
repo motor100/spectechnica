@@ -30,7 +30,6 @@
         <div class="container">
             <img src="img/video_company.png" alt="video">
         </div>
-        
     </div>
 
     <!-- Секция с описанием компании -->
@@ -157,10 +156,14 @@
     <!-- Секция наше производство -->
     <div class="our_production">
         <div class="container">
-            <div class="title">
-                <p>НАШЕ ПРОИЗВОДСТВО</p>
-                <div class="left_arrow"><img src="/img/left_arrow.svg" alt=""></div>
-                <div class="right_arrow"><img src="/img/right_arrow.svg" alt=""></div>
+            <div class="title-wrapper">
+                <div class="title">НАШЕ ПРОИЗВОДСТВО</div>
+                <div class="left_arrow">
+                    <img src="/img/left_white.svg" alt="">
+                </div>
+                <div class="right_arrow">
+                    <img src="/img/right_blue.svg" alt="">
+                </div>
             </div>
             <div class="photo_collage">
                 <img src="/img/photo_clg.png" alt="фото">
@@ -171,7 +174,6 @@
     <!-- Секция с производственными характеристиками -->
     @include('advantages-section')
 
-  
 </div>
 
 @endsection
