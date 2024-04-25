@@ -28,7 +28,7 @@
     <!-- Каталог техники -->
     <div class="equipment_catalog">
         <div class="container">
-            <p class="title">КАТАЛОГ ТЕХНИКИ</p>
+            <div class="page-title title">КАТАЛОГ ТЕХНИКИ</div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="eq_item">

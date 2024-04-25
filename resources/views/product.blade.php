@@ -31,10 +31,11 @@
 
     <!-- Главная секция -->
     <div class="container">
+        <div class="page-title">Вакуумный агрегат АЦПТ 1612</div>
         <div class="section_card">
             <div class="row">
                 <div class="col-md-8">
-                    <p class="title">Вакуумный агрегат АЦПТ 1612</p> 
+                    
                     <div class="card_image"><img src="/img/image_30.png" alt="img"></div>
                         <div class="section_block">
                         <div class="item_block"></div>

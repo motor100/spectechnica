@@ -114,12 +114,15 @@ p {
     color: #1874A0;
   }
 }
-//Заголовки
-.title {
+
+// Заголовок страницы
+.page-title {
+  margin: 0 0 32px 0;
   font-family: 'Montserrat-Bold';
   font-size: 24px;
   color: black;
 }
+
 //Форма поиска
 .search {
   display: flex;
@@ -640,8 +643,6 @@ p {
   margin-bottom: 70px;
 }
 
-
-
 //Форма заполнения заявки
 .application-form-section {
   height: 426px;
@@ -1066,9 +1067,6 @@ p {
   //Каталог техники
   .equipment_catalog {
     .title {
-      font-family: 'Montserrat-Bold';
-      font-size: 24px;
-      color: black;
       margin-top: 35px;
     }
     .eq_item {
@@ -1344,8 +1342,6 @@ p {
     line-height: 1.2;
   }
   .title {
-    font-family: 'Montserrat-Bold';
-    font-size: 24px;
     color: #EF7605;
     margin-top: 70px;
     margin-bottom: 70px;

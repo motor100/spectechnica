@@ -22,7 +22,7 @@
 
     <!-- Заголовок -->
     <div class="container">
-        <p class="title" style="margin-top: 30px;">О КОМПАНИИ</p>
+        <div class="page-title" style="margin-top: 30px;">О КОМПАНИИ</div>
     </div>
 
     <!-- Секция с видео -->
