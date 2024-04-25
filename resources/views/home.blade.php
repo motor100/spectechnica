@@ -42,19 +42,23 @@
     <div class="main_catalog">
       <div class="container">
         <div class="row">
+
           <div class="col-md-3">
             <div class="eq_item">
-              <div class="eq_item__image"><img src="/img/image_15.png" alt="камаз-55510"></div>
+              <div class="eq_item__image">
+                  <img src="/img/katalog-avtocisterny.png" alt="камаз-55510">
+                </div>
               <a href="#" class="title_link">автоцистерны</a>
               <span class='vline'></span>
               <a href="/catalog/category" class="eq_item__link"></a>
             </div>
           </div>
-        
-        
+
           <div class="col-md-3">
             <div class="eq_item">
-              <div class="eq_item__image"><img src="/img/pngegg-1536x817_1.png" alt="камаз-55510"></div>
+              <div class="eq_item__image">
+                  <img src="/img/katalog-pricepnaya-tekhnika.png" alt="камаз-55510">
+                </div>
               <a href="#" class="title_link">прицепная<br>техника</a>
               <span class='vline'></span>
               <a href="/catalog" class="eq_item__link"></a>
@@ -63,7 +67,9 @@
         
           <div class="col-md-3">
             <div class="eq_item">
-              <div class="eq_item__image"><img src="/img/30975084_1.png" alt="камаз-55510"></div>
+              <div class="eq_item__image">
+                  <img src="/img/katalog-avtokrany-i-manipulyatory.png" alt="камаз-55510">
+                </div>
               <a href="#" class="title_link">автокраны и<br>манипуляторы</a>
               <span class='vline'></span>
               <a href="/catalog" class="eq_item__link"></a>
@@ -72,11 +78,14 @@
         
           <div class="col-md-3">
             <div class="eq_item">
-              <div class="eq_item__image" style="width: auto; height: 190px;"><img src="img/image_19.png" alt="камаз-55510"></div>
+              <div class="eq_item__image" style="width: auto; height: 190px;">
+                <img src="img/katalog-tekhnologicheskij-transport.png" alt="камаз-55510">
+              </div>
               <a href="#" class="title_link">технологический<br>транспорт</a>
               <a href="/catalog/product" class="eq_item__link"></a>
             </div>
           </div>
+          
         </div>
       </div>
       <a href="/catalog" class="btn_primary__catalog">ПЕРЕЙТИ В КАТАЛОГ</a>

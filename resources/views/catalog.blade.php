@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <img style="width: auto; height: 160px;" src="img/image_15.png" alt="АВТОЦИСТЕРНЫ">
+                        <img style="width: auto; height: 160px;" src="img/katalog-avtocisterny.png" alt="АВТОЦИСТЕРНЫ">
                         <a class="title_link" href="#">АВТОЦИСТЕРНЫ</a>
                         <div class="eq_list">
                             <div class="item_list"><img src="img/AC_7.svg" alt=""><span></span><a href="#">Вакуумные автоцистерны</a></div>
@@ -45,13 +45,13 @@
                 </div>
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <img style="width: auto; height: 160px;" src="img/pngegg-1536x817_1.png" alt="ПРИЦЕПНАЯ ТЕХНИКА">
+                        <img style="width: auto; height: 160px;" src="img/katalog-pricepnaya-tekhnika.png" alt="ПРИЦЕПНАЯ ТЕХНИКА">
                         <a class="title_link" href="#">ПРИЦЕПНАЯ  ТЕХНИКА</a>
                     </div> 
                 </div>
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <img src="img/30975084_1.png" alt="АВТОКРАНЫ И МАНИПУЛЯТОРЫ">
+                        <img src="img/katalog-avtokrany-i-manipulyatory.png" alt="АВТОКРАНЫ И МАНИПУЛЯТОРЫ">
                         <a class="title_link" href="#">АВТОКРАНЫ И МАНИПУЛЯТОРЫ</a>
                         <div class="eq_list">
                             <div class="item_list"><img style="width: 75px; height: 55px; margin-left: 10px;" src="img/kamaz_kmu.svg" alt="Камаз с КМУ"><span>.</span><a href="#">Камаз с КМУ</a></div>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <img src="img/image_19.png" alt="ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ">
+                        <img src="img/katalog-tekhnologicheskij-transport.png" alt="ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ">
                         <a class="title_link" href="#">ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ</a>
                         <div class="eq_list">
                             <div class="item_list"><span></span><a href="#">Универсальные насосные установки (колтюбинг)</a></div>

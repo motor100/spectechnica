@@ -44,23 +44,62 @@
     </div>
     <div class="navigation">
       <div class="container">
-        <div class="navbar">
-          <div class="navbar-item active navbar-item-dropdown">
-            <a href="/catalog" class="navbar-item__link">Каталог</a>
+        <div class="navbar-wrapper">
+          <div class="navbar">
+            <div class="navbar-item active navbar-item-dropdown">
+              <a href="/catalog" class="navbar-item__link">Каталог</a>
+              <div class="submenu">
+                <div class="flex-container">
+                  <div class="submenu-item">
+                    <div class="submenu-item__image">
+                      <a href="#" class="submenu-item__link">
+                        <img src="/img/katalog-avtocisterny.png" alt="">
+                      </a>
+                    </div>
+                    <a href="#" class="submenu-item__title">Автоцистерны</a>
+                  </div>
+                  <div class="submenu-item">
+                    <div class="submenu-item__image">
+                      <a href="#" class="submenu-item__link">
+                        <img src="/img/katalog-pricepnaya-tekhnika.png" alt="">
+                      </a>
+                    </div>
+                    <a href="#" class="submenu-item__title">Прицепная техника</a>
+                  </div>
+                  <div class="submenu-item">
+                    <div class="submenu-item__image">
+                      <a href="#" class="submenu-item__link">
+                        <img src="/img/katalog-avtokrany-i-manipulyatory.png" alt="">
+                      </a>
+                    </div>
+                    <a href="#" class="submenu-item__title">Автокраны и манипуляторы</a>
+                  </div>
+                  <div class="submenu-item">
+                    <div class="submenu-item__image">
+                      <a href="#" class="submenu-item__link">
+                        <img src="/img/katalog-tekhnologicheskij-transport.png" alt="">
+                      </a>
+                    </div>
+                    <a href="#" class="submenu-item__title">Технологический транспорт</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="navbar-item">
+              <a href="/upgrade-and-service" class="navbar-item__link">доработки и сервис</a>
+            </div>
+            <div class="navbar-item">
+              <a href="/services" class="navbar-item__link">услуги</a>
+            </div>
+            <div class="navbar-item">
+              <a href="/about" class="navbar-item__link">о компании</a>
+            </div>
+            <div class="navbar-item">
+              <a href="/contacts" class="navbar-item__link">контакты</a>
+            </div>
           </div>
-          <div class="navbar-item">
-            <a href="/upgrade-and-service" class="navbar-item__link">доработки и сервис</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/services" class="navbar-item__link">услуги</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/about" class="navbar-item__link">о компании</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/contacts" class="navbar-item__link">контакты</a>
-          </div>
-        </div>  
+          
+        </div>
       </div>
     </div>
   </header>
