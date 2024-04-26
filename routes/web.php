@@ -45,8 +45,6 @@ Route::get('/search', [MainController::class, 'search']);
 
 Route::get('/videos', [MainController::class, 'videos']);
 
-Route::get('/advantages', [MainController::class, 'advantages']);
-
 Route::get('/certificates', [MainController::class, 'certificates']);
 
 Route::get('/manufacture', [MainController::class, 'manufacture']);
