@@ -107,7 +107,7 @@ p {
   display: flex;
   font-family: "Montserrat-Regular";
   font-size: 16px;
-  margin: 0 0 12px 0;
+  margin: 35px 0 12px 0;
   a {
     color: black;
   }
@@ -124,7 +124,7 @@ p {
   color: black;
 }
 
-//Форма поиска
+// Форма поиска
 .search-form-section {
   margin: 0 0 36px 0;
   .form {
@@ -242,7 +242,6 @@ p {
 
 // header
 .header {
-  margin: 0 0 33px 0;
   .header_top {
     background-color: #EF7605;
     
@@ -861,6 +860,7 @@ p {
 
 // footer
 .footer {
+  margin-top: 100px;
   .footer_contant {
     background-color: #8CAEC9;
     padding: 30px;
@@ -1434,9 +1434,21 @@ p {
   
 }
 
-// поиск
+// Страница поиска
 .search {
-
+  .to-catalog-btn {
+    display: block;
+    width: 360px;
+    height: 60px;
+    padding: 10px 0;
+    background-color: $accentcolor;
+    border-radius: 5px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
 
 // видео о компании
