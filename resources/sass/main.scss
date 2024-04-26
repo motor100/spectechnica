@@ -641,24 +641,24 @@ p {
 }
 
 //Секция с видеопрезентациями техники
-  .video_section_desktop {
-    display: block;
-    .video-section {
-      .title {
-        font-family: "Montserrat-SemiBold";
-        margin-top: 50px;
-      }
-      .item_video img{
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-      .title_video {
-        display: block;
-        margin: 0 auto;
-      }
+.video_section_desktop {
+  display: block;
+  .video-section {
+    .title {
+      font-family: "Montserrat-SemiBold";
+      margin-top: 50px;
+    }
+    .item_video img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .title_video {
+      display: block;
+      margin: 0 auto;
     }
   }
+}
 
 //Секция с видеопрезентациями техники(мобилка)
 .video_section_mobile {
@@ -959,7 +959,6 @@ p {
   }
 }   
 
-
 //Полоса под футером
 .bottom-white-line {
   background-color: white;
@@ -976,17 +975,19 @@ p {
   }
 }
 
-
-
 //Стрелка вверх
 .to-top {
   position: fixed;
   left: -80px;
   bottom: 428px;
   width: 100%;
+  height: 0;
   opacity: 0;
   visibility: hidden;
   transition: opacity .5s, visibility .5s;
+  .container {
+    height: 0;
+  }
   .polygon {
     width: 43px;
     height: 35px;
