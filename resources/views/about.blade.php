@@ -26,21 +26,25 @@
     </div>
 
     <!-- Секция с видео -->
-    <div class="video_content">
+    <div id="video_content_section" class="video_content_section">
         <div class="container">
-            <img src="img/video_company.png" alt="video">
+            <div class="video">
+                <img src="img/video_company.png" alt="video">
+            </div>
+            <div class="description">
+                <p>ГидроСпецАвто - это завод с современным оборудованием и передовыми технологиями.
+                    Завод представляет собой крупный машиностроительный комплекс
+                    с законченным производственным циклом от заготовки до выпуска готовой продукции.
+                    <br>Помимо производства спецтехники, мы являемся дилером российских автогигантов,
+                    занимаемся комплексным сервисным обслуживанием и снабжением сертифицированными запчастями.
+                </p>
+            </div>
         </div>
     </div>
 
-    <!-- Секция с описанием компании -->
-    <div class="about_company">
+    <!-- Секция наши преимущества -->
+    <div id="our_advantages_section" class="our_advantages_section">
         <div class="container">
-            <p>ГидроСпецАвто - это завод с современным оборудованием и передовыми технологиями.
-                Завод представляет собой крупный машиностроительный комплекс
-                 с законченным производственным циклом от заготовки до выпуска готовой продукции.
-                <br>Помимо производства спецтехники, мы являемся дилером российских автогигантов,
-                 занимаемся комплексным сервисным обслуживанием и снабжением сертифицированными запчастями.
-            </p>
             <p class="title">НАШИ ПРЕИМУЩЕСТВА</p>
             <p>Почему предприятия выбирают нас:</p>
             <ul>
@@ -79,11 +83,12 @@
             </ul>
         </div>
     </div>
+
     <!-- Секция с услугами компании -->
     @include('services-section')
 
     <!-- Секция с сертификатами компании -->
-    <div class="certificates">
+    <div id="certificates_section" class="certificates_section">
 
         <div class="title_bacground">
             <div class="container"><p>СЕРТИФИКАТЫ</p></div>   
@@ -130,7 +135,7 @@
     </div>
 
     <!-- Секция с производством компании -->
-    <div class="production">
+    <div id="production_section" class="production_section">
         <div class="title_background">
             <div class="container"><p>ПРОИЗВОДСТВО</p></div> 
         </div>

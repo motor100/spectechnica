@@ -1153,16 +1153,18 @@ p {
       object-fit: cover;
     }  
   }
-  //Видеоконтент
-  .video_content {
+
+  //Видеоконтент секция
+  .video_content_section {
     margin: 54px;
     img {
       display: block;
       margin: 0 auto;
     } 
   }
-  //Секция с описанием компании
-  .about_company {
+
+  //Секция наши преимущества
+  .our_advantages_section {
     p {
       font-family: "Montserrat-Medium";
       font-size: 24px;
@@ -1194,6 +1196,7 @@ p {
 
     }
   }
+
   //Сервис компании
   .service-section {
     max-width: 1920px;
@@ -1221,8 +1224,9 @@ p {
       }
     } 
   }
-  //Сертфикаты
-  .certificates {
+
+  //Сертфикаты секция
+  .certificates_section {
     .title_background {
       display: flex;
       align-items: center;
@@ -1253,6 +1257,7 @@ p {
       }
     }
   }
+
   //Партнеры
   .partners-section {
     .title {
@@ -1268,6 +1273,7 @@ p {
       margin-bottom: 35px;
     }
   }
+
   //Производство
   .production {
     .title_background {
@@ -1332,6 +1338,7 @@ p {
       color: #000;
     }
   }
+
   .advantages-section {
     margin-top: 35px;
     margin-bottom: 38px;

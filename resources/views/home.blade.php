@@ -120,10 +120,18 @@
   <div class="buttons_section">
     <div class="container">
       <div class="row">
-        <div class="col-md-3"><a href="/about#video" class="btn_primary__company">ВИДЕО О КОМПАНИИ</a></div>
-        <div class="col-md-3"><a href="/about#video" class="btn_primary__company">НАШИ ПРЕИМУЩЕСТВА</a></div>
-        <div class="col-md-3"><a href="/about#video" class="btn_primary__company">СЕРТИФИКАТЫ</a></div>
-        <div class="col-md-3"><a href="/about#video" class="btn_primary__company">ПРОИЗВОДСТВО</a></div>
+        <div class="col-md-3">
+          <a href="/about#video_content_section" class="btn_primary__company">ВИДЕО О КОМПАНИИ</a>
+        </div>
+        <div class="col-md-3">
+          <a href="/about#our_advantages_section" class="btn_primary__company">НАШИ ПРЕИМУЩЕСТВА</a>
+        </div>
+        <div class="col-md-3">
+          <a href="/about#certificates_section" class="btn_primary__company">СЕРТИФИКАТЫ</a>
+        </div>
+        <div class="col-md-3">
+          <a href="/about#production_section" class="btn_primary__company">ПРОИЗВОДСТВО</a>
+        </div>
       </div>
     </div>
   </div>
