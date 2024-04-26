@@ -16,7 +16,7 @@
     </div>
 
     <!-- Форма поиска -->
-    @include('search-form')
+    @include('search-form-section')
 
     <!-- Каталог техники -->
     <div class="equipment_catalog">

@@ -124,32 +124,110 @@ p {
 }
 
 //Форма поиска
-.search-form {
+.search-form-section {
+  margin: 0 0 36px 0;
+  .form {
+    position: relative;
+  }
   .search {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    border: 1px solid #8CAEC9;
-    border-radius: 5px;
     height: 47px;
     margin-top: 15px;
-    padding: 20px;
-      input[type="search"] {
-        border: none;
-        width: 1200px;
-      }
-      input[type="submit"] {
-        width: 25px;
-        height: 25px;
-        border: none;
-        background: url(/resources/img/Search.svg) no-repeat;
-      }
-      input::placeholder {
-        font-family: "Montserrat-Regular";
-        font-size: 16px;
-        color: #8CAEC9;
-      }
+    padding: 8px 50px 8px 13px;
+    justify-content: space-between;
+    border: 1px solid #8CAEC9;
+    border-radius: 5px;
+    .submit-btn {
+      width: 25px;
+      height: 25px;
+      margin: 0 22px 0 0;
+      padding: 0;
+      border: none;
+      background-color: #fff;
+    }
+    .submit-btn img {
+      width: 100%;
+    }
+    .search-input {
+      width: 100%;
+      padding: 0;
+      font-family: "Montserrat-Regular";
+      font-size: 16px;
+      border: none;
+      color: $greycolor;
+    }
+    .search-input::placeholder {
+      color: $lightbluecolor;
+    }
+  }
+  .search-close {
+    position: absolute;
+    top: 11px;
+    right: 17px;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    transition: opacity .3s;
+    z-index: 2;
+  }
+  .search-close.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .search-close::before,
+  .search-close::after {
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: 2px;
+    width: 18px;
+    height: 2px;
+    background-color: $bluecolor;
+  }
+  .search-close::before {
+    transform: rotate(45deg);
+  }
+  .search-close::after {
+    transform: rotate(-45deg);
+  }
+  .search-dropdown {
+    position: absolute;
+    top: 51px;
+    left: 0;
+    width: 100%;
+    padding: 19px 60px;
+    background-color: #fff;
+    border: 1px solid $lightbluecolor;
+    border-radius: 0 0 5px 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s;
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+    .search-list {
+      margin: 0 0 42px 0;
+    }
+    .search-list-item {
+      margin: 0 0 16px 0;
+    }
+    .search-list-item__link {
+      font-size: 20px;
+      color: $bluecolor;
+      transition: color .3s;
+    }
+    .search-list-item__link:hover {
+      color: $accentcolor;
+    }
+    .see-all-btn {
+      font-family: "Montserrat-Bold";
+      font-size: 20px;
+      color: $accentcolor;
+    }
+    
   }
 }
 

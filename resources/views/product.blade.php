@@ -20,7 +20,7 @@
     </div>
 
     <!-- Форма поиска -->
-    @include('search-form')
+    @include('search-form-section')
 
     <!-- Главная секция -->
     <div class="container">
