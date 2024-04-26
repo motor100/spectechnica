@@ -312,3 +312,28 @@ if (searchFormSection) {
   searchInput.oninput = searchOnInput;
 }
 
+
+// Вкладки в карточке товара
+const tabButtons = document.querySelector('.tab_buttons');
+
+if (tabButtons) {
+  const tabBtns = document.querySelectorAll('.tab_btn');
+  const tabContents = document.querySelectorAll('.tab_content');
+
+  for (let i = 0; i < tabBtns.length; i++) {
+    tabBtns[i].onclick = function() {
+
+      tabBtns.forEach((item) => {
+        item.classList.remove('active');
+      });
+      tabBtns[i].classList.add('active');
+
+      tabContents.forEach((item) => {
+        item.classList.remove('active');
+      });
+      tabContents[i].classList.add('active');
+    }
+  }
+
+}
+
