@@ -41,7 +41,7 @@
       <div class="catalog">
         <div class="eq_item">
           <div class="eq_item__image">
-            <img src="img/image_15.png" alt="камаз-55510">
+            <img src="/img/katalog-avtocisterny.png" alt="камаз-55510">
           </div>
           <div class="eq_item__title">автоцистерны</div>
           <a href="/catalog/category" class="eq_item__link"></a>
@@ -49,7 +49,7 @@
         </div>
         <div class="eq_item">
           <div class="eq_item__image">
-            <img src="img/pngegg-1536x817_1.png" class="eq_item__image" alt="камаз-55510">
+            <img src="/img/katalog-pricepnaya-tekhnika.png" class="eq_item__image" alt="камаз-55510">
           </div>
           <div class="eq_item__title">прицепная<br>техника</div>
           <a href="/catalog" class="eq_item__link"></a>
@@ -57,7 +57,7 @@
         </div>
         <div class="eq_item">
           <div class="eq_item__image">
-            <img src="img/30975084_1.png" class="eq_item__image" alt="камаз-55510">
+            <img src="/img/katalog-avtokrany-i-manipulyatory.png" class="eq_item__image" alt="камаз-55510">
           </div>
           <div class="eq_item__title">автокраны и<br>манипуляторы</div>
           <a href="/catalog" class="eq_item__link"></a>
@@ -65,7 +65,7 @@
         </div>
         <div class="eq_item">
           <div class="eq_item__image">
-            <img src="img/image_20.png" class="eq_item__image" alt="камаз-55510">
+            <img src="/img/katalog-tekhnologicheskij-transport.png" class="eq_item__image" alt="камаз-55510">
           </div>
           <div class="eq_item__title">технологический<br>транспорт</div>
           <a href="/catalog/product" class="eq_item__link"></a>
@@ -158,7 +158,7 @@
     <div class="container">
         <p class="title">партнеры</p>  
     </div>
-    <img src="img/partners.png" alt="партнеры">
+    <img src="/img/partners.png" alt="партнеры">
     <div class="line"></div>  
   </div>
   
@@ -194,14 +194,14 @@
     </div>
     <div class="logo_partners">
       <div class="line_1">
-        <img src="img/image_22.png" alt="партнеры">
-        <img src="img/image_22.png" alt="партнеры">
-        <img src="img/image_22.png" alt="партнеры">
+        <img src="/img/image_22.png" alt="партнеры">
+        <img src="/img/image_22.png" alt="партнеры">
+        <img src="/img/image_22.png" alt="партнеры">
       </div>
       <div class="line_2">
-        <img src="img/image_22.png" alt="партнеры">
-        <img src="img/image_22.png" alt="партнеры">
-        <img src="img/image_22.png" alt="партнеры">
+        <img src="/img/image_22.png" alt="партнеры">
+        <img src="/img/image_22.png" alt="партнеры">
+        <img src="/img/image_22.png" alt="партнеры">
       </div>
     </div> 
   </div>

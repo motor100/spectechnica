@@ -29,27 +29,27 @@
                         <a class="title_link" href="#">АВТОЦИСТЕРНЫ</a>
                         <div class="eq_list">
                             <div class="item_list">
-                                <img src="img/AC_7.svg" alt="">
+                                <img src="/img/AC_7.svg" alt="">
                                 <div class="bullet"></div>
                                 <a href="#">Вакуумные автоцистерны</a>
                             </div>
                             <div class="item_list">
-                                <img src="img/AC_7.svg" alt="">
+                                <img src="/img/AC_7.svg" alt="">
                                 <div class="bullet"></div>
                                 <a href="#">Автоцистерны нефтепромысловые</a>
                             </div>
                             <div class="item_list">
-                                <img src="img/AC_7.svg" alt="">
+                                <img src="/img/AC_7.svg" alt="">
                                 <div class="bullet"></div>
                                 <a href="#">Автоцистерны для воды</a>
                             </div>
                             <div class="item_list">
-                                <img src="img/AC_7.svg" alt="">
+                                <img src="/img/AC_7.svg" alt="">
                                 <div class="bullet"></div>
                                 <a href="#">Метаноловозы</a>
                             </div>
                             <div class="item_list">
-                                <img src="img/AC_7.svg" alt="">
+                                <img src="/img/AC_7.svg" alt="">
                                 <div class="bullet"></div>
                                 <a href="#">Пожарные</a>
                             </div>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <img src="img/katalog-avtokrany-i-manipulyatory.png" alt="АВТОКРАНЫ И МАНИПУЛЯТОРЫ">
+                        <img src="/img/katalog-avtokrany-i-manipulyatory.png" alt="АВТОКРАНЫ И МАНИПУЛЯТОРЫ">
                         <a class="title_link" href="#">АВТОКРАНЫ И МАНИПУЛЯТОРЫ</a>
                         <div class="eq_list">
                             <div class="item_list">
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <img src="img/katalog-tekhnologicheskij-transport.png" alt="ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ">
+                        <img src="/img/katalog-tekhnologicheskij-transport.png" alt="ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ">
                         <a class="title_link" href="#">ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ</a>
                         <div class="eq_list">
                             <div class="item_list">

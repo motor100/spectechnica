@@ -36,7 +36,7 @@
             <a href="tel:+780090000000" class="number_phone">8-800-9000-00-00</a>
             <div class="btn-call js-callback-btn">
               <p class="btn-call__text">ЗАКАЗАТЬ ЗВОНОК</p>
-              <img src="img/icon_call.svg" alt="call">
+              <img src="/img/icon_call.svg" alt="call">
             </div>
           </div>
         </div>
@@ -282,7 +282,7 @@
   <div id="to-top" class="to-top">
     <div class="container">
       <div class="polygon">
-        <img src="img/Polygon_1.png" alt="Стрелка">
+        <img src="/img/Polygon_1.png" alt="Стрелка">
       </div>
     </div>
   </div>

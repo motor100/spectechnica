@@ -8,7 +8,7 @@
 
     <!-- Баннер оформления станицы -->
     <div class="design_banner">
-        <img src="img/design_banner.png" alt="img">
+        <img src="/img/design_banner.png" alt="img">
     </div>
 
     <!-- Навигационная цепочка -->
@@ -29,7 +29,7 @@
     <div id="video_content_section" class="video_content_section">
         <div class="container">
             <div class="video">
-                <img src="img/video_company.png" alt="video">
+                <img src="/img/video_company.png" alt="video">
             </div>
             <div class="description">
                 <p>ГидроСпецАвто - это завод с современным оборудованием и передовыми технологиями.
@@ -98,25 +98,25 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="item_sert">
-                            <img src="img/sertificat.png" alt="сертификат">
+                            <img src="/img/sertificat.png" alt="сертификат">
                             <p>Сертификаты качества</p>  
                         </div> 
                     </div>
                     <div class="col-md-3">
                         <div class="item_sert">
-                            <img src="img/sertificat2.png" alt="сертификат">
+                            <img src="/img/sertificat2.png" alt="сертификат">
                             <p>Дилерские свидетельства</p>  
                         </div> 
                     </div>
                     <div class="col-md-3">
                         <div class="item_sert">
-                            <img src="img/sertificat3.png" alt="сертификат">
+                            <img src="/img/sertificat3.png" alt="сертификат">
                             <p>Сертификат соответствия ISO 9001</p>  
                         </div> 
                     </div>
                     <div class="col-md-3">
                         <div class="item_sert">
-                            <img src="img/sertificat_4.png" alt="сертификат">
+                            <img src="/img/sertificat_4.png" alt="сертификат">
                             <p>Сертификат соответствия<br>и ОТТС</p>  
                         </div> 
                     </div>
@@ -131,7 +131,7 @@
         <div class="container">
             <p class="title">ПАРТНЕРЫ</p>  
         </div>
-        <img src="img/partners.png" alt="партнеры"> 
+        <img src="/img/partners.png" alt="партнеры"> 
     </div>
 
     <!-- Секция с производством компании -->
