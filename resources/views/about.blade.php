@@ -12,11 +12,11 @@
     </div>
 
     <!-- Навигационная цепочка -->
-    <div class="breadcrumb">
+    <div class="breadcrumbs">
         <div class="container">
             <a href="/">Главная</a>
             <span>-</span>
-            <a class="activ" href="/about">О компании</a>
+            <a class="active" href="/about">О компании</a>
         </div> 
     </div>
 

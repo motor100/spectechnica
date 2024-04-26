@@ -7,7 +7,7 @@
 <div class="product">
 
     <!-- Хлебные крошки -->
-    <div class="breadcrumb">
+    <div class="breadcrumbs">
         <div class="container">
             <a href="/">Главная</a>
             <span>  -  </span>
@@ -15,7 +15,7 @@
             <span>  -  </span>
             <a href="#">Автоцистерны</a>
             <span>  -  </span>
-            <a class="activ" href="#"> АЦПТ 1612</a>
+            <a class="active" href="#"> АЦПТ 1612</a>
         </div>  
     </div>
 

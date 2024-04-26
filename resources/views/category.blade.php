@@ -7,7 +7,7 @@
 <div class="category">
 
     <!-- Хлебные крошки -->
-    <div class="breadcrumb">
+    <div class="breadcrumbs">
         <div class="container">
             <a href="/">Главная</a>
             <span>-</span>
