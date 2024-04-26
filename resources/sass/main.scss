@@ -390,7 +390,7 @@ p {
         text-align: center;
         transition: color .3s;      
       }
-      .submenu-item__title:hover {
+      .submenu-item:hover .submenu-item__title {
         color: $bluecolor;
       }
     }
