@@ -19,14 +19,7 @@
     </div>
 
     <!-- Форма поиска -->
-    <div class="container">
-        <form>
-            <div class="search">
-                <input type="search" name="q" placeholder="Поиск по сайту">
-                <input type="submit" value="">
-            </div>
-        </form>
-    </div>
+    @include('search-form')
 
     <!-- Заголовок -->
     <div class="container">

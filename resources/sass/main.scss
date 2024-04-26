@@ -124,32 +124,35 @@ p {
 }
 
 //Форма поиска
-.search {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  border: 1px solid #8CAEC9;
-  border-radius: 5px;
-  height: 47px;
-  margin-top: 15px;
-  padding: 20px;
-    input[type="search"] {
-      border: none;
-      width: 1200px;
-    }
-    input[type="submit"] {
-      width: 25px;
-      height: 25px;
-      border: none;
-      background: url(/resources/img/Search.svg) no-repeat;
-    }
-    input::placeholder {
-      font-family: "Montserrat-Regular";
-      font-size: 16px;
-      color: #8CAEC9;
-    }
+.search-form {
+  .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #8CAEC9;
+    border-radius: 5px;
+    height: 47px;
+    margin-top: 15px;
+    padding: 20px;
+      input[type="search"] {
+        border: none;
+        width: 1200px;
+      }
+      input[type="submit"] {
+        width: 25px;
+        height: 25px;
+        border: none;
+        background: url(/resources/img/Search.svg) no-repeat;
+      }
+      input::placeholder {
+        font-family: "Montserrat-Regular";
+        font-size: 16px;
+        color: #8CAEC9;
+      }
+  }
 }
+
 //Бургер
 .item_burger {
   display: none;
