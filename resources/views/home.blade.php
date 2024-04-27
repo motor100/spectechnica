@@ -175,9 +175,29 @@
       </div>
     </div>
   </div>
+<<<<<<< HEAD
+  
+  <!-- Секция с партнерами компании -->
+  <div class="partners-section-desktop">
+    <div class="container">
+      <p class="title">партнеры</p>
+      <div class="image_partners">
+        <img src="/img/image_partners/img_partner_1.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_2.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_3.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_4.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_5.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_6.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_7.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_8.svg" alt="партнеры">
+      </div>
+    </div>  
+  </div>
+=======
 
   <!-- Горизонтальная линия -->
   <div class="horizontal_line"></div>
+>>>>>>> ac76fb23fbefcf267b0087f5740eec5a1e18f6cd
   
   <!-- Секция с производственными характеристиками -->
   @include('advantages-section')
@@ -186,6 +206,22 @@
   <div class="horizontal_line"></div>
 
   <!-- Секция с видеопрезентациями техники -->
+<<<<<<< HEAD
+  <div class="video_section_desktop">
+    <div class="video-section">
+      <div class="container">
+        <p class="title">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p>
+        <div class="item_video">
+          <div class="video_image"><img src="/img/video_cover_img.png" alt=""></div>
+          <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
+          <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+          <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+        </div>
+        <div class="row">
+          <div class="col-md-6"><p class="title_video" >ВИДЕО 1</p></div>
+          <div class="col-md-6"><p class="title_video" >ВИДЕО 2</p></div>
+=======
   <div class="video_section">
     <div class="container">
       <div class="section-title">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ</div>
@@ -201,6 +237,7 @@
             <img src="/img/video-cover2.jpg" alt="">
           </div>
           <div class="title_video">ВИДЕО 2</div>
+>>>>>>> ac76fb23fbefcf267b0087f5740eec5a1e18f6cd
         </div>
       </div>
     </div>

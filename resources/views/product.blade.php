@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-md-8">
                     
-                    <div class="card_image"><img src="/img/image_30.png" alt="img"></div>
+                    <div class="card_image"><img src="/img/image_card_1.png" alt="img"></div>
                         <div class="section_block">
                         <div class="item_block"></div>
                         <div class="item_block"></div>
@@ -81,7 +81,7 @@
             <!-- Вкладка Описание -->
             <div class="tab_content active">
                 <div class="description">
-                    <img src="/img/image_31.png" alt="img" class="image_size_product">
+                    <div class="image_size_product"><img src="/img/image_31.png" alt="img"></div>
                 </div>
 
                 <div class="description_product">
@@ -108,24 +108,73 @@
                     </p>
                 </div>
             </div>
+        </div>
 
-            <!-- Вкладка Характеристики -->
-            <div class="tab_content">
+        <!-- Вкладка Характеристики -->
+        <div class="tab_content">
+            <div class="container">
                 <div class="specifications">
-                    <p>Тут таблица с характеристиками</p>
+                    <div class="block_specifications">
+                        <p>Тип двигателя</p>
+                        <p>Четырехтактный дизель</p>
+                    </div>
+                    <div class="horizont_line"></div>
+                    <div class="block_specifications">
+                        <p>Количество и расположение цилиндров</p>
+                        <p>8, V-образное</p>
+                    </div>
+                    <div class="horizont_line"></div>
+                    <div class="block_specifications">
+                        <p>Рабочий объём цилиндров, см3</p>
+                        <p>11762</p>
+                    </div>
+                    <div class="horizont_line"></div>
+                    <div class="block_specifications">
+                        <p>Степень сжатия</p>
+                        <p>17,6...18,4</p>
+                    </div>
+                    <div class="horizont_line"></div>
+                    <div class="block_specifications">
+                        <p>Максимальная мощность, кВт</p>
+                        <p>221 (300 л.с.)</p>
+                    </div>
+                    <div class="horizont_line"></div>
+                    <div class="block_specifications">
+                        <p>Максимальный крутящий момент, Н*м</p>
+                        <p>1275</p>
+                    </div>
+                    <div class="horizont_line"></div>
+                    <div class="block_specifications">
+                        <p>Топливо</p>
+                        <p>Дизельное</p>
+                    </div>
+                    <div class="horizont_line"></div>
+                    <div class="block_specifications">
+                        <p>Тип двигателя</p>
+                        <p>Четырехтактный дизель</p>
+                    </div>
+                    
                 </div>
             </div>
+            <!-- Форма заполнения заявки -->
+            @include('application-form-section')
+        </div>
 
             <!-- Вкладка Доработки техники -->
-            <div class="tab_content">
+        <div class="tab_content">
+            <div class="container">
                 <div class="upgrade">
-                    <p>Тут текст с описанием доработок техники</p>
+                    <ul>
+                        <li>Конструкция цистерны спроектирована таким образом, чтобы выдерживать необходимые нагрузки</li>
+                        <li>При изготовлении обечайки применяется автоматическая роботизированная дуговая сварка</li>
+                        <li>Цистерна имеет холоднокатаные донышки торосферической или полусферической формы</li>
+                        <li>Цистерна имеет дополнительную защиту от повреждений, вызываемых ударами сбоку или опрокидыванием</li>
+                        <li>Неразрушающий контроль сварных швов ультразвуковым методом выполняется аттестованным специалистом</li>
+                    </ul>
                 </div>
             </div>
-            
         </div>
-    </div>
-    
+    </div> 
 </div>
 
 
