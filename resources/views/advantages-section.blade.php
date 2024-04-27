@@ -1,9 +1,11 @@
 <div class="advantages-section">
+<<<<<<< HEAD
 
   <div class="line"></div>
+=======
+>>>>>>> ac76fb23fbefcf267b0087f5740eec5a1e18f6cd
   <div class="container">
-    <div class="adv_title__desktop"><p>МЫ ПРОИЗВОДИМ И РЕАЛИЗУЕМ, А ВЫ ПОЛУЧАЕТЕ:</p></div>
-    <div class="adv_title__mobile"><p>МЫ ПРОИЗВОДИМ И<br>РЕАЛИЗУЕМ,<br>А ВЫ ПОЛУЧАЕТЕ:</p></div>
+    <div class="adv_title">МЫ ПРОИЗВОДИМ И РЕАЛИЗУЕМ, А ВЫ ПОЛУЧАЕТЕ:</div>
     <div class="row">
       <div class="col-md-4">
         <div class="item_prod">
@@ -25,6 +27,9 @@
       </div>
     </div>
   </div>
+<<<<<<< HEAD
   <div class="line"></div>
 
+=======
+>>>>>>> ac76fb23fbefcf267b0087f5740eec5a1e18f6cd
 </div>

@@ -76,44 +76,49 @@
   </div>
 
   <!-- Секция с описанием деятельности компании  -->
-  <div class="about-section">
+  <div class="about_section">
     <div class="container">
-      <p class="title">О компании</p>
-      <div class="about_text">
-        <p>ГидроСпецАвто - это завод с  
-          современным оборудованием и передовыми технологиями
-          Завод представляет собой крупный машиностроительный комплекс с 
-          законченным производственным циклом от заготовки до выпуска готовой продукции.<br>
-          Помимо производства спецтехники, мы являемся дилером российских автогигантов, 
-          занимаемся комплексным сервисным обслуживанием и 
-          снабжением сертифицированными запчастями.</p>
-      </div>
-      <div class="servis_block__desktop">
-        <div class="services">
-          <div class="item_s">
-            <div class="svg_item_image"><img src="/img/s_1.png" alt="#"></div>
-            <p>Высокое качество<br>продукции по<br>доступным ценам</p>  
-          </div>      
-          <div class="item_s">
-            <div class="svg_item_image"><img src="/img/s_2.png" alt="#"></div>
-            <p>Штат опытных<br>сотрудников</p>
+      <div class="section-title">О компании</div>
+      <div class="about_text">ГидроСпецАвто - это завод с современным оборудованием и передовыми технологиями.<br>
+        Завод представляет собой крупный машиностроительный комплекс с законченным производственным циклом от заготовки до выпуска готовой продукции.<br>
+        Помимо производства спецтехники, мы являемся дилером российских автогигантов, занимаемся комплексным сервисным обслуживанием и снабжением сертифицированными запчастями.</div>
+      <div class="services">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="item_s">
+              <div class="item_image">
+                <img src="/img/s_1.png" alt="#">
+              </div>
+              <div class="item_text">Высокое качество<br>продукции по<br>доступным ценам</div>  
+            </div>
           </div>
-          <div class="item_s">
-            <div class="svg_item_image"><img src="/img/s_3.png" alt="#"></div>
-            <p>Trade-in: принимаем<br>Вашу технику в зачет</p>
+          <div class="col-md-3">
+            <div class="item_s">
+              <div class="item_image">
+                <img src="/img/s_2.png" alt="#">
+              </div>
+              <div class="item_text">Штат опытных<br>сотрудников</div>
+            </div>
           </div>
-          <div class="item_s">
-            <div class="svg_item_image"><img src="/img/s_4.png" alt="#"></div>
-            <p>Льготная доставка в<br>регионы собственным<br>автотранспортом</p>
+          <div class="col-md-3">
+            <div class="item_s">
+              <div class="item_image">
+                <img src="/img/s_3.png" alt="#">
+              </div>
+              <div class="item_text">Trade-in: принимаем<br>Вашу технику в зачет</div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="item_s">
+              <div class="item_image">
+                <img src="/img/s_4.png" alt="#">
+              </div>
+              <div class="item_text">Льготная доставка в<br>регионы собственным<br>автотранспортом</div>
+            </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>   
-  </div>
-
-  <!-- Секция с описанием деятельности компании(мобилка)  -->
-  <div class="servis_block__mobile">
-    @include('services-section')
   </div>
 
   <!-- Секция с кнопками -->
@@ -135,23 +140,42 @@
       </div>
     </div>
   </div>
-
-  <!-- Секция с видеопрезентациями техники(мобилка) -->
-  <div class="video_section_mobile">
-    <div class="video-section">
-      <div class="container">
-        <p class="title">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ</p>
-        <div class="item_video">
-          <img src="/img/image_25.png" alt="видео">
-          <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
-          <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-          <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-          <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+  
+  <!-- Секция с партнерами компании -->
+  <div class="partners-section">
+    <div class="container">
+      <div class="section-title">партнеры</div>  
+    </div>
+    <div class="container">
+      <div class="partners-logo">
+        <div class="item">
+          <img src="/img/ural-logo.jpg" alt="">
         </div>
-        <div class="title_video"><p>ВИДЕО 1</p></div>
+        <div class="item">
+          <img src="/img/maz-logo.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="/img/iveco-logo.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="/img/rusbiznesavto-logo.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="/img/korib-logo.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="/img/sinergiya-logo.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="/img/jurop-logo.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="/img/prompribor-logo.jpg" alt="">
+        </div>
       </div>
     </div>
   </div>
+<<<<<<< HEAD
   
   <!-- Секция с партнерами компании -->
   <div class="partners-section-desktop">
@@ -169,11 +193,20 @@
       </div>
     </div>  
   </div>
+=======
+
+  <!-- Горизонтальная линия -->
+  <div class="horizontal_line"></div>
+>>>>>>> ac76fb23fbefcf267b0087f5740eec5a1e18f6cd
   
   <!-- Секция с производственными характеристиками -->
   @include('advantages-section')
 
+  <!-- Горизонтальная линия -->
+  <div class="horizontal_line"></div>
+
   <!-- Секция с видеопрезентациями техники -->
+<<<<<<< HEAD
   <div class="video_section_desktop">
     <div class="video-section">
       <div class="container">
@@ -188,27 +221,26 @@
         <div class="row">
           <div class="col-md-6"><p class="title_video" >ВИДЕО 1</p></div>
           <div class="col-md-6"><p class="title_video" >ВИДЕО 2</p></div>
+=======
+  <div class="video_section">
+    <div class="container">
+      <div class="section-title">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ</div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="item_video">
+            <img src="/img/video-cover1.jpg" alt="">
+          </div>
+          <div class="title_video">ВИДЕО 1</div>
+        </div>
+        <div class="col-md-6">
+          <div class="item_video">
+            <img src="/img/video-cover2.jpg" alt="">
+          </div>
+          <div class="title_video">ВИДЕО 2</div>
+>>>>>>> ac76fb23fbefcf267b0087f5740eec5a1e18f6cd
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="partners-section-mobile">
-    <div class="container">
-        <p class="title">партнеры</p>  
-    </div>
-    <div class="logo_partners">
-      <div class="line_1">
-        <img src="/img/image_22.png" alt="партнеры">
-        <img src="/img/image_22.png" alt="партнеры">
-        <img src="/img/image_22.png" alt="партнеры">
-      </div>
-      <div class="line_2">
-        <img src="/img/image_22.png" alt="партнеры">
-        <img src="/img/image_22.png" alt="партнеры">
-        <img src="/img/image_22.png" alt="партнеры">
-      </div>
-    </div> 
   </div>
 
 </div>
