@@ -31,7 +31,7 @@
             <div class="video">
                 <img src="/img/video_company.png" alt="video">
             </div>
-            <div class="description">
+            <div class="description_txt">
                 <p>ГидроСпецАвто - это завод с современным оборудованием и передовыми технологиями.
                     Завод представляет собой крупный машиностроительный комплекс
                     с законченным производственным циклом от заготовки до выпуска готовой продукции.
@@ -85,12 +85,43 @@
     </div>
 
     <!-- Секция с услугами компании -->
-    @include('services-section')
+    <div class="service-section">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="item_s">
+                        <div class="svg_item_image"><img src="/img/s_1.png" alt="#"></div>
+                        <p>Высокое качество<br>продукции по<br>доступным ценам</p>  
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item_s">
+                        <div class="svg_item_image"><img src="/img/s_2.png"  alt="#"></div>
+                        <p>Штат опытных<br>сотрудников</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item_s">
+                        <div class="svg_item_image"><img src="/img/s_3.png" alt="#"></div>
+                        <p>Trade-in: принимаем<br>Вашу технику в зачет</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item_s">
+                        <div class="svg_item_image"><img src="/img/s_4.png" alt="#"></div>
+                        <p>Льготная доставка в<br>регионы собственным<br>автотранспортом</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
     <!-- Секция с сертификатами компании -->
     <div id="certificates_section" class="certificates_section">
 
-        <div class="title_bacground">
+        <div class="title_background">
             <div class="container"><p>СЕРТИФИКАТЫ</p></div>   
         </div>
         <div class="section_background">

@@ -156,10 +156,18 @@
   <!-- Секция с партнерами компании -->
   <div class="partners-section-desktop">
     <div class="container">
-        <p class="title">партнеры</p>  
-    </div>
-    <img src="/img/partners.png" alt="партнеры">
-    <div class="line"></div>  
+      <p class="title">партнеры</p>
+      <div class="image_partners">
+        <img src="/img/image_partners/img_partner_1.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_2.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_3.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_4.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_5.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_6.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_7.svg" alt="партнеры">
+        <img src="/img/image_partners/img_partner_8.svg" alt="партнеры">
+      </div>
+    </div>  
   </div>
   
   <!-- Секция с производственными характеристиками -->
@@ -168,21 +176,18 @@
   <!-- Секция с видеопрезентациями техники -->
   <div class="video_section_desktop">
     <div class="video-section">
-      <div class="line"></div>
       <div class="container">
+        <p class="title">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p>
+        <div class="item_video">
+          <div class="video_image"><img src="/img/video_cover_img.png" alt=""></div>
+          <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
+          <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
+          <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+          <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+        </div>
         <div class="row">
-          <div class="col-md-5"><p class="title">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p></div>
-          <div class="col-md-7"></div>
-          <div class="col-md-12">
-            <div class="item_video">
-              <img src="/img/video_cover_img.png" alt="">
-              <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
-              <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-              <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-              <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
-            </div>
-          </div>
-          <div class="title_video"><p>ВИДЕО 1</p><p>ВИДЕО 2</p></div>
+          <div class="col-md-6"><p class="title_video" >ВИДЕО 1</p></div>
+          <div class="col-md-6"><p class="title_video" >ВИДЕО 2</p></div>
         </div>
       </div>
     </div>
