@@ -1,9 +1,4 @@
 <div class="advantages-section">
-<<<<<<< HEAD
-
-  <div class="line"></div>
-=======
->>>>>>> ac76fb23fbefcf267b0087f5740eec5a1e18f6cd
   <div class="container">
     <div class="adv_title">МЫ ПРОИЗВОДИМ И РЕАЛИЗУЕМ, А ВЫ ПОЛУЧАЕТЕ:</div>
     <div class="row">
@@ -27,9 +22,4 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-  <div class="line"></div>
-
-=======
->>>>>>> ac76fb23fbefcf267b0087f5740eec5a1e18f6cd
 </div>
