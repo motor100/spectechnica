@@ -12,11 +12,12 @@ const token = document.querySelector('meta[name="csrf-token"]').getAttribute('co
 
 // we use cookie
 const weUseCookie = document.querySelector('.we-use-cookie');
-const weUseCookieClose = document.querySelector('.js-we-use-cookie-close');
 
 if (weUseCookie) {
 
-  weUseCookieClose.onclick = () => {
+  const weUseCookieCloseBtn = document.getElementById('we-use-cookie-close-btn');
+
+  weUseCookieCloseBtn.onclick = () => {
     weUseCookie.classList.add('hidden');
 
     fetch('/ajax/we-use-cookie', {

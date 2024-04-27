@@ -268,12 +268,22 @@
     </div>
   </div>
 
-
   @if(!request()->cookie('we-use-cookie'))
     <div class="we-use-cookie">
-      <div class="we-use-cookie-wrapper">
-        <div class="we-use-cookie-text">Мы используем файлы cookie. Продолжив использование сайта, вы соглашаетесь с условиями <a href="/privacy-policy">Соглашения об использовании сайта</a></div>
-        <button class="primary-btn js-we-use-cookie-close">Прекрасно</button>
+      <div class="line-top"></div>
+      <div class="line-white"></div>
+      <div class="we-use-cookie-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="we-use-cookie-text">Мы используем файлы cookie. Продолжив использование сайта, вы соглашаетесь с условиями <a href="/privacy-policy">Соглашения об использовании сайта</a></div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-3">
+              <button id="we-use-cookie-close-btn" class="we-use-cookie-close-btn">Прекрасно</button>
+            </div>
+          </div>
+        </div>        
       </div>
     </div>
   @endif
