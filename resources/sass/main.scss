@@ -1209,13 +1209,6 @@ p {
       text-decoration: underline;
     }
   }
-  .section-title {
-    margin: 0 0 70px 0;
-    font-family: 'Montserrat-Bold';
-    font-size: 24px;
-    color: #EF7605;
-    text-transform: uppercase;
-  }
 }
 
 // КАТАЛОГ ТЕХНИКИ
@@ -1308,9 +1301,15 @@ p {
 }
     
 // доработки и сервис
-// .upgrade-and-service {
-  
-// }
+.upgrade-and-service {
+  .section-title {
+    margin: 0 0 70px 0;
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+    color: #EF7605;
+    text-transform: uppercase;
+  }
+}
 
 // услуги
 // .services {
@@ -1525,7 +1524,24 @@ p {
 
 // контакты
 .contacts {
-  
+  .contacts-section {
+    margin: 0 0 150px 0;
+    .flex-container {
+      display: flex;
+      justify-content: space-around;
+    }
+    .contacts-item_image {
+      width: 55px;
+    }
+  }
+  .map-section {
+    .section-title {
+      margin: 0 0 70px 0;
+      font-family: 'Montserrat-Medium';
+      font-size: 24px;
+      color: #151716;
+    }
+  }
 }
 
 // Страница поиска
