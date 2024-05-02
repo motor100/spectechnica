@@ -1175,6 +1175,49 @@ p {
   }
 }
 
+// О компании, Доработки и сервис, Услуги
+.adu {
+  .page-title {
+    margin-bottom: 51px;
+  }
+  // Баннер оформления станицы, 
+  .adu_design_banner {
+    height: 600px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .description-section {
+    margin: 0 0 50px 0;
+    .text {
+      margin: 0 0 20px 0;
+      font-family: "Montserrat-Medium";
+      font-size: 24px;
+      color: #151716;
+      line-height: 1.3;
+    }
+    .download .pdf-icon {
+      width: 48px;
+      margin: 0 15px 0 0;
+    }
+    .download .name {
+      font-family: "Montserrat-Medium";
+      font-size: 24px;
+      color: $bluecolor;
+      text-decoration: underline;
+    }
+  }
+  .section-title {
+    margin: 0 0 70px 0;
+    font-family: 'Montserrat-Bold';
+    font-size: 24px;
+    color: #EF7605;
+    text-transform: uppercase;
+  }
+}
+
 // КАТАЛОГ ТЕХНИКИ
 .catalog {
 
@@ -1265,14 +1308,14 @@ p {
 }
     
 // доработки и сервис
-.upgrade-and-service {
-
-}
+// .upgrade-and-service {
+  
+// }
 
 // услуги
-.services {
+// .services {
 
-}
+// }
 
 // О КОМПАНИИ
 .about {
@@ -1281,15 +1324,6 @@ p {
   }
   .navbar-item {
     background-color: #EF7605;
-  }
-  //Баннер оформления станицы
-  .design_banner {
-    height: 600px;
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }  
   }
 
   //Видеоконтент секция

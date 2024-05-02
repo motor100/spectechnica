@@ -4,11 +4,11 @@
 
 @section('content')
 
-<div class="about">
+<div class="about adu">
 
     <!-- Баннер оформления станицы -->
-    <div class="design_banner">
-        <img src="/img/design_banner.png" alt="img">
+    <div class="adu_design_banner">
+        <img src="/img/about_design_banner.jpg" alt="">
     </div>
 
     <!-- Навигационная цепочка -->
@@ -16,8 +16,8 @@
         <div class="container">
             <a href="/">Главная</a>
             <span>-</span>
-            <a class="active" href="/about">О компании</a>
-        </div> 
+            <span class="active">О компании</span>
+        </div>
     </div>
 
     <!-- Заголовок -->
