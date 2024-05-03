@@ -866,19 +866,20 @@ p {
   }
 }
 
-//Полоса над футером
-.top_line {
+// footer
+.footer {
+  margin-top: 100px;
+
+  //Полоса над футером
+  .top_line {
     height: 4px;
     background-color: #1874A0;
     margin: 0 0 4px 0;
   }
 
-// footer
-.footer {
-  margin-top: 100px;
   .footer_contant {
     background-color: #8CAEC9;
-    padding: 30px;
+    padding: 30px 0;
   }
   .f_item__contant_mobile {
     display: none;
@@ -974,25 +975,21 @@ p {
   .f_item__list2___mobile {
     display: none;
   }
-}   
 
-//Полоса под футером
-.bottom-white-line {
-  background-color: white;
-  padding: 30px 0;
-  .copyright {
-    font-family: 'Montserrat-Medium';
-    color: $lightbluecolor;
-    
-    
+  //Полоса под футером
+  .bottom-white-line {
+    background-color: white;
+    padding: 30px 0;
+    .copyright {
+      font-family: 'Montserrat-Medium';
+      color: $lightbluecolor;
+    }
+    .privacy-policy-link {
+      font-family: 'Montserrat-Medium';
+      color: $bluecolor;
+    }
   }
-  .privacy-policy-link {
-    font-family: 'Montserrat-Medium';
-    color: $bluecolor;
-    
-    
-  }
-}
+}   
 
 //Стрелка вверх
 .to-top {
