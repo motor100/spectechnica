@@ -46,7 +46,9 @@
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
-                                <p class="name">АЦПТ-13 КАМАЗ-65115</h1>
+                                <div class="product-title-wrapper">
+                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                </div>                                
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
                                 <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
@@ -73,7 +75,9 @@
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
-                                <p class="name">АЦПТ-13 КАМАЗ-65115</h1>
+                                <div class="product-title-wrapper">
+                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
                                 <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
@@ -100,7 +104,9 @@
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
-                                <p class="name">АЦПТ-13 КАМАЗ-65115</h1>
+                                <div class="product-title-wrapper">
+                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
                                 <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
@@ -127,7 +133,9 @@
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
-                                <p class="name">АЦПТ-13 КАМАЗ-65115</h1>
+                                <div class="product-title-wrapper">
+                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
                                 <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
@@ -154,7 +162,9 @@
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
-                                <p class="name">АЦПТ-13 КАМАЗ-65115</h1>
+                                <div class="product-title-wrapper">
+                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
                                 <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
@@ -181,7 +191,9 @@
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
-                                <p class="name">АЦПТ-13 КАМАЗ-65115</h1>
+                                <div class="product-title-wrapper">
+                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
                                 <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>

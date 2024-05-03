@@ -52,35 +52,35 @@
                 <div class="flex-container">
                   <div class="submenu-item">
                     <div class="submenu-item__image">
-                      <a href="#" class="submenu-item__link">
+                      <a href="/catalog/category" class="submenu-item__link">
                         <img src="/img/katalog-avtocisterny.png" alt="">
                       </a>
                     </div>
-                    <a href="#" class="submenu-item__title">Автоцистерны</a>
+                    <a href="/catalog/category" class="submenu-item__title">Автоцистерны</a>
                   </div>
                   <div class="submenu-item">
                     <div class="submenu-item__image">
-                      <a href="#" class="submenu-item__link">
+                      <a href="/catalog/category" class="submenu-item__link">
                         <img src="/img/katalog-pricepnaya-tekhnika.png" alt="">
                       </a>
                     </div>
-                    <a href="#" class="submenu-item__title">Прицепная техника</a>
+                    <a href="/catalog/category" class="submenu-item__title">Прицепная техника</a>
                   </div>
                   <div class="submenu-item">
                     <div class="submenu-item__image">
-                      <a href="#" class="submenu-item__link">
+                      <a href="/catalog/category" class="submenu-item__link">
                         <img src="/img/katalog-avtokrany-i-manipulyatory.png" alt="">
                       </a>
                     </div>
-                    <a href="#" class="submenu-item__title">Автокраны и манипуляторы</a>
+                    <a href="/catalog/category" class="submenu-item__title">Автокраны и манипуляторы</a>
                   </div>
                   <div class="submenu-item">
                     <div class="submenu-item__image">
-                      <a href="#" class="submenu-item__link">
+                      <a href="/catalog/category" class="submenu-item__link">
                         <img src="/img/katalog-tekhnologicheskij-transport.png" alt="">
                       </a>
                     </div>
-                    <a href="#" class="submenu-item__title">Технологический транспорт</a>
+                    <a href="/catalog/category" class="submenu-item__title">Технологический транспорт</a>
                   </div>
                 </div>
               </div>
