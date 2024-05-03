@@ -113,7 +113,7 @@ p {
 
 // Заголовок страницы
 .page-title {
-  margin: 32px 0;
+  margin: 35px 0;
   font-family: 'Montserrat-Bold';
   font-size: 24px;
   color: black;
@@ -1615,25 +1615,47 @@ p {
 
 // КАТЕГОРИИ
 .category {
-  .main_section_category {
-    margin-top: 40px;
+  .section {
+    margin: 0 0 40px 0;
+  }
+  .section-title {
+    margin: 0 0 48px 0;
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    color: #000;
+    line-height: 1.2;
+    text-transform: uppercase;
   }
   .x_line {
-    height: 2px;
+    height: 1px;
     background-color: #E2D6CE;
     margin: 15px 0;
   }
-  .btn_primary {
-    width: 343px;
-    height: 51px;
-    background-color: #1874A0;
-    font-family: "Montserrat-SemiBold";
-    font-size: 24px;
-    text-align: center;
-    float: left;
-    padding: 10px 0;
-    margin-top: 36px;
-  }
+
+  // Секция с фильтром
+  .filter-section {
+    .filter-btn {
+      width: 343px;
+      height: 51px;
+      margin: 0 0 25px 0;
+      padding: 7px 0;
+      background-color: #1874A0;
+      font-family: "Montserrat-SemiBold";
+      font-size: 24px;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+    }
+    .filter-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .3s;
+      &.active {
+        max-height: 500px;
+      }
+    }
+  }  
+
   .block_category {
     display: flex;
     align-items: center;
@@ -1644,6 +1666,9 @@ p {
       height: 230px;
       background-color: #E2D6CE;
       margin: 0 20px 0 20px;
+    }
+    .category_item__link {
+      display: block;
     }
     .category_item__description {
       .product-title-wrapper {
@@ -1692,6 +1717,7 @@ p {
       }
     }
   }
+
   .category_item__art {
     display: flex;
     justify-content: space-between;
@@ -1702,7 +1728,6 @@ p {
       font-family: "Montserrat-Regular";
       font-size: 20px;
       color: #1874A0;
-      
     }
     .btn_2 {
       display: block;
@@ -1718,71 +1743,75 @@ p {
       margin: 0 0 15px 0;
     }
   }
-  .video-section_1 {
-    .title {
-      margin-top: 35px;
-      margin-bottom: 80px;
+
+  // Видео презентации техники
+  .video-section-presentation {
+    .videos {
+      margin: 0 0 25px 0;
     }
-  }
-  .line_dropdown {
-    background-color: #8CAEC9;
-    min-height: 44px;
-    margin-top: 20px;
-    padding: 10px;
-    p {
+    .view-more-btn {
+      display: block;
+      height: 44px;
+      padding: 9px 0;
+      background-color: $lightbluecolor;
       font-family: "Montserrat-SemiBold";
-      font-size: 16px;
       text-align: center;
-      margin: 0;
-      color: white; 
+      color: #fff;
+      cursor: pointer;
     }
   }
-  .title_and_arrows {
-    display: flex;
+
+  // Отгруженная техника
+  .video-section-shipment {
+    .section-title-wrapper {
+      display: flex;
+    }
+    .section-title {
+      margin-right: 15px;
+    }
     .arrows {
-      margin: 40px 0 0 10px;
       img {
-        margin: 0 2px 5px 0;
+        margin: 0 5px 0 0;
+      }
+    }
+
+    // Кнопки
+    .year_btns {
+      display: flex;
+      width: 420px;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 0 25px 0;
+      .year_btn {
+        width: 200px;
+        height: 60px;
+        padding: 4px 0;
+        border: 2px dashed #8CAEC9;
+        border-radius: 5px;
+        color: #8CAEC9;
+        font-family: "Montserrat-Bold";
+        font-size: 30px;
+        text-align: center;
+        cursor: pointer;
+        &.active {
+          border: 2px dashed #EF7605;
+          color: #EF7605;
+        }
+      }
+    }
+
+    .videos {
+      .video-item {
+        height: 180px;
+      }
+      .video-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
     }
   }
-  .btn_year {
-    display: flex;
-    width: 420px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    .a_activ {
-      width: 200px;
-      height: 60px;
-      border: 2px dashed #EF7605;
-      border-radius: 5px;
-      color: #EF7605;
-      font-family: "Montserrat-Bold";
-      font-size: 30px;
-      text-align: center;
-      padding-top: 4px;
-    }
-    a {
-      width: 200px;
-      height: 60px;
-      border: 2px dashed #8CAEC9;
-      border-radius: 5px;
-      color: #8CAEC9;
-      font-family: "Montserrat-Bold";
-      font-size: 30px;
-      text-align: center;
-      padding-top: 4px;
-    }
-  }
-  .video_section_2 {
-    margin-top: 35px;
-    margin-bottom: 150px;
-    .title {
-      margin-top: 25px;
-    }
-  } 
+
 }
 
 // КАРТОЧКА ТОВАРА

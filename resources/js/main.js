@@ -338,3 +338,16 @@ if (tabButtons) {
 
 }
 
+
+// Фильтр в категории
+const filterSection = document.querySelector('.filter-section');
+
+if (filterSection) {
+  const filterBtn = document.querySelector('.filter-btn');
+  const filterContent = document.querySelector('.filter-content');
+
+  filterBtn.onclick = function () {
+    filterContent.classList.toggle('active');
+  }
+}
+

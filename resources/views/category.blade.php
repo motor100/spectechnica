@@ -26,23 +26,27 @@
         <div class="page-title">АВТОЦИСТЕРНЫ НЕФТЕПРОМЫСЛОВЫЕ ТЕРМОИЗОЛИРОВАННЫЕ</div>
     </div>
     
-    <!-- Кнопка фильтр -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4"><a class="btn_primary" href="#">ФИЛЬТР</a></div>
-            <div class="col-md-8"></div>
+    <!-- Секция с фильтром -->
+    <div class="filter-section">
+        <div class="container">
+            <div class="filter-btn">ФИЛЬТР</div>
+            <div class="filter-content">
+                <p>Параметры фильтра</p>
+            </div>
         </div>
     </div>
 
-    <!-- Секция с категориями -->
-    <div class="main_section_category">
+    <!-- Секция с товарами -->
+    <div class="products-wrapper section">
         <div class="section_category">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
                         <div class="block_category">
                             <div class="category_item__img">
-                                <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                <a href="/catalog/product" class="category_item__link">
+                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                </a>
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
@@ -71,8 +75,10 @@
                     <div class="col-md-10">
                         <div class="block_category">
                             <div class="category_item__img">
-                                <img src="/img/image_21.png" alt="КАМАЗ-65115">
-                            </div>               
+                                <a href="/catalog/product" class="category_item__link">
+                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                </a>
+                            </div>
                             <div class="y_line"></div>
                             <div class="category_item__description">
                                 <div class="product-title-wrapper">
@@ -100,7 +106,9 @@
                     <div class="col-md-10">
                         <div class="block_category">
                             <div class="category_item__img">
-                                <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                <a href="/catalog/product" class="category_item__link">
+                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                </a>
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
@@ -129,7 +137,9 @@
                     <div class="col-md-10">
                         <div class="block_category">
                             <div class="category_item__img">
-                                <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                <a href="/catalog/product" class="category_item__link">
+                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                </a>
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
@@ -158,7 +168,9 @@
                     <div class="col-md-10">
                         <div class="block_category">
                             <div class="category_item__img">
-                                <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                <a href="/catalog/product" class="category_item__link">
+                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                </a>
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
@@ -187,7 +199,9 @@
                     <div class="col-md-10">
                         <div class="block_category">
                             <div class="category_item__img">
-                                <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                <a href="/catalog/product" class="category_item__link">
+                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                                </a>
                             </div>               
                             <div class="y_line"></div>
                             <div class="category_item__description">
@@ -212,73 +226,63 @@
         </div>
     </div>
 
-    <!-- Видео-презентации(блок_1) -->
-    <div class="video-section_1">
+    <!-- Видео презентации техники -->
+    <div class="video-section-presentation section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5"><p class="title">ПРЕЗЕНТАЦИИ ТЕХНИКИ:</p></div>
-                <div class="col-md-7"></div>
-                <div class="col-md-12">
-                    <div class="item_video">
-                        <img src="/img/image_23.png" alt="">
-                        <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
-                        <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-                        <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                        <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
+        <div class="section-title">ПРЕЗЕНТАЦИИ ТЕХНИКИ</div>
+            <div class="videos">
+                <img src="/img/image_23.png" alt="">
+            </div>
+            <div class="view-more-btn">Смотреть еще</div>
+        </div>
+    </div>
+
+    <!-- Отгруженная техника -->
+    <div class="video-section-shipment">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <div class="section-title">ОТГРУЖЕННАЯ ТЕХНИКА</div>
+                <div class="arrows">
+                    <div class="top-arrows">
+                        <img src="/img/left_white.svg" alt="">
+                        <img src="/img/right_white.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Кнопки -->
+            <div class="year_btns">
+                <span class="year_btn active">2024</span>
+                <span class="year_btn">2023</span>
+            </div>
+
+            <div class="videos">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="video-item">
+                            <img src="/img/video-shipment1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="video-item">
+                            <img src="/img/video-shipment2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="video-item">
+                            <img src="/img/video-shipment3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="video-item">
+                            <img src="/img/video-shipment4.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Линия дополнительного видеоконтента -->
-    <div class="line_dropdown">
-        <p>Смотреть ещё</p>
-    </div>
-
-    <!-- Заголовок и стрелки -->
-    <div class="container">
-        <div class="title_and_arrows">
-            <p class="title">ОТГРУЖЕННАЯ ТЕХНИКА</p>
-            <div class="arrows">
-                <div class="top-arrows">
-                    <img src="/img/left_white.svg" alt="">
-                    <img src="/img/right_white.svg" alt="">
-                </div>
-                <div class="bottom_arrows">
-                    <img src="/img/left_blue.svg" alt="">
-                    <img src="/img/right_blue.svg" alt="">
-                </div>
-            </div> 
-        </div>  
-    </div>
-
-    <!-- Кнопки -->
-    <div class="container">
-        <div class="btn_year">
-            <a href="#" class="a_activ">2024</a>
-            <a href="#">2023</a>
-        </div>
-    </div>
-    
-
-    <!-- Видео-презентации(блок_2) -->
-    <div class="video_section_2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="item_video">
-                        <img src="/img/image_24.png" alt="">
-                        <!-- <video width="400" height="300" controls="controls" poster="video/duel.jpg"> -->
-                        <!-- <source src="video/duel.ogv" type='video/ogg; codecs="theora, vorbis"'>
-                        <source src="video/duel.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                        <source src="video/duel.webm" type='video/webm; codecs="vp8, vorbis"'> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
-
 
 @endsection
