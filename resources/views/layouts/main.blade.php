@@ -154,7 +154,7 @@
               
             </div>   
           </div>
-          <div class="col-md-4">
+          <div class="col-md-5">
             <div class="f_item__list1">
                 <p class="p2">продукция</p>
                 <ul>
@@ -163,11 +163,9 @@
                   <li><a href="/special-offer">Спецпредложения</a></li>
                   <li><a href="/upgrade-and-service">Доработки и сервис</a></li>
                 </ul>
-                
             </div>
           </div>
-
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="f_item__list2">
               <p class="p3">о компании</p>
               <ul>
@@ -188,12 +186,20 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div class="copyright">ООО "ГидроСпецАвто" {{ date('Y') }}</div>
+            <div class="copyright footer-bottom-item">ООО "ГидроСпецАвто" {{ date('Y') }}</div>
+            <div class="inn footer-bottom-item">ИНН 7415113283</div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-5">
             <a href="/privacy-policy" class="privacy-policy-link">Политика конфиденциальности</a>
           </div>
-          <div class="col-md-4"></div>
+          <div class="col-md-3">
+            <div class="developer">
+              <a href="https://vk.com/fenix_mix" class="author footer-bottom-item" target="_blank">Дизайн FeniX</a>
+            </div>
+            <div class="developer">
+              <a href="https://mybutton.ru" class="author footer-bottom-item" target="_blank">Поддержка Button</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
