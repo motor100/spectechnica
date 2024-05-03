@@ -111,68 +111,56 @@
   <!-- Футер -->
   <footer class="footer">
     <div class="top_line"></div>
-    <div class="footer_contant">
+    <div class="footer_content">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="f_item__contant">
-              <p class="p1">контакты</p>
-              <p class="fone">+7 (982) 292-88-79 </p>
-              <p class="email">zakaz@gidravlic.com</p>
-              <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
-              <p class="adress_mobile">г. Миасс<br>Тургоякское шоссе, 5/11</p>
-              <img class="f_logo" src="/img/logo.svg" alt="logo">
-              <a href="#" class="f_info">Полная контактная информация</a>
-            </div>
-            <!-- Мобильная версия -->
-            <div class="f_item__contant___mobile">
-              <div class="search_mobile">
-                  <input type="submit" value="">
-                  <input type="search" name="q">
-              </div>
-              <img class="f_logo" src="/img/logo.svg" alt="logo">
-              <p class="fone">+7 (982) 292-88-79 </p>
-              <p class="email">zakaz@gidravlic.com</p>
-              <p class="adress">г. Миасс<br>Тургоякское шоссе, 5/11</p>
-              <div class="f_item__list1___mobile">
-                <p class="p2">продукция</p>
-                <a href="/catalog">Каталог техники</a>
-                <a href="/catalog">Каталог техники</a>
-                <a href="/special-offer">Спецпредложения</a>
-                <a href="/upgrade-and-service">Доработки и сервис</a>
-              </div>
-              <div class="f_item__list2___mobile">
-                <p class="p3">о компании</p>
-                <a href="/about">О “ГидроСпецАвто”</a>
-                <a href="/manufacture">Производство</a>
-                <a href="/services">Услуги</a>
-                <a href="/certificates">Сертификаты</a>
-                <a href="#" class="f_apl">Оставить заявку</a>
-                <a href="/privacy-policy" class="privacy-policy-link">Политика конфиденциальности</a>
-                <div class="copyright">ООО "ГидроСпецАвто" {{ date('Y') }}</div>
-              </div>
-              
-            </div>   
-          </div>
           <div class="col-md-5">
-            <div class="f_item__list1">
-                <p class="p2">продукция</p>
-                <ul>
-                  <li><a href="/catalog">Каталог техники</a></li>
-                  <li><a href="/in-stock">Техника в наличии</a></li>
-                  <li><a href="/special-offer">Спецпредложения</a></li>
-                  <li><a href="/upgrade-and-service">Доработки и сервис</a></li>
+            <div class="f_item__content">
+              <div class="p1-title">контакты</div>
+              <div class="phone">+7 (982) 292-88-79 </div>
+              <div class="email">zakaz@gidravlic.com</div>
+              <div class="address">г. Миасс, Тургоякское шоссе, 5/11</div>
+              <div class="f_logo">
+                <img class="f_logo__image" src="/img/logo.svg" alt="">
+              </div>              
+              <a href="/contacts" class="f_info">Полная контактная информация</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="f_item__list">
+                <div class="p1-title">продукция</div>
+                <ul class="list">
+                  <li class="list-item">
+                    <a href="/catalog">Каталог техники</a>
+                  </li>
+                  <li class="list-item">
+                    <a href="/in-stock">Техника в наличии</a>
+                  </li>
+                  <li class="list-item">
+                    <a href="/special-offer">Спецпредложения</a>
+                  </li>
+                  <li class="list-item">
+                    <a href="/upgrade-and-service">Доработки и сервис</a>
+                  </li>
                 </ul>
             </div>
           </div>
           <div class="col-md-3">
-            <div class="f_item__list2">
-              <p class="p3">о компании</p>
-              <ul>
-                <li><a href="/about">О “ГидроСпецАвто”</a></li>
-                <li><a href="/manufacture">Производство</a></li>
-                <li><a href="/services">Услуги</a></li>
-                <li><a href="/certificates">Сертификаты</a></li>
+            <div class="f_item__list f_item__list_right">
+              <div class="p1-title">о компании</div>
+              <ul class="list">
+                <li class="list-item">
+                  <a href="/about">О "ГидроСпецАвто"</a>
+                </li>
+                <li class="list-item">
+                  <a href="/manufacture">Производство</a>
+                </li>
+                <li class="list-item">
+                  <a href="/services">Услуги</a>
+                </li>
+                <li class="list-item">
+                  <a href="/certificates">Сертификаты</a>
+                </li>
               </ul>
               <a href="#" class="f_apl">Оставить заявку</a>
             </div>
@@ -185,19 +173,19 @@
     <div class="bottom-white-line">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-5">
             <div class="copyright footer-bottom-item">ООО "ГидроСпецАвто" {{ date('Y') }}</div>
             <div class="inn footer-bottom-item">ИНН 7415113283</div>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-4">
             <a href="/privacy-policy" class="privacy-policy-link">Политика конфиденциальности</a>
           </div>
           <div class="col-md-3">
-            <div class="developer">
-              <a href="https://vk.com/fenix_mix" class="author footer-bottom-item" target="_blank">Дизайн FeniX</a>
+            <div class="developer footer-bottom-item">
+              <a href="https://vk.com/fenix_mix" class="author" target="_blank">Дизайн FeniX</a>
             </div>
-            <div class="developer">
-              <a href="https://mybutton.ru" class="author footer-bottom-item" target="_blank">Поддержка Button</a>
+            <div class="developer footer-bottom-item">
+              <a href="https://mybutton.ru" class="author" target="_blank">Поддержка Button</a>
             </div>
           </div>
         </div>
