@@ -108,11 +108,9 @@
                     </p>
                 </div>
             </div>
-        </div>
 
-        <!-- Вкладка Характеристики -->
-        <div class="tab_content">
-            <div class="container">
+            <!-- Вкладка Характеристики -->
+            <div class="tab_content">
                 <div class="specifications">
                     <div class="block_specifications">
                         <p>Тип двигателя</p>
@@ -153,16 +151,11 @@
                         <p>Тип двигателя</p>
                         <p>Четырехтактный дизель</p>
                     </div>
-                    
                 </div>
             </div>
-            <!-- Форма заполнения заявки -->
-            @include('application-form-section')
-        </div>
 
             <!-- Вкладка Доработки техники -->
-        <div class="tab_content">
-            <div class="container">
+            <div class="tab_content">
                 <div class="upgrade">
                     <ul>
                         <li>Конструкция цистерны спроектирована таким образом, чтобы выдерживать необходимые нагрузки</li>
@@ -174,7 +167,11 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
+
+    <!-- Форма заполнения заявки -->
+    @include('application-form-section')
+
 </div>
 
 

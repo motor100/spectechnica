@@ -1897,7 +1897,7 @@ p {
 
   // Кнопки табов (вкладок)
   .tab_buttons {
-    margin: 30px 0 50px 0;
+    margin: 30px 0 65px 0;
     .tab_btn {
       display: block;
       margin: 0 auto;
@@ -1922,35 +1922,23 @@ p {
     &.active {
       display: block;
     }
+    font-size: 20px;
   }
 
   // Вкладка Описание
   .description {
-    margin-top: 65px;
-  }
-  .image_size_product {
-    img {
-      display: block;
-      width: auto;
-      height: auto;
-      margin: 0 auto;
+    .image_size_product {
+      img {
+        display: block;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto 70px auto;
+      }
     }
-    
-  }
-  
-  .description_product {
-    display: block;
-    width: 1235px;
-    margin: 0 auto;
-    margin-top: 65px;
-    margin-bottom: 95px;
-    .description_product p {
-      font-family: "Montserrat-Medium";
-      font-size: 20px;
-      color: #6D6D6E;
+    .description_product {
+      margin-bottom: 95px;
     }
   }
-  
 
   // Вкладка Характеристики
   .specifications {
@@ -1964,9 +1952,6 @@ p {
       display: flex;
       justify-content: flex-start;
       p {
-        font-family: "Montserrat-Regular";
-        font-size: 20px;
-        color: black;
         width: 45%;
         height: 35px;
         margin-top: 7px;
@@ -1974,26 +1959,15 @@ p {
     }
     
   }
-  .application-form-section {
-    margin: 20px 0 530px 0;
-  }
   
   // Вкладка Доработки техники
   .upgrade {
-    width: 733px;
-    height: 296px;
-    margin: 50px 0 1070px 30px;
     ul, li {
       margin: 0;
       padding: 0;
     }
-
     li {
-      font-family: "Montserrat-Regular";
-      font-size: 20px;
-      color: black;
       padding-left: 10px;
-
     }
     li::marker {
       color: #151716;
