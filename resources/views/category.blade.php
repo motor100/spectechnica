@@ -13,8 +13,7 @@
             <span>-</span>
             <a href="/catalog">Каталог техники</a>
             <span>-</span>
-            <a href="/category">Автоцистерны</a>
-            <span>-</span>
+            <span class="active">Автоцистерны</span>
         </div>  
     </div>
 
@@ -231,7 +230,7 @@
         <div class="container">
         <div class="section-title">ПРЕЗЕНТАЦИИ ТЕХНИКИ</div>
             <div class="videos">
-                <img src="/img/image_23.png" alt="">
+                <img src="/img/image_23.jpg" alt="">
             </div>
             <div class="view-more-btn">Смотреть еще</div>
         </div>
