@@ -403,6 +403,7 @@ p {
         width: 100%;
         height: 542px;
         z-index: 1;
+        object-fit: cover;
       }
       .img_car {
         position: absolute;
@@ -461,13 +462,18 @@ p {
       display: flex;
       margin-top: 65px;
       justify-content: space-between;
+      flex-wrap: wrap;
       .eq_item {
         position: relative;
+        width: 25%;
         .eq_item__image {
+          display: block;
           width: 260px;
           height: 160px;
-          margin: 0 0 98px 0;
+          margin: 0 auto;
+          margin-bottom: 98px;
           transition: transform .3s;
+          
           img {
             width: 100%;
             height: 100%;
@@ -506,7 +512,7 @@ p {
         width: 2px;
         height: 100%;
         top: 0;
-        right: -13px;
+        right: 0px;
       }
       
     }    
@@ -2043,13 +2049,165 @@ p {
 
 
 @media only screen and (max-width : 1400px) {
+  
+  // ГЛАВНАЯ СТРАНИЦА
+  .home {
+    .main-section .slide .img_car {
+      left: 112px;
+    }
+    .main-section .slide .title {
+      left: 833px;
+    }
+
+  }
 
 }
 
 @media only screen and (max-width : 1200px) {
+  //HEADER
+  .header {
+    .header_top .header_contant .item_call .number_phone {
+      margin-left: 50px;
+    }
+    .header_top .header_contant .item_logo p {
+      font-size: 15px;
+      text-align: center;
+    }
+    .navigation .navbar .navbar-item__link {
+      font-size: 12px;
+      padding: 14px 0;
+
+    }
+    .navigation .navbar .navbar-item-dropdown::before {
+      left: 150px;
+      width: 10px;
+      height: 2px;
+      top: 23px;
+    }
+    .navigation .navbar .navbar-item-dropdown::after {
+      left: 156px;
+      width: 10px;
+      height: 2px;
+      top: 23px;
+
+    }
+
+  }
+  // ГЛАВНАЯ СТРАНИЦА
+  .home {
+    .catalog-section .catalog .eq_item .eq_item__image {
+       width: 230px;
+       height: 130px;
+    }
+  }
+
 }
 
 @media only screen and (max-width : 992px) {
+  //Бургер
+  .item_burger {
+    display: block;
+    .burger {
+      position: relative;
+      display: block;
+      background-color: #EF7605;
+      border: none;
+      color: white;
+      width: 36px;
+      height: 15px;
+      margin: 0;
+      padding: 0; 
+    }
+    .burger__line {
+      position: absolute;
+      left: 50%;
+      width: 36px;
+      height: 2px;
+      transform: translate(-50%);
+      background-color: currentColor; 
+      margin: 0;
+      padding: 0;
+    }
+    .burger__line:nth-child(1) {
+      top: 0;
+
+    }
+    .burger__line:nth-child(2) {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .burger__line:nth-child(3) {
+      bottom: 0;
+    }  
+  }
+  .header {
+    .header_top {
+      .header_contant {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        min-height: 65px;
+        padding: 10px;
+        // .item_logo {
+        //   position: relative;
+        //   .main_logo {
+        //     width: 224px;
+        //     height: 36px;
+        //   }
+        //   p {
+        //     display: none;
+        //   }
+        //   .logo-link {
+        //     position: absolute;
+        //     width: 100%;
+        //     height: 100%;
+        //   }
+          
+        // }
+        .item_call {
+          display: block;
+          width: auto;
+          .number_phone {
+            display: none;
+          }
+          .btn-call.js-callback-btn {
+            display: block;
+            width: 30px;
+            height: 30px;
+            border: none;
+            cursor: pointer;
+            //float: right;
+            .btn-call__text {
+              display: none;
+            }
+          }    
+        }  
+      }
+    }
+    .navigation {
+      display: none; 
+    }
+  }
+  // ГЛАВНАЯ СТРАНИЦА
+  .home {
+    .catalog-section .section-title {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .catalog-section .catalog .eq_item {
+       width: 50%;
+       margin-bottom: 20px;
+    }
+    .catalog-section .catalog .eq_item .eq_item__image {
+      width: 260px;
+      height: 160px;
+      margin-bottom: 30px;
+    }
+    .catalog-section .catalog .vline {
+      display: none;
+    }
+  }
+
 
 }
 
@@ -2296,84 +2454,18 @@ p {
   
   // ГЛАВНАЯ СТРАНИЦА
   .home {
-
-    //Секция каталога
-    .catalog-section {
-      margin: 0 0 42px 0;
-      .catalog {
-        .kt {
-          font-family: 'Montserrat-Bold';
-          font-size: 24px;
-          color: black;
-          margin-top: 25px;
-        }
-        .eq_catalog {
-          display: flex;
-          justify-content: space-around;
-          margin-top: 54px;
-          .eq_item {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            width: 316px;
-            height: 323px;
-            margin: 26px 0 0 0;
-            .eq_item__image {
-              width: 305px;
-              height: 160px;
-              margin: 0 auto;
-            }
-            .eq_item__image img {
-              width: 100%;
-              height: 100%;
-              object-fit: contain;
-            }
-            .eq_item__link {
-              position: absolute;
-              top: 0;
-              left: 0;
-              display: block;
-              width: 100%;
-              height: 100%;
-            }
-            .eq_item__title {
-              display: flex;
-              width: 100%;
-              height: 48px;
-              font-family: 'Montserrat-SemiBold';
-              text-align: center;
-              color: #1874A0;
-              line-height: 20px;
-              text-align: center;
-              text-transform: uppercase;
-              align-items: center;
-              justify-content: center;
-            }
-          }
-          .vline{
-            background-color: #8CAEC9;
-            width: 1px;
-            height: 363px;
-            margin: 0;
-            padding: 0;
-          }  
-        }
-        .btn_catalog {
-          display: block;
-          font-family: 'Montserrat-Bold';
-          background-color: #EF7605;
-          color: white;
-          font-size: 20px;
-          width: 306px;
-          height: 70px;
-          margin: 83px auto 0 auto;
-          padding: 17px 0;
-          border: none;
-          border-radius: 5px;
-          text-align: center;
-        }
-      }
+    .catalog-section .section-title {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .catalog-section .catalog .eq_item {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .catalog-section .catalog .eq_item .eq_item__image {
+      width: 260px;
+      height: 160px;
+      margin-bottom: 30px;
     }
 
     //Секция О компании
