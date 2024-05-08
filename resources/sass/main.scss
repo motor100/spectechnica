@@ -91,11 +91,17 @@ p {
   border: none;
   border-radius: 5px;
   text-align: center;
+  transition: background-color .3s;
 }
 .btn_primary:hover {
   background-color: #8CAEC9;
+}
+.orange_btn {
   transition: background-color .3s;
 }
+.orange_btn:hover {
+  background-color: $lightbluecolor !important;
+} 
 
 // Хлебные крошки
 .breadcrumbs {
@@ -320,12 +326,15 @@ p {
         text-align: center;
         text-transform: uppercase;
       }
-      .navbar-item.active,
       .navbar-item:hover {
         background-color: $lightbluecolor;
       }
+      .navbar-item.active {
+        background-color: $orangecolor;
+      }
       .navbar-item-dropdown {
         position: relative;
+        background-color: $lightbluecolor;
       }
       .navbar-item-dropdown::before,
       .navbar-item-dropdown::after {
@@ -463,10 +472,11 @@ p {
       justify-content: space-between;
       .eq_item {
         position: relative;
+        width: 25%;
         .eq_item__image {
           width: 260px;
           height: 160px;
-          margin: 0 0 98px 0;
+          margin: 0 auto 98px auto;
           transition: transform .3s;
           img {
             width: 100%;
@@ -506,7 +516,7 @@ p {
         width: 2px;
         height: 100%;
         top: 0;
-        right: -13px;
+        right: 0;
       }
       
     }    
@@ -868,6 +878,7 @@ p {
 
 // footer
 .footer {
+  position: relative;
   margin-top: 100px;
 
   //Полоса над футером
@@ -888,22 +899,27 @@ p {
   .f_item__list .list-item {
     list-style-type: none;
     text-align: left;
-    a {
-      font-family: "Montserrat-Medium";
-      font-size: 20px;
-      color: white;
-      border-bottom: 2px dashed white;
-    }  
+  }
+  .f_item__list .list-item a {
+    font-family: "Montserrat-Medium";
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 2px dashed #fff;
+    transition: color .3s, border-bottom .3s;
+  }
+  .f_item__list .list-item a:hover {
+    color: $bluecolor;
+    border-bottom: 2px dashed $bluecolor;
   }
   .f_item__list_right .list {
     margin-bottom: 44px;
   }
   .p1-title {
+    margin-bottom: 25px;
     font-family: "Montserrat-ExtraBold";
     font-size: 24px;
-    color: white;
-    text-align: left;
-    margin-bottom: 25px;
+    color: #fff;
+    text-transform: uppercase;
   }
   .phone {
     font-family: "Montserrat-Bold";
@@ -935,21 +951,15 @@ p {
     border-bottom: 2px dashed #1874A0;
     margin: 0;
   }
-  // .f_item__list1 {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: start;
-  //   width: 220px;
-  //   margin: 0 auto;
-  // }
   .f_item__list {
     .f_apl {
+      width: max-content;
+      margin: 27px 0 0 0;
       font-family: "Montserrat-Medium";
       font-size: 20px;
       color: #1874A0;
       border-bottom: 2px dashed #1874A0;
-      margin: 0;
-      margin-top: 27px;
+      cursor: pointer;
     }
   }
 
@@ -968,34 +978,29 @@ p {
       color: $bluecolor;
     }
   }
-}   
 
-//Стрелка вверх
-.to-top {
-  position: fixed;
-  left: -80px;
-  bottom: 428px;
-  width: 100%;
-  height: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .5s, visibility .5s;
-  .container {
-    height: 0;
+  //Стрелка вверх
+  .to-top {
+    .polygon {
+      position: relative;
+    }
+    .triangle-wrapper {
+      position: absolute;
+      top: -100px;
+      left: -80px;
+      width: 43px;
+      height: 35px;
+      cursor: pointer;
+    }
+    .triangle {
+      border: 19px solid transparent;
+      border-bottom: 13px solid $lightbluecolor;
+      position: absolute;
+      top: 0px;
+      left: 2px;
+    }
   }
-  .polygon {
-    width: 43px;
-    height: 35px;
-    cursor: pointer;
-  }
-  .polygon img {
-    width: 100%;
-  }
-  &.active {
-    opacity: 1;
-    visibility: visible;
-  }
-}
+}   
 
 // modal window
 .modal-window {
@@ -1011,10 +1016,13 @@ p {
     display: block;
   }
   .modal-wrapper {
-    position: fixed;
-    left: 0;
+    position: absolute;
+    top: 0;
     right: 0;
-    top: 50px;
+    bottom: 0;
+    left: 0;
+    height: max-content;
+    margin: auto;
     padding: 0 12px;
     opacity: 0;
     visibility: hidden;
@@ -1196,13 +1204,11 @@ p {
       margin-top: 35px;
     }
     .eq_item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
       margin-top: 60px;
       .eq_item__image {
         width: 290px;
         height: 180px;
+        margin: 0 auto 39px auto;
       }
       .eq_item__image img {
         width: 100%;
@@ -1210,16 +1216,20 @@ p {
         object-fit: contain;
       }
       .title_link {
+        display: block;
+        margin: 0 0 30px 0;
         font-family: "Montserrat-Semibold";
         font-size: 24px;
         color: #1874A0;
-        margin-top: 40px;
+        text-align: center;
       }
     }
     .eq_list {
-      margin-top: 30px;
+      width: 90%;
+      margin: 0 auto;
       .item_list {
         display: flex;
+        margin: 0 0 11px 0;
       }
       .item_link1 {
         display: flex;
@@ -1684,16 +1694,15 @@ p {
       }
       .btn_1 {
         display: block;
-        font-family: "Montserrat-SemiBold";
-        font-size: 16px;
         width: 260px;
         height: 50px;
-        background-color: #EF7605;
-        border-radius: 5px;
-        text-align: center;
-        color: white;
-        padding-top: 13px;
         margin: 20px 0 15px 0;
+        padding: 0;
+        border: none;
+        border-radius: 5px;
+        background-color: #EF7605;
+        font-family: "Montserrat-SemiBold";
+        color: #fff;
       }
     }
   }
@@ -1829,40 +1838,25 @@ p {
       padding: 2px 0;
     }
     .price {
+      margin: 30px 0;
       text-align: center;
       font-family: "Montserrat-Medium";
       font-size: 20px;
       color: black;
-      margin-top: 30px;
-
     }
-    .price_btn {
+    .pr_btn {
       display: block;
-      background-color: #EF7605;
       width: 306px;
       height: 68px;
+      margin: 0 auto 20px auto;
+      padding: 19px 0;
+      border: none;
       border-radius: 5px;
-      text-align: center;
+      background-color: #EF7605;
       font-family: "Montserrat-SemiBold";
       font-size: 20px;
       color: white;
-      margin: 0 auto;
-      margin-top: 20px;
-      padding: 19px 0;
-    }
-    .request_btn {
-      display: block;
-      background-color: #EF7605;
-      width: 306px;
-      height: 68px;
-      border-radius: 5px;
       text-align: center;
-      font-family: "Montserrat-SemiBold";
-      font-size: 20px;
-      color: white;
-      margin: 0 auto;
-      padding: 19px 0;
-      margin-top: 20px;
     }
     .guarantee {
       text-align: center;

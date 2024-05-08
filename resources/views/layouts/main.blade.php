@@ -46,7 +46,7 @@
       <div class="container">
         <div class="navbar-wrapper">
           <div class="navbar">
-            <div class="navbar-item active navbar-item-dropdown">
+            <div class="navbar-item navbar-item-dropdown">
               <a href="/catalog" class="navbar-item__link">Каталог</a>
               <div class="submenu">
                 <div class="flex-container">
@@ -110,6 +110,20 @@
 
   <!-- Футер -->
   <footer class="footer">
+
+    <!-- Стрелка вверх -->
+    <div id="to-top" class="to-top">
+      <div class="container">
+        <div class="polygon">
+          <div class="triangle-wrapper">
+            <div class="triangle"></div>
+          </div>
+          
+          <!-- <img src="/img/Polygon_1.png" alt="Стрелка"> -->
+        </div>
+      </div>
+    </div>
+
     <div class="top_line"></div>
     <div class="footer_content">
       <div class="container">
@@ -162,7 +176,7 @@
                   <a href="/certificates">Сертификаты</a>
                 </li>
               </ul>
-              <a href="#" class="f_apl">Оставить заявку</a>
+              <div class="f_apl js-callback-btn">Оставить заявку</div>
             </div>
           </div>
         </div>
@@ -191,6 +205,8 @@
         </div>
       </div>
     </div>
+
+    
     
   </footer>
 
@@ -282,14 +298,7 @@
     </div>
   @endif
 
-  <!-- Стрелка вверх -->
-  <div id="to-top" class="to-top">
-    <div class="container">
-      <div class="polygon">
-        <img src="/img/Polygon_1.png" alt="Стрелка">
-      </div>
-    </div>
-  </div>
+  
   
 
   <!-- 

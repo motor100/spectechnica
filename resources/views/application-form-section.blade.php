@@ -1,4 +1,4 @@
-<div class="application-form-section">
+<div id="application-form-section" class="application-form-section">
   <div class="container">
     <p class="title">ОСТАВИТЬ ЗАЯВКУ / ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</p>
     <form class="form main_form">
@@ -30,7 +30,7 @@
           </div>
         </div>
         @csrf
-        <button type="button" class="btn_push">ОТПРАВИТЬ</button>
+        <button type="button" class="btn_push orange_btn">ОТПРАВИТЬ</button>
       </div>
     </form>
   </div>

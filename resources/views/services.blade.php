@@ -43,4 +43,8 @@
     
 </div>
 
+<script>
+    const navbarItemActive = 2;
+</script>
+
 @endsection

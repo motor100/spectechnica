@@ -13,9 +13,9 @@
             <span>  -  </span>
             <a href="/catalog">Каталог</a>
             <span>  -  </span>
-            <a href="#">Автоцистерны</a>
+            <a href="/catalog/category">Автоцистерны</a>
             <span>  -  </span>
-            <a class="active" href="#"> АЦПТ 1612</a>
+            <span class="active"> АЦПТ 1612</span>
         </div>  
     </div>
 
@@ -47,8 +47,8 @@
                     <p class="item_art">Артикул: 4885-1 (S5)</p>
                     <p class="item_yes">В НАЛИЧИИ</p>
                     <p class="price">Цена по запросу</p>
-                    <a href="#" class="price_btn">ЗАПРОСИТЬ ЦЕНУ</a>
-                    <a href="#" class="request_btn">ОФОРМИТЬ ЗАЯВКУ</a>
+                    <a href="#application-form-section" class="pr_btn orange_btn price_btn">ЗАПРОСИТЬ ЦЕНУ</a>
+                    <button class="pr_btn orange_btn request_btn js-callback-btn">ОФОРМИТЬ ЗАЯВКУ</button>
                     <p class="guarantee">Гарантия на навеску:<br>12 месяцев</p>
                     <p class="delivery">Доставка по РФ и СНГ</p>
                 </div>

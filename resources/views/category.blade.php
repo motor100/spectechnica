@@ -54,7 +54,7 @@
                                 </div>                                
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                                 </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
                             </div>
                         </div>
                     </div>
@@ -116,7 +116,7 @@
                                 </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@
                                 </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                                 </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@
                                 </div>
                                 <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                                 <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
                             </div>
                         </div>
                     </div>
