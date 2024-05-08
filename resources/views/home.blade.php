@@ -78,63 +78,55 @@
   <!-- Секция с описанием деятельности компании  -->
   <div class="about_section">
     <div class="container">
-      <div class="section-title">О компании</div>
+      <div class="about-title">О компании</div>
       <div class="about_text">ГидроСпецАвто - это завод с современным оборудованием и передовыми технологиями.<br>
         Завод представляет собой крупный машиностроительный комплекс с законченным производственным циклом от заготовки до выпуска готовой продукции.<br>
-        Помимо производства спецтехники, мы являемся дилером российских автогигантов, занимаемся комплексным сервисным обслуживанием и снабжением сертифицированными запчастями.</div>
+        Помимо производства спецтехники, мы являемся дилером российских автогигантов, занимаемся комплексным сервисным обслуживанием и снабжением сертифицированными запчастями.
+      </div>
       <div class="services">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="item_s">
-              <div class="item_image">
-                <img src="/img/s_1.png" alt="#">
-              </div>
-              <div class="item_text">Высокое качество<br>продукции по<br>доступным ценам</div>  
-            </div>
+        <div class="item_s">
+          <div class="item_image">
+            <img src="/img/s_1.png" alt="#">
           </div>
-          <div class="col-md-3">
-            <div class="item_s">
-              <div class="item_image">
-                <img src="/img/s_2.png" alt="#">
-              </div>
-              <div class="item_text">Штат опытных<br>сотрудников</div>
-            </div>
+          <div class="item_text">Высокое качество<br>продукции по<br>доступным ценам</div>  
+        </div>
+        <div class="item_s">
+          <div class="item_image">
+            <img src="/img/s_2.png" alt="#">
           </div>
-          <div class="col-md-3">
-            <div class="item_s">
-              <div class="item_image">
-                <img src="/img/s_3.png" alt="#">
-              </div>
-              <div class="item_text">Trade-in: принимаем<br>Вашу технику в зачет</div>
-            </div>
+          <div class="item_text">Штат опытных<br>сотрудников</div>
+        </div>
+        <div class="item_s">
+          <div class="item_image">
+            <img src="/img/s_3.png" alt="#">
           </div>
-          <div class="col-md-3">
-            <div class="item_s">
-              <div class="item_image">
-                <img src="/img/s_4.png" alt="#">
-              </div>
-              <div class="item_text">Льготная доставка в<br>регионы собственным<br>автотранспортом</div>
-            </div>
+          <div class="item_text">Trade-in: принимаем<br>Вашу технику в зачет</div>
+        </div>
+        <div class="item_s">
+          <div class="item_image">
+            <img src="/img/s_4.png" alt="#">
           </div>
+          <div class="item_text">Льготная доставка в<br>регионы собственным<br>автотранспортом</div>
         </div>
       </div>
     </div>   
   </div>
+  @include('services-section_mobile')
 
   <!-- Секция с кнопками -->
   <div class="buttons_section">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">
+      <div class="buttons">
+        <div class="item_button">
           <a href="/about#video_content_section" class="btn_primary__company">ВИДЕО О КОМПАНИИ</a>
         </div>
-        <div class="col-md-3">
+        <div class="item_button">
           <a href="/about#our_advantages_section" class="btn_primary__company">НАШИ ПРЕИМУЩЕСТВА</a>
         </div>
-        <div class="col-md-3">
+        <div class="item_button">
           <a href="/about#certificates_section" class="btn_primary__company">СЕРТИФИКАТЫ</a>
         </div>
-        <div class="col-md-3">
+        <div class="item_button">
           <a href="/about#production_section" class="btn_primary__company">ПРОИЗВОДСТВО</a>
         </div>
       </div>
@@ -145,8 +137,6 @@
   <div class="partners-section">
     <div class="container">
       <div class="section-title">партнеры</div>  
-    </div>
-    <div class="container">
       <div class="partners-logo">
         <div class="item">
           <img src="/img/ural-logo.jpg" alt="">
