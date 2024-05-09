@@ -97,6 +97,12 @@ p {
   transition: background-color .3s;
 }
 
+//Заголовки
+.title {
+  font-family: "Montserrat-Bold";
+  font-size: 24px;
+  color: black;
+}
 // Хлебные крошки
 .breadcrumbs {
   display: flex;
@@ -110,7 +116,6 @@ p {
     color: #1874A0;
   }
 }
-
 // Форма поиска
 .search-form-section {
   margin: 0 0 36px 0;
@@ -218,7 +223,6 @@ p {
     
   }
 }
-
 //Бургер
 .item_burger {
   display: none;
@@ -716,7 +720,8 @@ p {
 
 //Форма заполнения заявки
 .application-form-section {
-  height: 426px;
+  max-width: 1920px;
+  min-height: 426px;
   background-color: #6D6D6E;
   margin-top: 80px;
   padding: 35px;
@@ -728,104 +733,119 @@ p {
   .main_form {
     display: flex;
     justify-content: space-between;
-    margin-top: 25px;
-    
-    .form_item {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      height: 290px;
-      width: auto;
-      .name, .fone {
-        position: relative;
-        input {
-          width: 746px;
-          height: 64px;
-          border-radius: 5px;
-          font-family: "Montserrat-Regular";
-          font-size: 20px;
-          color: #6D6D6E;
-          padding: 20px;
-          border: none;
-        }
-        .placeholder {
-          position: absolute;
-          left:20px;
-          top:40%;
-          transform: translateY(-50%);
-          pointer-events: none;
-        }
-        span {
-          color: #EF7605;
-        }
-        .form-control:focus~.placeholder {
-          display:none;
-        }
-        .form-control:valid~.placeholder {
-          display:none;
-        }
-      }
-      .question {
-        position: relative;
-        .textarea {
-          width: 746px;
-          height: 124px;
-          border-radius: 5px;
-          font-family: "Montserrat-Regular";
-          font-size: 20px;
-          color: #6D6D6E;
-          padding: 20px;
-          border: none;
-        }
-        .placeholder {
-          position: absolute;
-          left:20px;
-          top:15%;
-          transform: translateY(-50%);
-          pointer-events: none;
-        }
-        span {
-          color: #EF7605;
-        }
-        .form-control:focus~.placeholder {
-          display:none;
-        }
-        .form-control:valid~.placeholder {
-          display:none;
-        }
-      }
-      .checkbox {
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        input[type="checkbox"] {
-          transform: scale(3);
-          margin-top: 10px;
-          margin-left: 10px;
-        }
-        .condition {
-          width: 478px;
-          font-family: "Montserrat-Medium";
-          font-size: 16px;
-          color: white;
-          line-height: 1.5em;
-        }
-      }
-      .btn_push {
-        width: 526px;
-        height: 64px;
-        font-family: "Montserrat-SemiBold";
-        font-size: 24px;
-        color: white;
-        background-color: #EF7605;
-        padding: 13px 0;
+    flex-wrap: wrap;
+    //margin-top: 25px;
+  } 
+  .form_item_1 {
+    display: flex;
+    //justify-content: space-between;
+    flex-direction: column;
+    width: 60%;
+    //height: 290px;
+    //width: 100%;
+    .name, .fone {
+      display: block;
+      position: relative;
+      //max-width: 746px;
+      //width: 100%;
+      height: 100%;
+      margin: 15px 0 15px 0;
+      input {
         border-radius: 5px;
+        font-family: "Montserrat-Regular";
+        font-size: 20px;
+        color: #6D6D6E;
+        padding: 20px;
         border: none;
-        text-align: center;
+        width: 100%;
+      }
+      .placeholder {
+        position: absolute;
+        left:20px;
+        top:40%;
+        transform: translateY(-50%);
+        pointer-events: none;
+      }
+      span {
+        color: #EF7605;
+      }
+      .form-control:focus~.placeholder {
+        display:none;
+      }
+      .form-control:valid~.placeholder {
+        display:none;
+      }
+    }
+    .question {
+      display: block;
+      position: relative;
+      height: 100%;
+      .textarea {
+        border-radius: 5px;
+        font-family: "Montserrat-Regular";
+        font-size: 20px;
+        color: #6D6D6E;
+        padding: 20px;
+        border: none;
+        width: 100%;
+      }
+      .placeholder {
+        position: absolute;
+        left:20px;
+        top:15%;
+        transform: translateY(-50%);
+        pointer-events: none;
+      }
+      span {
+        color: #EF7605;
+      }
+      .form-control:focus~.placeholder {
+        display:none;
+      }
+      .form-control:valid~.placeholder {
+        display:none;
       }
     }
   }
+  .form_item_2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: inherit;
+    width: 40%;
+    padding: 15px;
+    .checkbox {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      input[type="checkbox"] {
+        transform: scale(3);
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      .condition {
+        width: 478px;
+        font-family: "Montserrat-Medium";
+        font-size: 16px;
+        color: white;
+        line-height: 1.5em;
+      }
+    }
+    .btn_push {
+      width: 100%;
+      height: 64px;
+      font-family: "Montserrat-SemiBold";
+      font-size: 24px;
+      color: white;
+      background-color: #EF7605;
+      padding: 13px 0;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+    }
+  }
 }
+
 
 //Полоса над футером
 .top_line {
@@ -836,7 +856,6 @@ p {
 
 // footer
 .footer {
-  margin-top: 100px;
   width: 100%;
   height: auto;
   .footer_contant {
@@ -1189,10 +1208,15 @@ p {
     .title {
       margin-top: 35px;
     }
+    .eq_catalog {
+      display: flex;
+      flex-wrap: wrap;
+    }
     .eq_item {
       display: flex;
       flex-direction: column;
       align-items: center;
+      width: 50%;
       margin-top: 60px;
       .eq_item__image {
         width: 290px;
@@ -1208,6 +1232,28 @@ p {
         font-size: 24px;
         color: #1874A0;
         margin-top: 40px;
+      }  
+    }
+    .item_button__mobile {
+      display: none;
+      position: relative;
+      width: 100%;
+      height: 20px;
+      background-color: #E2D6CE;
+      .top_line {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 0;
+        background-color: #EF7605;
+      }
+      .arrow {
+        width: 40px;
+        height: 20px;
+        margin: 0 auto;
+        img {
+          margin-bottom: 5px;
+        }
       }
     }
     .eq_list {
@@ -2097,6 +2143,11 @@ p {
       padding: 19px 0;
     }
   }
+  .catalog {
+    .equipment_catalog .eq_list a {
+      font-size: 16px;
+    }
+  }
 
 }
 
@@ -2202,8 +2253,23 @@ p {
     }
     
   }
-
-
+  
+  .catalog .equipment_catalog .eq_list a {
+    font-size: 14px;
+  }
+  .catalog .equipment_catalog .eq_item .title_link {
+    font-size: 20px;
+    text-align: center;
+  }
+  .catalog .equipment_catalog .eq_list .bullet {
+    margin-left: 20px;
+  }
+  .catalog .equipment_catalog .eq_list .item_link1 {
+    width: 100%;
+  }
+  .catalog .equipment_catalog .eq_list .item_list {
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width : 768px) {
@@ -2223,8 +2289,16 @@ p {
   .hidden-desktop {
     display: block;
   }
+  .breadcrumbs {
+    display: none;
+  }
+  .search-form-section .search {
+    display: none;
+  }
+
   //Footer
   .footer {
+    margin-top: 30px;
     .search_mobile {
       display: flex;
       justify-content: space-between;
@@ -2298,10 +2372,14 @@ p {
     }
     .bottom-white-line .copyright {
       text-align: center;
+      color: white;
+      margin-bottom: 25px;
     }
     .bottom-white-line .privacy-policy-link {
       display: block;
       text-align: center;
+      color: white;
+      margin-bottom: 30px;
     }
   }
   .home {
@@ -2401,6 +2479,77 @@ p {
     .advantages-section .item_prod {
       margin-top: 25px;
     }
+  }
+  .catalog {
+    .equipment_catalog .title {
+      text-align: center;
+    }
+    .equipment_catalog .eq_item .eq_item__image {
+      width: 250px;
+      height: 150px;
+    }
+    .equipment_catalog .eq_item .eq_item__image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .equipment_catalog .eq_item .title_link {
+      font-size: 14px;
+      margin: 0;
+      text-align: center;
+      width: 150px;
+      
+    }
+    .equipment_catalog .eq_list {
+      display: none;
+    }
+    .equipment_catalog .eq_item {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      margin: 50px 0 50px 0;
+    }
+    .equipment_catalog .item_button__mobile {
+      display: block;
+    }
+  }
+  .application-form-section .main_form .form_item_1 { 
+    width: 100%;
+  }
+  .application-form-section .main_form .form_item_2 { 
+    width: 100%;
+  }
+  .bottom-white-line {
+    background-color: #8CAEC9;
+    padding: 0;
+  }
+  .advantages-section .item_prod .image_prod {
+    width: 30px;
+    height: 40px;
+  }
+  .advantages-section .item_prod p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  }
+  .advantages-section .adv_title {
+    display: block;
+    font-size: 24px;
+    width: 300px;
+    margin: 0 auto;
+    
+  }
+  .advantages-section {
+    margin: 0;
+    padding: 0;
+  }
+  .advantages-section .item_prod {
+    margin-top: 25px;
+  }
+  .advantages-section {
+    margin: 20px 0 30px 0;
   }
 }
 

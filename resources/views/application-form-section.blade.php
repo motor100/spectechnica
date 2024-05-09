@@ -2,7 +2,7 @@
   <div class="container">
     <p class="title">ОСТАВИТЬ ЗАЯВКУ / ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</p>
     <form class="form main_form">
-      <div class="form_item">  
+      <div class="form_item_1">  
         <div class="name">
           <input type="text" class="form-control" required>
           <div class="placeholder">Имя<span> *</span></div>
@@ -16,7 +16,7 @@
           <div class="placeholder">Телефон<span> *</span></div>
         </div>
       </div>
-      <div class="form_item">
+      <div class="form_item_2">
         <div class="custom-checkboxes">
           <div class="custom-checkbox-wrapper">
             <input type="checkbox" name="checkbox-agree" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-agree-callback-modal" checked required>
