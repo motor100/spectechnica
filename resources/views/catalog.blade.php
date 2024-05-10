@@ -126,6 +126,21 @@
             </div>
         </div>
     </div>
+    <!-- Кнопки спецпредложение -->
+    <div class="offers_mobile">
+        <div class="container">
+            <div class="eq_in_stock">
+                <img src="/img/offers_1.svg" alt="">
+                <p>ТЕХНИКА В НАЛИЧИИ</p>
+                <a href="#" class="offers_link"></a>
+            </div>
+            <div class="special_offers">
+                <img src="/img/offers_2.svg" alt="">
+                <p>СПЕЦПРЕДЛОЖЕНИЯ</p>
+                <a href="#" class="offers_link"></a>
+            </div>
+        </div>
+    </div>
     
     <!-- Форма заполнения заявки -->
     @include('application-form-section')
