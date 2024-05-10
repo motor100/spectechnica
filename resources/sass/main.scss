@@ -899,6 +899,7 @@ p {
 .footer {
   width: 100%;
   height: auto;
+  margin-top: 50px;
   .footer_contant {
     background-color: #8CAEC9;
     padding: 30px 0 30px 0;
@@ -1896,108 +1897,129 @@ p {
 
 // КАРТОЧКА ТОВАРА
 .product {
+  p {
+    margin: 0;
+  }
   .section_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
     margin-top: 45px;
     .card_image {
-      img {
-        display: block;
-        margin: 0 auto;
-      }
-    }
-    .item_art {
-      text-align: center;
-      font-family: "Montserrat-SemiBold";
-      font-size: 20px;
-      color: black;
-      margin: 0 auto;
-    }
-    .item_yes {
       display: block;
-      background-color: #1874A0;
-      width: 123px;
-      height: 25px;
-      border-radius: 5px;
-      font-family: "Montserrat-SemiBold";
-      font-size: 14px;
-      color: white;
-      text-align: center;
-      margin: 0 auto;
-      margin-top: 30px;
-      padding: 2px 0;
+      width: 50%;
+      height: 460px;
+      margin-right: 50px;
     }
-    .price {
-      text-align: center;
-      font-family: "Montserrat-Medium";
-      font-size: 20px;
-      color: black;
-      margin-top: 30px;
-
+    .card_image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
-    .price_btn {
-      display: block;
-      background-color: #EF7605;
-      width: 306px;
-      height: 68px;
-      border-radius: 5px;
-      text-align: center;
-      font-family: "Montserrat-SemiBold";
-      font-size: 20px;
-      color: white;
-      margin: 0 auto;
-      margin-top: 20px;
-      padding: 19px 0;
+    .art_block {
+      display: flex;
+      flex-direction: column;
       
 
-    }
-    .request_btn {
-      display: block;
-      background-color: #EF7605;
-      width: 306px;
-      height: 68px;
-      border-radius: 5px;
-      text-align: center;
-      font-family: "Montserrat-SemiBold";
-      font-size: 20px;
-      color: white;
-      margin: 0 auto;
-      padding: 19px 0;
-      margin-top: 20px;
+      .item_art {
+        text-align: center;
+        font-family: "Montserrat-SemiBold";
+        font-size: 20px;
+        color: black;
+        margin: 0 auto;
+      }
+      .item_yes {
+        display: block;
+        background-color: #1874A0;
+        width: 123px;
+        height: 25px;
+        border-radius: 5px;
+        font-family: "Montserrat-SemiBold";
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 2px 0;
+      }
+      .price {
+        text-align: center;
+        font-family: "Montserrat-Medium";
+        font-size: 20px;
+        color: black;
+        margin-top: 30px;
 
+      }
+      .price_btn {
+        display: block;
+        background-color: #EF7605;
+        width: 306px;
+        height: 68px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: "Montserrat-SemiBold";
+        font-size: 20px;
+        color: white;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 19px 0;
+        
+
+      }
+      .request_btn {
+        display: block;
+        background-color: #EF7605;
+        width: 306px;
+        height: 68px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: "Montserrat-SemiBold";
+        font-size: 20px;
+        color: white;
+        margin: 0 auto;
+        padding: 19px 0;
+        margin-top: 20px;
+
+      }
+      .guarantee {
+        text-align: center;
+        font-family: "Montserrat-SemiBold";
+        font-size: 20px;
+        color: #1874A0;
+        line-height: 1.2em;
+        margin: 45px 0 0 0;
+      }
+      .delivery {
+        text-align: center;
+        font-family: "Montserrat-SemiBold";
+        font-size: 20px;
+        color: #1874A0;
+        line-height: 1.2em;
+        margin: 45px 0 0 0;
+      }
     }
-    .guarantee {
-      text-align: center;
-      font-family: "Montserrat-SemiBold";
-      font-size: 20px;
-      color: #1874A0;
-      line-height: 1.2em;
-      margin: 45px 0 0 0;
-    }
-    .delivery {
-      text-align: center;
-      font-family: "Montserrat-SemiBold";
-      font-size: 20px;
-      color: #1874A0;
-      line-height: 1.2em;
-      margin: 45px 0 0 0;
-    }
-    .section_block {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      width: 855px;
-      height: 300px;
-      margin-top: 90px;
-      .item_block {
-        background-color: #D9D9D9;
-        width: 155px;
-        height: 130px;
-      }      
-    }
+  }
+  .section_block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 855px;
+    height: 300px;
+    margin-top: 90px;
+    .item_block {
+      display: block;
+      background-color: #D9D9D9;
+      width: 155px;
+      height: 130px;
+      
+    }      
   }
 
   // Кнопки табов (вкладок)
   .tab_buttons {
-    margin: 30px 0 50px 0;
+    margin: 20px 0 50px 0;
     .tab_btn {
       display: block;
       margin: 0 auto;
@@ -2026,23 +2048,23 @@ p {
 
   // Вкладка Описание
   .description {
-    margin-top: 65px;
-  }
-  .image_size_product {
-    img {
+    .image_size_product {
       display: block;
-      width: auto;
-      height: auto;
+      max-width: 800px;
+      height: 340px;
       margin: 0 auto;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      } 
     }
-    
   }
-  
   .description_product {
     display: block;
-    width: 1235px;
+    max-width: 1235px;
     margin: 0 auto;
-    margin-top: 65px;
+    //margin-top: 65px;
     margin-bottom: 95px;
     .description_product p {
       font-family: "Montserrat-Medium";
@@ -2050,11 +2072,9 @@ p {
       color: #6D6D6E;
     }
   }
-  
-
   // Вкладка Характеристики
   .specifications {
-    //position: relative;
+    margin-top: 20px;
     .horizont_line {
       width: 100%;
       height: 2px;
@@ -2063,26 +2083,24 @@ p {
     .block_specifications {
       display: flex;
       justify-content: flex-start;
+      align-items: center;
       p {
         font-family: "Montserrat-Regular";
         font-size: 20px;
         color: black;
-        width: 45%;
-        height: 35px;
-        margin-top: 7px;
+        width: 50%;
+        min-height: 35px;
+        padding-top: 8px;
       }
     }
     
   }
-  .application-form-section {
-    margin: 20px 0 530px 0;
-  }
   
   // Вкладка Доработки техники
   .upgrade {
-    width: 733px;
-    height: 296px;
-    margin: 50px 0 1070px 30px;
+    max-width: 733px;
+    min-height: 296px;
+    margin: 50px 0 50px 30px;
     ul, li {
       margin: 0;
       padding: 0;
@@ -2200,6 +2218,12 @@ p {
   .catalog {
     .equipment_catalog .eq_list a {
       font-size: 16px;
+    }
+  }
+  .product {
+    .specifications .block_specifications p {
+      font-size: 16px;
+      line-height: 1;
     }
   }
 
@@ -2374,6 +2398,34 @@ p {
     .block_category .category_item__description .price {
       margin-left: 20px;
       font-size: 14px;
+    }
+  }
+  .product {
+    .title {
+      font-size: 20px;
+      text-align: center;
+    }
+    .section_block {
+      height: 230px;
+      margin-top: 50px;
+    }
+    .section_block .item_block {
+      width: 130px;
+      height: 105px;
+    }
+    .tab_buttons .tab_btn {
+      font-size: 18px;
+    }
+    .section_card .card_image {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .section_card .art_block {
+      margin: 0 auto;
+    }
+    .specifications .block_specifications p {
+      font-size: 14px;
+      line-height: 1;
     }
   } 
 }
@@ -2628,6 +2680,9 @@ p {
     .main_form .form_item_1 { 
       width: 100%;
     }
+    .main_form .form_item_2 { 
+      width: 100%;
+    }
     
 
   }
@@ -2773,6 +2828,57 @@ p {
     }
     .video_section_2 {
       display: none;
+    }
+  }
+  .product {
+    .section_card {
+      margin-top: 40px;
+    }
+    .title {
+      font-size: 16px;
+    }
+    .section_card .card_image {
+      width: 300px;
+      height: 226px;
+    }
+    .section_card .art_block .item_yes {
+      display: none;
+    }
+    .section_card .art_block .price {
+      margin-top: 10px;
+    }
+    .section_card .art_block .guarantee {
+      margin-top: 30px;
+    }
+    .section_card .art_block .delivery {
+      margin-top: 20px;
+    }
+    .section_block {
+      display: none;
+    }
+    .tab_buttons .tab_btn {
+      margin-top: 25px;
+      font-size: 20px;
+    }
+    .tab_buttons {
+      margin: 0;
+    }
+    .description {
+      margin: 0;
+    }
+    .description_product {
+      margin-bottom: 20px;
+    }
+    .specifications .block_specifications p {
+      font-size: 14px;
+      line-height: 1;
+      padding: 0;
+    }
+    .specifications .horizont_line {
+      height: 1px;
+    }
+    .upgrade {
+      
     }
   }
 

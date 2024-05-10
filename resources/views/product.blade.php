@@ -24,26 +24,17 @@
 
     <!-- Главная секция -->
     <div class="container">
-        <div class="page-title">Вакуумный агрегат АЦПТ 1612</div>
+        
         <div class="section_card">
-            <div class="row">
-                <div class="col-md-8">
+        
+                
                     
-                    <div class="card_image"><img src="/img/image_card_1.png" alt="img"></div>
-                        <div class="section_block">
-                        <div class="item_block"></div>
-                        <div class="item_block"></div>
-                        <div class="item_block"></div>
-                        <div class="item_block"></div>
-                        <div class="item_block"></div>
-                        <div class="item_block"></div>
-                        <div class="item_block"></div>
-                        <div class="item_block"></div>
-                        <div class="item_block"></div>
-                        <div class="item_block"></div>
+                    <div class="card_image">
+                        <p class="title">Вакуумный агрегат АЦПТ 1612</p>
+                        <img src="/img/image_card_1.png" alt="img">
                     </div>
-                </div>
-                <div class="col-md-4">
+                
+                <div class="art_block">
                     <p class="item_art">Артикул: 4885-1 (S5)</p>
                     <p class="item_yes">В НАЛИЧИИ</p>
                     <p class="price">Цена по запросу</p>
@@ -53,7 +44,19 @@
                     <p class="delivery">Доставка по РФ и СНГ</p>
                 </div>
                  
-            </div>
+            
+        </div>
+        <div class="section_block">
+            <div class="item_block"></div>
+            <div class="item_block"></div>
+            <div class="item_block"></div>
+            <div class="item_block"></div>
+            <div class="item_block"></div>
+            <div class="item_block"></div>
+            <div class="item_block"></div>
+            <div class="item_block"></div>
+            <div class="item_block"></div>
+            <div class="item_block"></div>
         </div>
     </div>
 
@@ -79,7 +82,7 @@
         <div class="container">
     
             <!-- Вкладка Описание -->
-            <div class="tab_content active">
+        <div class="tab_content active">
                 <div class="description">
                     <div class="image_size_product"><img src="/img/image_31.png" alt="img"></div>
                 </div>
@@ -153,14 +156,13 @@
                         <p>Тип двигателя</p>
                         <p>Четырехтактный дизель</p>
                     </div>
+                    <div class="horizont_line"></div>
                     
                 </div>
             </div>
-            <!-- Форма заполнения заявки -->
-            @include('application-form-section')
         </div>
 
-            <!-- Вкладка Доработки техники -->
+        <!-- Вкладка Доработки техники -->
         <div class="tab_content">
             <div class="container">
                 <div class="upgrade">
@@ -175,6 +177,7 @@
             </div>
         </div>
     </div> 
+    @include('application-form-section')
 </div>
 
 
