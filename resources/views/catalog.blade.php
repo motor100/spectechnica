@@ -36,7 +36,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Вакуумные автоцистерны</a>
+                                    <a href="/catalog/category">Вакуумные автоцистерны</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -45,7 +45,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Вакуумные машины</a>
+                                    <a href="/catalog/category">Вакуумные машины</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -54,7 +54,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Автоцистерны нефтепромысловые</a>
+                                    <a href="/catalog/category">Автоцистерны нефтепромысловые</a>
                                 </div> 
                             </div>
                             <div class="item_list">
@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Автоцистерны для воды</a>
+                                    <a href="/catalog/category">Автоцистерны для воды</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -72,7 +72,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Метаноловозы</a>
+                                    <a href="/catalog/category">Метаноловозы</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -81,7 +81,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Пожарные</a>
+                                    <a href="/catalog/category">Пожарные</a>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +100,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Полуприцепы-цистерны для техводы</a>
+                                    <a href="/catalog/category">Полуприцепы-цистерны для техводы</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -109,7 +109,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Полуприцепы-цистерны для ГСМ</a>
+                                    <a href="/catalog/category">Полуприцепы-цистерны для ГСМ</a>
                                 </div> 
                             </div>
                             <div class="item_list">
@@ -118,7 +118,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Полуприцепы-цистерны для нефти</a>
+                                    <a href="/catalog/category">Полуприцепы-цистерны для нефти</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -127,7 +127,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Полуприцепы-цистерны пищевые</a>
+                                    <a href="/catalog/category">Полуприцепы-цистерны пищевые</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -136,7 +136,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catagog/category">Бортовые полуприцепы</a>
+                                    <a href="/catalog/category">Бортовые полуприцепы</a>
                                 </div>
                             </div>
                         </div>
