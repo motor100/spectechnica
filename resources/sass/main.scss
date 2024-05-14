@@ -453,6 +453,29 @@ p {
       }
     }
   }
+
+  // about_section_mobile
+  .about_section_mobile {
+    padding: 25px 0;
+    .item_s {
+      margin: 0 0 25px 0;
+    }
+    .item_s .item_image {
+      width: 60px;
+      margin: 0 auto 15px auto;
+      text-align: center;
+    }
+    .item_s .item_image img {
+      width: 100%;
+    }
+    .item_s .item_text {
+      font-family: 'Montserrat-Bold';
+      font-size: 18px;
+      color: $orangecolor;
+      line-height: 1.3;
+      text-align: center;
+    }
+  }
   
   //Секция с кнопками
   .buttons_section {
@@ -505,6 +528,7 @@ p {
     }
     .item {
       width: 12.5%;
+      text-align: center;
     }
   }
   
@@ -1898,8 +1922,13 @@ p {
   width: 46px;
   height: 46px;
   padding: 7px;
+  background-color: $orangecolor;
   z-index: 11;
+  transition: background-color .5s;
   cursor: pointer;
+  &.menu-is-open {
+    background-color: $bluecolor;
+  }
   .burger-menu {
     position: relative;
     height: 100%;
@@ -1975,7 +2004,7 @@ p {
     text-transform: uppercase;
   }
   .callback-btn {
-    margin: 0 0 35px 0;
+    margin: 0 0 85px 0;
     padding: 20px 0px;
     background-color: $orangecolor;
     font-family: "Montserrat-SemiBold";
@@ -1986,10 +2015,11 @@ p {
     cursor: pointer;
   }
   .info .phone {
-    margin: 0 0 5px 0;
-    font-family: 'roboto-condensed-bold';
-    font-size: 20px;
-    color: $accentcolor;
+    margin: 0 0 25px 0;
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
   }
 }
 
@@ -2067,22 +2097,36 @@ p {
   
   // ГЛАВНАЯ СТРАНИЦА
   .home {
-    .main-section .slide {
-      height: 581px;
+    .main-section {
+      .slide {
+        height: 581px;
+      }
+      .slide .img_fon {
+        height: 442px;
+      }
+      .slide .img_car {
+        left: 65px;
+        width: 650px;
+      }
+      .slide .title {
+        left: 55%;
+      }
     }
-    .main-section .slide .img_fon {
-      height: 442px;
+
+    .about_section {
+      .about_text {
+        font-size: 22px;
+      }
+      .services .item_s .item_text {
+        font-size: 19px;
+      }
     }
-    .main-section .slide .img_car {
-      left: 65px;
-      width: 650px;
-    }
-    .main-section .slide .title {
-      left: 55%;
-    }
-    .buttons_section .btn_primary__company {
-      font-size: 16px;
-      padding: 23px 0;
+
+    .buttons_section {
+      .btn_primary__company {
+        font-size: 16px;
+        padding: 23px 0;
+      }
     }
   }
 }
@@ -2149,28 +2193,47 @@ p {
         font-size: 22px;
       }
     } 
-    .catalog-section .catalog .eq_item .eq_item__image {
-       width: 230px;
-       height: 130px;
+    .catalog-section {
+      .catalog .eq_item .eq_item__image {
+        width: 230px;
+        height: 130px;
+      } 
     }
-    .buttons_section .buttons {
-      width: 655px;
-      margin: 0 auto;
-    }
-    .buttons_section .item_button {
-      width: 50%;
-    }
-    .buttons_section .btn_primary__company {
-      margin: 10px auto;
-    }
-    .about_section .services .item_s .item_text {
-      font-size: 18px;
-    }
-    .buttons_section .btn_primary__company {
-      font-size: 20px;
-      padding: 19px 0;
-    }
+
+    .about_section {
+      .about_text {
+        font-size: 20px;
+      }
+      .services .item_s .item_text {
+        font-size: 16px;
+      }
+      .services .item_s .item_image {
+        width: 60px;
+        height: 75px;
+      }
+      .services .item_s .item_image img {
+        width: 100%;
+      }
+    } 
+
+    .buttons_section {
+      .buttons {
+        width: 655px;
+        margin: 0 auto;
+      }
+      .item_button {
+        width: 50%;
+      }
+      .btn_primary__company {
+        margin: 10px auto;
+      }
+      .btn_primary__company {
+        font-size: 20px;
+        padding: 19px 0;
+      }
+    } 
   }
+
   .catalog {
     .equipment_catalog .eq_list a {
       font-size: 16px;
@@ -2210,6 +2273,7 @@ p {
       display: none; 
     }
   }
+
   // ГЛАВНАЯ СТРАНИЦА
   .home {
     .catalog-section .section-title {
@@ -2230,19 +2294,23 @@ p {
     .catalog-section .catalog {
       margin-top: 30px;
     }
-    .about_section .about-title {
-      text-align: center;
+
+    .about_section {
+      .about-title {
+        text-align: center;
+      }
+      .about_text {
+        text-align: center;
+      }
+      .services {
+        margin-top: 10px;
+      }
+      .services .item_s {
+        width: 50%;
+        margin-bottom: 50px;
+      }
     }
-    .about_section .about_text {
-      text-align: center;
-    }
-    .about_section .services {
-      margin-top: 10px;
-    }
-    .about_section .services .item_s {
-      width: 50%;
-      margin-bottom: 50px;
-    }
+
     .partners-section .section-title {
       text-align: center;
     }
@@ -2438,6 +2506,7 @@ p {
       margin-bottom: 30px;
     }
   }
+
   .home {
     .catalog-section .catalog .eq_item .eq_item__image {
       width: 350px;
@@ -2463,54 +2532,65 @@ p {
       margin-bottom: 30px;
     }
     
-    .about_section .services {
-      display: none;
+    .about_section {
+      .services {
+        display: none;
+      }
     }
 
     //Секция с кнопками
-    .buttons_section .buttons {
+    .buttons_section {
       background-color: #6D6D6E;
-      width: 100%;
-      margin: 0 auto;
-      padding: 30px;
+      .buttons {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 0;
+      }
+      .item_button {
+        width: 100%;
+      }
+      .btn_primary__company {
+        font-size: 20px;
+        padding: 19px 0;
+      }
     }
-    .buttons_section .item_button {
-      width: 100%;
-    }
-    .buttons_section .btn_primary__company {
-      font-size: 20px;
-      padding: 19px 0;
-    }
+
     .partners-section {
-      display: block;
+      .item img {
+        width: 100%;
+      } 
     }
+
     .horizontal_line {
       display: none;
     }
-    .advantages-section .item_prod .image_prod {
-      width: 30px;
-      height: 40px;
-    }
-    .advantages-section .item_prod p {
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-      margin-top: 20px;
-    }
-    .advantages-section .adv_title {
-      display: block;
-      font-size: 24px;
-      width: 300px;
-      margin: 0 auto;
-      
-    }
+
     .advantages-section {
-      margin: 0;
+      margin: 20px 0 30px 0;
       padding: 0;
+      .item_prod {
+        margin-top: 25px;
+      }
+      .item_prod .image_prod {
+        width: 30px;
+        height: 40px;
+      }
+      .item_prod p {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+      }
+      .adv_title {
+        width: 300px;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 1.3;        
+      }
     }
-    .advantages-section .item_prod {
-      margin-top: 25px;
-    }
+
+
+
   }
   .catalog {
     .equipment_catalog .title {
@@ -2562,32 +2642,9 @@ p {
     background-color: #8CAEC9;
     padding: 0;
   }
-  .advantages-section {
-    margin: 0;
-    padding: 0;
-    margin: 20px 0 30px 0;
-    .item_prod .image_prod {
-      width: 30px;
-      height: 40px;
-    }
-    .item_prod p {
-      font-size: 14px;
-      margin: 0;
-      padding: 0;
-      margin-top: 20px;
-    }
-    .adv_title {
-      display: block;
-      font-size: 24px;
-      width: 300px;
-      margin: 0 auto;
-      
-    }
-    .item_prod {
-      margin-top: 25px;
-    }
 
-  }
+
+  
   .category {
     .title {
       text-align: center;
@@ -2758,7 +2815,16 @@ p {
 }
 
 @media only screen and (max-width : 480px) {
- 
+  .home {
+    .partners-section {
+      .item {
+        width: 33%;
+      }
+      .item-hidden {
+        display: none;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width : 360px) {

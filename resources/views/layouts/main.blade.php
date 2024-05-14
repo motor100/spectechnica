@@ -281,32 +281,28 @@
   </div>
 
   <div class="mobile-menu">
-
     <ul class="menu">
       <li class="menu-item">
-        <a href="/company">Каталог</a>
+        <a href="/catalog">Каталог</a>
       </li>
       <li class="menu-item">
-        <a href="/services">Доработки и сервис</a>
+        <a href="/upgrade-and-service">Доработки и сервис</a>
       </li>
       <li class="menu-item">
-        <a href="/payment">Услуги</a>
+        <a href="/services">Услуги</a>
       </li>
       <li class="menu-item">
-        <a href="/delivery">О компании</a>
+        <a href="/about">О компании</a>
       </li>
       <li class="menu-item menu-item-last">
-        <a href="/warranty">Контакты</a>
+        <a href="/contacts">Контакты</a>
       </li>
     </ul>
-
     <div class="callback-btn js-callback-btn">Оставить заявку</div>
-
     <div class="info">
       <div class="phone">+7 (982) 292-88-79</div>
       <div class="phone">8 (800) 234-08-12</div>
-    </div>          
-
+    </div>
   </div>
 
   @if(!request()->cookie('we-use-cookie'))

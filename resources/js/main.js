@@ -94,7 +94,7 @@ const modalCloseBtn = document.querySelector('.modal-window .modal-close');
 
 function modalWindowOpen(win) {
   // Закрытие мобильного меню
-  // closeMobileMenu();
+  closeMobileMenu();
   // Открытие окна
   body.classList.add('overflow-hidden');
   win.classList.add('active');

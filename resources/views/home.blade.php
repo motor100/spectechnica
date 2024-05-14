@@ -112,6 +112,31 @@
     </div>   
   </div>
 
+  <div class="about_section_mobile hidden-desktop">
+    <div class="container">
+      <div class="services">
+        <div class="item_s">
+          <div class="item_image">
+            <img src="/img/s_1.png" alt="#">
+          </div>
+          <div class="item_text">Высокое качество<br>продукции по<br>доступным ценам</div>  
+        </div>
+        <div class="item_s">
+          <div class="item_image">
+            <img src="/img/s_2.png" alt="#">
+          </div>
+          <div class="item_text">Штат опытных<br>сотрудников</div>
+        </div>
+        <div class="item_s">
+          <div class="item_image">
+            <img src="/img/s_4.png" alt="#">
+          </div>
+          <div class="item_text">Льготная доставка в<br>регионы собственным<br>автотранспортом</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Секция с кнопками -->
   <div class="buttons_section">
     <div class="container">
@@ -155,10 +180,10 @@
         <div class="item">
           <img src="/img/sinergiya-logo.jpg" alt="">
         </div>
-        <div class="item">
+        <div class="item item-hidden">
           <img src="/img/jurop-logo.jpg" alt="">
         </div>
-        <div class="item">
+        <div class="item item-hidden">
           <img src="/img/prompribor-logo.jpg" alt="">
         </div>
       </div>
