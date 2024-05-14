@@ -49,7 +49,6 @@
     <!-- Навигационное меню -->
     <div class="navigation">
       <div class="container">
-<<<<<<< HEAD
         <div class="navbar-wrapper">
           <div class="navbar">
             <div class="navbar-item navbar-item-dropdown">
@@ -103,23 +102,6 @@
             <div class="navbar-item">
               <a href="/contacts" class="navbar-item__link">контакты</a>
             </div>
-=======
-        <div class="navbar">
-          <div class="navbar-item active navbar-item-dropdown">
-            <a href="/catalog" class="navbar-item__link">Каталог</a>
->>>>>>> Master
-          </div>
-          <div class="navbar-item">
-            <a href="/upgrade-and-service" class="navbar-item__link">доработки и сервис</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/services" class="navbar-item__link">услуги</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/about" class="navbar-item__link">о компании</a>
-          </div>
-          <div class="navbar-item">
-            <a href="/contacts" class="navbar-item__link">контакты</a>
           </div>
         </div>  
       </div>
@@ -149,7 +131,6 @@
     <div class="top_line"></div>
     <div class="footer_content">
       <div class="container">
-<<<<<<< HEAD
         <div class="row">
           <div class="col-md-5">
             <div class="f_item__content">
@@ -198,43 +179,6 @@
                 <li class="list-item">
                   <a href="/certificates">Сертификаты</a>
                 </li>
-=======
-        <div class="main_footer">
-          <div class="f_item">
-            <div class="f_contant">
-              <div class="search_mobile">
-                <input type="submit" value="">
-                <input type="search" name="q">
-              </div>
-              <p class="f_title1">контакты</p>
-              <p class="fone">+7 (982) 292-88-79 </p>
-              <p class="email">zakaz@gidravlic.com</p>
-              <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
-              <!-- <p class="adress_mobile">г. Миасс<br>Тургоякское шоссе, 5/11</p> -->
-              <img class="f_logo" src="/img/logo.svg" alt="logo">
-              <a href="#" class="f_info">Полная контактная информация</a>
-            </div>
-          </div>
-          <div class="f_item">
-            <div class="f_list1">
-                <p class="f_title2">продукция</p>
-                <ul>
-                  <li><a href="/catalog">Каталог техники</a></li>
-                  <li><a href="/in-stock">Техника в наличии</a></li>
-                  <li><a href="/special-offer">Спецпредложения</a></li>
-                  <li><a href="/upgrade-and-service">Доработки и сервис</a></li>
-                </ul>
-            </div>
-          </div>
-          <div class="f_item">
-            <div class="f_list2">
-              <p class="f_title3">о компании</p>
-              <ul>
-                <li><a href="/about">О “ГидроСпецАвто”</a></li>
-                <li><a href="/manufacture">Производство</a></li>
-                <li><a href="/services">Услуги</a></li>
-                <li><a href="/certificates">Сертификаты</a></li>
->>>>>>> Master
               </ul>
               <div class="f_apl js-callback-btn">Оставить заявку</div>
             </div>
@@ -347,20 +291,6 @@
       </div>
     </div>
   @endif
-
-<<<<<<< HEAD
-  
-=======
-  <!-- Стрелка вверх -->
-  <div id="to-top" class="to-top">
-    <div class="container">
-      <div class="polygon">
-        <img src="img/Polygon_1.png" alt="Стрелка">
-      </div>
-    </div>
-  </div>
->>>>>>> Master
-  
 
   <!-- 
   @ if(Auth::guard('admin')->user())

@@ -39,21 +39,17 @@
     <div class="container">
       <div class="section-title">каталог техники</div>
       <div class="catalog">
-          <div class="eq_item">
-            <div class="eq_item__image">
-              <img src="/img/katalog-avtocisterny.png" alt="камаз-55510">
-            </div>
-            <div class="eq_item__title">автоцистерны</div>
-            <a href="/catalog/category" class="eq_item__link"></a>
-            <span class="vline"></span>
+        <div class="eq_item">
+          <div class="eq_item__image">
+            <img src="/img/katalog-avtocisterny.png" alt="камаз-55510">
           </div>
-          <div class="eq_item">
-            <div class="eq_item__image">
-              <img src="/img/katalog-pricepnaya-tekhnika.png" class="eq_item__image" alt="камаз-55510">
-            </div>
-            <div class="eq_item__title">прицепная<br>техника</div>
-            <a href="/catalog" class="eq_item__link"></a>
-            <span class="vline"></span>
+          <div class="eq_item__title">автоцистерны</div>
+          <a href="/catalog/category" class="eq_item__link"></a>
+          <span class="vline"></span>
+        </div>
+        <div class="eq_item">
+          <div class="eq_item__image">
+            <img src="/img/katalog-pricepnaya-tekhnika.png" class="eq_item__image" alt="камаз-55510">
           </div>
           <div class="eq_item__title">прицепная<br>техника</div>
           <a href="/catalog/category" class="eq_item__link"></a>
@@ -115,7 +111,6 @@
       </div>
     </div>   
   </div>
-  @include('services-section_mobile')
 
   <!-- Секция с кнопками -->
   <div class="buttons_section">

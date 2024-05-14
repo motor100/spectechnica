@@ -96,6 +96,15 @@ p {
 .btn_primary:hover {
   background-color: #8CAEC9;
 }
+.orange_btn {
+  transition: background-color .3s;
+}
+.orange_btn:hover {
+  background-color: $lightbluecolor !important;
+}
+.page-title {
+  
+}
 
 // Хлебные крошки
 .breadcrumbs {
@@ -110,6 +119,7 @@ p {
     color: #1874A0;
   }
 }
+
 // Форма поиска
 .search-form-section {
   margin: 0 0 36px 0;
@@ -217,6 +227,7 @@ p {
     
   }
 }
+
 //Бургер
 .item_burger {
   display: none;
@@ -262,8 +273,6 @@ p {
     }
   } 
 }
-
-
 
 // header
 .header {
@@ -505,6 +514,7 @@ p {
           display: block;
           width: 260px;
           height: 160px;
+          margin: 0 auto;
           transition: transform .3s;
           img {
             width: 100%;
@@ -540,12 +550,12 @@ p {
       }
       .vline {
         position: absolute;
-        background-color: #8CAEC9;
+        top: 0;
+        right: 0;
         width: 2px;
         height: 100%;
-        top: 0;
+        background-color: #8CAEC9;
       }
-      
     }    
     .btn_primary__catalog {
       display: block;
@@ -1941,10 +1951,7 @@ p {
       font-size: 16px;
       padding: 23px 0;
     }
-    
-
   }
-
 }
 
 @media only screen and (max-width : 1200px) {
@@ -2029,7 +2036,6 @@ p {
       line-height: 1;
     }
   }
-
 }
 
 @media only screen and (max-width : 992px) {
@@ -2241,7 +2247,6 @@ p {
   .row {
     --bs-gutter-x: 20px;
   }
-  
 
   .hidden-mobile {
     display: none !important;
@@ -2346,30 +2351,6 @@ p {
     
     .about_section .services {
       display: none;
-    }
-    .services-section_mobile {
-      display: block;
-      .services_m {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 30px;
-      }
-      .item_s {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
-        p {
-          font-family: "Montserrat-Bold";
-          font-size: 20px;
-          color: #EF7605;
-          text-align: center;
-          line-height: 1.2;
-          margin-top: 30px;
-        }
-      }
     }
 
     //Секция с кнопками
@@ -2657,7 +2638,6 @@ p {
 
   
 }
-
 
 @media only screen and (max-width : 576px) {
 
