@@ -22,7 +22,7 @@
 
     <!-- Заголовок -->
     <div class="container">
-        <div class="title">АВТОЦИСТЕРНЫ НЕФТЕПРОМЫСЛОВЫЕ ТЕРМОИЗОЛИРОВАННЫЕ</div>
+        <div class="page-title">АВТОЦИСТЕРНЫ НЕФТЕПРОМЫСЛОВЫЕ ТЕРМОИЗОЛИРОВАННЫЕ</div>
     </div>
     
     <!-- Секция с фильтром -->
@@ -38,224 +38,6 @@
     <!-- Секция с товарами -->
     <div class="products-wrapper section">
         <div class="section_category">
-            <div class="top_line_mobile">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="block_category">
-                            <div class="category_item__img">
-                                <a href="/catalog/product" class="category_item__link">
-                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
-                                </a>
-                            </div>               
-                            <div class="y_line"></div>
-                            <div class="category_item__description">
-                                <div class="product-title-wrapper">
-                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
-                                </div>                                
-                                <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
-                                <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="category_item__art">
-                            <p class="art">Арт. 8859-12</p>
-                            <a href="#" class="btn_2">ПОДРОБНЕЕ</a>
-                        </div>
-                    </div>
-                    <div class="category_item__art">
-                        <p class="art">Арт. 8859-12</p>
-                        <a href="#" class="btn_2">ИНФО</a>
-                    </div> 
-                </div>
-                <div class="x_line"></div> 
-            </div>
-        </div>
-        <div class="section_category">
-            <div class="top_line_mobile">
-            </div>
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="block_category">
-                            <div class="category_item__img">
-                                <a href="/catalog/product" class="category_item__link">
-                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
-                                </a>
-                            </div>
-                            <div class="y_line"></div>
-                            <div class="category_item__description">
-                                <div class="product-title-wrapper">
-                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
-                                </div>
-                                <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
-                                <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="category_item__art">
-                            <p class="art">Арт. 8859-12</p>
-                            <a href="#" class="btn_2">ПОДРОБНЕЕ</a>
-                        </div>
-                    </div>
-                    <div class="category_item__art">
-                        <p class="art">Арт. 8859-12</p>
-                        <a href="#" class="btn_2">ИНФО</a>
-                    </div> 
-                </div>
-                <div class="x_line"></div> 
-            </div>
-        </div>
-        <div class="section_category">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="block_category">
-                            <div class="category_item__img">
-                                <a href="/catalog/product" class="category_item__link">
-                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
-                                </a>
-                            </div>               
-                            <div class="y_line"></div>
-                            <div class="category_item__description">
-                                <div class="product-title-wrapper">
-                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
-                                </div>
-                                <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
-                                <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="category_item__art">
-                            <p class="art">Арт. 8859-12</p>
-                            <a href="#" class="btn_2">ПОДРОБНЕЕ</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="x_line"></div>  
-
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="block_category">
-                            <div class="category_item__img">
-                                <a href="/catalog/product" class="category_item__link">
-                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
-                                </a>
-                            </div>               
-                            <div class="y_line"></div>
-                            <div class="category_item__description">
-                                <div class="product-title-wrapper">
-                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
-                                </div>
-                                <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
-                                <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="category_item__art">
-                            <p class="art">Арт. 8859-12</p>
-                            <a href="#" class="btn_2">ПОДРОБНЕЕ</a>
-                        </div>
-                    </div>
-                    <div class="category_item__art">
-                        <p class="art">Арт. 8859-12</p>
-                        <a href="#" class="btn_2">ИНФО</a>
-                    </div> 
-                </div>
-                <div class="x_line"></div> 
-            </div>
-        </div>
-        <div class="section_category">
-            <div class="top_line_mobile">
-            </div>
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="block_category">
-                            <div class="category_item__img">
-                                <a href="/catalog/product" class="category_item__link">
-                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
-                                </a>
-                            </div>               
-                            <div class="y_line"></div>
-                            <div class="category_item__description">
-                                <div class="product-title-wrapper">
-                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
-                                </div>
-                                <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
-                                <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="category_item__art">
-                            <p class="art">Арт. 8859-12</p>
-                            <a href="#" class="btn_2">ПОДРОБНЕЕ</a>
-                        </div>
-                    </div>
-                    <div class="category_item__art">
-                        <p class="art">Арт. 8859-12</p>
-                        <a href="#" class="btn_2">ИНФО</a>
-                    </div> 
-                </div>
-                <div class="x_line"></div> 
-            </div>
-        </div>
-        <div class="section_category">
-            <div class="top_line_mobile">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10">
-                        <div class="block_category">
-                            <div class="category_item__img">
-                                <a href="/catalog/product" class="category_item__link">
-                                    <img src="/img/image_21.png" alt="КАМАЗ-65115">
-                                </a>
-                            </div>               
-                            <div class="y_line"></div>
-                            <div class="category_item__description">
-                                <div class="product-title-wrapper">
-                                    <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
-                                </div>
-                                <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
-                                <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="category_item__art">
-                            <p class="art">Арт. 8859-12</p>
-                            <a href="#" class="btn_2">ПОДРОБНЕЕ</a>
-                        </div>
-                    </div>
-                    <div class="category_item__art">
-                        <p class="art">Арт. 8859-12</p>
-                        <a href="#" class="btn_2">ИНФО</a>
-                    </div> 
-                </div>
-                <div class="x_line"></div> 
-            </div>
-        </div>
-        <div class="section_category">
-            <div class="top_line_mobile">
-            </div>
             <div class="container">
                 <div class="section_prod_card">  
                     <div class="block_category">
@@ -264,23 +46,147 @@
                         </div>               
                         <div class="y_line"></div>
                         <div class="category_item__description">
-                            <p class="name">АЦПТ-13 КАМАЗ-65115</h1>
+                            <div class="product-title-wrapper">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                            </div>
                             <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
                             <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                            <a href="#" class="btn_1">ЗАПРОСИТЬ СТОИМОСТЬ</a>
+                            <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
                         </div>
                     </div>
                     <div class="category_item__art">
-                        <p class="art">Арт. 8859-12</p>
-                        <a href="#" class="btn_2">ИНФО</a>
+                        <div class="art">арт. 8859-12</div>
+                        <a href="#" class="btn_2">Подробнее</a>
                     </div> 
                 </div>
                 <div class="x_line"></div> 
             </div>
         </div>
-    </div>
-    <div class="m_advanted_section">
-        @include('application-form-section')
+        <div class="section_category">
+            <div class="container">
+                <div class="section_prod_card">  
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>               
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                            </div>
+                            <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
+                            <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
+                            <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        </div>
+                    </div>
+                    <div class="category_item__art">
+                        <div class="art">арт. 8859-12</div>
+                        <a href="#" class="btn_2">Подробнее</a>
+                    </div> 
+                </div>
+                <div class="x_line"></div> 
+            </div>
+        </div>
+        <div class="section_category">
+            <div class="container">
+                <div class="section_prod_card">  
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>               
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                            </div>
+                            <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
+                            <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
+                            <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        </div>
+                    </div>
+                    <div class="category_item__art">
+                        <div class="art">арт. 8859-12</div>
+                        <a href="#" class="btn_2">Подробнее</a>
+                    </div> 
+                </div>
+                <div class="x_line"></div> 
+            </div>
+        </div>
+        <div class="section_category">
+            <div class="container">
+                <div class="section_prod_card">  
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>               
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                            </div>
+                            <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
+                            <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
+                            <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        </div>
+                    </div>
+                    <div class="category_item__art">
+                        <div class="art">арт. 8859-12</div>
+                        <a href="#" class="btn_2">Подробнее</a>
+                    </div> 
+                </div>
+                <div class="x_line"></div> 
+            </div>
+        </div>
+        <div class="section_category">
+            <div class="container">
+                <div class="section_prod_card">  
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>               
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                            </div>
+                            <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
+                            <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
+                            <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        </div>
+                    </div>
+                    <div class="category_item__art">
+                        <div class="art">арт. 8859-12</div>
+                        <a href="#" class="btn_2">Подробнее</a>
+                    </div> 
+                </div>
+                <div class="x_line"></div> 
+            </div>
+        </div>
+        <div class="section_category">
+            <div class="container">
+                <div class="section_prod_card">  
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>               
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                            </div>
+                            <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
+                            <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
+                            <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        </div>
+                    </div>
+                    <div class="category_item__art">
+                        <div class="art">арт. 8859-12</div>
+                        <a href="#" class="btn_2">Подробнее</a>
+                    </div> 
+                </div>
+                <div class="x_line"></div> 
+            </div>
+        </div>
     </div>
 
     <!-- Видео презентации техники -->

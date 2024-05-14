@@ -19,28 +19,19 @@
     <!-- Верхнее меню -->
     <div class="header_top">
       <div class="container">
-        <div class="header_contant">
-          <!-- Бургер -->
-          <div class="item_burger">
-            <div class="burger">
-              <span class="burger__line"></span>
-              <span class="burger__line"></span>
-              <span class="burger__line"></span>
-            </div>
-            <a href="#" class="burger_link"></a>
-          </div>
+        <div class="header_content">
           <!-- Логотип -->
           <div class="item_logo">
             <a href="/" class="logo-link"></a>
             <img src="/img/logo.svg" alt="logo" class="main_logo">
-            <p>Производство и продажа спецтехники</p>
+            <div class="under-logo-text">Производство и продажа спецтехники</div>
           </div>
           <!-- Кнопка заказать звонок -->
           <div class="item_call">
             <a href="tel:+780090000000" class="number_phone">8-800-9000-00-00</a>
             <div class="btn-call js-callback-btn">
               <p class="btn-call__text">ЗАКАЗАТЬ ЗВОНОК</p>
-              <img src="img/icon_call.svg" alt="call">
+              <img src="/img/icon_call.svg" alt="call">
             </div>
           </div>
         </div>
@@ -282,6 +273,41 @@
     </div>
   </div>
 
+  <!-- Бургер -->
+  <div class="burger-menu-wrapper">
+    <div class="burger-menu">
+      <span class="span"></span>
+    </div>
+  </div>
+
+  <div class="mobile-menu">
+
+    <ul class="menu">
+      <li class="menu-item">
+        <a href="/company">Каталог</a>
+      </li>
+      <li class="menu-item">
+        <a href="/services">Доработки и сервис</a>
+      </li>
+      <li class="menu-item">
+        <a href="/payment">Услуги</a>
+      </li>
+      <li class="menu-item">
+        <a href="/delivery">О компании</a>
+      </li>
+      <li class="menu-item menu-item-last">
+        <a href="/warranty">Контакты</a>
+      </li>
+    </ul>
+
+    <div class="callback-btn js-callback-btn">Оставить заявку</div>
+
+    <div class="info">
+      <div class="phone">+7 (982) 292-88-79</div>
+      <div class="phone">8 (800) 234-08-12</div>
+    </div>          
+
+  </div>
 
   @if(!request()->cookie('we-use-cookie'))
     <div class="we-use-cookie">
