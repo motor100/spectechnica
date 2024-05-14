@@ -16,34 +16,40 @@
 
 <body>
   <header class="header">
-
+    <!-- Верхнее меню -->
     <div class="header_top">
       <div class="container">
         <div class="header_contant">
+          <!-- Бургер -->
           <div class="item_burger">
-            <button class="burger">
+            <div class="burger">
               <span class="burger__line"></span>
               <span class="burger__line"></span>
               <span class="burger__line"></span>
-            </button>
+            </div>
+            <a href="#" class="burger_link"></a>
           </div>
+          <!-- Логотип -->
           <div class="item_logo">
             <a href="/" class="logo-link"></a>
             <img src="/img/logo.svg" alt="logo" class="main_logo">
             <p>Производство и продажа спецтехники</p>
           </div>
+          <!-- Кнопка заказать звонок -->
           <div class="item_call">
             <a href="tel:+780090000000" class="number_phone">8-800-9000-00-00</a>
             <div class="btn-call js-callback-btn">
               <p class="btn-call__text">ЗАКАЗАТЬ ЗВОНОК</p>
-              <img src="/img/icon_call.svg" alt="call">
+              <img src="img/icon_call.svg" alt="call">
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Навигационное меню -->
     <div class="navigation">
       <div class="container">
+<<<<<<< HEAD
         <div class="navbar-wrapper">
           <div class="navbar">
             <div class="navbar-item navbar-item-dropdown">
@@ -97,9 +103,25 @@
             <div class="navbar-item">
               <a href="/contacts" class="navbar-item__link">контакты</a>
             </div>
+=======
+        <div class="navbar">
+          <div class="navbar-item active navbar-item-dropdown">
+            <a href="/catalog" class="navbar-item__link">Каталог</a>
+>>>>>>> Master
           </div>
-          
-        </div>
+          <div class="navbar-item">
+            <a href="/upgrade-and-service" class="navbar-item__link">доработки и сервис</a>
+          </div>
+          <div class="navbar-item">
+            <a href="/services" class="navbar-item__link">услуги</a>
+          </div>
+          <div class="navbar-item">
+            <a href="/about" class="navbar-item__link">о компании</a>
+          </div>
+          <div class="navbar-item">
+            <a href="/contacts" class="navbar-item__link">контакты</a>
+          </div>
+        </div>  
       </div>
     </div>
   </header>
@@ -127,6 +149,7 @@
     <div class="top_line"></div>
     <div class="footer_content">
       <div class="container">
+<<<<<<< HEAD
         <div class="row">
           <div class="col-md-5">
             <div class="f_item__content">
@@ -175,6 +198,43 @@
                 <li class="list-item">
                   <a href="/certificates">Сертификаты</a>
                 </li>
+=======
+        <div class="main_footer">
+          <div class="f_item">
+            <div class="f_contant">
+              <div class="search_mobile">
+                <input type="submit" value="">
+                <input type="search" name="q">
+              </div>
+              <p class="f_title1">контакты</p>
+              <p class="fone">+7 (982) 292-88-79 </p>
+              <p class="email">zakaz@gidravlic.com</p>
+              <p class="adress">г. Миасс, Тургоякское шоссе, 5/11</p>
+              <!-- <p class="adress_mobile">г. Миасс<br>Тургоякское шоссе, 5/11</p> -->
+              <img class="f_logo" src="/img/logo.svg" alt="logo">
+              <a href="#" class="f_info">Полная контактная информация</a>
+            </div>
+          </div>
+          <div class="f_item">
+            <div class="f_list1">
+                <p class="f_title2">продукция</p>
+                <ul>
+                  <li><a href="/catalog">Каталог техники</a></li>
+                  <li><a href="/in-stock">Техника в наличии</a></li>
+                  <li><a href="/special-offer">Спецпредложения</a></li>
+                  <li><a href="/upgrade-and-service">Доработки и сервис</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="f_item">
+            <div class="f_list2">
+              <p class="f_title3">о компании</p>
+              <ul>
+                <li><a href="/about">О “ГидроСпецАвто”</a></li>
+                <li><a href="/manufacture">Производство</a></li>
+                <li><a href="/services">Услуги</a></li>
+                <li><a href="/certificates">Сертификаты</a></li>
+>>>>>>> Master
               </ul>
               <div class="f_apl js-callback-btn">Оставить заявку</div>
             </div>
@@ -235,7 +295,7 @@
           <div class="custom-checkbox-wrapper mb50">
             <input type="checkbox" name="checkbox-read" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-read-callback-modal" checked required>
             <label for="checkbox-read-callback-modal" class="custom-checkbox-label"></label>
-            <span class="checkbox-text">Ознакомлен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
+            <span class="checkbox-text">Ознакомлен с <a href="/politika-konfidencialnosti" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
           </div>
           @csrf
           <button type="button" id="callback-submit-btn" class="modal-submit-btn">ОТПРАВИТЬ</button>
@@ -269,7 +329,7 @@
           <div class="custom-checkbox-wrapper mb50">
             <input type="checkbox" name="checkbox-read" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-read-callback-modal" checked required>
             <label for="checkbox-read-callback-modal" class="custom-checkbox-label"></label>
-            <span class="checkbox-text">Ознакомлен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
+            <span class="checkbox-text">Ознакомлен с <a href="/politika-konfidencialnosti" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
           </div>
 
           <button type="button" id="consultation-submit-btn" class="modal-submit-btn">ОТПРАВИТЬ</button>
@@ -278,27 +338,28 @@
     </div>
   </div>
 
+
   @if(!request()->cookie('we-use-cookie'))
     <div class="we-use-cookie">
-      <div class="line-top"></div>
-      <div class="line-white"></div>
-      <div class="we-use-cookie-content">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <div class="we-use-cookie-text">Мы используем файлы cookie. Продолжив использование сайта, вы соглашаетесь с условиями <a href="/privacy-policy">Соглашения об использовании сайта</a></div>
-            </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-3">
-              <button id="we-use-cookie-close-btn" class="we-use-cookie-close-btn">Прекрасно</button>
-            </div>
-          </div>
-        </div>        
+      <div class="we-use-cookie-wrapper">
+        <div class="we-use-cookie-text">Мы используем файлы cookie. Продолжив использование сайта, вы соглашаетесь с условиями <a href="/privacy-policy">Соглашения об использовании сайта</a></div>
+        <button class="primary-btn js-we-use-cookie-close">Прекрасно</button>
       </div>
     </div>
   @endif
 
+<<<<<<< HEAD
   
+=======
+  <!-- Стрелка вверх -->
+  <div id="to-top" class="to-top">
+    <div class="container">
+      <div class="polygon">
+        <img src="img/Polygon_1.png" alt="Стрелка">
+      </div>
+    </div>
+  </div>
+>>>>>>> Master
   
 
   <!-- 
