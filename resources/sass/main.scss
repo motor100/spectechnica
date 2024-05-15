@@ -1427,7 +1427,7 @@ p {
   }
 }
 
-// КАТЕГОРИИ
+// Категории
 .category {
   .section {
     margin: 0 0 40px 0;
@@ -1444,7 +1444,6 @@ p {
     display: flex;
     justify-content: space-between;
   }
-  
   .x_line {
     height: 1px;
     background-color: #E2D6CE;
@@ -1455,9 +1454,10 @@ p {
   .filter-section {
     .filter-btn {
       width: 343px;
-      height: 51px;
       margin: 0 0 25px 0;
       padding: 7px 0;
+      border: 2px solid $lightbluecolor;
+      border-radius: 5px;
       background-color: #1874A0;
       font-family: "Montserrat-SemiBold";
       font-size: 24px;
@@ -1484,10 +1484,17 @@ p {
       width: 2px;
       height: 230px;
       background-color: #E2D6CE;
-      margin: 0 20px 0 20px;
+      margin: 0 20px 0 40px;
     }
     .category_item__link {
       display: block;
+    }
+    .category_item__img {
+      width: 300px;
+      flex-shrink: 0;
+    }
+    .category_item__img img {
+      width: 100%;
     }
     .category_item__description {
       .product-title-wrapper {
@@ -1553,11 +1560,10 @@ p {
       width: 160px;
       height: 50px;
       margin: 0 0 15px 0;
-      padding-top: 13px;
+      padding: 13px 0;
       border-radius: 5px;
       background-color: #E2D6CE;
       font-family: "Montserrat-SemiBold";
-      font-size: 16px;
       color: #fff;
       text-align: center;
       text-transform: uppercase;      
@@ -1569,8 +1575,21 @@ p {
     .videos {
       margin: 0 0 25px 0;
     }
-    .videos img {
+    .video-item {
+      margin: 0 0 35px 0;
+    }
+    .video-item__image {
+      margin: 0 0 5px 0;
+    }
+    .video-item__title {
+      color: $bluecolor;
+      line-height: 1.3;
+      text-decoration: underline;
+    }
+    .video-item img {
       width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
     .view-more-btn {
       display: block;
@@ -1626,6 +1645,7 @@ p {
     .videos {
       .video-item {
         height: 180px;
+        margin: 0 0 15px 0;
       }
       .video-item img {
         width: 100%;
@@ -2066,6 +2086,10 @@ p {
 
 @media only screen and (max-width : 1400px) {
 
+  .page-title {
+    font-size: 22px;
+  }
+
   .header {
     .navigation .navbar .navbar-item-dropdown::before,
     .navigation .navbar .navbar-item-dropdown::after {
@@ -2295,6 +2319,29 @@ p {
     .form_item_2 .btn_push {
       padding: 10px 0;
       font-size: 22px;
+    }
+  }
+
+  .category {
+    .filter-section .filter-btn {
+      width: 300px;
+    }
+    .block_category .category_item__description .product-title {
+      font-size: 22px;
+    }
+    .block_category .category_item__img {
+      width: 258px;
+    }
+    .block_category .category_item__description .btn_1 {
+      width: 240px;
+      height: 45px;
+      font-size: 15px;
+    }
+    .category_item__art .btn_2 {
+      width: 150px;
+      height: 45px;
+      padding: 10px 0;
+      font-size: 15px;
     }
   }
 }
@@ -2784,16 +2831,8 @@ p {
       width: 400px;
       height: auto;
     }
-    
     .x_line {
       display: none;
-    }
-    .top_line_mobile {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      height: 35px;
-      background-color: #8CAEC9;
     }
     .category_item__art .art {
       position: absolute;
@@ -2816,8 +2855,6 @@ p {
     .block_category .category_item__description .price {
       margin: 0 0 0 20px;
       padding: 0;
-      
-      
     }
     .block_category .category_item__description .price .p1 {
       font-size: 10px;
@@ -2826,10 +2863,6 @@ p {
     .block_category .category_item__description .price .p2 {
       font-size: 10px;
       color: black;
-    }
-    .block_category .category_item__img img {
-      width: 150px;
-      height: 100px;
     }
     .block_category .category_item__description .btn_1 {
       position: absolute;
@@ -2856,7 +2889,6 @@ p {
       justify-content: space-between;
       padding: 10px;
       margin: 0;
-      //margin-top: 20px;
     }
     .m_advanted_section {
       display: block;
@@ -2873,8 +2905,10 @@ p {
     .btn_year {
       display: none;
     }
-    .video_section_2 {
-      display: none;
+    .video-section-shipment {
+      .videos .video-item {
+        height: auto;
+      }
     }
   }
 
