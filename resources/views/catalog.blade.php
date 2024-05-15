@@ -11,7 +11,7 @@
         <div class="container">
             <a href="/">Главная</a>
             <span>  -  </span>
-            <a class="active" href="/catalog">Каталог Техники</a>
+            <span class="active">Каталог Техники</span>
         </div>  
     </div>
 
@@ -28,7 +28,7 @@
                         <div class="eq_item__image">
                             <img src="/img/katalog-avtocisterny.png" alt="АВТОЦИСТЕРНЫ">
                         </div>
-                        <a class="title_link" href="#">АВТОЦИСТЕРНЫ</a>
+                        <a class="eq_item__title" href="/catalog/category">АВТОЦИСТЕРНЫ</a>
                         <div class="eq_list">
                             <div class="item_list">
                                 <div class="item_img1">
@@ -92,7 +92,7 @@
                         <div class="eq_item__image">
                             <img src="/img/katalog-pricepnaya-tekhnika.png" alt="ПРИЦЕПНАЯ ТЕХНИКА">
                         </div>
-                        <a class="title_link" href="#">ПРИЦЕПНАЯ ТЕХНИКА</a>
+                        <a class="eq_item__title" href="/catalog/category">ПРИЦЕПНАЯ ТЕХНИКА</a>
                         <div class="eq_list">
                             <div class="item_list">
                                 <div class="item_img1">
@@ -148,7 +148,7 @@
                         <div class="eq_item__image">
                             <img src="/img/katalog-avtokrany-i-manipulyatory.png" alt="АВТОКРАНЫ И МАНИПУЛЯТОРЫ">
                         </div>
-                        <a class="title_link" href="#">АВТОКРАНЫ И МАНИПУЛЯТОРЫ</a>
+                        <a class="eq_item__title" href="/catalog/category">АВТОКРАНЫ И МАНИПУЛЯТОРЫ</a>
                         <div class="eq_list">
                             <div class="item_list">
                                 <img class="item_img2" src="/img/kamaz_kmu.svg" alt="Камаз с КМУ">
@@ -169,8 +169,10 @@
                 </div>
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <div class="eq_item__image"><img src="/img/katalog-tekhnologicheskij-transport.png" alt="ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ"></div>
-                        <a class="title_link" href="/catalog/category">ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ</a>
+                        <div class="eq_item__image">
+                            <img src="/img/katalog-tekhnologicheskij-transport.png" alt="ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ">
+                        </div>
+                        <a class="eq_item__title" href="/catalog/category">ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ</a>
                         <div class="eq_list">
                             <div class="item_list">
                                 <img class="item_img2" src="/img/tekhnologicheskij-transport1.svg" alt="Камаз с КМУ">
@@ -185,7 +187,6 @@
                                     <div class="bullet"></div>
                                     <a href="/catalog/category">Цементировочные агрегаты ЦА</a>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -195,6 +196,7 @@
     </div>
     
     <!-- Кнопки спецпредложение -->
+    <!-- 
     <div class="offers_mobile">
         <div class="container">
             <div class="eq_in_stock">
@@ -209,6 +211,7 @@
             </div>
         </div>
     </div>
+     -->
     
     <!-- Форма заполнения заявки -->
     @include('application-form-section')

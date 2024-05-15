@@ -23,7 +23,7 @@
             <label for="checkbox-agree-callback-modal" class="custom-checkbox-label"></label>
             <span class="checkbox-text">Согласен на обработку персональных данных</span>
           </div>
-          <div class="custom-checkbox-wrapper mb50">
+          <div class="custom-checkbox-wrapper mb25">
             <input type="checkbox" name="checkbox-read" class="custom-checkbox js-checkbox-callback-modal" id="checkbox-read-callback-modal" checked required>
             <label for="checkbox-read-callback-modal" class="custom-checkbox-label"></label>
             <span class="checkbox-text">Ознакомлен с <a href="/privacy-policy" class="privacy-policy-link" target="_blank">политикой конфиденциальности</a></span>
