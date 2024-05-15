@@ -158,12 +158,7 @@
     </div>
 
     <!-- Секция с партнерами компании -->
-    <div class="partners_section">
-        <div class="container">
-            <p class="title">ПАРТНЕРЫ</p>  
-        </div>
-        <img src="/img/partners.png" alt="партнеры"> 
-    </div>
+    @include('partners-section')
 
     <!-- Секция с производством компании -->
     <div id="production_section" class="production_section">

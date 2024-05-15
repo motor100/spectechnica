@@ -483,12 +483,9 @@ p {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
-
     }
     .item_button {
-      display: block;
-      width: 25%;
-      height: auto;
+      width: 24%;
     }
     .btn_primary__company {
       display: block;
@@ -497,37 +494,15 @@ p {
       background-size: cover;
       color: #fff;
       font-size: 20px;
-      max-width: 306px;
       height: 70px;
       padding: 19px 0;
       border: none;
       border-radius: 5px;
       text-align: center;
-      margin: 0 10px 0 10px;
     }
     .btn_primary__company:hover {
       background-color: #8CAEC9;
       transition: background-color .3s;
-    }
-  }
-  
-  //Секция с партнерами компании
-  .partners_section {
-    .section-title {
-      font-family: 'Montserrat-SemiBold';
-      font-size: 24px;
-      color: #000;
-      text-transform: uppercase;
-    }
-    .partners-logo {
-      display: flex;
-      margin: 0 0 42px 0;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-    .item {
-      width: 12.5%;
-      text-align: center;
     }
   }
   
@@ -568,6 +543,27 @@ p {
   .horizontal_line {
     height: 2px;
     background-color: #6D6D6E; 
+  }
+}
+
+// Секция с партнерами компании
+.partners_section {
+  padding: 30px 0;
+  .section-title {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+  }
+  .partners-logo {
+    display: flex;
+    margin: 0 0 12px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .item {
+    width: 12.5%;
+    text-align: center;
   }
 }
 
@@ -1202,11 +1198,10 @@ p {
     li::marker {
       color: #151716;
       font-size: 15px;
-
     }
   }
 
-  //Сервис компании
+  // Сервис компании
   .service-section {
     max-width: 1920px;
     height: auto;
@@ -1234,7 +1229,7 @@ p {
     } 
   }
 
-  //Сертфикаты секция
+  // Сертфикаты секция
   .certificates_section {
     .title_background {
       display: flex;
@@ -1264,22 +1259,6 @@ p {
           text-align: center;
         }
       }
-    }
-  }
-
-  //Партнеры
-  .partners_section {
-    .title {
-      font-family: "Montserrat-SemiBold";
-      font-size: 24px;
-      color: black;
-      margin-top: 44px;
-    }
-    img {
-      display: block;
-      margin: 0 auto;
-      margin-top: 12px;
-      margin-bottom: 35px;
     }
   }
 
@@ -1335,21 +1314,40 @@ p {
 // контакты
 .contacts {
   .contacts-section {
-    margin: 0 0 150px 0;
-    .flex-container {
-      display: flex;
-      justify-content: space-around;
+    margin: 0 0 47px 0;
+    .sale-office {
+      margin: 0 0 45px 0;
+      font-family: "Montserrat-Bold";
+      font-size: 24px;
+      color: $orangecolor;
+      text-align: center;
+      text-transform: uppercase;
     }
-    .contacts-item_image {
+    .contacts-item__image {
       width: 55px;
+      margin: 0 auto 34px auto;
+    }
+    .contacts-item__image img {
+      width: 100%;
+    }
+    .contacts-item__text {
+      font-family: "Montserrat-SemiBold";
+      color: #151716;
+      text-align: center;
+      line-height: 1.3;
     }
   }
   .map-section {
+    padding: 0 0 50px 0;
     .section-title {
-      margin: 0 0 70px 0;
+      margin: 0 0 32px 0;
       font-family: 'Montserrat-Medium';
       font-size: 24px;
       color: #151716;
+      text-align: center;
+    }
+    .map {
+      height: 532px;
     }
   }
 }
@@ -2243,7 +2241,7 @@ p {
         margin: 0 auto;
       }
       .item_button {
-        width: 50%;
+        width: 49%;
       }
       .btn_primary__company {
         margin: 10px auto;
@@ -2432,21 +2430,22 @@ p {
       }
     }
 
-    .partners_section {
-      .section-title {
-        font-size: 22px;
-        text-align: center;
-      }
-      .item {
-        width: 25%;
-      }
-    }
-
     .video_section {
       .section-title {
         text-align: center;
         margin: 10px;
       }
+    }
+  }
+
+  // Секция с партнерами компании
+  .partners_section {
+    .section-title {
+      font-size: 22px;
+      text-align: center;
+    }
+    .item {
+      width: 25%;
     }
   }
 
@@ -2715,22 +2714,22 @@ p {
       }
     }
 
-    .partners_section {
-      padding: 30px 0 0 0;
-      .item img {
-        width: 100%;
-      } 
-    }
-
     .horizontal_line {
       display: none;
     }
 
-    
   }
 
   .footer {
     margin-top: 60px;
+  }
+
+  // Секция с партнерами компании
+  .partners_section {
+    padding: 30px 0 0 0;
+    .item img {
+      width: 100%;
+    } 
   }
 
   // Секция наши преимущества
@@ -3005,18 +3004,20 @@ p {
       }
     }
 
-    .partners_section {
-      .item {
-        width: 33%;
-      }
-      .item-hidden {
-        display: none;
-      }
-    }
   }
 
   .footer {
     margin-top: 40px;
+  }
+
+  // Секция с партнерами компании
+  .partners_section {
+    .item {
+      width: 33%;
+    }
+    .item-hidden {
+      display: none;
+    }
   }
 
   // Секция наши преимущества
