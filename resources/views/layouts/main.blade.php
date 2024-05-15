@@ -113,17 +113,16 @@
           <div class="triangle-wrapper">
             <div class="triangle"></div>
           </div>
-          
-          <!-- <img src="/img/Polygon_1.png" alt="Стрелка"> -->
         </div>
       </div>
     </div>
 
     <div class="top_line"></div>
+
     <div class="footer_content">
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-lg-5">
             <div class="f_item__content">
               <div class="p1-title">контакты</div>
               <div class="phone">+7 (982) 292-88-79 </div>
@@ -135,8 +134,8 @@
               <a href="/contacts" class="f_info">Полная контактная информация</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="f_item__list">
+          <div class="col-lg-4">
+            <div class="f_item__list f_item__list_middle">
                 <div class="p1-title">продукция</div>
                 <ul class="list">
                   <li class="list-item">
@@ -154,7 +153,7 @@
                 </ul>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3">
             <div class="f_item__list f_item__list_right">
               <div class="p1-title">о компании</div>
               <ul class="list">
@@ -182,14 +181,14 @@
     <div class="bottom-white-line">
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-lg-5">
             <div class="copyright footer-bottom-item">ООО "ГидроСпецАвто" {{ date('Y') }}</div>
             <div class="inn footer-bottom-item">ИНН 7415113283</div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4">
             <a href="/privacy-policy" class="privacy-policy-link">Политика конфиденциальности</a>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3">
             <div class="developer footer-bottom-item">
               <a href="https://vk.com/fenix_mix" class="author" target="_blank">Дизайн FeniX</a>
             </div>
@@ -201,8 +200,6 @@
       </div>
     </div>
 
-    
-    
   </footer>
 
   <div id="callback-modal" class="modal-window callback-modal">

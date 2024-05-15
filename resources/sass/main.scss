@@ -739,12 +739,12 @@ p {
   position: relative;
   margin-top: 100px;
 
-//Полоса над футером
-.top_line {
-    height: 4px;
-    background-color: #1874A0;
-    margin: 0 0 4px 0;
-  }
+  //Полоса над футером
+  .top_line {
+      height: 4px;
+      background-color: #1874A0;
+      margin: 0 0 4px 0;
+    }
 
   .footer_content {
     background-color: #8CAEC9;
@@ -756,7 +756,6 @@ p {
   }
   .f_item__list .list-item {
     list-style-type: none;
-    text-align: left;
   }
   .f_item__list .list-item a {
     font-family: "Montserrat-Medium";
@@ -783,7 +782,6 @@ p {
     font-family: "Montserrat-Bold";
     font-size: 24px;
     color: #1874A0;
-    text-align: left;
     margin: 0;
   }
   .email {
@@ -809,16 +807,14 @@ p {
     border-bottom: 2px dashed #1874A0;
     margin: 0;
   }
-  .f_item__list {
-    .f_apl {
-      width: max-content;
-      margin: 27px 0 0 0;
-      font-family: "Montserrat-Medium";
-      font-size: 20px;
-      color: #1874A0;
-      border-bottom: 2px dashed #1874A0;
-      cursor: pointer;
-    }
+  .f_item__list .f_apl {
+    width: max-content;
+    margin: 27px 0 0 0;
+    font-family: "Montserrat-Medium";
+    font-size: 20px;
+    color: #1874A0;
+    border-bottom: 2px dashed #1874A0;
+    cursor: pointer;
   }
 
   //Полоса под футером
@@ -2129,6 +2125,12 @@ p {
       }
     }
   }
+
+  .footer {
+    .p1-title {
+      font-size: 22px;
+    }
+  }
 }
 
 @media only screen and (max-width : 1200px) {
@@ -2164,24 +2166,6 @@ p {
       width: 10px;
       height: 2px;
       top: 23px;
-    }
-
-  }
-
-  .footer {
-    .adress {
-      font-size: 16px;
-      text-align: center;
-    }
-    .f_info {
-      font-size: 16px;
-      text-align: center;
-      line-height: 1;
-    }
-    .f_list2 .f_apl {
-      font-size: 16px;
-      text-align: center;
-      margin: 18px 0 0 0;
     }
 
   }
@@ -2234,11 +2218,39 @@ p {
     } 
   }
 
+  .footer {
+    .p1-title {
+      font-size: 22px;
+    }
+    .phone {
+      font-size: 22px;
+    }
+    .address {
+      font-size: 18px;
+    }
+    .f_info {
+      font-size: 17px;
+    }
+    .f_logo {
+      width: 300px;
+    }
+    .f_logo img {
+      width: 100%;
+    }
+    .f_item__list .list-item a {
+      font-size: 18px;
+    }
+    .f_item__list .f_apl {
+      font-size: 17px;
+    }
+  }
+
   .catalog {
     .equipment_catalog .eq_list a {
       font-size: 16px;
     }
   }
+
   .product {
     .specifications .block_specifications p {
       font-size: 16px;
@@ -2248,15 +2260,6 @@ p {
 }
 
 @media only screen and (max-width : 992px) {
-  
-  //Бургер
-  .burger-menu-wrapper {
-    display: block;
-  }
-
-  .mobile-menu {
-    display: block;
-  }
 
   .header {
     .header_top .header_content .item_logo {
@@ -2323,6 +2326,40 @@ p {
     }
     
   }
+
+  .footer {
+    .f_item__content {
+      margin: 0 0 25px 0;
+      text-align: center;
+    }
+    .p1-title {
+      margin-bottom: 15px;
+    }
+    .f_logo {
+      margin: 0 auto 5px auto;
+    }
+    .f_item__list {
+      text-align: center;
+    }
+    .f_item__list_middle {
+      margin: 0 0 15px 0;
+    }
+    .f_item__list .f_apl {
+      margin: 27px auto 0 auto;
+    }
+    .bottom-white-line {
+      text-align: center;
+    }
+    .bottom-white-line .footer-bottom-item {
+      margin: 0 0 8px 0;
+    }
+    .privacy-policy-link {
+      display: block;
+      margin: 0 0 8px 0;
+    }
+
+  }
+
   .catalog {
     .equipment_catalog .eq_list a {
       font-size: 14px;
@@ -2341,6 +2378,7 @@ p {
       margin-bottom: 10px;
     }
   }
+
   .category {
     .m_advanted_section {
       display: none;
@@ -2391,6 +2429,7 @@ p {
       font-size: 14px;
     }
   }
+
   .product {
     .title {
       font-size: 20px;
@@ -2418,7 +2457,16 @@ p {
       font-size: 14px;
       line-height: 1;
     }
-  } 
+  }
+
+  //Бургер
+  .burger-menu-wrapper {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
 }
 
 @media only screen and (max-width : 768px) {
@@ -2445,66 +2493,6 @@ p {
   }
   .search-form-section .search {
     display: none;
-  }
-
-  //Footer
-  .footer {
-    .f_item__list1 {
-      display: none;
-    }
-    .bottom-white-line {
-      display: none;
-    }
-    .f_content {
-      position: relative;
-      align-items: center;
-      height: 260px;
-    }
-    .f_logo {
-      position: absolute;
-      top: 70px;
-    }
-    .fone {
-      position: absolute;
-      top: 150px;
-    }
-    .email {
-      position: absolute;
-      top: 190px;
-    }
-    .adress {
-      position: absolute;
-      top: 230px;
-      font-size: 20px;
-    }
-    .f_info {
-      display: none;
-    }
-    .f_list1 {
-      align-items: center;
-      margin-top: 30px;
-      ul li {
-        text-align: center;
-      }
-    }
-    .f_list2 {
-      align-items: center;
-      margin-top: 30px;
-      ul li {
-        text-align: center;
-      }
-    }
-    .bottom-white-line .copyright {
-      text-align: center;
-      color: #fff;
-      margin-bottom: 25px;
-    }
-    .bottom-white-line .privacy-policy-link {
-      display: block;
-      text-align: center;
-      color: #fff;
-      margin-bottom: 30px;
-    }
   }
 
   .home {
@@ -2592,6 +2580,7 @@ p {
 
 
   }
+
   .catalog {
     .equipment_catalog .title {
       text-align: center;
@@ -2626,6 +2615,7 @@ p {
       display: block;
     }
   }
+
   .application-form-section {
     margin: 0;
     .main_form .form_item_1 { 
@@ -2634,17 +2624,8 @@ p {
     .main_form .form_item_2 { 
       width: 100%;
     }
-    
-
-  }
-  
-  .bottom-white-line {
-    background-color: #8CAEC9;
-    padding: 0;
   }
 
-
-  
   .category {
     .title {
       text-align: center;
@@ -2758,6 +2739,7 @@ p {
       display: none;
     }
   }
+
   .product {
     .section_card {
       margin-top: 40px;
@@ -2806,8 +2788,6 @@ p {
       height: 1px;
     }
   }
-
-  
 }
 
 @media only screen and (max-width : 576px) {
