@@ -1393,6 +1393,7 @@ p {
   left: 0;
   bottom: 79px;
   width: 100%;
+  z-index: 100;
   .line-top {
     height: 6px;
     background-color: $bluecolor;
