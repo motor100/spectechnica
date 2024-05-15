@@ -1393,7 +1393,6 @@ p {
   left: 0;
   bottom: 79px;
   width: 100%;
-  z-index: 100;
   .line-top {
     height: 6px;
     background-color: $bluecolor;
@@ -1427,6 +1426,7 @@ p {
     text-transform: uppercase;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+
 }
 
 // Категории
