@@ -4,10 +4,10 @@
 
 @section('content')
 
-<div class="service adu">
+<div class="service aduc">
 
     <!-- Баннер оформления станицы -->
-    <div class="adu_design_banner">
+    <div class="aduc_design_banner">
         <img src="/img/service_design_banner.jpg" alt="">
     </div>
 

@@ -106,7 +106,8 @@ p {
   margin: 35px 0;
   font-family: 'Montserrat-Bold';
   font-size: 24px;
-  color: black;
+  color: $textcolor;
+  line-height: 1.3;
 }
 
 // header
@@ -144,7 +145,7 @@ p {
         width: 615px;
         .number_phone {
           font-family: "Montserrat-Bold";
-          color: black;
+          color: $textcolor;
           font-size: 24px;
         }
         .btn-call {
@@ -1001,13 +1002,13 @@ p {
   }
 }
 
-// О компании, Доработки и сервис, Услуги
-.adu {
+// О компании, Доработки и сервис, Услуги, Контакты
+.aduc {
   .page-title {
     margin-bottom: 51px;
   }
   // Баннер оформления станицы, 
-  .adu_design_banner {
+  .aduc_design_banner {
     height: 600px;
     img {
       width: 100%;
@@ -1021,7 +1022,7 @@ p {
       margin: 0 0 20px 0;
       font-family: "Montserrat-Medium";
       font-size: 24px;
-      color: #151716;
+      color: $textcolor;
       line-height: 1.3;
     }
     .download .pdf-icon {
@@ -1163,7 +1164,7 @@ p {
     .description_txt {
       font-family: "Montserrat-Medium";
       font-size: 24px;
-      color: black;
+      color: $textcolor;
       margin-top: 60px;
     } 
   }
@@ -1173,7 +1174,7 @@ p {
     p {
       font-family: "Montserrat-Medium";
       font-size: 24px;
-      color: #151716;
+      color: $textcolor;
       line-height: 1.2;
     }
     .title {
@@ -1186,7 +1187,7 @@ p {
     ul {
       font-family: "Montserrat-Medium";
       font-size: 24px;
-      color: #151716;
+      color: $textcolor;
       line-height: 1.2;
       margin-top: 43px;
       margin-bottom: 43px;
@@ -1196,7 +1197,7 @@ p {
       padding-left: 17px;
     }
     li::marker {
-      color: #151716;
+      color: $textcolor;
       font-size: 15px;
     }
   }
@@ -1281,7 +1282,7 @@ p {
       ul {
         font-family: "Montserrat-Medium";
         font-size: 24px;
-        color: #151716;
+        color: $textcolor;
         line-height: 1.2;
         margin-left: 13px;
       }
@@ -1289,7 +1290,7 @@ p {
         padding-left: 17px;
       }
       li::marker {
-        color: #151716;
+        color: $textcolor;
         font-size: 15px;
   
       }
@@ -1314,7 +1315,7 @@ p {
 // контакты
 .contacts {
   .contacts-section {
-    margin: 0 0 47px 0;
+    margin: 0 0 17px 0;
     .sale-office {
       margin: 0 0 45px 0;
       font-family: "Montserrat-Bold";
@@ -1322,6 +1323,9 @@ p {
       color: $orangecolor;
       text-align: center;
       text-transform: uppercase;
+    }
+    .contacts-item {
+      margin: 0 0 30px 0;
     }
     .contacts-item__image {
       width: 55px;
@@ -1332,7 +1336,7 @@ p {
     }
     .contacts-item__text {
       font-family: "Montserrat-SemiBold";
-      color: #151716;
+      color: $textcolor;
       text-align: center;
       line-height: 1.3;
     }
@@ -1343,7 +1347,7 @@ p {
       margin: 0 0 32px 0;
       font-family: 'Montserrat-Medium';
       font-size: 24px;
-      color: #151716;
+      color: $textcolor;
       text-align: center;
     }
     .map {
@@ -1677,7 +1681,7 @@ p {
       text-align: center;
       font-family: "Montserrat-Medium";
       font-size: 20px;
-      color: black;
+      color: $textcolor;
     }
     .pr_btn {
       display: block;
@@ -1786,7 +1790,7 @@ p {
       padding-left: 10px;
     }
     li::marker {
-      color: #151716;
+      color: $textcolor;
       font-size: 15px;
 
     }
@@ -1801,7 +1805,7 @@ p {
   font-size: 16px;
   margin: 35px 0 12px 0;
   a {
-    color: black;
+    color: $textcolor;
   }
   .active, span {
     color: #1874A0;
@@ -2160,7 +2164,22 @@ p {
       width: 100%;
       margin: 0;
     }
-  } 
+  }
+
+  // Контакты
+  .contacts {
+    .contacts-section {
+      .sale-office {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .aduc {
+    .aduc_design_banner {
+      height: 500px;
+    }
+  }
 }
 
 @media only screen and (max-width : 1200px) {
@@ -2340,6 +2359,12 @@ p {
       height: 45px;
       padding: 10px 0;
       font-size: 15px;
+    }
+  }
+
+  .aduc {
+    .aduc_design_banner {
+      height: 450px;
     }
   }
 }
@@ -2590,6 +2615,12 @@ p {
     }
   }
 
+  .aduc {
+    .aduc_design_banner {
+      height: 400px;
+    }
+  }
+
   // Форма заполнения заявки
   .application-form-section {
     .title {
@@ -2597,7 +2628,7 @@ p {
     }
   }
 
-  //Бургер
+  // Бургер
   .burger-menu-wrapper {
     display: block;
   }
@@ -2619,9 +2650,11 @@ p {
   .hidden-mobile {
     display: none !important;
   }
-
   .hidden-desktop {
     display: block;
+  }
+  .page-title {
+    font-size: 20px;
   }
   .offers_mobile {
     display: block;
@@ -2629,6 +2662,7 @@ p {
   .breadcrumbs {
     display: none;
   }
+
   .search-form-section .search {
     display: none;
   }
@@ -2742,8 +2776,8 @@ p {
       width: 60px;
       height: 50px;
     }
-    .item_prod__text {
-      font-size: 14px;
+    .item_prod .item_prod__text {
+      font-size: 16px;
       margin-top: 20px;
     }
     .adv_title {
@@ -2838,7 +2872,7 @@ p {
       top: -24px;
       right: 10px;
       font-size: 10px;
-      color: black;
+      color: $textcolor;
     }
     .block_category .category_item__description .name {
       position: absolute;
@@ -2857,11 +2891,11 @@ p {
     }
     .block_category .category_item__description .price .p1 {
       font-size: 10px;
-      color: black;
+      color: $textcolor;
     }
     .block_category .category_item__description .price .p2 {
       font-size: 10px;
-      color: black;
+      color: $textcolor;
     }
     .block_category .category_item__description .btn_1 {
       position: absolute;
@@ -2959,6 +2993,28 @@ p {
       height: 1px;
     }
   }
+
+  // Контакты
+  .contacts {
+    .contacts-section {
+      .sale-office {
+        font-size: 20px;
+      }
+      .contacts-item__image {
+        width: 45px;
+        margin: 0 auto 14px auto;
+      }
+      .contacts-item__text {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .aduc {
+    .aduc_design_banner {
+      height: 350px;
+    }
+  }
 }
 
 @media only screen and (max-width : 576px) {
@@ -3036,6 +3092,12 @@ p {
   .catalog {
     .equipment_catalog .title {
       font-size: 22px;
+    }
+  }
+
+  .aduc {
+    .aduc_design_banner {
+      height: 250px;
     }
   }
 

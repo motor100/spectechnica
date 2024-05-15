@@ -4,10 +4,10 @@
 
 @section('content')
 
-<div class="contacts adu">
+<div class="contacts aduc">
 
     <!-- Баннер оформления станицы -->
-    <div class="adu_design_banner">
+    <div class="aduc_design_banner">
         <img src="/img/contacts_design_banner.jpg" alt="">
     </div>
 
@@ -29,7 +29,7 @@
         <div class="container">
             <div class="sale-office">Отдел продаж</div>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="contacts-item">
                         <div class="contacts-item__image">
                             <img src="/img/contacts-clock.svg" class="contacts-item_image" alt="">
@@ -37,7 +37,7 @@
                         <div class="contacts-item__text">РЕЖИМ РАБОТЫ:<br>с 9-00 до 18-00<br>выходные:<br>суббота, воскресенье</div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="contacts-item">
                         <div class="contacts-item__image">
                             <img src="/img/contacts-phone.svg" class="contacts-item_image" alt="">
@@ -45,7 +45,7 @@
                         <div class="contacts-item__text">+7 (982) 292-88-79</div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="contacts-item">
                         <div class="contacts-item__image">
                             <img src="/img/contacts-email.svg" class="contacts-item_image" alt="">
@@ -53,7 +53,7 @@
                         <div class="contacts-item__text">zakaz@gidravlic.com</div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-sm-6">
                     <div class="contacts-item">
                         <div class="contacts-item__image">
                             <img src="/img/contacts-geolocation.svg" class="contacts-item_image" alt="">
