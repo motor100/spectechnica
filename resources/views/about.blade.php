@@ -158,7 +158,7 @@
     </div>
 
     <!-- Секция с партнерами компании -->
-    <div class="partners-section">
+    <div class="partners_section">
         <div class="container">
             <p class="title">ПАРТНЕРЫ</p>  
         </div>

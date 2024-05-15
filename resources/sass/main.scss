@@ -393,7 +393,6 @@ p {
       color: #fff;
       font-size: 20px;
       width: 306px;
-      height: 70px;
       margin: 83px auto 40px auto;
       padding: 19px 0;
       border: none;
@@ -424,7 +423,7 @@ p {
       font-size: 24px;
       color: #fff;
       line-height: 1.3;
-      margin: 40px 0 40px 0;
+      margin: 40px 0;
     }
     .services {
       display: flex;
@@ -479,7 +478,7 @@ p {
   
   //Секция с кнопками
   .buttons_section {
-    margin: 55px 0 44px 0;
+    padding: 55px 0 44px 0;
     .buttons {
       display: flex;
       justify-content: space-between;
@@ -513,7 +512,7 @@ p {
   }
   
   //Секция с партнерами компании
-  .partners-section {
+  .partners_section {
     .section-title {
       font-family: 'Montserrat-SemiBold';
       font-size: 24px;
@@ -574,7 +573,7 @@ p {
 
 //Секция с производственными характеристиками
 .advantages-section {
-  padding: 70px 0 0 0;
+  padding: 70px 0 90px 0;
   .adv_title {
     margin-bottom: 70px;
     font-family: "Montserrat-Bold";
@@ -588,14 +587,13 @@ p {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    p {
-      text-align: center;
+    .item_prod__text {
+      margin-top: 45px;
+      font-family: "Montserrat-Medium";
       font-size: 20px;
       color: #6D6D6E;
-      font-family: "Montserrat-Medium";
+      text-align: center;
       line-height: 1.2;
-      margin-top: 45px;
-      margin-bottom: 90px;
     }
     .image_prod {
       width: 80px;
@@ -606,7 +604,6 @@ p {
       height: 100%;
       object-fit: contain;
     }
-
   }
 }
 
@@ -1275,7 +1272,7 @@ p {
   }
 
   //Партнеры
-  .partners-section {
+  .partners_section {
     .title {
       font-family: "Montserrat-SemiBold";
       font-size: 24px;
@@ -2124,6 +2121,12 @@ p {
         padding: 23px 0;
       }
     }
+
+    .advantages-section {
+      .adv_title {
+        font-size: 34px;
+      }
+    }
   }
 
   .footer {
@@ -2173,10 +2176,15 @@ p {
   // ГЛАВНАЯ СТРАНИЦА
   .home {
     .main-section {
-      .slide .title .title-text {
-        font-size: 22px;
+      .slide .title {
+        left: 58%;
+        padding: 3px 120px;
       }
-    } 
+      .slide .title .title-text {
+        font-size: 20px;
+      }
+    }
+
     .catalog-section {
       .catalog .eq_item .eq_item__image {
         width: 230px;
@@ -2215,7 +2223,13 @@ p {
         font-size: 20px;
         padding: 19px 0;
       }
-    } 
+    }
+
+    .advantages-section {
+      .adv_title {
+        font-size: 30px;
+      }
+    }
   }
 
   .footer {
@@ -2279,27 +2293,58 @@ p {
 
   // ГЛАВНАЯ СТРАНИЦА
   .home {
-    .catalog-section .section-title {
-      text-align: center;
-      margin-top: 30px;
+    .main-section {
+      margin: 0 0 30px 0;
+      .slide {
+        height: 400px;
+      }
+      .slide .img_fon {
+        height: 342px;
+      }
+      .slide .img_car {
+        left: 27px;
+        width: 450px;
+      }
+      .slide .title {
+        bottom: 7px;
+        padding: 3px 90px;
+      }
+      .slide .title .title-text {
+        font-size: 16px;
+      }
     }
-    .catalog-section .catalog .eq_item {
-       width: 50%;
-       margin: 30px 0 30px 0;
-    }
-    .catalog-section .catalog .eq_item .eq_item__image {
-      width: 260px;
-      height: 160px;
-    }
-    .catalog-section .catalog .vline {
-      display: none;
-    }
-    .catalog-section .catalog {
-      margin-top: 30px;
+
+    .catalog-section {
+      padding: 20px 0 0 0;
+      .section-title {
+        font-size: 22px;
+        text-align: center;
+      }
+      .catalog {
+        margin: 0;
+      }
+      .catalog .eq_item {
+        width: 47%;
+        margin: 20px 0;
+      }
+      .catalog .eq_item .eq_item__image {
+        width: 260px;
+        height: 160px;
+      }
+      .catalog .vline {
+        display: none;
+      }
+      .btn_primary__catalog {
+        width: 280px;
+        margin: 63px auto 40px auto;
+        padding: 15px 0;
+      }
+      
     }
 
     .about_section {
       .about-title {
+        font-size: 22px;
         text-align: center;
       }
       .about_text {
@@ -2314,17 +2359,28 @@ p {
       }
     }
 
-    .partners-section .section-title {
-      text-align: center;
+    .partners_section {
+      .section-title {
+        font-size: 22px;
+        text-align: center;
+      }
+      .item {
+        width: 25%;
+      }
     }
-    .partners-section .item {
-      width: 25%;
+
+    .advantages-section {
+      .adv_title {
+        font-size: 26px;
+      }
     }
-    .video_section .section-title {
-      text-align: center;
-      margin: 10px;
+
+    .video_section {
+      .section-title {
+        text-align: center;
+        margin: 10px;
+      }
     }
-    
   }
 
   .footer {
@@ -2496,38 +2552,71 @@ p {
   }
 
   .home {
-    .catalog-section .catalog .eq_item .eq_item__image {
-      width: 350px;
-      height: 200px;
-      object-fit: contain;
+
+    .main-section {
+      .slide {
+        height: 300px;
+      }
+      .slide .img_fon {
+        height: 242px;
+      }
+      .slide .img_car {
+        left: 0;
+        width: 320px;
+      }
+      .slide .title {
+        padding: 0 30px
+      }
+      .slide .title .title-text {
+        font-size: 15px;
+      }
+      .swiper-pagination-bullet {
+        width: 16px;
+        height: 16px;
+      }
     }
-    .catalog-section .catalog .eq_item .eq_item__image img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-    .catalog-section .section-title {
-      text-align: center;
-      margin-top: 30px;
-    }
-    .catalog-section .catalog .eq_item {
-      width: 100%;
-      margin-bottom: 30px;
-    }
-    .catalog-section .catalog .eq_item .eq_item__image {
-      width: 260px;
-      height: 160px;
-      margin-bottom: 30px;
+
+    .catalog-section {
+      .section-title {
+        margin: 0 0 30px 0;
+        text-align: center;
+      }
+      .catalog .eq_item {
+        width: 100%;
+      }
+      .catalog .eq_item .eq_item__image {
+        width: 260px;
+        height: 160px;
+        margin-bottom: 30px;
+      }
+      .catalog .eq_item .eq_item__image img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
     }
     
     .about_section {
+      padding: 40px 0;
+      .about_text {
+        margin: 30px 0;
+        font-family: "Montserrat-Medium";
+        font-size: 22px;
+        color: #fff;
+        line-height: 1.3;
+      }
       .services {
         display: none;
       }
     }
 
+    .about_section_mobile {
+      padding: 30px 0 10px 0;
+    }
+
     //Секция с кнопками
     .buttons_section {
+      padding: 0;
       background-color: #6D6D6E;
       .buttons {
         width: 100%;
@@ -2543,7 +2632,8 @@ p {
       }
     }
 
-    .partners-section {
+    .partners_section {
+      padding: 30px 0 0 0;
       .item img {
         width: 100%;
       } 
@@ -2554,8 +2644,7 @@ p {
     }
 
     .advantages-section {
-      margin: 20px 0 30px 0;
-      padding: 0;
+      padding: 20px 0;
       .item_prod {
         margin-top: 25px;
       }
@@ -2563,10 +2652,8 @@ p {
         width: 30px;
         height: 40px;
       }
-      .item_prod p {
+      .item_prod__text {
         font-size: 14px;
-        margin: 0;
-        padding: 0;
         margin-top: 20px;
       }
       .adv_title {
@@ -2576,9 +2663,6 @@ p {
         line-height: 1.3;        
       }
     }
-
-
-
   }
 
   .catalog {
@@ -2795,8 +2879,45 @@ p {
 }
 
 @media only screen and (max-width : 480px) {
+
+  .header {
+    .header_top .header_content .item_logo .main_logo {
+      width: 220px;
+    }
+  }
+
   .home {
-    .partners-section {
+    .main-section {
+      .slide {
+        height: 260px;
+      }
+      .slide .img_fon {
+        height: 200px;
+      }
+      .slide .img_car {
+        width: 230px;
+      }
+      .slide .title {
+        padding: 0 20px;
+      }
+      .slide .title .title-text {
+        font-size: 13px;
+      }
+    }
+
+    .catalog-section {
+      .catalog .eq_item .eq_item__image {
+        margin-bottom: 20px;
+      }
+    }
+
+    .about_section {
+      .about_text {
+        font-size: 20px;
+      }
+    }
+
+    .partners_section {
       .item {
         width: 33%;
       }
@@ -2804,9 +2925,37 @@ p {
         display: none;
       }
     }
+
+    .advantages-section {
+      .adv_title {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .modal-window {
+    .modal-area {
+      padding: 45px 25px;
+    }
+    .modal-close {
+      top: 25px;
+    }
+    .modal-title {
+      margin: 0 0 30px 0;
+    }
   }
 }
 
 @media only screen and (max-width : 360px) {
+  .header {
+    .header_top .header_content .item_logo .main_logo {
+      width: 170px;
+    }
+  }
 
+  .modal-window {
+    .modal-area {
+      padding: 45px 15px;
+    }
+  }
 }
