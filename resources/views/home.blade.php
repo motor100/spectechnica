@@ -175,16 +175,20 @@
       <div class="section-title">ВИДЕО-ПРЕЗЕНТАЦИИ ТЕХНИКИ</div>
       <div class="row">
         <div class="col-md-6">
-          <div class="item_video">
-            <img src="/img/video-cover1.jpg" alt="">
+          <div class="item">
+            <div class="item_video">
+              <img src="/img/video-cover1.jpg" alt="">
+            </div>
+            <div class="item_title">ВИДЕО 1</div>
           </div>
-          <div class="title_video">ВИДЕО 1</div>
         </div>
         <div class="col-md-6">
-          <div class="item_video">
-            <img src="/img/video-cover2.jpg" alt="">
+          <div class="item">
+            <div class="item_video">
+              <img src="/img/video-cover2.jpg" alt="">
+            </div>
+            <div class="item_title">ВИДЕО 2</div>
           </div>
-          <div class="title_video">ВИДЕО 2</div>
         </div>
       </div>
     </div>

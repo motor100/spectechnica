@@ -309,11 +309,10 @@
       <div class="we-use-cookie-content">
         <div class="container">
           <div class="row">
-            <div class="col-md-7">
+            <div class="col-xxl-9 col-md-8">
               <div class="we-use-cookie-text">Мы используем файлы cookie. Продолжив использование сайта, вы соглашаетесь с условиями <a href="/privacy-policy">Соглашения об использовании сайта</a></div>
             </div>
-            <div class="col-md-2"></div>
-            <div class="col-md-3">
+            <div class="col-xxl-3 col-md-4">
               <button id="we-use-cookie-close-btn" class="we-use-cookie-close-btn">Прекрасно</button>
             </div>
           </div>
