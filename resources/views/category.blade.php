@@ -145,7 +145,7 @@
         <div class="container">
             <div class="section-title-wrapper">
                 <div class="section-title">ОТГРУЖЕННАЯ ТЕХНИКА</div>
-                <div class="arrows">
+                <div class="arrows hidden-mobile">
                     <div class="top-arrows">
                         <img src="/img/left_white.svg" alt="">
                         <img src="/img/right_white.svg" alt="">
@@ -159,7 +159,7 @@
                 <span class="year_btn">2023</span>
             </div>
 
-            <div class="videos">
+            <div class="videos videos-temp">
                 <div class="row">
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">

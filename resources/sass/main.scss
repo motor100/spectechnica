@@ -1151,158 +1151,112 @@ p {
 
 // О КОМПАНИИ
 .about {
-  .line {
-    display: none;
-  }
-  .navbar-item {
-    background-color: #EF7605;
+
+  .subtitle,
+  .list {
+    font-family: "Montserrat-Medium";
+    font-size: 24px;
   }
 
-  //Видеоконтент секция
-  .video_content_section {
-    margin: 54px;
-    img {
-      display: block;
-      margin: 0 auto;
+  .orange_title_background {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: $orangecolor;
+    .orange_title {
+      font-family: "Montserrat-Bold";
+      font-size: 24px;
+      color: #fff;
     }
-    .description_txt {
+  }  
+
+  // Видеоконтент секция
+  .video_content_section {
+    padding: 54px 0;
+    .video img {
+      display: block;
+      margin: 0 auto 50px auto;
+    }
+    .description_text {
       font-family: "Montserrat-Medium";
       font-size: 24px;
       color: $textcolor;
-      margin-top: 60px;
     } 
   }
 
-  //Секция наши преимущества
+  // Секция наши преимущества
   .our_advantages_section {
-    p {
-      font-family: "Montserrat-Medium";
+    padding: 50px 0;
+    .section-title {
+      font-family: "Montserrat-Bold";
       font-size: 24px;
-      color: $textcolor;
-      line-height: 1.2;
+      color: $orangecolor;
     }
-    .title {
-      font-family: 'Montserrat-Bold';
-      font-size: 24px;
-      color: #EF7605;
-      margin-top: 70px;
-      margin-bottom: 70px;
-    }
-    ul {
-      font-family: "Montserrat-Medium";
-      font-size: 24px;
-      color: $textcolor;
-      line-height: 1.2;
-      margin-top: 43px;
-      margin-bottom: 43px;
-      margin-left: 13px;
-    }
-    li {
-      padding-left: 17px;
-    }
-    li::marker {
-      color: $textcolor;
-      font-size: 15px;
+    .subtitle {
+      margin: 70px 0;
     }
   }
 
   // Сервис компании
   .service-section {
-    max-width: 1920px;
-    height: auto;
+    padding: 50px 0 20px 0;
     background-color: #6D6D6E;
-    margin-top: 70px;
-   .item_s {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      align-items: center;
-      img {
-        height: 90px;
-        width: auto;
-        margin-top: 53px;
-        margin-bottom: 33px;
-      }
-      p {
-        font-family: "Montserrat-Bold";
-        font-size: 20px;
-        color: #fff;
-        margin-bottom: 65px;
-        text-align: center;
-        line-height: 1.2;
-      }
-    } 
+    .item {
+      margin: 0 0 30px 0;
+    }
+    .item_image {
+      width: 80px;
+      height: 90px;
+      margin: 0 auto 32px auto;
+    }
+    .item_image img {
+      width: 100%;
+    }
+    .item_title {
+      font-family: "Montserrat-Bold";
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      line-height: 1.2;
+    }
   }
 
   // Сертфикаты секция
   .certificates_section {
-    .title_background {
-      display: flex;
-      align-items: center;
-      height: 70px;
-      background-color: #EF7605;
-      font-family: "Montserrat-Bold";
-      font-size: 24px;
-      color: #fff;
-      p {
-        margin: 0;
-      }
-    }
     .section_background {
       background-color: #E2D6CE;
-      padding: 65px;
-      .item_sert {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        p {
-          font-family: "Montserrat-Medium";
-          font-size: 20px;
-          color: #1874A0;
-          margin-top: 40px;
-          text-align: center;
-        }
-      }
+      padding: 65px 0;
     }
+    .item {
+      margin: 0 0 15px 0;
+      text-align: center;
+    }
+    .item_image {
+      height: 280px;
+      margin: 0 0 40px 0;
+    }
+    .item_image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .item_title {
+      font-family: "Montserrat-Medium";
+      font-size: 20px;
+      color: #1874A0;
+      line-height: 1.2;
+    }    
   }
 
-  //Производство
+  // Секция с производством компании
   .production_section {
-    .title_background {
-      display: flex;
-      align-items: center;
-      height: 70px;
-      background-color: #EF7605;
-      font-family: "Montserrat-Bold";
-      font-size: 24px;
-      color: #fff;
-      p {
-        margin: 0;
-      }
-    }
     .list_prod {
-      padding: 60px;
-      ul {
-        font-family: "Montserrat-Medium";
-        font-size: 24px;
-        color: $textcolor;
-        line-height: 1.2;
-        margin-left: 13px;
-      }
-      li {
-        padding-left: 17px;
-      }
-      li::marker {
-        color: $textcolor;
-        font-size: 15px;
-  
-      }
+      padding: 54px 0;
     }
   }
 
-  //Наше производство
-  .our_production {
+  // Секция наше производство
+  .our_production_section {
     .title-wrapper {
       display: flex;
       margin: 0 0 50px 0;
@@ -1311,7 +1265,7 @@ p {
       margin: 0 32px 0 0;
       font-family: "Montserrat-Bold";
       font-size: 24px;
-      color: #000;
+      color: $textcolor
     }
   }
 }
@@ -1628,7 +1582,6 @@ p {
         margin: 0 5px 0 0;
       }
     }
-
     // Кнопки
     .year_btns {
       display: flex;
@@ -1653,20 +1606,20 @@ p {
         }
       }
     }
-
-    .videos {
-      .video-item {
-        height: 180px;
-        margin: 0 0 15px 0;
-      }
-      .video-item img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    }
   }
+}
 
+// Видео
+.videos-temp {
+  .video-item {
+    height: 180px;
+    margin: 0 0 15px 0;
+  }
+  .video-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 // КАРТОЧКА ТОВАРА
@@ -2202,6 +2155,42 @@ p {
       font-size: 22px;
     }
   }
+
+  // О компании
+  .about {
+    .subtitle,
+    .list {
+      font-size: 18px;
+    }
+    .orange_title_background {
+      .orange_title {
+        font-size: 22px;
+      }
+    }
+
+    .video_content_section {
+      .description_text {
+        font-size: 18px;
+      }
+    }
+    .our_advantages_section {
+      .section-title {
+        font-size: 22px;
+      }
+      .subtitle {
+        margin: 40px 0;
+      }
+    }
+    .service-section {
+      .item_image {
+        width: 70px;
+        height: 80px;
+      }
+      .item_title {
+        font-size: 18px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width : 1200px) {
@@ -2409,6 +2398,15 @@ p {
       }
       .download .name {
         font-size: 18px;
+      }
+    }
+  }
+
+  // О компании
+  .about {
+    .service-section {
+      .item_title {
+        font-size: 16px;
       }
     }
   }
@@ -2671,6 +2669,56 @@ p {
   .aduc {
     .aduc_design_banner {
       height: 400px;
+    }
+    .page-title {
+      margin-bottom: 31px;
+    }
+  }
+
+  // О компании
+  .about {
+    .subtitle,
+    .list {
+      font-size: 16px;
+    }
+    
+    .video_content_section {
+      padding: 34px 0;
+      .video img {
+        width: 80%;
+        margin: 0 auto 50px auto;
+      }
+      .description_text {
+        font-size: 16px;
+      }
+    }
+    .our_advantages_section {
+      padding: 20px 0;
+      .section-title {
+        font-size: 20px;
+      }
+      .subtitle {
+        margin: 20px 0;
+      }
+    }
+    .service-section {
+      .item_image {
+        margin: 0 auto 16px auto;
+      }
+    }
+    .certificates_section {
+      .section_background {
+        padding: 50px 0;
+      }
+      .item {
+        margin: 0 0 30px 0;
+      }
+      .item_image {
+        margin: 0 0 15px 0;
+      }
+      .item_title {
+        font-size: 18px;
+      }
     }
   }
 
@@ -3011,10 +3059,12 @@ p {
     .btn_year {
       display: none;
     }
-    .video-section-shipment {
-      .videos .video-item {
-        height: auto;
-      }
+  }
+
+  // Видео
+  .videos-temp {
+    .video-item {
+      height: auto;
     }
   }
 
@@ -3090,12 +3140,44 @@ p {
     .description-section .download .name {
       font-size: 16px;
     }
+    .page-title {
+      margin-bottom: 20px;
+    }
   }
 
   // Доработк и сервис
   .upgrade-and-service {
     .upgrade-section {
       padding: 0 0 20px 0;
+    }
+  }
+
+  // О компании
+  .about {
+    .orange_title_background {
+      .orange_title {
+        font-size: 20px;
+      }
+    }
+    .video_content_section {
+      padding: 15px 0;
+      .video img {
+        width: 100%;
+      }
+    }
+    .service-section {
+      .item_image {
+        width: 60px;
+        height: 70px;
+      }
+    }
+    .certificates_section {
+      .section_background {
+        padding: 40px 0 20px 0;
+      }
+      .item_title {
+        font-size: 16px;
+      }
     }
   }
 

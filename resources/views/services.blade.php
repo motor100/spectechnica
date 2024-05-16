@@ -35,11 +35,11 @@
         </div>
     </div>
 
-    <div class="services-section">
+    <!-- <div class="services-section">
         <div class="container">
             <div class="section-title">Услуги</div>
         </div>
-    </div>
+    </div> -->
     
 </div>
 
