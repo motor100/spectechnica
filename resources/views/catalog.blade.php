@@ -25,10 +25,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <div class="eq_item__image">
-                            <img src="/img/katalog-avtocisterny.png" alt="АВТОЦИСТЕРНЫ">
+                        <div class="flex-container">
+                            <div class="eq_item__image">
+                                <img src="/img/katalog-avtocisterny.png" alt="АВТОЦИСТЕРНЫ">
+                            </div>
+                            <div class="eq_item__title hidden-mobile">АВТОЦИСТЕРНЫ</div>
+                            <a class="eq_item__title hidden-desktop" href="/catalog/category">АВТОЦИСТЕРНЫ</a>
                         </div>
-                        <a class="eq_item__title" href="/catalog/category">АВТОЦИСТЕРНЫ</a>
+                        <!-- <div class="horizontal-line hidden-desktop"></div> -->
                         <div class="eq_list">
                             <div class="item_list">
                                 <div class="item_img1">
@@ -36,7 +40,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Вакуумные автоцистерны</a>
+                                    <a href="/catalog/subcategory">Вакуумные автоцистерны</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -45,7 +49,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Вакуумные машины</a>
+                                    <a href="/catalog/subcategory">Вакуумные машины</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -54,7 +58,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Автоцистерны нефтепромысловые</a>
+                                    <a href="/catalog/subcategory">Автоцистерны нефтепромысловые</a>
                                 </div> 
                             </div>
                             <div class="item_list">
@@ -63,7 +67,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Автоцистерны для воды</a>
+                                    <a href="/catalog/subcategory">Автоцистерны для воды</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -72,7 +76,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Метаноловозы</a>
+                                    <a href="/catalog/subcategory">Метаноловозы</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -81,18 +85,23 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Пожарные</a>
+                                    <a href="/catalog/subcategory">Пожарные</a>
                                 </div>
                             </div>
                         </div>
+                        <div class="horizontal-line hidden-desktop"></div>
                     </div> 
                 </div>
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <div class="eq_item__image">
-                            <img src="/img/katalog-pricepnaya-tekhnika.png" alt="ПРИЦЕПНАЯ ТЕХНИКА">
+                        <div class="flex-container">
+                            <div class="eq_item__image">
+                                <img src="/img/katalog-pricepnaya-tekhnika.png" alt="ПРИЦЕПНАЯ ТЕХНИКА">
+                            </div>
+                            <div class="eq_item__title hidden-mobile">АВТОЦИСТЕРНЫ</div>
+                            <a class="eq_item__title hidden-desktop" href="/catalog/category">ПРИЦЕПНАЯ ТЕХНИКА</a>
                         </div>
-                        <a class="eq_item__title" href="/catalog/category">ПРИЦЕПНАЯ ТЕХНИКА</a>
+                        <!-- <div class="horizontal-line hidden-desktop"></div> -->
                         <div class="eq_list">
                             <div class="item_list">
                                 <div class="item_img1">
@@ -100,7 +109,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Полуприцепы-цистерны для техводы</a>
+                                    <a href="/catalog/subcategory">Полуприцепы-цистерны для техводы</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -109,7 +118,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Полуприцепы-цистерны для ГСМ</a>
+                                    <a href="/catalog/subcategory">Полуприцепы-цистерны для ГСМ</a>
                                 </div> 
                             </div>
                             <div class="item_list">
@@ -118,7 +127,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Полуприцепы-цистерны для нефти</a>
+                                    <a href="/catalog/subcategory">Полуприцепы-цистерны для нефти</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -127,7 +136,7 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Полуприцепы-цистерны пищевые</a>
+                                    <a href="/catalog/subcategory">Полуприцепы-цистерны пищевые</a>
                                 </div>
                             </div>
                             <div class="item_list">
@@ -136,59 +145,69 @@
                                 </div>
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Бортовые полуприцепы</a>
+                                    <a href="/catalog/subcategory">Бортовые полуприцепы</a>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="horizontal-line hidden-desktop"></div>
                     </div> 
                 </div>
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <div class="eq_item__image">
-                            <img src="/img/katalog-avtokrany-i-manipulyatory.png" alt="АВТОКРАНЫ И МАНИПУЛЯТОРЫ">
+                        <div class="flex-container">
+                            <div class="eq_item__image">
+                                <img src="/img/katalog-avtokrany-i-manipulyatory.png" alt="АВТОКРАНЫ И МАНИПУЛЯТОРЫ">
+                            </div>
+                            <div class="eq_item__title hidden-mobile">АВТОЦИСТЕРНЫ</div>
+                            <a class="eq_item__title hidden-desktop" href="/catalog/category">АВТОКРАНЫ И МАНИПУЛЯТОРЫ</a>
                         </div>
-                        <a class="eq_item__title" href="/catalog/category">АВТОКРАНЫ И МАНИПУЛЯТОРЫ</a>
+                        <!-- <div class="horizontal-line hidden-desktop"></div> -->
                         <div class="eq_list">
                             <div class="item_list">
                                 <img class="item_img2" src="/img/kamaz_kmu.svg" alt="Камаз с КМУ">
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Камаз с КМУ</a>
+                                    <a href="/catalog/subcategory">Камаз с КМУ</a>
                                 </div>
                             </div>
                             <div class="item_list">
                                 <img class="item_img2" src="/img/BKM.svg" alt="Бурильно-крановые машины">
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Бурильно-крановые машины</a>
+                                    <a href="/catalog/subcategory">Бурильно-крановые машины</a>
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                        <div class="horizontal-line hidden-desktop"></div>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="eq_item">
-                        <div class="eq_item__image">
-                            <img src="/img/katalog-tekhnologicheskij-transport.png" alt="ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ">
+                        <div class="flex-container">
+                            <div class="eq_item__image">
+                                <img src="/img/katalog-tekhnologicheskij-transport.png" alt="ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ">
+                            </div>
+                            <div class="eq_item__title hidden-mobile">АВТОЦИСТЕРНЫ</div>
+                            <a class="eq_item__title hidden-desktop" href="/catalog/category">ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ</a>
                         </div>
-                        <a class="eq_item__title" href="/catalog/category">ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ</a>
+                        <!-- <div class="horizontal-line hidden-desktop"></div> -->
                         <div class="eq_list">
                             <div class="item_list">
                                 <img class="item_img2" src="/img/tekhnologicheskij-transport1.svg" alt="Камаз с КМУ">
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Универсальные насосные установки (колтюбинг)</a>
+                                    <a href="/catalog/subcategory">Универсальные насосные установки (колтюбинг)</a>
                                 </div>
                             </div>
                             <div class="item_list">
                                 <img class="item_img2" src="/img/tekhnologicheskij-transport2.svg" alt="Бурильно-крановые машины">
                                 <div class="item_link1">
                                     <div class="bullet"></div>
-                                    <a href="/catalog/category">Цементировочные агрегаты ЦА</a>
+                                    <a href="/catalog/subcategory">Цементировочные агрегаты ЦА</a>
                                 </div>
                             </div>
                         </div>
+                        <div class="horizontal-line hidden-desktop"></div>
                     </div>
                 </div>
             </div>

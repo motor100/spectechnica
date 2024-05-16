@@ -32,6 +32,14 @@ class MainController extends Controller
     }
 
     /**
+     * Подкатегория каталога
+     */
+    public function subcategory(): View
+    {
+        return view('subcategory');
+    }
+
+    /**
      * Карточка товара
      */
     public function product(): View
