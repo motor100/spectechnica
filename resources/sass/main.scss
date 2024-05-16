@@ -1626,22 +1626,28 @@ p {
   }
 }
 
-// КАРТОЧКА ТОВАРА
+// Карточка товара
 .product {
-  p {
-    margin: 0;
-  }
   .section_card {
     display: flex;
+    margin: 45px 0 90px 0;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin-top: 45px;
     .card_image {
       display: block;
       width: 50%;
       height: 460px;
       margin-right: 50px;
+    }
+    .card_image img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .art {
+      font-size: 14px;
+      text-align: center;
     }
     .price {
       margin: 30px 0;
@@ -1653,9 +1659,8 @@ p {
     .pr_btn {
       display: block;
       width: 306px;
-      height: 68px;
       margin: 0 auto 20px auto;
-      padding: 19px 0;
+      padding: 18px 0;
       border: none;
       border-radius: 5px;
       background-color: #EF7605;
@@ -1663,6 +1668,18 @@ p {
       font-size: 20px;
       color: #fff;
       text-align: center;
+    }
+    .lead_btn {
+      margin-bottom: 40px;
+    }
+    .guarantee,
+    .delivery {
+      margin: 0 0 20px 0;
+      font-family: "Montserrat-SemiBold";
+      font-size: 20px;
+      color: $bluecolor;
+      text-align: center;
+      line-height: 1.3;
     }
   }
   .section_block {
@@ -1672,29 +1689,27 @@ p {
     max-width: 100%;
     width: 855px;
     height: 300px;
-    margin-top: 90px;
+    margin-bottom: 30px;
     .item_block {
       display: block;
       background-color: #D9D9D9;
       width: 155px;
       height: 130px;
-      
     }      
   }
 
   // Кнопки табов (вкладок)
   .tab_buttons {
-    margin: 30px 0 65px 0;
+    margin: 0 0 40px 0;
     .tab_btn {
       display: block;
-      margin: 0 auto;
+      margin: 0 auto 25px auto;
       width: 100%;
-      height: 60px;
       border: none;
       background-color: $lightbluecolor;
       font-family: "Montserrat-SemiBold";
       text-align: center;
-      padding: 15px 0;
+      padding: 14px 0;
       font-size: 20px;
       color: #fff;
     }
@@ -1736,33 +1751,32 @@ p {
       background-color: #8CAEC9;
     }
     .block_specifications {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      p {
-        width: 45%;
-        height: 35px;
-        margin-top: 7px;
-      }
+      // display: flex;
+      // justify-content: flex-start;
+      // align-items: center;
+      // p {
+      //   width: 45%;
+      //   height: 35px;
+      //   margin-top: 7px;
+      // }
     }
-    
+    .table {
+      width: 100%;
+    }
+    .table tr {
+      border-bottom: 2px solid $lightbluecolor;
+    }
+    .table td {
+      width: 50%;
+      padding: 5px 0;
+      line-height: 1.3;
+    }
   }
   
   // Вкладка Доработки техники
-  .upgrade {
-    ul, li {
-      margin: 0;
-      padding: 0;
-    }
-    li {
-      padding-left: 10px;
-    }
-    li::marker {
-      color: $textcolor;
-      font-size: 15px;
-
-    }
-  }
+  // .upgrade {
+  // 
+  // }
 
 }
 
@@ -2350,10 +2364,24 @@ p {
   }
 
   .product {
+    .section_card .pr_btn {
+      width: 256px;
+      padding: 13px 0;
+      font-size: 18px;
+    }
+    .section_card .guarantee,
+    .section_card .delivery {
+      font-size: 18px;
+    }
+    .tab_buttons .tab_btn {
+      padding: 12px 0;
+      font-size: 18px;
+    }
     .specifications .block_specifications p {
       font-size: 16px;
       line-height: 1;
     }
+    
   }
 
   .application-form-section {
@@ -3097,17 +3125,11 @@ p {
 
   .product {
     .section_card {
-      margin-top: 40px;
-    }
-    .title {
-      font-size: 16px;
+      margin: 5px 0;
     }
     .section_card .card_image {
-      width: 300px;
-      height: 226px;
-    }
-    .section_card .art_block .item_yes {
-      display: none;
+      width: 100%;
+      height: auto;
     }
     .section_card .art_block .price {
       margin-top: 10px;
@@ -3122,11 +3144,13 @@ p {
       display: none;
     }
     .tab_buttons .tab_btn {
-      margin-top: 25px;
       font-size: 20px;
     }
     .tab_buttons {
-      margin: 0;
+      margin: 0 0 20px 0;
+    }
+    .tab_content {
+      font-size: 18px;
     }
     .description {
       margin: 0;
@@ -3306,6 +3330,12 @@ p {
     }
     .equipment_catalog .eq_list a {
       font-size: 13px;
+    }
+  }
+
+  .product {
+    .tab_content {
+      font-size: 16px;
     }
   }
 
