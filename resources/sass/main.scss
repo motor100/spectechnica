@@ -617,7 +617,7 @@ p {
     display: flex;
     flex-direction: column;
     width: 60%;
-    .name, .fone {
+    .name, .phone {
       display: block;
       position: relative;
 
@@ -1015,9 +1015,11 @@ p {
     .text {
       margin: 0 0 20px 0;
       font-family: "Montserrat-Medium";
-      font-size: 24px;
-      color: $textcolor;
-      line-height: 1.3;
+      font-size: 18px;
+    }
+    .download {
+      display: flex;
+      align-items: center;
     }
     .download .pdf-icon {
       width: 48px;
@@ -1025,8 +1027,9 @@ p {
     }
     .download .name {
       font-family: "Montserrat-Medium";
-      font-size: 24px;
+      font-size: 20px;
       color: $bluecolor;
+      line-height: 1.3;
       text-decoration: underline;
     }
   }
@@ -1127,15 +1130,22 @@ p {
     display: none;
   }
 }
-    
-// доработки и сервис
+
+// Доработки и сервис
 .upgrade-and-service {
-  .section-title {
-    margin: 0 0 70px 0;
-    font-family: 'Montserrat-Bold';
-    font-size: 24px;
-    color: #EF7605;
-    text-transform: uppercase;
+  .upgrade-section {
+    padding: 0 0 50px 0;
+    .section-title {
+      margin: 0 0 30px 0;
+      font-family: 'Montserrat-Bold';
+      font-size: 24px;
+      color: #EF7605;
+      text-transform: uppercase;
+    }
+  }
+  .upgrade-list {
+    font-family: 'Montserrat-Medium';
+    font-size: 18px;
   }
 }
 
@@ -1739,6 +1749,7 @@ p {
   // Контент табов (вкладок)
   .tab_content {
     display: none;
+    padding: 0 0 50px 0;
     &.active {
       display: block;
     }
@@ -2184,6 +2195,13 @@ p {
       height: 500px;
     }
   }
+
+  // Доработки и сервис
+  .upgrade-and-service {
+    .upgrade-section .section-title {
+      font-size: 22px;
+    }
+  }
 }
 
 @media only screen and (max-width : 1200px) {
@@ -2381,6 +2399,24 @@ p {
   .aduc {
     .aduc_design_banner {
       height: 450px;
+    }
+    .description-section {
+      .text {
+        font-size: 16px;
+      }
+      .download .pdf-icon {
+        width: 40px;
+      }
+      .download .name {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // Доработки и сервис
+  .upgrade-and-service {
+    .upgrade-list {
+      font-size: 16px;
     }
   }
 }
@@ -3050,6 +3086,16 @@ p {
   .aduc {
     .aduc_design_banner {
       height: 350px;
+    }
+    .description-section .download .name {
+      font-size: 16px;
+    }
+  }
+
+  // Доработк и сервис
+  .upgrade-and-service {
+    .upgrade-section {
+      padding: 0 0 20px 0;
     }
   }
 

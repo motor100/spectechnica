@@ -11,7 +11,7 @@
           <textarea type="text" class="form-control textarea" required></textarea>
           <div class="placeholder">Задать вопрос<span> *</span></div>
         </div>
-        <div class="fone">
+        <div class="phone">
           <input type="text" class="form-control" required>
           <div class="placeholder">Телефон<span> *</span></div>
         </div>
