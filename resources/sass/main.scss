@@ -1750,34 +1750,18 @@ p {
       height: 2px;
       background-color: #8CAEC9;
     }
-    .block_specifications {
-      // display: flex;
-      // justify-content: flex-start;
-      // align-items: center;
-      // p {
-      //   width: 45%;
-      //   height: 35px;
-      //   margin-top: 7px;
-      // }
-    }
     .table {
       width: 100%;
     }
-    .table tr {
+    .table .tr {
       border-bottom: 2px solid $lightbluecolor;
     }
-    .table td {
+    .table .td {
       width: 50%;
-      padding: 5px 0;
+      padding: 5px 5px 5px 0;
       line-height: 1.3;
     }
   }
-  
-  // Вкладка Доработки техники
-  // .upgrade {
-  // 
-  // }
-
 }
 
 // Хлебные крошки
@@ -3131,20 +3115,32 @@ p {
       width: 100%;
       height: auto;
     }
+    .section_card .art {
+      font-size: 13px;
+    }
     .section_card .art_block .price {
       margin-top: 10px;
+      font-size: 16px;
     }
     .section_card .art_block .guarantee {
       margin-top: 30px;
+      font-size: 16px;
     }
     .section_card .art_block .delivery {
       margin-top: 20px;
+      font-size: 16px;
+    }
+    .section_card .pr_btn {
+      width: 226px;
+      padding: 8px 0;
+      font-size: 16px;
     }
     .section_block {
       display: none;
     }
     .tab_buttons .tab_btn {
-      font-size: 20px;
+      padding: 8px 0;
+      font-size: 18px;
     }
     .tab_buttons {
       margin: 0 0 20px 0;
@@ -3158,10 +3154,8 @@ p {
     .description_product {
       margin-bottom: 20px;
     }
-    .specifications .block_specifications p {
+    .specifications .table .td {
       font-size: 14px;
-      line-height: 1;
-      padding: 0;
     }
     .specifications .horizont_line {
       height: 1px;

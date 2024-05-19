@@ -115,54 +115,38 @@
             <!-- Вкладка Характеристики -->
             <div class="tab_content">
                 <div class="specifications">
-                    <div class="block_specifications">
-                        <p>Тип двигателя</p>
-                        <p>Четырехтактный дизель</p>
-                    </div>
-                    <div class="horizont_line"></div>
-                    <div class="block_specifications">
-                        <p>Количество и расположение цилиндров</p>
-                        <p>8, V-образное</p>
-                    </div>
-                    <div class="horizont_line"></div>
-                    <div class="block_specifications">
-                        <p>Рабочий объём цилиндров, см3</p>
-                        <p>11762</p>
-                    </div>
-                    <div class="horizont_line"></div>
-                    <div class="block_specifications">
-                        <p>Степень сжатия</p>
-                        <p>17,6...18,4</p>
-                    </div>
-                    <div class="horizont_line"></div>
-                    <div class="block_specifications">
-                        <p>Максимальная мощность, кВт</p>
-                        <p>221 (300 л.с.)</p>
-                    </div>
-                    <div class="horizont_line"></div>
-                    <div class="block_specifications">
-                        <p>Максимальный крутящий момент, Н*м</p>
-                        <p>1275</p>
-                    </div>
-                    <div class="horizont_line"></div>
-                    <div class="block_specifications">
-                        <p>Топливо</p>
-                        <p>Дизельное</p>
-                    </div>
-                    <div class="horizont_line"></div>
-                    <div class="block_specifications">
-                        <p>Тип двигателя</p>
-                        <p>Четырехтактный дизель</p>
-                    </div>
-
                     <table class="table">
-                        <tr>
-                            <td>Тип двигателя</td>
-                            <td>Четырехтактный дизель</td>
+                        <tr class="tr">
+                            <td class="td">Тип двигателя</td>
+                            <td class="td">Четырехтактный дизель</td>
                         </tr>
-                        <tr>
-                            <td>Количество и расположение цилиндров</td>
-                            <td>8, V-образное</td>
+                        <tr class="tr">
+                            <td class="td">Количество и расположение цилиндров</td>
+                            <td class="td">8, V-образное</td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td">Рабочий объём цилиндров, см3</td>
+                            <td class="td">11762</td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td">Степень сжатия</td>
+                            <td class="td">17,6...18,4</td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td">Максимальная мощность, кВт</td>
+                            <td class="td">221 (300 л.с.)</td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td">Максимальный крутящий момент, Н*м</td>
+                            <td class="td">1275</td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td">Топливо</td>
+                            <td class="td">Дизельное</td>
+                        </tr>
+                        <tr class="tr">
+                            <td class="td">Тип двигателя</td>
+                            <td class="td">Четырехтактный дизель</td>
                         </tr>
                     </table>
                 </div>
