@@ -1595,7 +1595,6 @@ p {
       margin: 0 0 25px 0;
       .year_btn {
         width: 200px;
-        height: 60px;
         padding: 4px 0;
         border: 2px dashed #8CAEC9;
         border-radius: 5px;
@@ -2142,6 +2141,12 @@ p {
       .sale-office {
         font-size: 22px;
       }
+    }
+  }
+
+  .category {
+    .section-title {
+      font-size: 22px;
     }
   }
 
@@ -3009,6 +3014,9 @@ p {
       text-align: center;
       font-size: 16px;
     }
+    .section-title {
+      font-size: 20px;
+    }
     .btn_primary {
       width: 86px;
       height: 35px;
@@ -3324,6 +3332,18 @@ p {
     }
     .equipment_catalog .eq_list a {
       font-size: 13px;
+    }
+  }
+
+  .category {
+    .video-section-shipment .year_btns {
+      width: auto;
+      justify-content: flex-start;
+    }
+    .video-section-shipment .year_btns .year_btn {
+      width: 150px;
+      margin: 0 10px 0 0;
+      font-size: 20px;
     }
   }
 

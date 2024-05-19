@@ -157,8 +157,8 @@
 
             <!-- Кнопки -->
             <div class="year_btns">
-                <span class="year_btn active">2024</span>
-                <span class="year_btn">2023</span>
+                <div class="year_btn active">2024</div>
+                <div class="year_btn">2023</div>
             </div>
 
             <div class="videos videos-temp">
