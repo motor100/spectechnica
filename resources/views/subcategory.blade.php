@@ -39,29 +39,312 @@
 
     <!-- Секция с товарами -->
     <div class="products-wrapper section">
-        <div class="section_category">
-            <div class="container">
-                <div class="section_prod_card">
+        <div class="product-item">
+            <div class="section_prod_card">
+                <div class="product-title-wrapper product-title-wrapper-mobile">
+                    <div class="container">
+                        <div class="flex-container">
+                            <a href="/catalog/product" class="product-title">Автоцистерна для воды АЦПТ-10 на шасси УРАЛ 4320</a>
+                            <div class="art">арт. 8859-12</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
                     <div class="block_category">
                         <div class="category_item__img">
                             <img src="/img/image_21.png" alt="КАМАЗ-65115">
-                        </div>               
+                        </div>
                         <div class="y_line"></div>
                         <div class="category_item__description">
-                            <div class="product-title-wrapper">
+                            <div class="product-title-wrapper product-title-wrapper-desktop">
                                 <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                <div class="art">арт. 8859-12</div>
                             </div>
-                            <p class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</p>
-                            <div class="price"><p class="p1">Цена:</p><p class="p2">По запросу</p></div>
-                            <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                            <div class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</div>
+                            <div class="price">
+                                <span class="price-text">Цена: </span>
+                                <span class="price-value">По запросу</span>
+                            </div>
+                            <div class="buttons buttons-desktop">
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                                <a href="/catalog/product" class="btn_2">Подробнее</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="category_item__art">
-                        <div class="art">арт. 8859-12</div>
-                        <a href="#" class="btn_2">Подробнее</a>
-                    </div> 
+                    <div class="buttons buttons-mobile">
+                        <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        <a href="/catalog/product" class="btn_2">Подробнее</a>
+                    </div>
                 </div>
-                <div class="x_line"></div> 
+            </div>
+            <div class="x-line-wrapper">
+                <div class="container">
+                    <div class="x_line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="section_prod_card">
+                <div class="product-title-wrapper product-title-wrapper-mobile">
+                    <div class="container">
+                        <div class="flex-container">
+                            <a href="/catalog/product" class="product-title">Автоцистерна для воды АЦПТ-10 на шасси УРАЛ 4320</a>
+                            <div class="art">арт. 8859-12</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper product-title-wrapper-desktop">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                <div class="art">арт. 8859-12</div>
+                            </div>
+                            <div class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</div>
+                            <div class="price">
+                                <span class="price-text">Цена: </span>
+                                <span class="price-value">По запросу</span>
+                            </div>
+                            <div class="buttons buttons-desktop">
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                                <a href="/catalog/product" class="btn_2">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons buttons-mobile">
+                        <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        <a href="/catalog/product" class="btn_2">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="x-line-wrapper">
+                <div class="container">
+                    <div class="x_line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="section_prod_card">
+                <div class="product-title-wrapper product-title-wrapper-mobile">
+                    <div class="container">
+                        <div class="flex-container">
+                            <a href="/catalog/product" class="product-title">Автоцистерна для воды АЦПТ-10 на шасси УРАЛ 4320</a>
+                            <div class="art">арт. 8859-12</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper product-title-wrapper-desktop">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                <div class="art">арт. 8859-12</div>
+                            </div>
+                            <div class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</div>
+                            <div class="price">
+                                <span class="price-text">Цена: </span>
+                                <span class="price-value">По запросу</span>
+                            </div>
+                            <div class="buttons buttons-desktop">
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                                <a href="/catalog/product" class="btn_2">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons buttons-mobile">
+                        <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        <a href="/catalog/product" class="btn_2">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="x-line-wrapper">
+                <div class="container">
+                    <div class="x_line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="section_prod_card">
+                <div class="product-title-wrapper product-title-wrapper-mobile">
+                    <div class="container">
+                        <div class="flex-container">
+                            <a href="/catalog/product" class="product-title">Автоцистерна для воды АЦПТ-10 на шасси УРАЛ 4320</a>
+                            <div class="art">арт. 8859-12</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper product-title-wrapper-desktop">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                <div class="art">арт. 8859-12</div>
+                            </div>
+                            <div class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</div>
+                            <div class="price">
+                                <span class="price-text">Цена: </span>
+                                <span class="price-value">По запросу</span>
+                            </div>
+                            <div class="buttons buttons-desktop">
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                                <a href="/catalog/product" class="btn_2">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons buttons-mobile">
+                        <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        <a href="/catalog/product" class="btn_2">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="x-line-wrapper">
+                <div class="container">
+                    <div class="x_line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="section_prod_card">
+                <div class="product-title-wrapper product-title-wrapper-mobile">
+                    <div class="container">
+                        <div class="flex-container">
+                            <a href="/catalog/product" class="product-title">Автоцистерна для воды АЦПТ-10 на шасси УРАЛ 4320</a>
+                            <div class="art">арт. 8859-12</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper product-title-wrapper-desktop">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                <div class="art">арт. 8859-12</div>
+                            </div>
+                            <div class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</div>
+                            <div class="price">
+                                <span class="price-text">Цена: </span>
+                                <span class="price-value">По запросу</span>
+                            </div>
+                            <div class="buttons buttons-desktop">
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                                <a href="/catalog/product" class="btn_2">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons buttons-mobile">
+                        <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        <a href="/catalog/product" class="btn_2">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="x-line-wrapper">
+                <div class="container">
+                    <div class="x_line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="section_prod_card">
+                <div class="product-title-wrapper product-title-wrapper-mobile">
+                    <div class="container">
+                        <div class="flex-container">
+                            <a href="/catalog/product" class="product-title">Автоцистерна для воды АЦПТ-10 на шасси УРАЛ 4320</a>
+                            <div class="art">арт. 8859-12</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper product-title-wrapper-desktop">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                <div class="art">арт. 8859-12</div>
+                            </div>
+                            <div class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</div>
+                            <div class="price">
+                                <span class="price-text">Цена: </span>
+                                <span class="price-value">По запросу</span>
+                            </div>
+                            <div class="buttons buttons-desktop">
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                                <a href="/catalog/product" class="btn_2">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons buttons-mobile">
+                        <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        <a href="/catalog/product" class="btn_2">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="x-line-wrapper">
+                <div class="container">
+                    <div class="x_line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="product-item">
+            <div class="section_prod_card">
+                <div class="product-title-wrapper product-title-wrapper-mobile">
+                    <div class="container">
+                        <div class="flex-container">
+                            <a href="/catalog/product" class="product-title">Автоцистерна для воды АЦПТ-10 на шасси УРАЛ 4320</a>
+                            <div class="art">арт. 8859-12</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="block_category">
+                        <div class="category_item__img">
+                            <img src="/img/image_21.png" alt="КАМАЗ-65115">
+                        </div>
+                        <div class="y_line"></div>
+                        <div class="category_item__description">
+                            <div class="product-title-wrapper product-title-wrapper-desktop">
+                                <a href="/catalog/product" class="product-title">АЦПТ-13 КАМАЗ-65115</a>
+                                <div class="art">арт. 8859-12</div>
+                            </div>
+                            <div class="description">6x6, 300 л.с., коробка передач Камаз-154, объем цистерны 10 м³, насос СЦЛ-01А, 1 секция, эллиптическое сечение, ДОПОГ</div>
+                            <div class="price">
+                                <span class="price-text">Цена: </span>
+                                <span class="price-value">По запросу</span>
+                            </div>
+                            <div class="buttons buttons-desktop">
+                                <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                                <a href="/catalog/product" class="btn_2">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons buttons-mobile">
+                        <button class="btn_1 orange_btn">ЗАПРОСИТЬ СТОИМОСТЬ</button>
+                        <a href="/catalog/product" class="btn_2">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="x-line-wrapper">
+                <div class="container">
+                    <div class="x_line"></div>
+                </div>
             </div>
         </div>
     </div>
