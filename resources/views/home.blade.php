@@ -109,7 +109,10 @@
           <div class="item_text">Льготная доставка в<br>регионы собственным<br>автотранспортом</div>
         </div>
       </div>
-    </div>   
+    </div>
+    <div class="about-section-banner-bg">
+      <img src="/img/about-section-banner-bg.jpg" alt="">
+    </div>
   </div>
 
   <div class="about_section_mobile hidden-desktop">
