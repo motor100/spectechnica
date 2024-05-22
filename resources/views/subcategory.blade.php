@@ -31,8 +31,32 @@
     <div class="filter-section">
         <div class="container">
             <button class="filter-btn">ФИЛЬТР</button>
-            <div class="filter-content">
-                <p>Параметры фильтра</p>
+            <div class="filter-content active">
+                <div class="filter-content__title">Фильтр по параметрам</div>
+                <div class="filter-item">
+                    <div class="filter-item__title">НАЛИЧИЕ</div>
+                    <div class="filter-item__settings">
+                        <div class="value">В наличии</div>
+                        <div class="value">Ожидается</div>
+                        <div class="value active">На заказ</div>
+                    </div>
+                </div>
+                <div class="filter-item">
+                    <div class="filter-item__title">МАРКА ШАССИ</div>
+                    <div class="filter-item__settings">
+                        <div class="value">Урал</div>
+                        <div class="value active">Урал-NEXT</div>
+                        <div class="value">Камаз</div>
+                    </div>
+                </div>
+                <div class="reset">
+                    <img class="reset-image" src="/img/cross.svg" alt="">
+                    <span class="reset-text">Сбросить параметры</span>
+                </div>
+                <div class="close js-filter-close">
+                    <span class="close-text">Скрыть параметры</span>
+                    <img class="close-image" src="/img/arrow-top.svg" alt="">
+                </div>
             </div>
         </div>
     </div>

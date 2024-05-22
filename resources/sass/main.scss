@@ -1418,6 +1418,7 @@ p {
 
   // Секция с фильтром
   .filter-section {
+    margin: 0 0 25px 0;
     .filter-btn {
       width: 343px;
       margin: 0 0 25px 0;
@@ -1438,6 +1439,74 @@ p {
       &.active {
         max-height: 500px;
       }
+    }
+    .filter-content__title {
+      margin: 0 0 12px 0;
+      padding: 5px 0;
+      background-color: #D9D9D9;
+      font-family: "Montserrat-SemiBold";
+      font-size: 24px;
+      color: #6D6D6E;
+      text-align: center;
+    }
+    .filter-item {
+      display: flex;
+      padding: 20px 0;
+      border-bottom: 1px solid $orangecolor;
+    }
+    .filter-item__title {
+      width: 23%;
+      font-family: "Montserrat-SemiBold";
+      font-size: 20px;
+      color: $orangecolor;
+      text-transform: uppercase;
+    }
+    .filter-item__settings {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .value {
+      width: max-content;
+      margin: 0 25px 0 0;
+      padding: 6px 12px;
+      border: 1px solid $bluecolor;
+      border-radius: 5px;
+      background-color: #fff;
+      font-family: "Montserrat-SemiBold";
+      font-size: 14px;
+      color: #6D6D6E;
+      text-align: center;
+      cursor: pointer;
+    }
+    .value.active {
+      background-color: $lightbluecolor;
+      color: #fff;
+    }
+    .reset {
+      padding: 6px 0;
+      text-align: center;
+    }
+    .reset-image {
+      margin: 0 10px 0 0;
+    }
+    .reset-text {
+      font-family: "Montserrat-Bold";
+      font-size: 20px;
+      color: $orangecolor;
+      vertical-align: middle;
+    }
+    .close {
+      padding: 6px 0;
+      background-color: $lightbluecolor;
+      text-align: center;
+      cursor: pointer;
+    }
+    .close-text {
+      margin: 0 10px 0 0;
+      font-family: "Montserrat-SemiBold";
+      color: #fff;
+      text-transform: uppercase;
+      vertical-align: middle;
     }
   }
 

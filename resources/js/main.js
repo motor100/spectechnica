@@ -364,9 +364,14 @@ const filterSection = document.querySelector('.filter-section');
 if (filterSection) {
   const filterBtn = document.querySelector('.filter-btn');
   const filterContent = document.querySelector('.filter-content');
+  const filterClose = document.querySelector('.js-filter-close');
 
   filterBtn.onclick = function () {
     filterContent.classList.toggle('active');
+  }
+
+  filterClose.onclick = function () {
+    filterContent.classList.remove('active');
   }
 }
 

@@ -98,7 +98,7 @@
                             <div class="eq_item__image">
                                 <img src="/img/katalog-pricepnaya-tekhnika.png" alt="ПРИЦЕПНАЯ ТЕХНИКА">
                             </div>
-                            <div class="eq_item__title hidden-mobile">АВТОЦИСТЕРНЫ</div>
+                            <div class="eq_item__title hidden-mobile">ПРИЦЕПНАЯ ТЕХНИКА</div>
                             <a class="eq_item__title hidden-desktop" href="/catalog/category">ПРИЦЕПНАЯ ТЕХНИКА</a>
                         </div>
                         <!-- <div class="horizontal-line hidden-desktop"></div> -->
@@ -158,7 +158,7 @@
                             <div class="eq_item__image">
                                 <img src="/img/katalog-avtokrany-i-manipulyatory.png" alt="АВТОКРАНЫ И МАНИПУЛЯТОРЫ">
                             </div>
-                            <div class="eq_item__title hidden-mobile">АВТОЦИСТЕРНЫ</div>
+                            <div class="eq_item__title hidden-mobile">АВТОКРАНЫ И МАНИПУЛЯТОРЫ</div>
                             <a class="eq_item__title hidden-desktop" href="/catalog/category">АВТОКРАНЫ И МАНИПУЛЯТОРЫ</a>
                         </div>
                         <!-- <div class="horizontal-line hidden-desktop"></div> -->
@@ -187,7 +187,7 @@
                             <div class="eq_item__image">
                                 <img src="/img/katalog-tekhnologicheskij-transport.png" alt="ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ">
                             </div>
-                            <div class="eq_item__title hidden-mobile">АВТОЦИСТЕРНЫ</div>
+                            <div class="eq_item__title hidden-mobile">ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ</div>
                             <a class="eq_item__title hidden-desktop" href="/catalog/category">ТЕХНОЛОГИЧЕСКИЙ ТРАНСПОРТ</a>
                         </div>
                         <!-- <div class="horizontal-line hidden-desktop"></div> -->

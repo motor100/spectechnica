@@ -24,8 +24,23 @@ $gutter: $grid-gutter-width;
 
 // IMPORT SECTION
 
-@import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
-@import 'node_modules/bootstrap/scss/bootstrap-reboot.scss'; // Optional Bootstrap Reboot
+// @import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
+// @import 'node_modules/bootstrap/scss/bootstrap-reboot.scss'; // Optional Bootstrap Reboot
+
+// Обязательные
+@import "../node_modules/bootstrap/scss/functions";
+
+// Обязательные
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Дополнительные компоненты
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
 @import 'node_modules/swiper/swiper-bundle'; // Swiper
 
 // FONTS LOAD SECTION
@@ -74,5 +89,5 @@ body {
 }
 
 :root {
-  color-scheme: light;
+  color-scheme: only light;
 }
