@@ -612,73 +612,25 @@ p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    //margin-top: 25px;
   } 
   .form_item_1 {
     display: flex;
     flex-direction: column;
     width: 60%;
-    .name, .phone {
-      display: block;
-      position: relative;
-
-      height: 100%;
-      margin: 15px 0 15px 0;
-      input {
-        border-radius: 5px;
-        font-family: "Montserrat-Regular";
-        font-size: 20px;
-        color: #6D6D6E;
-        padding: 20px;
-        border: none;
-        width: 100%;
-      }
-      .placeholder {
-        position: absolute;
-        left:20px;
-        top:40%;
-        transform: translateY(-50%);
-        pointer-events: none;
-      }
-      span {
-        color: #EF7605;
-      }
-      .form-control:focus~.placeholder {
-        display:none;
-      }
-      .form-control:valid~.placeholder {
-        display:none;
-      }
+    .form-group {
+      margin: 0 0 15px 0;
     }
-    .question {
-      display: block;
-      position: relative;
-      height: 100%;
-      .textarea {
-        border-radius: 5px;
-        font-family: "Montserrat-Regular";
-        font-size: 20px;
-        color: #6D6D6E;
-        padding: 20px;
-        border: none;
-        width: 100%;
-      }
-      .placeholder {
-        position: absolute;
-        left:20px;
-        top:15%;
-        transform: translateY(-50%);
-        pointer-events: none;
-      }
-      span {
-        color: #EF7605;
-      }
-      .form-control:focus~.placeholder {
-        display:none;
-      }
-      .form-control:valid~.placeholder {
-        display:none;
-      }
+    .input-field {
+      border-radius: 5px;
+      font-family: "Montserrat-Regular";
+      font-size: 20px;
+      color: #6D6D6E;
+      padding: 16px 20px;
+      border: 2px solid #fff;
+      width: 100%;
+    }
+    .input-field.required {
+      border: 2px solid $accentcolor;
     }
   }
   .form_item_2 {
@@ -686,24 +638,7 @@ p {
     justify-content: space-between;
     flex-direction: column;
     width: 40%;
-    padding: 15px;
-    // .checkbox {
-    //   display: flex;
-    //   align-items: flex-start;
-    //   justify-content: space-between;
-    //   input[type="checkbox"] {
-    //     transform: scale(3);
-    //     margin-top: 10px;
-    //     margin-left: 10px;
-    //   }
-    //   .condition {
-    //     width: 478px;
-    //     font-family: "Montserrat-Medium";
-    //     font-size: 16px;
-    //     color: #fff;
-    //     line-height: 1.5em;
-    //   }
-    // }
+    padding: 0 0 15px 15px;
     .btn_push {
       width: 100%;
       font-family: "Montserrat-SemiBold";

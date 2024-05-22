@@ -2,7 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ApiController;
+// use App\Http\Controllers\ApiController;
+use App\Http\Controllers\MailerController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +21,4 @@ use App\Http\Controllers\ApiController;
 // });
 
 
-// Ajax
-// Route::get('/we-use-cookie', [ApiController::class, 'we_use_cookie']);
+Route::post('/callback', MailerController::class);

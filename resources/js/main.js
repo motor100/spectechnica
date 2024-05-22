@@ -1,13 +1,12 @@
 // import section
-
-// import IMask from 'imask';
+import IMask from 'imask';
 import Swiper from 'swiper';
 import { Pagination, EffectFade } from 'swiper/modules';
 
 
 // Common
 const body = document.querySelector('body');
-const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content'); // csrf token
+// const token = document.querySelector('meta[name="csrf-token"]').getAttribute('content'); // csrf token
 
 
 // we use cookie
@@ -84,12 +83,11 @@ for (let i=0; i < listParentClick.length; i++) {
 }
 
 
-
 // Окна modal window
 const modalWindow = document.querySelectorAll('.modal-window');
 const callbackBtns = document.querySelectorAll('.js-callback-btn');
 const callbackModal = document.querySelector('#callback-modal');
-const consultationModal = document.querySelector('#consultation-modal');
+// const consultationModal = document.querySelector('#consultation-modal');
 const modalCloseBtn = document.querySelector('.modal-window .modal-close');
 
 function modalWindowOpen(win) {
@@ -134,50 +132,58 @@ for (let i = 0; i < modalWindow.length; i++) {
 }
 
 
-// Callback modal checkbox I agree and I read
-const checkboxCallbackModal = document.querySelectorAll('.js-checkbox-callback-modal');
-const callbackSubmitBtn = document.querySelector('#callback-submit-btn');
+// Input mask
+function inputPhoneMask() {
+  const phoneMaskInputs = document.querySelectorAll('.js-input-phone-mask');
 
-function callbackModalCheckboxOnchange() {
-  if (!checkboxCallbackModal[0].checked || !checkboxCallbackModal[1].checked) {
-    callbackSubmitBtn.disabled = true;
-  } else {
-    callbackSubmitBtn.disabled = '';
-  }
+  const maskOptionsPhone = {
+    mask: '+{7} (000) 000 00 00'
+  };
+
+  phoneMaskInputs.forEach((item) => {
+    const mask = IMask(item, maskOptionsPhone);
+  });
 }
 
-checkboxCallbackModal.forEach((item) => {
-  item.onchange = callbackModalCheckboxOnchange;
-});
+inputPhoneMask();
 
 
 // Отправка формы ajax в модальном окне
+const applicationForm = document.querySelector('#application-form');
+const applicationSubmitBtn = document.querySelector('#application-submit-btn');
 const callbackModalForm = document.querySelector('#callback-modal-form');
+const callbackModalSubmitBtn = document.querySelector('#callback-modal-submit-btn');
 
 function ajaxCallback(form) {
 
   const inputs = form.querySelectorAll('.input-field');
   let arr = [];
 
-  const inputName = form.querySelector('.js-name-callback-modal');
+  const inputName = form.querySelector('.js-input-name');
   if (inputName.value.length < 3 || inputName.value.length > 20) {
     inputName.classList.add('required');
     arr.push(false);
   }
 
-  let inputEmail = form.querySelector('.js-email-callback-modal');
+  let inputEmail = form.querySelector('.js-input-email');
   if (inputEmail.value.length < 3 || inputEmail.value.length > 50) {
     inputEmail.classList.add('required');
     arr.push(false);
   }
 
-  const inputPhone = form.querySelector('.js-phone-callback-modal');
+  const inputPhone = form.querySelector('.js-input-phone');
   if (inputPhone.value.length != 18) {
     inputPhone.classList.add('required');
     arr.push(false);
   }
 
-  const inputCheckboxes = form.querySelectorAll('.js-checkbox-callback-modal');
+  const inputText = form.querySelector('.js-input-text');
+  if (inputText.value.length < 3 || inputText.value.length > 200) {
+    inputText.classList.add('required');
+    arr.push(false);
+  }
+
+  const inputCheckboxes = form.querySelectorAll('.js-input-checkbox');
 
   inputCheckboxes.forEach((item) => {
     if (!item.checked) {
@@ -190,14 +196,14 @@ function ajaxCallback(form) {
       inputs[i].classList.remove('required');
     }
 
-    // fetch('/api/callback', {
-    //   method: 'POST',
-    //   cache: 'no-cache',
-    //   body: new FormData(form)
-    // })
-    // .catch((error) => {
-    //   console.log(error);
-    // })
+    fetch('/api/callback', {
+      method: 'POST',
+      cache: 'no-cache',
+      body: new FormData(form)
+    })
+    .catch((error) => {
+      console.log(error);
+    })
 
     alert("Спасибо. Мы свяжемся с вами.");
 
@@ -208,8 +214,14 @@ function ajaxCallback(form) {
   return false;
 }
 
-callbackSubmitBtn.onclick = () => {
+callbackModalSubmitBtn.onclick = () => {
   ajaxCallback(callbackModalForm);
+}
+
+if (applicationSubmitBtn) {
+  applicationSubmitBtn.onclick = () => {
+    ajaxCallback(applicationForm);
+  }
 }
 
 
