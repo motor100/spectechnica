@@ -11,6 +11,7 @@
   @yield('robots')
   <link rel="shortcut icon" href="{{ asset('/img/favicon.svg') }}" type="image/x-icon">
   <title>Спецтехника</title>
+  <!-- <script src="//code.jivo.ru/widget/qXz1GgymN2" async></script> -->
   @yield('style')
   @vite(['resources/sass/main.scss'])
 </head>
