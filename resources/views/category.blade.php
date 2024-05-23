@@ -36,7 +36,7 @@
                 <div class="eq_list">
                     <div class="item_list">
                         <div class="item_img1">
-                            <img src="/img/AC_7.svg" alt="">
+                            <img src="/img/avtocisterna.svg" alt="">
                         </div>
                         <div class="item_link1">
                             <div class="bullet"></div>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
-                            <img src="/img/AC_7.svg" alt="">
+                            <img src="/img/avtocisterna.svg" alt="">
                         </div>
                         <div class="item_link1">
                             <div class="bullet"></div>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
-                            <img src="/img/AC_7.svg" alt="">
+                            <img src="/img/avtocisterna.svg" alt="">
                         </div>
                         <div class="item_link1">
                             <div class="bullet"></div>
@@ -63,7 +63,7 @@
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
-                            <img src="/img/AC_7.svg" alt="">
+                            <img src="/img/avtocisterna.svg" alt="">
                         </div>
                         <div class="item_link1">
                             <div class="bullet"></div>
@@ -72,7 +72,7 @@
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
-                            <img src="/img/AC_7.svg" alt="">
+                            <img src="/img/avtocisterna.svg" alt="">
                         </div>
                         <div class="item_link1">
                             <div class="bullet"></div>
@@ -81,7 +81,7 @@
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
-                            <img src="/img/AC_7.svg" alt="">
+                            <img src="/img/avtocisterna.svg" alt="">
                         </div>
                         <div class="item_link1">
                             <div class="bullet"></div>

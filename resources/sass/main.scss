@@ -1026,7 +1026,7 @@ p {
         display: flex;
         margin: 0 0 11px 0;
       }
-      .item_link1 {
+      .item_title1 {
         display: flex;
         align-items: center;
       }
@@ -1040,13 +1040,14 @@ p {
         align-items: center;
         margin-top: 37px;
       }
-      a {
+      .item_link1 {
         font-family: "Montserrat-Bold";
         font-size: 20px;
         color: #6D6D6E;
         margin-left: 10px;
       }
-      a:active, a:hover {
+      .item_link1:active,
+      .item_link1:hover {
         color: #1874A0;
       }
       .bullet {
@@ -2377,7 +2378,7 @@ p {
     .equipment_catalog .eq_item .eq_item__title {
       font-size: 22px;
     }
-    .equipment_catalog .eq_list a {
+    .equipment_catalog .eq_list .item_link1 {
       font-size: 16px;
     }
     .equipment_catalog .item_img1 {
@@ -2625,7 +2626,7 @@ p {
   }
 
   .catalog {
-    .equipment_catalog .eq_list a {
+    .equipment_catalog .eq_list .item_link1 {
       font-size: 14px;
     }
     .equipment_catalog .eq_item .eq_item__image {
@@ -2636,7 +2637,7 @@ p {
       text-align: center;
       line-height: 1.3;
     }
-    .equipment_catalog .eq_list .item_link1 {
+    .equipment_catalog .eq_list .item_title1 {
       width: 100%;
     }
     .equipment_catalog .eq_list .item_list {
@@ -3014,12 +3015,13 @@ p {
     .equipment_catalog .item_img1 {
       margin: 0 auto 10px auto;
     }
-    .equipment_catalog .eq_list .item_link1 {
+    .equipment_catalog .item_img2 {
+      margin: 0 auto 10px auto;
+    }
+    .equipment_catalog .eq_list .item_title1 {
       display: block;
       line-height: 1.2;
     }
-
-
     .equipment_catalog .eq_list .bullet {
       display: none;
     }
@@ -3337,7 +3339,7 @@ p {
     .equipment_catalog .eq_item .eq_item__title {
       font-size: 16px;
     }
-    .equipment_catalog .eq_list a {
+    .equipment_catalog .eq_list .item_link1 {
       font-size: 13px;
     }
   }
