@@ -1389,15 +1389,18 @@ p {
     }
     .filter-item {
       display: flex;
-      padding: 20px 0;
+      padding: 20px 0 5px 0;
       border-bottom: 1px solid $orangecolor;
+      align-items: center;
     }
     .filter-item__title {
       width: 23%;
+      margin: 0 0 15px 0;
       font-family: "Montserrat-SemiBold";
       font-size: 20px;
       color: $orangecolor;
       text-transform: uppercase;
+      flex-shrink: 0;
     }
     .filter-item__settings {
       display: flex;
@@ -1406,7 +1409,7 @@ p {
     .value {
       position: relative;
       width: max-content;
-      margin: 0 25px 0 0;
+      margin: 0 25px 15px 0;
       padding: 6px 12px;
       border: 1px solid $bluecolor;
       border-radius: 5px;
@@ -2192,6 +2195,26 @@ p {
     .section-title {
       font-size: 22px;
     }
+    .filter-section {
+      .filter-content__title {
+        font-size: 22px;
+      }
+      .filter-item__title {
+        font-size: 18px;
+      }
+      .value {
+        padding: 4px 10px;
+      }
+      .value .text {
+        font-size: 15px;
+      }
+      .reset-text {
+        font-size: 18px;
+      }
+      .close-text {
+        font-size: 15px;
+      }
+    }
   }
 
   .aduc {
@@ -2428,8 +2451,29 @@ p {
   }
 
   .category {
-    .filter-section .filter-btn {
-      width: 300px;
+    .filter-section {
+      .filter-btn {
+        width: 300px;
+      }
+      .filter-content__title {
+        font-size: 20px;
+      }
+      .filter-item__title {
+        width: 25%;
+      }
+      .reset-image {
+        width: 15px;
+      }
+      .reset-text {
+        font-size: 16px;
+      }
+      .close-text {
+        font-size: 14px;
+      }
+      .close-image {
+        width: 20px;
+      }
+      
     }
     .block_category .category_item__description .product-title {
       font-size: 22px;
@@ -2652,14 +2696,32 @@ p {
   }
 
   .category {
-    .m_advanted_section {
-      display: none;
+    .filter-section {
+      .filter-btn {
+        width: 200px;
+        border: none;
+        font-size: 18px;
+      }
+      .filter-content__title {
+        padding: 2px 0;
+        font-size: 18px;
+      }
+      .filter-item__title {
+        width: 32%;
+        font-size: 16px;
+      }
+      .value {
+        margin: 0 15px 15px 0;
+        padding: 0px 6px;
+      }
+      .value .text {
+        font-size: 14px;
+      }
+      .reset-text {
+        font-size: 14px;
+      }
     }
-    .filter-section .filter-btn {
-      width: 200px;
-      border: none;
-      font-size: 18px;
-    }
+
     .product-title-wrapper-mobile {
       display: block;
     }
@@ -3056,6 +3118,38 @@ p {
   }
 
   .category {
+    .filter-section {
+      margin: 0 0 5px 0;
+      .filter-content.active {
+        margin-bottom: 30px;
+      }
+      .filter-content__title {
+        font-size: 17px;
+      }
+      .filter-item {
+        display: block;
+        padding: 8px 0 0 0;
+      }
+      .filter-item__title {
+        font-size: 15px;
+      }
+      .value {
+        margin: 0 15px 12px 0;
+      }
+      .value .text {
+        font-size: 13px;
+      }
+      .counter {
+        top: -10px;
+        font-size: 12px;
+      }
+      .reset {
+        padding: 4px 0;
+      }
+      .close {
+        padding: 4px 0;
+      }
+    }
     .title {
       text-align: center;
       font-size: 16px;
@@ -3105,9 +3199,6 @@ p {
     }
     .block_category {
       margin: 0 0 10px 0;
-    }
-    .m_advanted_section {
-      display: block;
     }
     .video-section_1 {
       display: none;

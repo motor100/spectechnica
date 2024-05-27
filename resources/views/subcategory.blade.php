@@ -31,7 +31,7 @@
     <div class="filter-section">
         <div class="container">
             <button class="filter-btn">ФИЛЬТР</button>
-            <div class="filter-content active">
+            <div class="filter-content">
                 <div class="filter-content__title">Фильтр по параметрам</div>
                 <div class="filter-item">
                     <div class="filter-item__title">НАЛИЧИЕ</div>
