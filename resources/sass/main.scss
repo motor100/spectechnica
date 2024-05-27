@@ -1381,10 +1381,12 @@ p {
     }
     .filter-content {
       max-height: 0;
+      margin-bottom: 0;
       overflow: hidden;
-      transition: max-height .3s;
+      transition: max-height .3s, margin-bottom .1s;
       &.active {
         max-height: 500px;
+        margin-bottom: 50px;
       }
     }
     .filter-content__title {
@@ -1413,21 +1415,36 @@ p {
       flex-wrap: wrap;
     }
     .value {
+      position: relative;
       width: max-content;
       margin: 0 25px 0 0;
       padding: 6px 12px;
       border: 1px solid $bluecolor;
       border-radius: 5px;
       background-color: #fff;
-      font-family: "Montserrat-SemiBold";
-      font-size: 14px;
-      color: #6D6D6E;
       text-align: center;
       cursor: pointer;
     }
     .value.active {
       background-color: $lightbluecolor;
       color: #fff;
+    }
+    .value-text {
+      font-family: "Montserrat-SemiBold";
+      font-size: 14px;
+      color: #6D6D6E;
+    }
+    .counter {
+      position: absolute;
+      top: -12px;
+      right: -10px;
+      width: max-content;
+      height: 14px;
+      font-family: "Montserrat-SemiBold";
+      font-size: 14px;
+      line-height: 1;
+      color: $orangecolor;
+      z-index: 1;
     }
     .reset {
       padding: 6px 0;
