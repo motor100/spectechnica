@@ -36,17 +36,76 @@
                 <div class="filter-item">
                     <div class="filter-item__title">НАЛИЧИЕ</div>
                     <div class="filter-item__settings">
-                        <div class="value">В наличии</div>
-                        <div class="value">Ожидается</div>
-                        <div class="value active">На заказ</div>
+                        <div class="value">
+                            <div class="text">В наличии</div>
+                            <div class="counter">5</div>
+                        </div>
+                        <div class="value">
+                            <div class="text">Ожидается</div>
+                            <div class="counter">0</div>
+                        </div>
+                        <div class="value active">
+                            <div class="text">На заказ</div>
+                            <div class="counter">5</div>
+                        </div>
                     </div>
                 </div>
                 <div class="filter-item">
                     <div class="filter-item__title">МАРКА ШАССИ</div>
                     <div class="filter-item__settings">
-                        <div class="value">Урал</div>
-                        <div class="value active">Урал-NEXT</div>
-                        <div class="value">Камаз</div>
+                        <div class="value">
+                            <div class="text">Урал</div>
+                            <div class="counter">5</div>
+                        </div>
+                        <div class="value active">
+                            <div class="text">Урал-NEXT</div>
+                            <div class="counter">8</div>
+                        </div>
+                        <div class="value">
+                            <div class="text">Камаз</div>
+                            <div class="counter">5</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-item">
+                    <div class="filter-item__title">ГРУЗОПОДЪЕМНОСТЬ</div>
+                    <div class="filter-item__settings">
+                        <div class="value">
+                            <div class="text">4,1</div>
+                            <div class="counter">5</div>
+                        </div>
+                        <div class="value active">
+                            <div class="text">4,2</div>
+                            <div class="counter">2</div>
+                        </div>
+                        <div class="value">
+                            <div class="text">4,7</div>
+                            <div class="counter">3</div>
+                        </div>
+                        <div class="value">
+                            <div class="text">6</div>
+                            <div class="counter">2</div>
+                        </div>
+                        <div class="value active">
+                            <div class="text">6,5</div>
+                            <div class="counter">3</div>
+                        </div>
+                        <div class="value">
+                            <div class="text">6,9</div>
+                            <div class="counter">5</div>
+                        </div>
+                        <div class="value">
+                            <div class="text">7,0</div>
+                            <div class="counter">2</div>
+                        </div>
+                        <div class="value active">
+                            <div class="text">10</div>
+                            <div class="counter">3</div>
+                        </div>
+                        <div class="value">
+                            <div class="text">10,5</div>
+                            <div class="counter">5</div>
+                        </div>
                     </div>
                 </div>
                 <div class="reset">
