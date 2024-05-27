@@ -38,54 +38,54 @@
                         <div class="item_img1">
                             <img src="/img/avtocisterna.svg" alt="">
                         </div>
-                        <div class="item_link1">
+                        <div class="item_title1">
                             <div class="bullet"></div>
-                            <a href="/catalog/subcategory">Вакуумные автоцистерны</a>
+                            <a href="/catalog/subcategory" class="item_link1">Вакуумные автоцистерны</a>
                         </div>
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
                             <img src="/img/avtocisterna.svg" alt="">
                         </div>
-                        <div class="item_link1">
+                        <div class="item_title1">
                             <div class="bullet"></div>
-                            <a href="/catalog/subcategory">Вакуумные машины</a>
+                            <a href="/catalog/subcategory" class="item_link1">Вакуумные машины</a>
                         </div>
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
                             <img src="/img/avtocisterna.svg" alt="">
                         </div>
-                        <div class="item_link1">
+                        <div class="item_title1">
                             <div class="bullet"></div>
-                            <a href="/catalog/subcategory">Автоцистерны нефтепромысловые</a>
+                            <a href="/catalog/subcategory" class="item_link1">Автоцистерны нефтепромысловые</a>
                         </div> 
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
                             <img src="/img/avtocisterna.svg" alt="">
                         </div>
-                        <div class="item_link1">
+                        <div class="item_title1">
                             <div class="bullet"></div>
-                            <a href="/catalog/subcategory">Автоцистерны для воды</a>
+                            <a href="/catalog/subcategory" class="item_link1">Автоцистерны для воды</a>
                         </div>
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
                             <img src="/img/avtocisterna.svg" alt="">
                         </div>
-                        <div class="item_link1">
+                        <div class="item_title1">
                             <div class="bullet"></div>
-                            <a href="/catalog/subcategory">Метаноловозы</a>
+                            <a href="/catalog/subcategory" class="item_link1">Метаноловозы</a>
                         </div>
                     </div>
                     <div class="item_list">
                         <div class="item_img1">
                             <img src="/img/avtocisterna.svg" alt="">
                         </div>
-                        <div class="item_link1">
+                        <div class="item_title1">
                             <div class="bullet"></div>
-                            <a href="/catalog/subcategory">Пожарные</a>
+                            <a href="/catalog/subcategory" class="item_link1">Пожарные</a>
                         </div>
                     </div>
                 </div>

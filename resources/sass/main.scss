@@ -1030,33 +1030,22 @@ p {
         display: flex;
         align-items: center;
       }
-      .item_link2 {
-        display: flex;
-        align-items: center;
-        margin-top: 37px;
-      }
-      .item_link3 {
-        display: flex;
-        align-items: center;
-        margin-top: 37px;
+      .bullet {
+        width: 5px;
+        height: 5px;
+        margin: 0 10px 0 40px;
+        background-color: #6D6D6E;
+        border-radius: 3px;
       }
       .item_link1 {
         font-family: "Montserrat-Bold";
         font-size: 20px;
         color: #6D6D6E;
-        margin-left: 10px;
       }
       .item_link1:active,
       .item_link1:hover {
         color: #1874A0;
       }
-      .bullet {
-        width: 5px;
-        height: 5px;
-        background-color: #6D6D6E;
-        border-radius: 3px;
-        margin-left: 40px;
-      }  
     }   
     .item_img1 {
       width: 83px;
