@@ -441,7 +441,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
                             <div class="video-item__image">
-                                <img src="/img/presentation-video1.jpg" alt="">
+                                <img src="/img/video-cover.jpg" alt="">
                             </div>
                             <div class="video-item__title">Автотопливозаправщик АТЗ-17 КАМАЗ-6522 Cummins</div>
                         </div>
@@ -449,7 +449,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
                             <div class="video-item__image">
-                                <img src="/img/presentation-video2.jpg" alt="">
+                                <img src="/img/video-cover.jpg" alt="">
                             </div>
                             <div class="video-item__title">Цементировочный агрегат СИН-35М на шасси УРАЛ-4320</div>
                         </div>
@@ -457,7 +457,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
                             <div class="video-item__image">
-                                <img src="/img/presentation-video3.jpg" alt="">
+                                <img src="/img/video-cover.jpg" alt="">
                             </div>
                             <div class="video-item__title">Цементировочный агрегат СИН-35.64 на шасси МАЗ-6317</div>
                         </div>
@@ -465,7 +465,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
                             <div class="video-item__image">
-                                <img src="/img/presentation-video4.jpg" alt="">
+                                <img src="/img/video-cover.jpg" alt="">
                             </div>
                             <div class="video-item__title">Контейнеровоз 20 футовый КАМАЗ-65117</div>
                         </div>
@@ -473,7 +473,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
                             <div class="video-item__image">
-                                <img src="/img/presentation-video5.jpg" alt="">
+                                <img src="/img/video-cover.jpg" alt="">
                             </div>
                             <div class="video-item__title">СИН-32.64 на шасси КАМАЗ-65222</div>
                         </div>
@@ -481,7 +481,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
                             <div class="video-item__image">
-                                <img src="/img/presentation-video6.jpg" alt="">
+                                <img src="/img/video-cover.jpg" alt="">
                             </div>
                             <div class="video-item__title">АНРВ КАМАЗ-43118М модель 2018г</div>
                         </div>
@@ -489,7 +489,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
                             <div class="video-item__image">
-                                <img src="/img/presentation-video7.jpg" alt="">
+                                <img src="/img/video-cover.jpg" alt="">
                             </div>
                             <div class="video-item__title">Передвижная маслостанция на базе КАМАЗ-43118</div>
                         </div>
@@ -497,7 +497,7 @@
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
                             <div class="video-item__image">
-                                <img src="/img/presentation-video8.jpg" alt="">
+                                <img src="/img/video-cover.jpg" alt="">
                             </div>
                             <div class="video-item__title">Агрегат кислотной обработки скважин СИН-32 на шасси КАМАЗ-43118</div>
                         </div>
@@ -531,22 +531,22 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
-                            <img src="/img/video-shipment1.jpg" alt="">
+                            <img src="/img/video-cover.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
-                            <img src="/img/video-shipment2.jpg" alt="">
+                            <img src="/img/video-cover.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
-                            <img src="/img/video-shipment3.jpg" alt="">
+                            <img src="/img/video-cover.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 d-lg-block d-none">
                         <div class="video-item">
-                            <img src="/img/video-shipment4.jpg" alt="">
+                            <img src="/img/video-cover.jpg" alt="">
                         </div>
                     </div>
                 </div>

@@ -180,7 +180,7 @@
         <div class="col-md-6">
           <div class="item">
             <div class="item_video">
-              <img src="/img/video-cover1.jpg" alt="">
+              <img src="/img/video-cover.jpg" alt="">
             </div>
             <div class="item_title">ВИДЕО 1</div>
           </div>
@@ -188,7 +188,7 @@
         <div class="col-md-6">
           <div class="item">
             <div class="item_video">
-              <img src="/img/video-cover2.jpg" alt="">
+              <img src="/img/video-cover.jpg" alt="">
             </div>
             <div class="item_title">ВИДЕО 2</div>
           </div>

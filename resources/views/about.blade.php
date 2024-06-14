@@ -29,7 +29,7 @@
     <div id="video_content_section" class="video_content_section">
         <div class="container">
             <div class="video">
-                <img src="/img/video_company.png" alt="video">
+                <img src="/img/video-cover.jpg" alt="video">
             </div>
             <div class="description_text">
                 <p>ГидроСпецАвто - это завод с современным оборудованием и передовыми технологиями. Завод представляет собой крупный машиностроительный комплекс с законченным производственным циклом от заготовки до выпуска готовой продукции.</p>
@@ -210,22 +210,22 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
-                            <img src="/img/video-shipment1.jpg" alt="">
+                            <img src="/img/video-cover.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
-                            <img src="/img/video-shipment2.jpg" alt="">
+                            <img src="/img/video-cover.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
                         <div class="video-item">
-                            <img src="/img/video-shipment3.jpg" alt="">
+                            <img src="/img/video-cover.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 d-lg-block d-none">
                         <div class="video-item">
-                            <img src="/img/video-shipment4.jpg" alt="">
+                            <img src="/img/video-cover.jpg" alt="">
                         </div>
                     </div>
                 </div>
