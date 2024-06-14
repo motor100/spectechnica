@@ -184,7 +184,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5">
-            <div class="copyright footer-bottom-item">ООО "ГидроСпецАвто" {{ date('Y') }}</div>
+            <div class="copyright footer-bottom-item">ООО "ГИДРАВЛИК-КОМ" {{ date('Y') }}</div>
             <div class="inn footer-bottom-item">ИНН 7415113283</div>
           </div>
           <div class="col-lg-4">
