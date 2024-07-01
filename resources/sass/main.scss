@@ -356,6 +356,7 @@ p {
         .eq_item__title {
           display: flex;
           height: 40px;
+          padding: 0 65px;
           font-family: 'Montserrat-SemiBold';
           text-align: center;
           color: $bluecolor;
@@ -1013,6 +1014,7 @@ p {
         font-size: 24px;
         color: #1874A0;
         text-align: center;
+        text-transform: uppercase;
       }
       .horizontal-line {
         height: 1px;
@@ -2149,6 +2151,12 @@ p {
       }
     }
 
+    .catalog-section {
+      .catalog .eq_item .eq_item__title {
+        padding: 0 45px;
+      }
+    }
+
     .about_section {
       .about_text {
         font-size: 22px;
@@ -2941,6 +2949,9 @@ p {
       }
       .catalog .eq_item {
         width: 100%;
+      }
+      .catalog .eq_item .eq_item__title {
+        padding: 0;
       }
       .catalog .eq_item .eq_item__image {
         width: 260px;

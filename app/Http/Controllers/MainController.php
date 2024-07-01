@@ -12,7 +12,9 @@ class MainController extends Controller
      */
     public function home(): View
     {
-        return view('home');
+        $categories = \App\Models\Category::limit(4)->get();
+        
+        return view('home', compact('categories'));
     }
 
     /**
@@ -26,9 +28,11 @@ class MainController extends Controller
     /**
      * Категория каталога
      */
-    public function category(): View
+    public function category($slug): View
     {
-        return view('category');
+        $category = \App\Models\Category::where('slug', $slug)->firstOrFail();
+        
+        return view('category', compact('category'));
     }
 
     /**

@@ -1,5 +1,3 @@
-@section('title', 'Главная')
-
 @extends('layouts.main')
 
 @section('content')
@@ -39,37 +37,16 @@
     <div class="container">
       <div class="section-title">каталог техники</div>
       <div class="catalog">
-        <div class="eq_item">
-          <div class="eq_item__image">
-            <img src="/img/katalog-avtocisterny.png" alt="камаз-55510">
+        @foreach($categories as $category)
+          <div class="eq_item">
+            <div class="eq_item__image">
+              <img src="{{ Storage::url($category->image->image) }}" alt="">
+            </div>
+            <div class="eq_item__title">{{ $category->title }}</div>
+            <a href="/category/{{ $category->slug }}" class="eq_item__link"></a>
+            <span class="vline"></span>
           </div>
-          <div class="eq_item__title">автоцистерны</div>
-          <a href="/catalog/category" class="eq_item__link"></a>
-          <span class="vline"></span>
-        </div>
-        <div class="eq_item">
-          <div class="eq_item__image">
-            <img src="/img/katalog-pricepnaya-tekhnika.png" class="eq_item__image" alt="камаз-55510">
-          </div>
-          <div class="eq_item__title">прицепная<br>техника</div>
-          <a href="/catalog/category" class="eq_item__link"></a>
-          <span class="vline"></span>
-        </div>
-        <div class="eq_item">
-          <div class="eq_item__image">
-            <img src="/img/katalog-avtokrany-i-manipulyatory.png" class="eq_item__image" alt="камаз-55510">
-          </div>
-          <div class="eq_item__title">автокраны и<br>манипуляторы</div>
-          <a href="/catalog/category" class="eq_item__link"></a>
-          <span class="vline"></span>
-        </div>
-        <div class="eq_item">
-          <div class="eq_item__image">
-            <img src="/img/katalog-tekhnologicheskij-transport.png" class="eq_item__image" alt="камаз-55510">
-          </div>
-          <div class="eq_item__title">технологический<br>транспорт</div>
-          <a href="/catalog/category" class="eq_item__link"></a>
-        </div>
+        @endforeach
       </div>
       <a href="/catalog" class="btn_primary__catalog">перейти в каталог</a>
     </div>

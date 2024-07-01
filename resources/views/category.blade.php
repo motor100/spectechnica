@@ -1,4 +1,4 @@
-@section('title', 'Каталог')
+@section('title', $category->title)
 
 @extends('layouts.main')
 
@@ -13,7 +13,7 @@
             <span>  -  </span>
             <a href="/catalog">Каталог Техники</a>
             <span>  -  </span>
-            <span class="active">Автоцистерны</span>
+            <span class="active">{{ $category->title }}</span>
         </div>  
     </div>
 
@@ -23,14 +23,14 @@
     <!-- Каталог техники -->
     <div class="equipment_catalog">
         <div class="container">
-            <div class="page-title title">Автоцистерны</div>
+            <div class="page-title title">{{ $category->title }}</div>
             <div class="eq_item">
                 <div class="flex-container">
                     <div class="eq_item__image">
-                        <img src="/img/katalog-avtocisterny.png" alt="АВТОЦИСТЕРНЫ">
+                        <img src="{{ Storage::url($category->image->image) }}" alt="{{ $category->title }}">
                     </div>
-                    <div class="eq_item__title hidden-mobile">АВТОЦИСТЕРНЫ</div>
-                    <a class="eq_item__title hidden-desktop" href="/catalog/category">АВТОЦИСТЕРНЫ</a>
+                    <div class="eq_item__title hidden-mobile">{{ $category->title }}</div>
+                    <a class="eq_item__title hidden-desktop" href="/catalog/category">{{ $category->title }}</a>
                 </div>
                 <!-- <div class="horizontal-line hidden-desktop"></div> -->
                 <div class="eq_list">

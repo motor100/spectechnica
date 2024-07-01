@@ -23,11 +23,11 @@ Route::get('/', [MainController::class, 'home'])->name('home');
 
 Route::get('/catalog', [MainController::class, 'catalog']);
 
-Route::get('/catalog/category', [MainController::class, 'category']);
+// Route::get('/catalog/category', [MainController::class, 'category']);
 
 Route::get('/catalog/subcategory', [MainController::class, 'subcategory']);
 
-// Route::get('/category/{slug}', [MainController::class, 'category']);
+Route::get('/category/{slug}', [MainController::class, 'category']);
 
 // Route::get('/category/{cat}/{subcat}', [MainController::class, 'subcategory']);
 
